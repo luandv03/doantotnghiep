@@ -102,7 +102,7 @@ class HarmonySearch:
             elif data_size < 100:  # Dữ liệu trung bình
                 self.max_iterations = 20
             else:  # Dữ liệu lớn
-                self.max_iterations = 30
+                self.max_iterations = 100
         else:
             self.max_iterations = max_iterations
             

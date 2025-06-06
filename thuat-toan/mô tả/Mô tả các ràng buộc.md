@@ -24,7 +24,7 @@ Thuật toán hiện tại đang xét đến các ràng buộc sau:
 
 -   **Yêu cầu tối thiểu**: Mỗi công đoạn cần ít nhất 1 nhân viên và 1 máy móc để hoạt động.
 
--   **KPI hoàn thành**: Công đoạn chỉ được coi là hoàn thành khi đạt được các giá trị KPI đề ra.
+-   **KPI hoàn thành**: Công đoạn chỉ được coi là hoàn thành khi đạt được / vượt ngưỡng các giá trị KPI đề ra.
 
 ## 4. Ràng buộc về lệnh sản xuất
 

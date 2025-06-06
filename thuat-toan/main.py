@@ -40,8 +40,8 @@ def write_parsed_data_to_txt(workers, operations, production_orders, assets, fil
 
 def main():
     # Đọc dữ liệu từ file JSON
-    input_data = load_json("thuat-toan/data/input3.json")
-    schedule_data = load_json("thuat-toan/data/monthly_schedule_t45.json")
+    input_data = load_json("./data/input3.json")
+    schedule_data = load_json("./data/monthly_schedule_t45.json")
 
     # Parse dữ liệu
     workers = parse_workers(input_data, schedule_data)
@@ -70,14 +70,14 @@ def main():
     # Chuyển đổi best_solution thành JSON
     serialized_solution = serialize_best_solution(best_solution)
 
-    output_path = "thuat-toan/out/best_solution.json"
+    output_path = "./out/best_solution.json"
     write_data_to_json(
         serialized_solution,
         output_path,
     )
 
     export_all_operations_to_json(
-        operations_copy, "thuat-toan/out/schedule.json"
+        operations_copy, "./out/schedule.json"
     )
 
     print(f"Tối ưu: {best_fitness}")

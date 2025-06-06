@@ -3,16 +3,22 @@
         "commandId": "LSX0001",
         "id": "OP001",
         "name": "Chuẩn bị vải (kiểm tra độ co giãn, độ đều màu)",
-        "achieved_kpi_0": 134.42,
+        "achieved_kpi_0": 124.38999999999997,
         "assigned_kpi_0": 110,
-        "achieved_kpi_1": 128.37109999999998,
+        "achieved_kpi_1": 117.2556,
         "assigned_kpi_1": 97,
         "detailed_schedule": [
             {
                 "day": "2025-04-01",
                 "shift": 1,
-                "worker_id": "W0509",
+                "worker_id": "W0506",
                 "asset_id": "A005"
+            },
+            {
+                "day": "2025-04-01",
+                "shift": 1,
+                "worker_id": "W0505",
+                "asset_id": "A004"
             }
         ]
     },
@@ -20,28 +26,28 @@
         "commandId": "LSX0001",
         "id": "OP002",
         "name": "Cắt vải theo rập",
-        "achieved_kpi_0": 1057.5,
+        "achieved_kpi_0": 1069.425,
         "assigned_kpi_0": 1000,
-        "achieved_kpi_1": 690.255,
+        "achieved_kpi_1": 986.87025,
         "assigned_kpi_1": 95,
         "detailed_schedule": [
             {
                 "day": "2025-04-01",
                 "shift": 2,
-                "worker_id": "W0025",
+                "worker_id": "W0028",
                 "asset_id": "A008"
             },
             {
                 "day": "2025-04-01",
-                "shift": 3,
-                "worker_id": "W0030",
+                "shift": 2,
+                "worker_id": "W0026",
                 "asset_id": "A008"
             },
             {
                 "day": "2025-04-01",
-                "shift": 3,
-                "worker_id": "W0030",
-                "asset_id": "A008"
+                "shift": 2,
+                "worker_id": "W0026",
+                "asset_id": "A010"
             }
         ]
     },
@@ -49,46 +55,46 @@
         "commandId": "LSX0001",
         "id": "OP003",
         "name": "May ráp từng phần (thân, tay, cổ)",
-        "achieved_kpi_0": 1077.3,
+        "achieved_kpi_0": 1212.0299999999997,
         "assigned_kpi_0": 1000,
-        "achieved_kpi_1": 1055.754,
+        "achieved_kpi_1": 1177.6148999999998,
         "assigned_kpi_1": 94,
         "detailed_schedule": [
             {
                 "day": "2025-04-01",
-                "shift": 4,
-                "worker_id": "W0217",
+                "shift": 3,
+                "worker_id": "W0220",
                 "asset_id": "A011"
             },
             {
                 "day": "2025-04-01",
-                "shift": 4,
-                "worker_id": "W0217",
+                "shift": 3,
+                "worker_id": "W0219",
                 "asset_id": "A122"
             },
             {
                 "day": "2025-04-01",
-                "shift": 4,
-                "worker_id": "W0216",
-                "asset_id": "A122"
-            },
-            {
-                "day": "2025-04-01",
-                "shift": 4,
-                "worker_id": "W0216",
-                "asset_id": "A122"
-            },
-            {
-                "day": "2025-04-01",
-                "shift": 4,
-                "worker_id": "W0216",
+                "shift": 3,
+                "worker_id": "W0219",
                 "asset_id": "A011"
             },
             {
                 "day": "2025-04-01",
-                "shift": 4,
-                "worker_id": "W0214",
+                "shift": 3,
+                "worker_id": "W0218",
                 "asset_id": "A122"
+            },
+            {
+                "day": "2025-04-01",
+                "shift": 3,
+                "worker_id": "W0218",
+                "asset_id": "A122"
+            },
+            {
+                "day": "2025-04-01",
+                "shift": 3,
+                "worker_id": "W0218",
+                "asset_id": "A120"
             }
         ]
     },
@@ -96,124 +102,124 @@
         "commandId": "LSX0001",
         "id": "OP004",
         "name": "May hoàn thiện (gắn nhãn, vắt sổ, may lai)",
-        "achieved_kpi_0": 1048.0250000000003,
+        "achieved_kpi_0": 1169.4599999999998,
         "assigned_kpi_0": 1000,
-        "achieved_kpi_1": 959.8105000000003,
+        "achieved_kpi_1": 1058.9499,
         "assigned_kpi_1": 94,
         "detailed_schedule": [
             {
-                "day": "2025-04-02",
-                "shift": 1,
-                "worker_id": "W0099",
-                "asset_id": "A016"
-            },
-            {
-                "day": "2025-04-02",
-                "shift": 1,
+                "day": "2025-04-01",
+                "shift": 4,
                 "worker_id": "W0099",
                 "asset_id": "A130"
             },
             {
-                "day": "2025-04-02",
-                "shift": 1,
+                "day": "2025-04-01",
+                "shift": 4,
+                "worker_id": "W0099",
+                "asset_id": "A016"
+            },
+            {
+                "day": "2025-04-01",
+                "shift": 4,
+                "worker_id": "W0099",
+                "asset_id": "A016"
+            },
+            {
+                "day": "2025-04-01",
+                "shift": 4,
+                "worker_id": "W0099",
+                "asset_id": "A130"
+            },
+            {
+                "day": "2025-04-01",
+                "shift": 4,
+                "worker_id": "W0099",
+                "asset_id": "A016"
+            },
+            {
+                "day": "2025-04-01",
+                "shift": 4,
+                "worker_id": "W0099",
+                "asset_id": "A130"
+            },
+            {
+                "day": "2025-04-01",
+                "shift": 4,
                 "worker_id": "W0098",
                 "asset_id": "A016"
             },
             {
-                "day": "2025-04-02",
-                "shift": 1,
+                "day": "2025-04-01",
+                "shift": 4,
                 "worker_id": "W0098",
                 "asset_id": "A130"
             },
             {
-                "day": "2025-04-02",
-                "shift": 1,
-                "worker_id": "W0110",
+                "day": "2025-04-01",
+                "shift": 4,
+                "worker_id": "W0098",
                 "asset_id": "A016"
             },
             {
-                "day": "2025-04-02",
-                "shift": 1,
+                "day": "2025-04-01",
+                "shift": 4,
+                "worker_id": "W0098",
+                "asset_id": "A130"
+            },
+            {
+                "day": "2025-04-01",
+                "shift": 4,
+                "worker_id": "W0098",
+                "asset_id": "A016"
+            },
+            {
+                "day": "2025-04-01",
+                "shift": 4,
+                "worker_id": "W0098",
+                "asset_id": "A130"
+            },
+            {
+                "day": "2025-04-01",
+                "shift": 4,
+                "worker_id": "W0097",
+                "asset_id": "A133"
+            },
+            {
+                "day": "2025-04-01",
+                "shift": 4,
                 "worker_id": "W0110",
                 "asset_id": "A133"
             },
             {
-                "day": "2025-04-02",
-                "shift": 1,
-                "worker_id": "W0109",
+                "day": "2025-04-01",
+                "shift": 4,
+                "worker_id": "W0097",
                 "asset_id": "A133"
             },
             {
-                "day": "2025-04-02",
-                "shift": 1,
-                "worker_id": "W0109",
+                "day": "2025-04-01",
+                "shift": 4,
+                "worker_id": "W0110",
+                "asset_id": "A133"
+            },
+            {
+                "day": "2025-04-01",
+                "shift": 4,
+                "worker_id": "W0097",
+                "asset_id": "A133"
+            },
+            {
+                "day": "2025-04-01",
+                "shift": 4,
+                "worker_id": "W0110",
+                "asset_id": "A133"
+            },
+            {
+                "day": "2025-04-01",
+                "shift": 4,
+                "worker_id": "W0097",
                 "asset_id": "A131"
-            },
-            {
-                "day": "2025-04-02",
-                "shift": 1,
-                "worker_id": "W0096",
-                "asset_id": "A136"
-            },
-            {
-                "day": "2025-04-02",
-                "shift": 1,
-                "worker_id": "W0108",
-                "asset_id": "A017"
-            },
-            {
-                "day": "2025-04-02",
-                "shift": 1,
-                "worker_id": "W0096",
-                "asset_id": "A017"
-            },
-            {
-                "day": "2025-04-02",
-                "shift": 1,
-                "worker_id": "W0108",
-                "asset_id": "A131"
-            },
-            {
-                "day": "2025-04-02",
-                "shift": 1,
-                "worker_id": "W0107",
-                "asset_id": "A136"
-            },
-            {
-                "day": "2025-04-02",
-                "shift": 1,
-                "worker_id": "W0107",
-                "asset_id": "A134"
-            },
-            {
-                "day": "2025-04-02",
-                "shift": 1,
-                "worker_id": "W0092",
-                "asset_id": "A139"
-            },
-            {
-                "day": "2025-04-02",
-                "shift": 1,
-                "worker_id": "W0092",
-                "asset_id": "A134"
-            },
-            {
-                "day": "2025-04-02",
-                "shift": 1,
-                "worker_id": "W0101",
-                "asset_id": "A139"
-            },
-            {
-                "day": "2025-04-02",
-                "shift": 1,
-                "worker_id": "W0091",
-                "asset_id": "A137"
-            },
-            {
-                "day": "2025-04-02",
-                "shift": 1,
-                "worker_id": "W0101",
-                "asset_id": "A137"
             }
         ]
     },
@@ -221,34 +227,40 @@
         "commandId": "LSX0001",
         "id": "OP005",
         "name": "Giặt công nghiệp",
-        "achieved_kpi_0": 1035.76,
+        "achieved_kpi_0": 1084.16,
         "assigned_kpi_0": 900,
-        "achieved_kpi_1": 1022.8856,
+        "achieved_kpi_1": 1024.3376,
         "assigned_kpi_1": 96,
         "detailed_schedule": [
             {
                 "day": "2025-04-02",
-                "shift": 2,
-                "worker_id": "W0408",
-                "asset_id": "A148"
-            },
-            {
-                "day": "2025-04-02",
-                "shift": 2,
-                "worker_id": "W0408",
+                "shift": 1,
+                "worker_id": "W0405",
                 "asset_id": "A022"
             },
             {
                 "day": "2025-04-02",
-                "shift": 2,
-                "worker_id": "W0408",
-                "asset_id": "A143"
+                "shift": 1,
+                "worker_id": "W0405",
+                "asset_id": "A148"
             },
             {
                 "day": "2025-04-02",
-                "shift": 2,
-                "worker_id": "W0407",
+                "shift": 1,
+                "worker_id": "W0403",
+                "asset_id": "A022"
+            },
+            {
+                "day": "2025-04-02",
+                "shift": 1,
+                "worker_id": "W0402",
                 "asset_id": "A148"
+            },
+            {
+                "day": "2025-04-02",
+                "shift": 1,
+                "worker_id": "W0402",
+                "asset_id": "A022"
             }
         ]
     },
@@ -256,64 +268,70 @@
         "commandId": "LSX0001",
         "id": "OP006",
         "name": "Kiểm tra QC",
-        "achieved_kpi_0": 1177.11,
+        "achieved_kpi_0": 1033.5600000000002,
         "assigned_kpi_0": 1000,
-        "achieved_kpi_1": 1073.754,
+        "achieved_kpi_1": 944.298,
         "assigned_kpi_1": 95,
         "detailed_schedule": [
             {
                 "day": "2025-04-02",
-                "shift": 3,
-                "worker_id": "W0019",
-                "asset_id": "A024"
-            },
-            {
-                "day": "2025-04-02",
-                "shift": 3,
-                "worker_id": "W0019",
+                "shift": 2,
+                "worker_id": "W0020",
                 "asset_id": "A153"
             },
             {
                 "day": "2025-04-02",
-                "shift": 3,
-                "worker_id": "W0019",
+                "shift": 2,
+                "worker_id": "W0020",
                 "asset_id": "A159"
             },
             {
                 "day": "2025-04-02",
-                "shift": 3,
-                "worker_id": "W0018",
+                "shift": 2,
+                "worker_id": "W0020",
                 "asset_id": "A024"
             },
             {
                 "day": "2025-04-02",
-                "shift": 3,
-                "worker_id": "W0018",
-                "asset_id": "A153"
-            },
-            {
-                "day": "2025-04-02",
-                "shift": 3,
-                "worker_id": "W0018",
-                "asset_id": "A159"
-            },
-            {
-                "day": "2025-04-02",
-                "shift": 3,
-                "worker_id": "W0016",
+                "shift": 2,
+                "worker_id": "W0020",
                 "asset_id": "A024"
             },
             {
                 "day": "2025-04-02",
-                "shift": 3,
+                "shift": 2,
                 "worker_id": "W0016",
                 "asset_id": "A153"
             },
             {
                 "day": "2025-04-02",
-                "shift": 3,
+                "shift": 2,
                 "worker_id": "W0016",
                 "asset_id": "A159"
+            },
+            {
+                "day": "2025-04-02",
+                "shift": 2,
+                "worker_id": "W0016",
+                "asset_id": "A024"
+            },
+            {
+                "day": "2025-04-02",
+                "shift": 2,
+                "worker_id": "W0016",
+                "asset_id": "A153"
+            },
+            {
+                "day": "2025-04-02",
+                "shift": 2,
+                "worker_id": "W0014",
+                "asset_id": "A159"
+            },
+            {
+                "day": "2025-04-02",
+                "shift": 2,
+                "worker_id": "W0014",
+                "asset_id": "A024"
             }
         ]
     },
@@ -321,28 +339,28 @@
         "commandId": "LSX0001",
         "id": "OP007",
         "name": "Đóng gói",
-        "achieved_kpi_0": 1039.5,
+        "achieved_kpi_0": 1121.85,
         "assigned_kpi_0": 1000,
-        "achieved_kpi_1": 961.158,
+        "achieved_kpi_1": 998.4464999999999,
         "assigned_kpi_1": 94,
         "detailed_schedule": [
             {
                 "day": "2025-04-02",
-                "shift": 4,
-                "worker_id": "W0039",
+                "shift": 3,
+                "worker_id": "W0040",
                 "asset_id": "A027"
             },
             {
                 "day": "2025-04-02",
-                "shift": 4,
-                "worker_id": "W0037",
+                "shift": 3,
+                "worker_id": "W0040",
                 "asset_id": "A168"
             },
             {
                 "day": "2025-04-02",
-                "shift": 4,
-                "worker_id": "W0031",
-                "asset_id": "A030"
+                "shift": 3,
+                "worker_id": "W0040",
+                "asset_id": "A163"
             }
         ]
     },
@@ -359,7 +377,7 @@
                 "day": "2025-04-01",
                 "shift": 1,
                 "worker_id": "W0027",
-                "asset_id": "A170"
+                "asset_id": "A033"
             }
         ]
     },
@@ -367,11 +385,17 @@
         "commandId": "LSX0002",
         "id": "OP009",
         "name": "May công nghiệp theo dây chuyền",
-        "achieved_kpi_0": 2338.8199999999993,
+        "achieved_kpi_0": 2230.359999999999,
         "assigned_kpi_0": 2000,
-        "achieved_kpi_1": 2287.8218,
+        "achieved_kpi_1": 2185.1632,
         "assigned_kpi_1": 95,
         "detailed_schedule": [
+            {
+                "day": "2025-04-01",
+                "shift": 2,
+                "worker_id": "W0127",
+                "asset_id": "A011"
+            },
             {
                 "day": "2025-04-01",
                 "shift": 2,
@@ -382,12 +406,36 @@
                 "day": "2025-04-01",
                 "shift": 2,
                 "worker_id": "W0127",
-                "asset_id": "A128"
+                "asset_id": "A122"
             },
             {
                 "day": "2025-04-01",
                 "shift": 2,
                 "worker_id": "W0127",
+                "asset_id": "A014"
+            },
+            {
+                "day": "2025-04-01",
+                "shift": 2,
+                "worker_id": "W0127",
+                "asset_id": "A125"
+            },
+            {
+                "day": "2025-04-01",
+                "shift": 2,
+                "worker_id": "W0126",
+                "asset_id": "A125"
+            },
+            {
+                "day": "2025-04-01",
+                "shift": 2,
+                "worker_id": "W0126",
+                "asset_id": "A125"
+            },
+            {
+                "day": "2025-04-01",
+                "shift": 2,
+                "worker_id": "W0126",
                 "asset_id": "A014"
             },
             {
@@ -400,43 +448,7 @@
                 "day": "2025-04-01",
                 "shift": 2,
                 "worker_id": "W0126",
-                "asset_id": "A128"
-            },
-            {
-                "day": "2025-04-01",
-                "shift": 2,
-                "worker_id": "W0126",
                 "asset_id": "A125"
-            },
-            {
-                "day": "2025-04-01",
-                "shift": 2,
-                "worker_id": "W0125",
-                "asset_id": "A124"
-            },
-            {
-                "day": "2025-04-01",
-                "shift": 2,
-                "worker_id": "W0125",
-                "asset_id": "A124"
-            },
-            {
-                "day": "2025-04-01",
-                "shift": 2,
-                "worker_id": "W0125",
-                "asset_id": "A012"
-            },
-            {
-                "day": "2025-04-01",
-                "shift": 2,
-                "worker_id": "W0124",
-                "asset_id": "A124"
-            },
-            {
-                "day": "2025-04-01",
-                "shift": 2,
-                "worker_id": "W0124",
-                "asset_id": "A129"
             }
         ]
     },
@@ -515,9 +527,9 @@
         "commandId": "LSX0002",
         "id": "OP011",
         "name": "Là ép định hình",
-        "achieved_kpi_0": 2048.6,
+        "achieved_kpi_0": 2213.53,
         "assigned_kpi_0": 2000,
-        "achieved_kpi_1": 792.2155,
+        "achieved_kpi_1": 1990.85975,
         "assigned_kpi_1": 96,
         "detailed_schedule": [
             {
@@ -530,6 +542,18 @@
                 "day": "2025-04-01",
                 "shift": 4,
                 "worker_id": "W0090",
+                "asset_id": "A040"
+            },
+            {
+                "day": "2025-04-01",
+                "shift": 4,
+                "worker_id": "W0090",
+                "asset_id": "A040"
+            },
+            {
+                "day": "2025-04-01",
+                "shift": 4,
+                "worker_id": "W0090",
                 "asset_id": "A194"
             },
             {
@@ -542,73 +566,61 @@
                 "day": "2025-04-01",
                 "shift": 4,
                 "worker_id": "W0090",
-                "asset_id": "A197"
+                "asset_id": "A040"
             },
             {
                 "day": "2025-04-01",
                 "shift": 4,
-                "worker_id": "W0088",
+                "worker_id": "W0090",
+                "asset_id": "A194"
+            },
+            {
+                "day": "2025-04-01",
+                "shift": 4,
+                "worker_id": "W0090",
+                "asset_id": "A194"
+            },
+            {
+                "day": "2025-04-01",
+                "shift": 4,
+                "worker_id": "W0090",
+                "asset_id": "A192"
+            },
+            {
+                "day": "2025-04-01",
+                "shift": 4,
+                "worker_id": "W0090",
                 "asset_id": "A043"
             },
             {
                 "day": "2025-04-01",
                 "shift": 4,
                 "worker_id": "W0088",
-                "asset_id": "A192"
+                "asset_id": "A197"
+            },
+            {
+                "day": "2025-04-01",
+                "shift": 4,
+                "worker_id": "W0088",
+                "asset_id": "A197"
             },
             {
                 "day": "2025-04-01",
                 "shift": 4,
                 "worker_id": "W0086",
-                "asset_id": "A197"
+                "asset_id": "A043"
             },
             {
                 "day": "2025-04-01",
                 "shift": 4,
                 "worker_id": "W0084",
-                "asset_id": "A196"
-            },
-            {
-                "day": "2025-04-02",
-                "shift": 1,
-                "worker_id": "W0087",
-                "asset_id": "A040"
-            },
-            {
-                "day": "2025-04-02",
-                "shift": 2,
-                "worker_id": "W0090",
-                "asset_id": "A040"
-            },
-            {
-                "day": "2025-04-02",
-                "shift": 2,
-                "worker_id": "W0090",
-                "asset_id": "A194"
-            },
-            {
-                "day": "2025-04-02",
-                "shift": 2,
-                "worker_id": "W0090",
-                "asset_id": "A040"
-            },
-            {
-                "day": "2025-04-02",
-                "shift": 2,
-                "worker_id": "W0090",
                 "asset_id": "A197"
             },
             {
-                "day": "2025-04-02",
-                "shift": 2,
-                "worker_id": "W0088",
+                "day": "2025-04-01",
+                "shift": 4,
+                "worker_id": "W0083",
                 "asset_id": "A043"
-            },
-            {
-                "day": "2025-04-02",
-                "shift": 2,
-                "worker_id": "W0088",
-                "asset_id": "A192"
             }
         ]
     },
@@ -616,63 +628,63 @@
         "commandId": "LSX0002",
         "id": "OP012",
         "name": "Kiểm hàng (AQL)",
-        "achieved_kpi_0": 2336.4,
+        "achieved_kpi_0": 2098.7999999999997,
         "assigned_kpi_0": 2000,
-        "achieved_kpi_1": 2075.04,
+        "achieved_kpi_1": 1891.2959999999998,
         "assigned_kpi_1": 95,
         "detailed_schedule": [
             {
                 "day": "2025-04-02",
-                "shift": 3,
-                "worker_id": "W0009",
+                "shift": 1,
+                "worker_id": "W0008",
                 "asset_id": "A046"
             },
             {
                 "day": "2025-04-02",
-                "shift": 3,
-                "worker_id": "W0009",
+                "shift": 1,
+                "worker_id": "W0008",
                 "asset_id": "A202"
             },
             {
                 "day": "2025-04-02",
-                "shift": 3,
-                "worker_id": "W0009",
+                "shift": 1,
+                "worker_id": "W0008",
                 "asset_id": "A207"
             },
             {
                 "day": "2025-04-02",
-                "shift": 3,
-                "worker_id": "W0009",
+                "shift": 1,
+                "worker_id": "W0008",
                 "asset_id": "A046"
             },
             {
                 "day": "2025-04-02",
-                "shift": 3,
-                "worker_id": "W0009",
+                "shift": 1,
+                "worker_id": "W0006",
                 "asset_id": "A202"
             },
             {
                 "day": "2025-04-02",
-                "shift": 3,
-                "worker_id": "W0007",
+                "shift": 1,
+                "worker_id": "W0006",
                 "asset_id": "A207"
             },
             {
                 "day": "2025-04-02",
-                "shift": 3,
-                "worker_id": "W0007",
+                "shift": 1,
+                "worker_id": "W0006",
                 "asset_id": "A046"
             },
             {
                 "day": "2025-04-02",
-                "shift": 3,
-                "worker_id": "W0007",
+                "shift": 1,
+                "worker_id": "W0006",
                 "asset_id": "A202"
             },
             {
                 "day": "2025-04-02",
-                "shift": 3,
-                "worker_id": "W0007",
+                "shift": 1,
+                "worker_id": "W0005",
                 "asset_id": "A207"
             }
         ]
@@ -681,57 +693,57 @@
         "commandId": "LSX0002",
         "id": "OP013",
         "name": "Gắn nhãn mác",
-        "achieved_kpi_0": 2155.275,
+        "achieved_kpi_0": 2173.875,
         "assigned_kpi_0": 2000,
-        "achieved_kpi_1": 1938.9105,
+        "achieved_kpi_1": 2015.31,
         "assigned_kpi_1": 98,
         "detailed_schedule": [
             {
                 "day": "2025-04-02",
-                "shift": 4,
-                "worker_id": "W0070",
-                "asset_id": "A047"
-            },
-            {
-                "day": "2025-04-02",
-                "shift": 4,
-                "worker_id": "W0070",
-                "asset_id": "A214"
-            },
-            {
-                "day": "2025-04-02",
-                "shift": 4,
-                "worker_id": "W0070",
-                "asset_id": "A047"
-            },
-            {
-                "day": "2025-04-02",
-                "shift": 4,
-                "worker_id": "W0070",
-                "asset_id": "A214"
-            },
-            {
-                "day": "2025-04-02",
-                "shift": 4,
-                "worker_id": "W0070",
-                "asset_id": "A047"
-            },
-            {
-                "day": "2025-04-02",
-                "shift": 4,
+                "shift": 2,
                 "worker_id": "W0067",
                 "asset_id": "A214"
             },
             {
                 "day": "2025-04-02",
-                "shift": 4,
+                "shift": 2,
                 "worker_id": "W0067",
                 "asset_id": "A047"
             },
             {
                 "day": "2025-04-02",
-                "shift": 4,
+                "shift": 2,
                 "worker_id": "W0067",
+                "asset_id": "A047"
+            },
+            {
+                "day": "2025-04-02",
+                "shift": 2,
+                "worker_id": "W0067",
+                "asset_id": "A214"
+            },
+            {
+                "day": "2025-04-02",
+                "shift": 2,
+                "worker_id": "W0067",
+                "asset_id": "A047"
+            },
+            {
+                "day": "2025-04-02",
+                "shift": 2,
+                "worker_id": "W0065",
+                "asset_id": "A214"
+            },
+            {
+                "day": "2025-04-02",
+                "shift": 2,
+                "worker_id": "W0065",
+                "asset_id": "A047"
+            },
+            {
+                "day": "2025-04-02",
+                "shift": 2,
+                "worker_id": "W0065",
                 "asset_id": "A214"
             }
         ]
@@ -740,16 +752,16 @@
         "commandId": "LSX0002",
         "id": "OP014",
         "name": "Đóng thùng, gói PE",
-        "achieved_kpi_0": 209.3,
+        "achieved_kpi_0": 230.175,
         "assigned_kpi_0": 200,
-        "achieved_kpi_1": 196.742,
+        "achieved_kpi_1": 220.968,
         "assigned_kpi_1": 97,
         "detailed_schedule": [
             {
-                "day": "2025-04-03",
-                "shift": 1,
-                "worker_id": "W0035",
-                "asset_id": "A163"
+                "day": "2025-04-02",
+                "shift": 3,
+                "worker_id": "W0033",
+                "asset_id": "A027"
             }
         ]
     },
@@ -757,22 +769,16 @@
         "commandId": "LSX0003",
         "id": "OP015",
         "name": "Chuẩn bị denim (kiểm định, xử lý sanforizing)",
-        "achieved_kpi_0": 126.27999999999999,
+        "achieved_kpi_0": 117.26,
         "assigned_kpi_0": 100,
-        "achieved_kpi_1": 117.8012,
+        "achieved_kpi_1": 111.98329999999999,
         "assigned_kpi_1": 97,
         "detailed_schedule": [
             {
                 "day": "2025-04-01",
                 "shift": 1,
-                "worker_id": "W0505",
+                "worker_id": "W0509",
                 "asset_id": "A051"
-            },
-            {
-                "day": "2025-04-01",
-                "shift": 1,
-                "worker_id": "W0501",
-                "asset_id": "A220"
             }
         ]
     },
@@ -780,28 +786,28 @@
         "commandId": "LSX0003",
         "id": "OP016",
         "name": "Cắt theo size chart",
-        "achieved_kpi_0": 1113.75,
+        "achieved_kpi_0": 1048.5,
         "assigned_kpi_0": 1000,
-        "achieved_kpi_1": 1020.3975,
+        "achieved_kpi_1": 481.005,
         "assigned_kpi_1": 96,
         "detailed_schedule": [
             {
                 "day": "2025-04-01",
                 "shift": 2,
-                "worker_id": "W0028",
+                "worker_id": "W0025",
                 "asset_id": "A174"
             },
             {
                 "day": "2025-04-01",
                 "shift": 2,
-                "worker_id": "W0028",
-                "asset_id": "A170"
+                "worker_id": "W0022",
+                "asset_id": "A033"
             },
             {
                 "day": "2025-04-01",
-                "shift": 2,
-                "worker_id": "W0026",
-                "asset_id": "A033"
+                "shift": 3,
+                "worker_id": "W0030",
+                "asset_id": "A174"
             }
         ]
     },
@@ -809,46 +815,46 @@
         "commandId": "LSX0003",
         "id": "OP017",
         "name": "May ráp thân, túi, khóa kéo, cạp",
-        "achieved_kpi_0": 1186.6499999999999,
+        "achieved_kpi_0": 1128.6,
         "assigned_kpi_0": 1000,
-        "achieved_kpi_1": 1163.1734999999999,
+        "achieved_kpi_1": 1094.7419999999997,
         "assigned_kpi_1": 95,
         "detailed_schedule": [
             {
                 "day": "2025-04-01",
-                "shift": 3,
-                "worker_id": "W0220",
-                "asset_id": "A011"
-            },
-            {
-                "day": "2025-04-01",
-                "shift": 3,
-                "worker_id": "W0220",
-                "asset_id": "A011"
-            },
-            {
-                "day": "2025-04-01",
-                "shift": 3,
-                "worker_id": "W0220",
+                "shift": 4,
+                "worker_id": "W0217",
                 "asset_id": "A122"
             },
             {
                 "day": "2025-04-01",
-                "shift": 3,
-                "worker_id": "W0219",
-                "asset_id": "A011"
-            },
-            {
-                "day": "2025-04-01",
-                "shift": 3,
-                "worker_id": "W0215",
+                "shift": 4,
+                "worker_id": "W0217",
                 "asset_id": "A122"
             },
             {
                 "day": "2025-04-01",
-                "shift": 3,
-                "worker_id": "W0215",
-                "asset_id": "A128"
+                "shift": 4,
+                "worker_id": "W0217",
+                "asset_id": "A011"
+            },
+            {
+                "day": "2025-04-01",
+                "shift": 4,
+                "worker_id": "W0217",
+                "asset_id": "A122"
+            },
+            {
+                "day": "2025-04-01",
+                "shift": 4,
+                "worker_id": "W0217",
+                "asset_id": "A122"
+            },
+            {
+                "day": "2025-04-01",
+                "shift": 4,
+                "worker_id": "W0217",
+                "asset_id": "A122"
             }
         ]
     },
@@ -856,40 +862,40 @@
         "commandId": "LSX0003",
         "id": "OP018",
         "name": "Giặt enzyme, wash vintage, laser burn",
-        "achieved_kpi_0": 1210.0,
+        "achieved_kpi_0": 1124.6399999999999,
         "assigned_kpi_0": 1000,
-        "achieved_kpi_1": 1173.0224,
+        "achieved_kpi_1": 1117.9872,
         "assigned_kpi_1": 94,
         "detailed_schedule": [
             {
-                "day": "2025-04-01",
-                "shift": 4,
+                "day": "2025-04-02",
+                "shift": 1,
                 "worker_id": "W0410",
+                "asset_id": "A148"
+            },
+            {
+                "day": "2025-04-02",
+                "shift": 1,
+                "worker_id": "W0410",
+                "asset_id": "A148"
+            },
+            {
+                "day": "2025-04-02",
+                "shift": 1,
+                "worker_id": "W0409",
                 "asset_id": "A143"
             },
             {
-                "day": "2025-04-01",
-                "shift": 4,
-                "worker_id": "W0406",
+                "day": "2025-04-02",
+                "shift": 1,
+                "worker_id": "W0409",
+                "asset_id": "A148"
+            },
+            {
+                "day": "2025-04-02",
+                "shift": 1,
+                "worker_id": "W0409",
                 "asset_id": "A022"
-            },
-            {
-                "day": "2025-04-01",
-                "shift": 4,
-                "worker_id": "W0405",
-                "asset_id": "A148"
-            },
-            {
-                "day": "2025-04-01",
-                "shift": 4,
-                "worker_id": "W0405",
-                "asset_id": "A148"
-            },
-            {
-                "day": "2025-04-01",
-                "shift": 4,
-                "worker_id": "W0404",
-                "asset_id": "A143"
             }
         ]
     },
@@ -897,81 +903,63 @@
         "commandId": "LSX0003",
         "id": "OP019",
         "name": "Là ép",
-        "achieved_kpi_0": 1038.895,
+        "achieved_kpi_0": 1218.2400000000002,
         "assigned_kpi_0": 1000,
-        "achieved_kpi_1": 389.70484999999996,
+        "achieved_kpi_1": 1084.2336000000003,
         "assigned_kpi_1": 97,
         "detailed_schedule": [
             {
                 "day": "2025-04-02",
-                "shift": 1,
-                "worker_id": "W0083",
-                "asset_id": "A194"
-            },
-            {
-                "day": "2025-04-02",
-                "shift": 1,
-                "worker_id": "W0083",
+                "shift": 2,
+                "worker_id": "W0090",
                 "asset_id": "A040"
             },
             {
                 "day": "2025-04-02",
                 "shift": 2,
-                "worker_id": "W0085",
+                "worker_id": "W0090",
                 "asset_id": "A194"
             },
             {
                 "day": "2025-04-02",
                 "shift": 2,
-                "worker_id": "W0085",
+                "worker_id": "W0090",
+                "asset_id": "A194"
+            },
+            {
+                "day": "2025-04-02",
+                "shift": 2,
+                "worker_id": "W0090",
                 "asset_id": "A040"
             },
             {
                 "day": "2025-04-02",
                 "shift": 2,
-                "worker_id": "W0084",
-                "asset_id": "A197"
+                "worker_id": "W0090",
+                "asset_id": "A040"
             },
             {
                 "day": "2025-04-02",
                 "shift": 2,
-                "worker_id": "W0084",
-                "asset_id": "A197"
-            },
-            {
-                "day": "2025-04-02",
-                "shift": 2,
-                "worker_id": "W0084",
-                "asset_id": "A043"
-            },
-            {
-                "day": "2025-04-02",
-                "shift": 2,
-                "worker_id": "W0082",
-                "asset_id": "A192"
-            },
-            {
-                "day": "2025-04-02",
-                "shift": 2,
-                "worker_id": "W0082",
-                "asset_id": "A197"
-            },
-            {
-                "day": "2025-04-02",
-                "shift": 2,
-                "worker_id": "W0082",
-                "asset_id": "A041"
-            },
-            {
-                "day": "2025-04-02",
-                "shift": 3,
-                "worker_id": "W0089",
+                "worker_id": "W0090",
                 "asset_id": "A194"
             },
             {
                 "day": "2025-04-02",
-                "shift": 3,
-                "worker_id": "W0087",
+                "shift": 2,
+                "worker_id": "W0090",
+                "asset_id": "A040"
+            },
+            {
+                "day": "2025-04-02",
+                "shift": 2,
+                "worker_id": "W0090",
+                "asset_id": "A040"
+            },
+            {
+                "day": "2025-04-02",
+                "shift": 2,
+                "worker_id": "W0090",
                 "asset_id": "A040"
             }
         ]
@@ -980,16 +968,16 @@
         "commandId": "LSX0003",
         "id": "OP020",
         "name": "Đóng gói theo size/bundle",
-        "achieved_kpi_0": 227.85000000000005,
+        "achieved_kpi_0": 225.22500000000002,
         "assigned_kpi_0": 200,
-        "achieved_kpi_1": 211.90050000000002,
+        "achieved_kpi_1": 220.7205,
         "assigned_kpi_1": 98,
         "detailed_schedule": [
             {
-                "day": "2025-04-03",
-                "shift": 1,
-                "worker_id": "W0036",
-                "asset_id": "A027"
+                "day": "2025-04-02",
+                "shift": 3,
+                "worker_id": "W0031",
+                "asset_id": "A030"
             }
         ]
     }
