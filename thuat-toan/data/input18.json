@@ -26,7 +26,7 @@
             "name": "Lệnh sản xuất áo khoác gió T4/2025",
             "quantity": 800,
             "startDate": "2025-04-01",
-            "endDate": "2025-04-16"
+            "endDate": "2025-04-19"
         },
         {
             "id": "LSX0005",
@@ -40,14 +40,14 @@
             "name": "Lệnh sản xuất váy nữ T4/2025",
             "quantity": 1000,
             "startDate": "2025-04-01",
-            "endDate": "2025-04-18"
+            "endDate": "2025-04-20"
         },
         {
             "id": "LSX0007",
             "name": "Lệnh sản xuất áo blazer nữ T4/2025",
             "quantity": 600,
             "startDate": "2025-04-01",
-            "endDate": "2025-04-16"
+            "endDate": "2025-04-20"
         },
         {
             "id": "LSX0008",
@@ -61,71 +61,71 @@
             "name": "Lệnh sản xuất găng tay vải T4/2025",
             "quantity": 2500,
             "startDate": "2025-04-01",
-            "endDate": "2025-04-23"
+            "endDate": "2025-04-27"
         },
 
         {
-            "id": "LSX1010",
+            "id": "LSX1001",
             "name": "Lệnh sản xuất áo sơ mi T4/2025",
             "quantity": 1000,
             "startDate": "2025-04-01",
-            "endDate": "2025-04-19"
+            "endDate": "2025-04-29"
         },
         {
-            "id": "LSX1011",
+            "id": "LSX1002",
             "name": "Lệnh sản xuất áo thun T4/2025",
             "quantity": 2000,
             "startDate": "2025-04-01",
-            "endDate": "2025-04-21"
+            "endDate": "2025-04-26"
         },
         {
-            "id": "LSX1012",
+            "id": "LSX1003",
             "name": "Lệnh sản xuất quần jean T4/2025",
             "quantity": 1000,
             "startDate": "2025-04-01",
-            "endDate": "2025-04-19"
+            "endDate": "2025-04-29"
         },
         {
-            "id": "LSX1013",
+            "id": "LSX1004",
             "name": "Lệnh sản xuất áo khoác gió T4/2025",
             "quantity": 800,
             "startDate": "2025-04-01",
-            "endDate": "2025-04-16"
+            "endDate": "2025-04-28"
         },
         {
-            "id": "LSX1014",
+            "id": "LSX1005",
             "name": "Lệnh sản xuất nón kết T4/2025",
             "quantity": 1500,
+            "startDate": "2025-04-01",
+            "endDate": "2025-04-25"
+        },
+        {
+            "id": "LSX1006",
+            "name": "Lệnh sản xuất váy nữ T4/2025",
+            "quantity": 1000,
+            "startDate": "2025-04-01",
+            "endDate": "2025-04-28"
+        },
+        {
+            "id": "LSX1007",
+            "name": "Lệnh sản xuất áo blazer nữ T4/2025",
+            "quantity": 600,
             "startDate": "2025-04-01",
             "endDate": "2025-04-20"
         },
         {
-            "id": "LSX1015",
-            "name": "Lệnh sản xuất váy nữ T4/2025",
-            "quantity": 1000,
-            "startDate": "2025-04-01",
-            "endDate": "2025-04-18"
-        },
-        {
-            "id": "LSX1016",
-            "name": "Lệnh sản xuất áo blazer nữ T4/2025",
-            "quantity": 600,
-            "startDate": "2025-04-01",
-            "endDate": "2025-04-16"
-        },
-        {
-            "id": "LSX1017",
+            "id": "LSX1008",
             "name": "Lệnh sản xuất quần short thể thao T4/2025",
             "quantity": 1800,
             "startDate": "2025-04-01",
-            "endDate": "2025-04-21"
+            "endDate": "2025-04-25"
         },
         {
-            "id": "LSX1018",
+            "id": "LSX1009",
             "name": "Lệnh sản xuất găng tay vải T4/2025",
             "quantity": 2500,
             "startDate": "2025-04-01",
-            "endDate": "2025-04-23"
+            "endDate": "2025-04-29"
         }
     ],
     "operations": [

@@ -11,7 +11,7 @@ def load_data():
     """Load the necessary data files."""
     # Paths to data files
     schedule_path = "./out/schedule.json"
-    input_path = "./data/input3.json"
+    input_path = "./data/input18.json"
     
     # Load schedule data
     try:
