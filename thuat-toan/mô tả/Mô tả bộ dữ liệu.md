@@ -79,6 +79,14 @@
 
 -   18 lệnh sản xuất, 126 công đoạn, 379 máy móc, 180 nhân viên
 
+6. Bộ dữ liệu 7
+
+-   18 lệnh sản xuất, 126 công đoạn, 252 máy móc, 180 nhân viên
+
+6. Bộ dữ liệu 7
+
+-   18 lệnh sản xuất, 126 công đoạn, 145 máy móc, 180 nhân viên
+
 ## III. Kết quả chạy thử nghiệm
 
 ### Bộ 1
@@ -339,7 +347,8 @@
 
 ![alt text](image-13.png)
 
-### Bo 7
+### Bộ 7
+
 | Giải pháp | Số lệnh hoàn thành đúng hạn | Tổng số ca | Tổng chi phí |
 | --------- | --------------------------- | ---------- | ------------ |
 | 1         | 17                          | 89         | 1156848.0    |
@@ -373,8 +382,9 @@
 | 29        | 15                          | 90         | 1167281.5    |
 | 30        | 15                          | 112        | 1188132.0    |
 
-- Lời giải tối ưu nhất: (18, 75, 1180679.5)
--  Lời giải tối ưu nhất: 47.96 giây
+-   Lời giải tối ưu nhất: (18, 75, 1180679.5)
+-   Lời giải tối ưu nhất: 47.96 giây
+-   Nhận xét: khi giảm số lượng máy móc của bộ 6 nhưng vẫn giữ nguyên các đầu vào khác thì chất lượng fitness có vẻ không thay đổi, tuy nhiên tốc độ tính toán có thể thấy chậm hơn, tỷ lệ máy móc rảnh rỗi cũng giảm đi đáng kể.
 
 ![alt text](image-16.png)
 

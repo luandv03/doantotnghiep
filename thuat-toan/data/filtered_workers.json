@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "W0001",
+    "name": "Đinh Thị Tố Uyên",
+    "position": "Nhân viên AQL",
+    "productivityKPI": 30,
+    "qualityKPI": 0.98,
+    "salaryPerHour": 28
+  },
+  {
+    "id": "W0002",
+    "name": "Tạ Minh Quân",
+    "position": "Nhân viên AQL",
+    "productivityKPI": 35,
+    "qualityKPI": 0.96,
+    "salaryPerHour": 28
+  },
+  {
+    "id": "W0003",
+    "name": "Ngô Văn Lâm",
+    "position": "Nhân viên AQL",
+    "productivityKPI": 40,
+    "qualityKPI": 0.94,
+    "salaryPerHour": 27
+  },
+  {
+    "id": "W0004",
+    "name": "Trần Thị Thuý Diễm",
+    "position": "Nhân viên AQL",
+    "productivityKPI": 45,
+    "qualityKPI": 0.93,
+    "salaryPerHour": 23
+  },
+  {
+    "id": "W0005",
+    "name": "Nguyễn Hoàng Long",
+    "position": "Nhân viên AQL",
+    "productivityKPI": 50,
+    "qualityKPI": 0.92,
+    "salaryPerHour": 31
+  },
+  {
+    "id": "W0006",
+    "name": "Đỗ Thị Lan Hương",
+    "position": "Nhân viên AQL",
+    "productivityKPI": 55,
+    "qualityKPI": 0.91,
+    "salaryPerHour": 30
+  },
+  {
+    "id": "W0007",
+    "name": "Phan Văn Nhân",
+    "position": "Nhân viên AQL",
+    "productivityKPI": 60,
+    "qualityKPI": 0.9,
+    "salaryPerHour": 24
+  },
+  {
+    "id": "W0008",
+    "name": "Dương Thị Thanh",
+    "position": "Nhân viên AQL",
+    "productivityKPI": 65,
+    "qualityKPI": 0.89,
+    "salaryPerHour": 25
+  },
+  {
+    "id": "W0009",
+    "name": "Trịnh Ngọc Hân",
+    "position": "Nhân viên AQL",
+    "productivityKPI": 70,
+    "qualityKPI": 0.88,
+    "salaryPerHour": 25
+  },
+  {
+    "id": "W0010",
+    "name": "Mai Quốc Huy",
+    "position": "Nhân viên AQL",
+    "productivityKPI": 75,
+    "qualityKPI": 0.87,
+    "salaryPerHour": 26
+  },
+  {
+    "id": "W0011",
+    "name": "Nguyễn Thị Hoài Thu",
+    "position": "Nhân viên QA/QC",
+    "productivityKPI": 15,
+    "qualityKPI": 0.98,
+    "salaryPerHour": 24
+  },
+  {
+    "id": "W0012",
+    "name": "Trương Văn Thái",
+    "position": "Nhân viên QA/QC",
+    "productivityKPI": 16,
+    "qualityKPI": 0.97,
+    "salaryPerHour": 23
+  },
+  {
+    "id": "W0013",
+    "name": "Lê Minh Châu",
+    "position": "Nhân viên QA/QC",
+    "productivityKPI": 18,
+    "qualityKPI": 0.96,
+    "salaryPerHour": 23
+  },
+  {
+    "id": "W0014",
+    "name": "Bùi Thị Kiều Oanh",
+    "position": "Nhân viên QA/QC",
+    "productivityKPI": 20,
+    "qualityKPI": 0.95,
+    "salaryPerHour": 21
+  },
+  {
+    "id": "W0015",
+    "name": "Đặng Hoàng Phúc",
+    "position": "Nhân viên QA/QC",
+    "productivityKPI": 22,
+    "qualityKPI": 0.94,
+    "salaryPerHour": 21
+  },
+  {
+    "id": "W0016",
+    "name": "Tô Thị Diệp",
+    "position": "Nhân viên QA/QC",
+    "productivityKPI": 24,
+    "qualityKPI": 0.93,
+    "salaryPerHour": 25
+  },
+  {
+    "id": "W0017",
+    "name": "Nguyễn Minh Quang",
+    "position": "Nhân viên QA/QC",
+    "productivityKPI": 26,
+    "qualityKPI": 0.92,
+    "salaryPerHour": 25
+  },
+  {
+    "id": "W0018",
+    "name": "Đoàn Thị Mộng Như",
+    "position": "Nhân viên QA/QC",
+    "productivityKPI": 28,
+    "qualityKPI": 0.91,
+    "salaryPerHour": 24
+  },
+  {
+    "id": "W0019",
+    "name": "Phạm Trọng Khoa",
+    "position": "Nhân viên QA/QC",
+    "productivityKPI": 30,
+    "qualityKPI": 0.9,
+    "salaryPerHour": 25
+  },
+  {
+    "id": "W0020",
+    "name": "Lý Thị Cẩm Nhung",
+    "position": "Nhân viên QA/QC",
+    "productivityKPI": 32,
+    "qualityKPI": 0.89,
+    "salaryPerHour": 27
+  },
+  {
+    "id": "W0021",
+    "name": "Vũ Minh Nhật",
+    "position": "Nhân viên cắt vải",
+    "productivityKPI": 60,
+    "qualityKPI": 0.98,
+    "salaryPerHour": 31
+  },
+  {
+    "id": "W0022",
+    "name": "Trần Thị Tường Vy",
+    "position": "Nhân viên cắt vải",
+    "productivityKPI": 65,
+    "qualityKPI": 0.97,
+    "salaryPerHour": 27
+  },
+  {
+    "id": "W0023",
+    "name": "Hồ Quang Vinh",
+    "position": "Nhân viên cắt vải",
+    "productivityKPI": 70,
+    "qualityKPI": 0.96,
+    "salaryPerHour": 29
+  },
+  {
+    "id": "W0024",
+    "name": "Nguyễn Ngọc Lệ",
+    "position": "Nhân viên cắt vải",
+    "productivityKPI": 75,
+    "qualityKPI": 0.95,
+    "salaryPerHour": 28
+  },
+  {
+    "id": "W0025",
+    "name": "Võ Đức Thiện",
+    "position": "Nhân viên cắt vải",
+    "productivityKPI": 80,
+    "qualityKPI": 0.94,
+    "salaryPerHour": 32
+  },
+  {
+    "id": "W0026",
+    "name": "Dương Thị Lệ Quyên",
+    "position": "Nhân viên cắt vải",
+    "productivityKPI": 85,
+    "qualityKPI": 0.93,
+    "salaryPerHour": 29
+  },
+  {
+    "id": "W0027",
+    "name": "Đinh Quốc Duy",
+    "position": "Nhân viên cắt vải",
+    "productivityKPI": 90,
+    "qualityKPI": 0.92,
+    "salaryPerHour": 29
+  },
+  {
+    "id": "W0028",
+    "name": "Bùi Văn Được",
+    "position": "Nhân viên cắt vải",
+    "productivityKPI": 95,
+    "qualityKPI": 0.91,
+    "salaryPerHour": 31
+  },
+  {
+    "id": "W0029",
+    "name": "Nguyễn Thanh Ngọc",
+    "position": "Nhân viên cắt vải",
+    "productivityKPI": 100,
+    "qualityKPI": 0.9,
+    "salaryPerHour": 37
+  },
+  {
+    "id": "W0030",
+    "name": "Trần Quốc Cường",
+    "position": "Nhân viên cắt vải",
+    "productivityKPI": 105,
+    "qualityKPI": 0.89,
+    "salaryPerHour": 31
+  },
+  {
+    "id": "W0031",
+    "name": "Mai Thị Thuỷ",
+    "position": "Nhân viên đóng gói",
+    "productivityKPI": 45,
+    "qualityKPI": 0.98,
+    "salaryPerHour": 27
+  },
+  {
+    "id": "W0032",
+    "name": "Đỗ Ngọc Minh",
+    "position": "Nhân viên đóng gói",
+    "productivityKPI": 50,
+    "qualityKPI": 0.97,
+    "salaryPerHour": 29
+  },
+  {
+    "id": "W0033",
+    "name": "Lê Văn Nghĩa",
+    "position": "Nhân viên đóng gói",
+    "productivityKPI": 55,
+    "qualityKPI": 0.96,
+    "salaryPerHour": 29
+  },
+  {
+    "id": "W0034",
+    "name": "Tạ Thị Tuyết Mai",
+    "position": "Nhân viên đóng gói",
+    "productivityKPI": 60,
+    "qualityKPI": 0.95,
+    "salaryPerHour": 26
+  },
+  {
+    "id": "W0035",
+    "name": "Trần Thị Diệu Linh",
+    "position": "Nhân viên đóng gói",
+    "productivityKPI": 65,
+    "qualityKPI": 0.94,
+    "salaryPerHour": 32
+  },
+  {
+    "id": "W0036",
+    "name": "Ngô Văn Phước",
+    "position": "Nhân viên đóng gói",
+    "productivityKPI": 70,
+    "qualityKPI": 0.93,
+    "salaryPerHour": 26
+  },
+  {
+    "id": "W0037",
+    "name": "Vũ Thị Thanh Thảo",
+    "position": "Nhân viên đóng gói",
+    "productivityKPI": 75,
+    "qualityKPI": 0.92,
+    "salaryPerHour": 26
+  },
+  {
+    "id": "W0038",
+    "name": "Phan Thị Thuý Nga",
+    "position": "Nhân viên đóng gói",
+    "productivityKPI": 80,
+    "qualityKPI": 0.91,
+    "salaryPerHour": 25
+  },
+  {
+    "id": "W0039",
+    "name": "Nguyễn Văn Khang",
+    "position": "Nhân viên đóng gói",
+    "productivityKPI": 85,
+    "qualityKPI": 0.9,
+    "salaryPerHour": 29
+  },
+  {
+    "id": "W0040",
+    "name": "Trịnh Văn Đạt",
+    "position": "Nhân viên đóng gói",
+    "productivityKPI": 90,
+    "qualityKPI": 0.89,
+    "salaryPerHour": 29
+  },
+  {
+    "id": "W0041",
+    "name": "Nguyễn Thanh Hoa",
+    "position": "Nhân viên đính khuy",
+    "productivityKPI": 25,
+    "qualityKPI": 0.98,
+    "salaryPerHour": 22
+  },
+  {
+    "id": "W0042",
+    "name": "Trần Quốc Khánh",
+    "position": "Nhân viên đính khuy",
+    "productivityKPI": 30,
+    "qualityKPI": 0.97,
+    "salaryPerHour": 24
+  },
+  {
+    "id": "W0043",
+    "name": "Lê Thị Trinh",
+    "position": "Nhân viên đính khuy",
+    "productivityKPI": 35,
+    "qualityKPI": 0.96,
+    "salaryPerHour": 27
+  },
+  {
+    "id": "W0044",
+    "name": "Phạm Thị Thu",
+    "position": "Nhân viên đính khuy",
+    "productivityKPI": 40,
+    "qualityKPI": 0.95,
+    "salaryPerHour": 27
+  },
+  {
+    "id": "W0045",
+    "name": "Bùi Văn Tâm",
+    "position": "Nhân viên đính khuy",
+    "productivityKPI": 45,
+    "qualityKPI": 0.94,
+    "salaryPerHour": 27
+  },
+  {
+    "id": "W0046",
+    "name": "Đỗ Thị Minh",
+    "position": "Nhân viên đính khuy",
+    "productivityKPI": 50,
+    "qualityKPI": 0.93,
+    "salaryPerHour": 27
+  },
+  {
+    "id": "W0047",
+    "name": "Hồ Văn An",
+    "position": "Nhân viên đính khuy",
+    "productivityKPI": 55,
+    "qualityKPI": 0.92,
+    "salaryPerHour": 29
+  },
+  {
+    "id": "W0048",
+    "name": "Ngô Thị Lan",
+    "position": "Nhân viên đính khuy",
+    "productivityKPI": 60,
+    "qualityKPI": 0.91,
+    "salaryPerHour": 29
+  },
+  {
+    "id": "W0049",
+    "name": "Dương Tuấn Anh",
+    "position": "Nhân viên đính khuy",
+    "productivityKPI": 65,
+    "qualityKPI": 0.9,
+    "salaryPerHour": 29
+  },
+  {
+    "id": "W0050",
+    "name": "Vũ Kim Ngân",
+    "position": "Nhân viên đính khuy",
+    "productivityKPI": 70,
+    "qualityKPI": 0.89,
+    "salaryPerHour": 26
+  },
+  {
+    "id": "W0051",
+    "name": "Vũ Hữu Tú",
+    "position": "Nhân viên đính khuy",
+    "productivityKPI": 25,
+    "qualityKPI": 0.98,
+    "salaryPerHour": 22
+  },
+  {
+    "id": "W0052",
+    "name": "Bùi Văn Ngân",
+    "position": "Nhân viên đính khuy",
+    "productivityKPI": 30,
+    "qualityKPI": 0.97,
+    "salaryPerHour": 27
+  },
+  {
+    "id": "W0053",
+    "name": "Đặng Quốc Trí",
+    "position": "Nhân viên đính khuy",
+    "productivityKPI": 35,
+    "qualityKPI": 0.96,
+    "salaryPerHour": 24
+  },
+  {
+    "id": "W0054",
+    "name": "Bùi Mạnh Vy",
+    "position": "Nhân viên đính khuy",
+    "productivityKPI": 40,
+    "qualityKPI": 0.95,
+    "salaryPerHour": 26
+  },
+  {
+    "id": "W0055",
+    "name": "Lê Gia Vy",
+    "position": "Nhân viên đính khuy",
+    "productivityKPI": 45,
+    "qualityKPI": 0.94,
+    "salaryPerHour": 24
+  },
+  {
+    "id": "W0056",
+    "name": "Bùi Mạnh Quang",
+    "position": "Nhân viên đính khuy",
+    "productivityKPI": 50,
+    "qualityKPI": 0.93,
+    "salaryPerHour": 32
+  },
+  {
+    "id": "W0057",
+    "name": "Dương Gia Nhung",
+    "position": "Nhân viên đính khuy",
+    "productivityKPI": 55,
+    "qualityKPI": 0.92,
+    "salaryPerHour": 21
+  },
+  {
+    "id": "W0058",
+    "name": "Vũ Thuỳ Nam",
+    "position": "Nhân viên đính khuy",
+    "productivityKPI": 60,
+    "qualityKPI": 0.91,
+    "salaryPerHour": 29
+  },
+  {
+    "id": "W0059",
+    "name": "Lê Trọng Tường",
+    "position": "Nhân viên đính khuy",
+    "productivityKPI": 65,
+    "qualityKPI": 0.9,
+    "salaryPerHour": 28
+  },
+  {
+    "id": "W0060",
+    "name": "Vũ Hoàng Lan",
+    "position": "Nhân viên đính khuy",
+    "productivityKPI": 70,
+    "qualityKPI": 0.89,
+    "salaryPerHour": 29
+  },
+  {
+    "id": "W0061",
+    "name": "Vũ Hoàng Thu",
+    "position": "Nhân viên gắn nhãn",
+    "productivityKPI": 30,
+    "qualityKPI": 0.98,
+    "salaryPerHour": 26
+  },
+  {
+    "id": "W0062",
+    "name": "Phạm Tuấn Sơn",
+    "position": "Nhân viên gắn nhãn",
+    "productivityKPI": 35,
+    "qualityKPI": 0.97,
+    "salaryPerHour": 23
+  },
+  {
+    "id": "W0063",
+    "name": "Ngô Thị Thảo",
+    "position": "Nhân viên gắn nhãn",
+    "productivityKPI": 40,
+    "qualityKPI": 0.96,
+    "salaryPerHour": 27
+  },
+  {
+    "id": "W0064",
+    "name": "Hồ Gia Vy",
+    "position": "Nhân viên gắn nhãn",
+    "productivityKPI": 45,
+    "qualityKPI": 0.95,
+    "salaryPerHour": 24
+  },
+  {
+    "id": "W0065",
+    "name": "Dương Thị Quân",
+    "position": "Nhân viên gắn nhãn",
+    "productivityKPI": 50,
+    "qualityKPI": 0.94,
+    "salaryPerHour": 23
+  },
+  {
+    "id": "W0066",
+    "name": "Huỳnh Thanh Thắng",
+    "position": "Nhân viên gắn nhãn",
+    "productivityKPI": 50,
+    "qualityKPI": 0.93,
+    "salaryPerHour": 29
+  },
+  {
+    "id": "W0067",
+    "name": "Lê Quốc Dũng",
+    "position": "Nhân viên gắn nhãn",
+    "productivityKPI": 55,
+    "qualityKPI": 0.92,
+    "salaryPerHour": 33
+  },
+  {
+    "id": "W0068",
+    "name": "Ngô Tuấn Hiếu",
+    "position": "Nhân viên gắn nhãn",
+    "productivityKPI": 60,
+    "qualityKPI": 0.91,
+    "salaryPerHour": 28
+  },
+  {
+    "id": "W0069",
+    "name": "Huỳnh Ngọc Quân",
+    "position": "Nhân viên gắn nhãn",
+    "productivityKPI": 65,
+    "qualityKPI": 0.9,
+    "salaryPerHour": 28
+  },
+  {
+    "id": "W0070",
+    "name": "Phan Minh Lan",
+    "position": "Nhân viên gắn nhãn",
+    "productivityKPI": 70,
+    "qualityKPI": 0.89,
+    "salaryPerHour": 27
+  },
+  {
+    "id": "W0071",
+    "name": "Trần Thị Mai",
+    "position": "Nhân viên in",
+    "productivityKPI": 20,
+    "qualityKPI": 0.98,
+    "salaryPerHour": 24
+  },
+  {
+    "id": "W0072",
+    "name": "Nguyễn Thanh Long",
+    "position": "Nhân viên in",
+    "productivityKPI": 25,
+    "qualityKPI": 0.97,
+    "salaryPerHour": 24
+  },
+  {
+    "id": "W0073",
+    "name": "Phạm Hoàng Dũng",
+    "position": "Nhân viên in",
+    "productivityKPI": 30,
+    "qualityKPI": 0.96,
+    "salaryPerHour": 27
+  },
+  {
+    "id": "W0074",
+    "name": "Đặng Ngọc Lan",
+    "position": "Nhân viên in",
+    "productivityKPI": 35,
+    "qualityKPI": 0.95,
+    "salaryPerHour": 23
+  },
+  {
+    "id": "W0075",
+    "name": "Lê Quang Huy",
+    "position": "Nhân viên in",
+    "productivityKPI": 40,
+    "qualityKPI": 0.94,
+    "salaryPerHour": 26
+  },
+  {
+    "id": "W0076",
+    "name": "Bùi Thị Thuỳ Dương",
+    "position": "Nhân viên in",
+    "productivityKPI": 45,
+    "qualityKPI": 0.93,
+    "salaryPerHour": 29
+  },
+  {
+    "id": "W0077",
+    "name": "Vũ Minh Khôi",
+    "position": "Nhân viên in",
+    "productivityKPI": 50,
+    "qualityKPI": 0.92,
+    "salaryPerHour": 24
+  },
+  {
+    "id": "W0078",
+    "name": "Trần Hoàng Thái",
+    "position": "Nhân viên in",
+    "productivityKPI": 55,
+    "qualityKPI": 0.91,
+    "salaryPerHour": 26
+  },
+  {
+    "id": "W0079",
+    "name": "Ngô Thị Như Quỳnh",
+    "position": "Nhân viên in",
+    "productivityKPI": 60,
+    "qualityKPI": 0.9,
+    "salaryPerHour": 30
+  },
+  {
+    "id": "W0080",
+    "name": "Hồ Văn Tú",
+    "position": "Nhân viên in",
+    "productivityKPI": 65,
+    "qualityKPI": 0.89,
+    "salaryPerHour": 30
+  },
+  {
+    "id": "W0081",
+    "name": "Đinh Hữu Phước",
+    "position": "Nhân viên là ép",
+    "productivityKPI": 10,
+    "qualityKPI": 0.98,
+    "salaryPerHour": 23
+  },
+  {
+    "id": "W0082",
+    "name": "Nguyễn Gia Hân",
+    "position": "Nhân viên là ép",
+    "productivityKPI": 12,
+    "qualityKPI": 0.97,
+    "salaryPerHour": 23
+  },
+  {
+    "id": "W0083",
+    "name": "Phạm Minh Tâm",
+    "position": "Nhân viên là ép",
+    "productivityKPI": 15,
+    "qualityKPI": 0.96,
+    "salaryPerHour": 23
+  },
+  {
+    "id": "W0084",
+    "name": "Lưu Thị Ánh",
+    "position": "Nhân viên là ép",
+    "productivityKPI": 17,
+    "qualityKPI": 0.95,
+    "salaryPerHour": 28
+  },
+  {
+    "id": "W0085",
+    "name": "Dương Trọng Nghĩa",
+    "position": "Nhân viên là ép",
+    "productivityKPI": 20,
+    "qualityKPI": 0.94,
+    "salaryPerHour": 26
+  },
+  {
+    "id": "W0086",
+    "name": "Trịnh Bảo Trâm",
+    "position": "Nhân viên là ép",
+    "productivityKPI": 22,
+    "qualityKPI": 0.93,
+    "salaryPerHour": 19
+  },
+  {
+    "id": "W0087",
+    "name": "Nguyễn Văn Sơn",
+    "position": "Nhân viên là ép",
+    "productivityKPI": 25,
+    "qualityKPI": 0.92,
+    "salaryPerHour": 27
+  },
+  {
+    "id": "W0088",
+    "name": "Tô Quốc Hưng",
+    "position": "Nhân viên là ép",
+    "productivityKPI": 28,
+    "qualityKPI": 0.91,
+    "salaryPerHour": 28
+  },
+  {
+    "id": "W0089",
+    "name": "Lê Minh Đạt",
+    "position": "Nhân viên là ép",
+    "productivityKPI": 30,
+    "qualityKPI": 0.9,
+    "salaryPerHour": 24
+  },
+  {
+    "id": "W0090",
+    "name": "Đỗ Thị Hồng",
+    "position": "Nhân viên là ép",
+    "productivityKPI": 32,
+    "qualityKPI": 0.89,
+    "salaryPerHour": 30
+  },
+  {
+    "id": "W0091",
+    "name": "Phạm Quốc Thiên",
+    "position": "Nhân viên may chi tiết",
+    "productivityKPI": 5,
+    "qualityKPI": 0.98,
+    "salaryPerHour": 22
+  },
+  {
+    "id": "W0092",
+    "name": "Mai Thị Kim Chi",
+    "position": "Nhân viên may chi tiết",
+    "productivityKPI": 6,
+    "qualityKPI": 0.97,
+    "salaryPerHour": 24
+  },
+  {
+    "id": "W0093",
+    "name": "Nguyễn Đăng Khoa",
+    "position": "Nhân viên may chi tiết",
+    "productivityKPI": 7,
+    "qualityKPI": 0.96,
+    "salaryPerHour": 24
+  },
+  {
+    "id": "W0094",
+    "name": "Trần Thanh Vân",
+    "position": "Nhân viên may chi tiết",
+    "productivityKPI": 8,
+    "qualityKPI": 0.95,
+    "salaryPerHour": 24
+  },
+  {
+    "id": "W0095",
+    "name": "Vũ Bảo Châu",
+    "position": "Nhân viên may chi tiết",
+    "productivityKPI": 10,
+    "qualityKPI": 0.94,
+    "salaryPerHour": 22
+  },
+  {
+    "id": "W0096",
+    "name": "Đặng Quang Huy",
+    "position": "Nhân viên may chi tiết",
+    "productivityKPI": 12,
+    "qualityKPI": 0.93,
+    "salaryPerHour": 22
+  },
+  {
+    "id": "W0097",
+    "name": "Phan Nhật Hào",
+    "position": "Nhân viên may chi tiết",
+    "productivityKPI": 14,
+    "qualityKPI": 0.92,
+    "salaryPerHour": 22
+  },
+  {
+    "id": "W0098",
+    "name": "Lý Thị Thu Hà",
+    "position": "Nhân viên may chi tiết",
+    "productivityKPI": 15,
+    "qualityKPI": 0.91,
+    "salaryPerHour": 26
+  },
+  {
+    "id": "W0099",
+    "name": "Trương Minh Trí",
+    "position": "Nhân viên may chi tiết",
+    "productivityKPI": 17,
+    "qualityKPI": 0.9,
+    "salaryPerHour": 23
+  },
+  {
+    "id": "W0100",
+    "name": "Võ Thanh Tùng",
+    "position": "Nhân viên may chi tiết",
+    "productivityKPI": 18,
+    "qualityKPI": 0.89,
+    "salaryPerHour": 23
+  },
+  {
+    "id": "W0101",
+    "name": "Huỳnh Mai Vy",
+    "position": "Nhân viên may chi tiết",
+    "productivityKPI": 5,
+    "qualityKPI": 0.98,
+    "salaryPerHour": 23
+  },
+  {
+    "id": "W0102",
+    "name": "Bùi Đức Toàn",
+    "position": "Nhân viên may chi tiết",
+    "productivityKPI": 6,
+    "qualityKPI": 0.97,
+    "salaryPerHour": 23
+  },
+  {
+    "id": "W0103",
+    "name": "Ngô Thị Bảo Ngọc",
+    "position": "Nhân viên may chi tiết",
+    "productivityKPI": 7,
+    "qualityKPI": 0.96,
+    "salaryPerHour": 21
+  },
+  {
+    "id": "W0104",
+    "name": "Đỗ Gia Khánh",
+    "position": "Nhân viên may chi tiết",
+    "productivityKPI": 8,
+    "qualityKPI": 0.95,
+    "salaryPerHour": 20
+  },
+  {
+    "id": "W0105",
+    "name": "Lê Minh Hương",
+    "position": "Nhân viên may chi tiết",
+    "productivityKPI": 9,
+    "qualityKPI": 0.94,
+    "salaryPerHour": 21
+  },
+  {
+    "id": "W0106",
+    "name": "Tạ Văn Thắng",
+    "position": "Nhân viên may chi tiết",
+    "productivityKPI": 10,
+    "qualityKPI": 0.93,
+    "salaryPerHour": 27
+  },
+  {
+    "id": "W0107",
+    "name": "Dương Thị Quỳnh Anh",
+    "position": "Nhân viên may chi tiết",
+    "productivityKPI": 11,
+    "qualityKPI": 0.92,
+    "salaryPerHour": 20
+  },
+  {
+    "id": "W0108",
+    "name": "Lưu Vũ Khang",
+    "position": "Nhân viên may chi tiết",
+    "productivityKPI": 12,
+    "qualityKPI": 0.91,
+    "salaryPerHour": 22
+  },
+  {
+    "id": "W0109",
+    "name": "Nguyễn Quốc Cường",
+    "position": "Nhân viên may chi tiết",
+    "productivityKPI": 13,
+    "qualityKPI": 0.9,
+    "salaryPerHour": 23
+  },
+  {
+    "id": "W0110",
+    "name": "Hồ Bảo Anh",
+    "position": "Nhân viên may chi tiết",
+    "productivityKPI": 14,
+    "qualityKPI": 0.89,
+    "salaryPerHour": 20
+  },
+  {
+    "id": "W0111",
+    "name": "Trịnh Minh Khang",
+    "position": "Nhân viên may công nghiệp",
+    "productivityKPI": 18,
+    "qualityKPI": 0.95,
+    "salaryPerHour": 19
+  },
+  {
+    "id": "W0112",
+    "name": "Trần Nhật Minh",
+    "position": "Nhân viên may công nghiệp",
+    "productivityKPI": 19,
+    "qualityKPI": 0.96,
+    "salaryPerHour": 22
+  },
+  {
+    "id": "W0113",
+    "name": "Phạm Hoài Nam",
+    "position": "Nhân viên may công nghiệp",
+    "productivityKPI": 20,
+    "qualityKPI": 0.94,
+    "salaryPerHour": 22
+  },
+  {
+    "id": "W0114",
+    "name": "Nguyễn Văn Lộc",
+    "position": "Nhân viên may công nghiệp",
+    "productivityKPI": 22,
+    "qualityKPI": 0.97,
+    "salaryPerHour": 21
+  },
+  {
+    "id": "W0115",
+    "name": "Đoàn Thanh Phong",
+    "position": "Nhân viên may công nghiệp",
+    "productivityKPI": 23,
+    "qualityKPI": 0.96,
+    "salaryPerHour": 20
+  },
+  {
+    "id": "W0116",
+    "name": "Võ Ngọc Hân",
+    "position": "Nhân viên may công nghiệp",
+    "productivityKPI": 25,
+    "qualityKPI": 0.99,
+    "salaryPerHour": 28
+  },
+  {
+    "id": "W0117",
+    "name": "Trần Hoàng Lâm",
+    "position": "Nhân viên may công nghiệp",
+    "productivityKPI": 27,
+    "qualityKPI": 0.97,
+    "salaryPerHour": 27
+  },
+  {
+    "id": "W0118",
+    "name": "Trịnh Hải Yến",
+    "position": "Nhân viên may công nghiệp",
+    "productivityKPI": 28,
+    "qualityKPI": 0.95,
+    "salaryPerHour": 27
+  },
+  {
+    "id": "W0119",
+    "name": "Nguyễn Thị Ngọc Mai",
+    "position": "Nhân viên may công nghiệp",
+    "productivityKPI": 30,
+    "qualityKPI": 0.98,
+    "salaryPerHour": 24
+  },
+  {
+    "id": "W0120",
+    "name": "Đặng Anh Khoa",
+    "position": "Nhân viên may công nghiệp",
+    "productivityKPI": 32,
+    "qualityKPI": 0.98,
+    "salaryPerHour": 28
+  },
+  {
+    "id": "W0121",
+    "name": "Lê Thị Hạnh",
+    "position": "Nhân viên may công nghiệp",
+    "productivityKPI": 34,
+    "qualityKPI": 0.96,
+    "salaryPerHour": 20
+  },
+  {
+    "id": "W0122",
+    "name": "Nguyễn Văn Tài",
+    "position": "Nhân viên may công nghiệp",
+    "productivityKPI": 35,
+    "qualityKPI": 0.94,
+    "salaryPerHour": 20
+  },
+  {
+    "id": "W0123",
+    "name": "Đặng Minh Đức",
+    "position": "Nhân viên may công nghiệp",
+    "productivityKPI": 36,
+    "qualityKPI": 0.96,
+    "salaryPerHour": 24
+  },
+  {
+    "id": "W0124",
+    "name": "Phạm Thị Huyền",
+    "position": "Nhân viên may công nghiệp",
+    "productivityKPI": 38,
+    "qualityKPI": 0.97,
+    "salaryPerHour": 26
+  },
+  {
+    "id": "W0125",
+    "name": "Vũ Văn Quang",
+    "position": "Nhân viên may công nghiệp",
+    "productivityKPI": 40,
+    "qualityKPI": 0.98,
+    "salaryPerHour": 30
+  },
+  {
+    "id": "W0126",
+    "name": "Bùi Hồng Phúc",
+    "position": "Nhân viên may công nghiệp",
+    "productivityKPI": 42,
+    "qualityKPI": 0.99,
+    "salaryPerHour": 25
+  },
+  {
+    "id": "W0127",
+    "name": "Hồ Ngọc Minh",
+    "position": "Nhân viên may công nghiệp",
+    "productivityKPI": 44,
+    "qualityKPI": 0.97,
+    "salaryPerHour": 23
+  },
+  {
+    "id": "W0128",
+    "name": "Trần Thị Bích",
+    "position": "Nhân viên may công nghiệp",
+    "productivityKPI": 46,
+    "qualityKPI": 0.99,
+    "salaryPerHour": 29
+  },
+  {
+    "id": "W0129",
+    "name": "Ngô Văn Khánh",
+    "position": "Nhân viên may công nghiệp",
+    "productivityKPI": 48,
+    "qualityKPI": 0.98,
+    "salaryPerHour": 24
+  },
+  {
+    "id": "W0130",
+    "name": "Đinh Huyền Trang",
+    "position": "Nhân viên may công nghiệp",
+    "productivityKPI": 50,
+    "qualityKPI": 0.95,
+    "salaryPerHour": 25
+  },
+  {
+    "id": "W0201",
+    "name": "Lưu Thanh Nam",
+    "position": "Nhân viên may ráp",
+    "productivityKPI": 18,
+    "qualityKPI": 0.94,
+    "salaryPerHour": 24
+  },
+  {
+    "id": "W0202",
+    "name": "Mai Văn Thái",
+    "position": "Nhân viên may ráp",
+    "productivityKPI": 19,
+    "qualityKPI": 0.95,
+    "salaryPerHour": 23
+  },
+  {
+    "id": "W0203",
+    "name": "Dương Ngọc Bích",
+    "position": "Nhân viên may ráp",
+    "productivityKPI": 20,
+    "qualityKPI": 0.96,
+    "salaryPerHour": 22
+  },
+  {
+    "id": "W0204",
+    "name": "Trịnh Văn Thành",
+    "position": "Nhân viên may ráp",
+    "productivityKPI": 22,
+    "qualityKPI": 0.97,
+    "salaryPerHour": 22
+  },
+  {
+    "id": "W0205",
+    "name": "Võ Thị Cẩm Tú",
+    "position": "Nhân viên may ráp",
+    "productivityKPI": 23,
+    "qualityKPI": 0.95,
+    "salaryPerHour": 25
+  },
+  {
+    "id": "W0206",
+    "name": "Nguyễn Hữu Lộc",
+    "position": "Nhân viên may ráp",
+    "productivityKPI": 25,
+    "qualityKPI": 0.98,
+    "salaryPerHour": 29
+  },
+  {
+    "id": "W0207",
+    "name": "Tô Minh Hằng",
+    "position": "Nhân viên may ráp",
+    "productivityKPI": 27,
+    "qualityKPI": 0.96,
+    "salaryPerHour": 26
+  },
+  {
+    "id": "W0208",
+    "name": "Phan Thị Tuyết",
+    "position": "Nhân viên may ráp",
+    "productivityKPI": 28,
+    "qualityKPI": 0.97,
+    "salaryPerHour": 28
+  },
+  {
+    "id": "W0209",
+    "name": "Lê Đức Hòa",
+    "position": "Nhân viên may ráp",
+    "productivityKPI": 30,
+    "qualityKPI": 0.95,
+    "salaryPerHour": 19
+  },
+  {
+    "id": "W0210",
+    "name": "Đỗ Văn Phúc",
+    "position": "Nhân viên may ráp",
+    "productivityKPI": 32,
+    "qualityKPI": 0.96,
+    "salaryPerHour": 27
+  },
+  {
+    "id": "W0211",
+    "name": "Trần Hữu Thắng",
+    "position": "Nhân viên may ráp",
+    "productivityKPI": 34,
+    "qualityKPI": 0.94,
+    "salaryPerHour": 25
+  },
+  {
+    "id": "W0212",
+    "name": "Phạm Mai Chi",
+    "position": "Nhân viên may ráp",
+    "productivityKPI": 35,
+    "qualityKPI": 0.95,
+    "salaryPerHour": 22
+  },
+  {
+    "id": "W0213",
+    "name": "Nguyễn Thị Nhàn",
+    "position": "Nhân viên may ráp",
+    "productivityKPI": 36,
+    "qualityKPI": 0.96,
+    "salaryPerHour": 23
+  },
+  {
+    "id": "W0214",
+    "name": "Trần Hoài Phong",
+    "position": "Nhân viên may ráp",
+    "productivityKPI": 38,
+    "qualityKPI": 0.97,
+    "salaryPerHour": 25
+  },
+  {
+    "id": "W0215",
+    "name": "Đinh Gia Bảo",
+    "position": "Nhân viên may ráp",
+    "productivityKPI": 40,
+    "qualityKPI": 0.98,
+    "salaryPerHour": 25
+  },
+  {
+    "id": "W0216",
+    "name": "Hồ Văn Duy",
+    "position": "Nhân viên may ráp",
+    "productivityKPI": 42,
+    "qualityKPI": 0.99,
+    "salaryPerHour": 23
+  },
+  {
+    "id": "W0217",
+    "name": "Đặng Thị Kim Ngân",
+    "position": "Nhân viên may ráp",
+    "productivityKPI": 44,
+    "qualityKPI": 0.97,
+    "salaryPerHour": 25
+  },
+  {
+    "id": "W0218",
+    "name": "Vũ Anh Duy",
+    "position": "Nhân viên may ráp",
+    "productivityKPI": 46,
+    "qualityKPI": 0.98,
+    "salaryPerHour": 23
+  },
+  {
+    "id": "W0219",
+    "name": "Phan Thị Thanh",
+    "position": "Nhân viên may ráp",
+    "productivityKPI": 48,
+    "qualityKPI": 0.95,
+    "salaryPerHour": 31
+  },
+  {
+    "id": "W0220",
+    "name": "Bùi Nhật Linh",
+    "position": "Nhân viên may ráp",
+    "productivityKPI": 50,
+    "qualityKPI": 0.99,
+    "salaryPerHour": 26
+  },
+  {
+    "id": "W0301",
+    "name": "Lê Ngọc Dung",
+    "position": "Nhân viên thiết kế thời trang",
+    "productivityKPI": 18,
+    "qualityKPI": 0.85,
+    "salaryPerHour": 27
+  },
+  {
+    "id": "W0302",
+    "name": "Trương Hữu Nghị",
+    "position": "Nhân viên thiết kế thời trang",
+    "productivityKPI": 19,
+    "qualityKPI": 0.86,
+    "salaryPerHour": 27
+  },
+  {
+    "id": "W0303",
+    "name": "Dương Thị Mộng Tuyền",
+    "position": "Nhân viên thiết kế thời trang",
+    "productivityKPI": 20,
+    "qualityKPI": 0.88,
+    "salaryPerHour": 22
+  },
+  {
+    "id": "W0304",
+    "name": "Đoàn Quốc Anh",
+    "position": "Nhân viên thiết kế thời trang",
+    "productivityKPI": 21,
+    "qualityKPI": 0.89,
+    "salaryPerHour": 21
+  },
+  {
+    "id": "W0305",
+    "name": "Tạ Thị Phương",
+    "position": "Nhân viên thiết kế thời trang",
+    "productivityKPI": 22,
+    "qualityKPI": 0.9,
+    "salaryPerHour": 23
+  },
+  {
+    "id": "W0306",
+    "name": "Nguyễn Văn Hòa",
+    "position": "Nhân viên thiết kế thời trang",
+    "productivityKPI": 23,
+    "qualityKPI": 0.92,
+    "salaryPerHour": 25
+  },
+  {
+    "id": "W0307",
+    "name": "Trịnh Thị Lan",
+    "position": "Nhân viên thiết kế thời trang",
+    "productivityKPI": 24,
+    "qualityKPI": 0.93,
+    "salaryPerHour": 21
+  },
+  {
+    "id": "W0308",
+    "name": "Võ Văn Tường",
+    "position": "Nhân viên thiết kế thời trang",
+    "productivityKPI": 25,
+    "qualityKPI": 0.94,
+    "salaryPerHour": 23
+  },
+  {
+    "id": "W0309",
+    "name": "Đỗ Minh Tâm",
+    "position": "Nhân viên thiết kế thời trang",
+    "productivityKPI": 26,
+    "qualityKPI": 0.95,
+    "salaryPerHour": 26
+  },
+  {
+    "id": "W0310",
+    "name": "Hồ Thị Thảo",
+    "position": "Nhân viên thiết kế thời trang",
+    "productivityKPI": 28,
+    "qualityKPI": 0.96,
+    "salaryPerHour": 21
+  },
+  {
+    "id": "W0401",
+    "name": "Lưu Thị Bảo Anh",
+    "position": "Nhân viên vận hành máy giặt",
+    "productivityKPI": 40,
+    "qualityKPI": 0.92,
+    "salaryPerHour": 26
+  },
+  {
+    "id": "W0402",
+    "name": "Vũ Thị Xuân",
+    "position": "Nhân viên vận hành máy giặt",
+    "productivityKPI": 42,
+    "qualityKPI": 0.93,
+    "salaryPerHour": 31
+  },
+  {
+    "id": "W0403",
+    "name": "Mai Nhật Minh",
+    "position": "Nhân viên vận hành máy giặt",
+    "productivityKPI": 44,
+    "qualityKPI": 0.94,
+    "salaryPerHour": 23
+  },
+  {
+    "id": "W0404",
+    "name": "Ngô Thị Thanh Loan",
+    "position": "Nhân viên vận hành máy giặt",
+    "productivityKPI": 46,
+    "qualityKPI": 0.95,
+    "salaryPerHour": 27
+  },
+  {
+    "id": "W0405",
+    "name": "Trần Đăng Minh",
+    "position": "Nhân viên vận hành máy giặt",
+    "productivityKPI": 48,
+    "qualityKPI": 0.96,
+    "salaryPerHour": 30
+  },
+  {
+    "id": "W0406",
+    "name": "Phan Quang Vinh",
+    "position": "Nhân viên vận hành máy giặt",
+    "productivityKPI": 50,
+    "qualityKPI": 0.97,
+    "salaryPerHour": 27
+  },
+  {
+    "id": "W0407",
+    "name": "Nguyễn Hoàng An",
+    "position": "Nhân viên vận hành máy giặt",
+    "productivityKPI": 52,
+    "qualityKPI": 0.98,
+    "salaryPerHour": 26
+  },
+  {
+    "id": "W0408",
+    "name": "Bùi Văn Khôi",
+    "position": "Nhân viên vận hành máy giặt",
+    "productivityKPI": 54,
+    "qualityKPI": 0.99,
+    "salaryPerHour": 29
+  },
+  {
+    "id": "W0409",
+    "name": "Dương Văn Tuấn",
+    "position": "Nhân viên vận hành máy giặt",
+    "productivityKPI": 56,
+    "qualityKPI": 0.99,
+    "salaryPerHour": 33
+  },
+  {
+    "id": "W0410",
+    "name": "Trần Đức Huy",
+    "position": "Nhân viên vận hành máy giặt",
+    "productivityKPI": 58,
+    "qualityKPI": 1,
+    "salaryPerHour": 34
+  },
+  {
+    "id": "W0501",
+    "name": "Nguyễn Thị Thuỳ Trang",
+    "position": "Nhân viên xử lý vải",
+    "productivityKPI": 10,
+    "qualityKPI": 0.92,
+    "salaryPerHour": 22
+  },
+  {
+    "id": "W0502",
+    "name": "Lê Văn Hiếu",
+    "position": "Nhân viên xử lý vải",
+    "productivityKPI": 12,
+    "qualityKPI": 0.925,
+    "salaryPerHour": 21
+  },
+  {
+    "id": "W0503",
+    "name": "Trần Ngọc Phương",
+    "position": "Nhân viên xử lý vải",
+    "productivityKPI": 14,
+    "qualityKPI": 0.93,
+    "salaryPerHour": 23
+  },
+  {
+    "id": "W0504",
+    "name": "Phạm Minh Hải",
+    "position": "Nhân viên xử lý vải",
+    "productivityKPI": 16,
+    "qualityKPI": 0.935,
+    "salaryPerHour": 24
+  },
+  {
+    "id": "W0505",
+    "name": "Võ Thị Mỹ Linh",
+    "position": "Nhân viên xử lý vải",
+    "productivityKPI": 18,
+    "qualityKPI": 0.94,
+    "salaryPerHour": 22
+  },
+  {
+    "id": "W0506",
+    "name": "Đặng Đức Trung",
+    "position": "Nhân viên xử lý vải",
+    "productivityKPI": 20,
+    "qualityKPI": 0.945,
+    "salaryPerHour": 22
+  },
+  {
+    "id": "W0507",
+    "name": "Bùi Thị Kim Cúc",
+    "position": "Nhân viên xử lý vải",
+    "productivityKPI": 22,
+    "qualityKPI": 0.95,
+    "salaryPerHour": 24
+  },
+  {
+    "id": "W0508",
+    "name": "Vũ Anh Tuấn",
+    "position": "Nhân viên xử lý vải",
+    "productivityKPI": 24,
+    "qualityKPI": 0.952,
+    "salaryPerHour": 23
+  },
+  {
+    "id": "W0509",
+    "name": "Lưu Gia Linh",
+    "position": "Nhân viên xử lý vải",
+    "productivityKPI": 26,
+    "qualityKPI": 0.955,
+    "salaryPerHour": 25
+  },
+  {
+    "id": "W0510",
+    "name": "Hồ Văn Đạt",
+    "position": "Nhân viên xử lý vải",
+    "productivityKPI": 28,
+    "qualityKPI": 0.957,
+    "salaryPerHour": 26
+  }
+]

@@ -14,7 +14,7 @@ const inputFilePath = path.join(
     "..",
     "thuat-toan",
     "data",
-    "input10.json"
+    "input18thieumaymoc2.json"
 );
 
 // Function to extract unique positions and machine types
