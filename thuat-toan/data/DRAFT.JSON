@@ -1,0 +1,1322 @@
+[
+    {
+        "id": "AP001",
+        "productionOrderId": "LSX1001",
+        "name": "Chuẩn bị vải (kiểm tra độ co giãn, độ đều màu)",
+        "requiredMachineType": "Máy đo độ co giãn",
+        "requiredPosition": "Nhân viên xử lý vải",
+        "prevOperation": [],
+        "kpis": [
+            {
+                "id": "A01",
+                "name": "Số lượng vải kiểm tra đạt tiêu chuẩn",
+                "weight": 0.1,
+                "value": 110
+            },
+            {
+                "id": "A02",
+                "name": "Tỷ lệ vải đạt tiêu chuẩn sau kiểm tra",
+                "weight": 0.1,
+                "value": 97
+            }
+        ]
+    },
+    {
+        "id": "AP002",
+        "productionOrderId": "LSX1001",
+        "name": "Cắt vải theo rập",
+        "requiredMachineType": "Máy cắt vải tự động",
+        "requiredPosition": "Nhân viên cắt vải",
+        "prevOperation": ["AP001"],
+        "kpis": [
+            {
+                "id": "A11",
+                "name": "Số mảnh vải cắt đúng theo kế hoạch",
+                "weight": 0.15,
+                "value": 1000
+            },
+            {
+                "id": "A12",
+                "name": "Tỷ lệ cắt vải chính xác",
+                "weight": 0.15,
+                "value": 95
+            }
+        ]
+    },
+    {
+        "id": "AP003",
+        "productionOrderId": "LSX1001",
+        "name": "May ráp từng phần (thân, tay, cổ)",
+        "requiredMachineType": "Máy may công nghiệp",
+        "requiredPosition": "Nhân viên may ráp",
+        "prevOperation": ["AP002"],
+        "kpis": [
+            {
+                "id": "A21",
+                "name": "Số phần áo ráp đúng kế hoạch",
+                "weight": 0.2,
+                "value": 1000
+            },
+            {
+                "id": "A22",
+                "name": "Tỷ lệ lỗi trong ráp phần",
+                "weight": 0.2,
+                "value": 94
+            }
+        ]
+    },
+    {
+        "id": "AP004",
+        "productionOrderId": "LSX1001",
+        "name": "May hoàn thiện (gắn nhãn, vắt sổ, may lai)",
+        "requiredMachineType": "Máy may chuyên dụng",
+        "requiredPosition": "Nhân viên may chi tiết",
+        "prevOperation": ["AP003"],
+        "kpis": [
+            {
+                "id": "A31",
+                "name": "Số áo hoàn thiện đúng kế hoạch",
+                "weight": 0.25,
+                "value": 1000
+            },
+            {
+                "id": "A32",
+                "name": "Tỷ lệ áo đạt chuẩn sau hoàn thiện",
+                "weight": 0.25,
+                "value": 94
+            }
+        ]
+    },
+    {
+        "id": "AP005",
+        "productionOrderId": "LSX1001",
+        "name": "Giặt công nghiệp",
+        "requiredMachineType": "Máy giặt công nghiệp",
+        "requiredPosition": "Nhân viên vận hành máy giặt",
+        "prevOperation": ["AP004"],
+        "kpis": [
+            {
+                "id": "A41",
+                "name": "Số mẻ giặt hoàn thành đúng lịch",
+                "weight": 0.05,
+                "value": 900
+            },
+            {
+                "id": "A42",
+                "name": "Tỷ lệ sản phẩm đạt yêu cầu sau giặt",
+                "weight": 0.05,
+                "value": 96
+            }
+        ]
+    },
+    {
+        "id": "AP006",
+        "productionOrderId": "LSX1001",
+        "name": "Kiểm tra QC",
+        "requiredMachineType": "Máy kiểm tra độ bền",
+        "requiredPosition": "Nhân viên QA/QC",
+        "prevOperation": ["AP005"],
+        "kpis": [
+            {
+                "id": "A51",
+                "name": "Số sản phẩm được kiểm tra",
+                "weight": 0.15,
+                "value": 1000
+            },
+            {
+                "id": "A52",
+                "name": "Tỷ lệ sản phẩm đạt chuẩn sau kiểm",
+                "weight": 0.15,
+                "value": 95
+            }
+        ]
+    },
+    {
+        "id": "AP007",
+        "productionOrderId": "LSX1001",
+        "name": "Đóng gói",
+        "requiredMachineType": "Máy đóng gói tự động",
+        "requiredPosition": "Nhân viên đóng gói",
+        "prevOperation": ["AP006"],
+        "kpis": [
+            {
+                "id": "A61",
+                "name": "Sản phẩm đóng gói đúng kế hoạch",
+                "weight": 0.1,
+                "value": 1000
+            },
+            {
+                "id": "A62",
+                "name": "Tỷ lệ sản phẩm đóng gói đạt chuẩn",
+                "weight": 0.1,
+                "value": 94
+            }
+        ]
+    },
+    {
+        "id": "AP008",
+        "productionOrderId": "LSX1002",
+        "name": "Giác sơ đồ & cắt vải",
+        "requiredMachineType": "Máy cắt laser",
+        "requiredPosition": "Nhân viên cắt vải",
+        "prevOperation": [],
+        "kpis": [
+            {
+                "id": "B11",
+                "name": "Số sơ đồ cắt hoàn thành",
+                "weight": 0.2,
+                "value": 100
+            },
+            {
+                "id": "B12",
+                "name": "Tỷ lệ sai lệch khi cắt vải",
+                "weight": 0.2,
+                "value": 96
+            }
+        ]
+    },
+    {
+        "id": "AP009",
+        "productionOrderId": "LSX1002",
+        "name": "May công nghiệp theo dây chuyền",
+        "requiredMachineType": "Máy may công nghiệp",
+        "requiredPosition": "Nhân viên may công nghiệp",
+        "prevOperation": ["AP008"],
+        "kpis": [
+            {
+                "id": "B21",
+                "name": "Số lượng sản phẩm may hoàn thành",
+                "weight": 0.25,
+                "value": 2000
+            },
+            {
+                "id": "B22",
+                "name": "Tỷ lệ lỗi trong dây chuyền may",
+                "weight": 0.25,
+                "value": 95
+            }
+        ]
+    },
+    {
+        "id": "AP010",
+        "productionOrderId": "LSX1002",
+        "name": "Đính khuy & làm khuyết",
+        "requiredMachineType": "Máy đính khuy tự động",
+        "requiredPosition": "Nhân viên đính khuy",
+        "prevOperation": ["AP009"],
+        "kpis": [
+            {
+                "id": "B31",
+                "name": "Số lượng áo đính khuy đúng kế hoạch",
+                "weight": 0.15,
+                "value": 2000
+            },
+            {
+                "id": "B32",
+                "name": "Tỷ lệ khuy bị lỗi",
+                "weight": 0.15,
+                "value": 97
+            }
+        ]
+    },
+    {
+        "id": "AP011",
+        "productionOrderId": "LSX1002",
+        "name": "Là ép định hình",
+        "requiredMachineType": "Máy là hơi công nghiệp",
+        "requiredPosition": "Nhân viên là ép",
+        "prevOperation": ["AP010"],
+        "kpis": [
+            {
+                "id": "B41",
+                "name": "Số lượng sản phẩm là ép đúng tiến độ",
+                "weight": 0.1,
+                "value": 2000
+            },
+            {
+                "id": "B42",
+                "name": "Tỷ lệ lỗi nhăn, cháy vải sau là ép",
+                "weight": 0.1,
+                "value": 96
+            }
+        ]
+    },
+    {
+        "id": "AP012",
+        "productionOrderId": "LSX1002",
+        "name": "Kiểm hàng (AQL)",
+        "requiredMachineType": "Thiết bị kiểm tra mẫu",
+        "requiredPosition": "Nhân viên AQL",
+        "prevOperation": ["AP011"],
+        "kpis": [
+            {
+                "id": "B51",
+                "name": "Số lượng sản phẩm được kiểm",
+                "weight": 0.075,
+                "value": 2000
+            },
+            {
+                "id": "B52",
+                "name": "Tỷ lệ đạt chuẩn theo AQL",
+                "weight": 0.075,
+                "value": 95
+            }
+        ]
+    },
+    {
+        "id": "AP013",
+        "productionOrderId": "LSX1002",
+        "name": "Gắn nhãn mác",
+        "requiredMachineType": "Máy in nhãn",
+        "requiredPosition": "Nhân viên gắn nhãn",
+        "prevOperation": ["AP012"],
+        "kpis": [
+            {
+                "id": "B61",
+                "name": "Sản phẩm gắn nhãn đúng quy định",
+                "weight": 0.05,
+                "value": 2000
+            },
+            {
+                "id": "B62",
+                "name": "Tỷ lệ nhãn mác sai, lệch",
+                "weight": 0.05,
+                "value": 98
+            }
+        ]
+    },
+    {
+        "id": "AP014",
+        "productionOrderId": "LSX1002",
+        "name": "Đóng thùng, gói PE",
+        "requiredMachineType": "Máy đóng gói tự động",
+        "requiredPosition": "Nhân viên đóng gói",
+        "prevOperation": ["AP013"],
+        "kpis": [
+            {
+                "id": "B71",
+                "name": "Số thùng đóng hoàn chỉnh",
+                "weight": 0.05,
+                "value": 200
+            },
+            {
+                "id": "B72",
+                "name": "Tỷ lệ đóng thùng đúng quy cách",
+                "weight": 0.05,
+                "value": 97
+            }
+        ]
+    },
+    {
+        "id": "AP015",
+        "productionOrderId": "LSX1003",
+        "name": "Chuẩn bị denim (kiểm định, xử lý sanforizing)",
+        "requiredMachineType": "Máy sanforizing",
+        "requiredPosition": "Nhân viên xử lý vải",
+        "prevOperation": [],
+        "kpis": [
+            {
+                "id": "C11",
+                "name": "Số lượng denim xử lý đạt chuẩn",
+                "weight": 0.1,
+                "value": 100
+            },
+            {
+                "id": "C12",
+                "name": "Tỷ lệ denim đạt tiêu chuẩn giãn nở",
+                "weight": 0.1,
+                "value": 97
+            }
+        ]
+    },
+    {
+        "id": "AP016",
+        "productionOrderId": "LSX1003",
+        "name": "Cắt theo size chart",
+        "requiredMachineType": "Máy cắt laser",
+        "requiredPosition": "Nhân viên cắt vải",
+        "prevOperation": ["AP015"],
+        "kpis": [
+            {
+                "id": "C21",
+                "name": "Số lượng sản phẩm cắt theo đúng size",
+                "weight": 0.15,
+                "value": 1000
+            },
+            {
+                "id": "C22",
+                "name": "Tỷ lệ sai lệch size khi cắt",
+                "weight": 0.15,
+                "value": 96
+            }
+        ]
+    },
+    {
+        "id": "AP017",
+        "productionOrderId": "LSX1003",
+        "name": "May ráp thân, túi, khóa kéo, cạp",
+        "requiredMachineType": "Máy may công nghiệp",
+        "requiredPosition": "Nhân viên may ráp",
+        "prevOperation": ["AP016"],
+        "kpis": [
+            {
+                "id": "C31",
+                "name": "Số lượng sản phẩm may đạt tiến độ",
+                "weight": 0.25,
+                "value": 1000
+            },
+            {
+                "id": "C32",
+                "name": "Tỷ lệ lỗi đường may, lệch túi, khóa",
+                "weight": 0.25,
+                "value": 95
+            }
+        ]
+    },
+    {
+        "id": "AP018",
+        "productionOrderId": "LSX1003",
+        "name": "Giặt enzyme, wash vintage, laser burn",
+        "requiredMachineType": "Máy giặt công nghiệp",
+        "requiredPosition": "Nhân viên vận hành máy giặt",
+        "prevOperation": ["AP017"],
+        "kpis": [
+            {
+                "id": "C41",
+                "name": "Số lượng sản phẩm hoàn tất xử lý",
+                "weight": 0.15,
+                "value": 1000
+            },
+            {
+                "id": "C42",
+                "name": "Tỷ lệ màu không đồng đều / cháy vải",
+                "weight": 0.15,
+                "value": 94
+            }
+        ]
+    },
+    {
+        "id": "AP019",
+        "productionOrderId": "LSX1003",
+        "name": "Là ép",
+        "requiredMachineType": "Máy là hơi công nghiệp",
+        "requiredPosition": "Nhân viên là ép",
+        "prevOperation": ["AP018"],
+        "kpis": [
+            {
+                "id": "C51",
+                "name": "Số lượng sản phẩm là ép đúng kế hoạch",
+                "weight": 0.075,
+                "value": 1000
+            },
+            {
+                "id": "C52",
+                "name": "Tỷ lệ nhăn / cháy sau là",
+                "weight": 0.075,
+                "value": 97
+            }
+        ]
+    },
+    {
+        "id": "AP020",
+        "productionOrderId": "LSX1003",
+        "name": "Đóng gói theo size/bundle",
+        "requiredMachineType": "Máy đóng gói tự động",
+        "requiredPosition": "Nhân viên đóng gói",
+        "prevOperation": ["AP019"],
+        "kpis": [
+            {
+                "id": "C61",
+                "name": "Số bundle đóng đúng phân loại",
+                "weight": 0.075,
+                "value": 200
+            },
+            {
+                "id": "C62",
+                "name": "Tỷ lệ sai size khi phân loại",
+                "weight": 0.075,
+                "value": 98
+            }
+        ]
+    },
+    {
+        "id": "AP021",
+        "productionOrderId": "LSX1004",
+        "name": "Chuẩn bị vải phủ chống nước",
+        "requiredMachineType": "Máy phủ PU tự động",
+        "requiredPosition": "Nhân viên xử lý vải",
+        "prevOperation": [],
+        "kpis": [
+            {
+                "id": "C71",
+                "name": "Số lượng vải phủ được xử lý",
+                "weight": 0.075,
+                "value": 300
+            },
+            {
+                "id": "C72",
+                "name": "Tỷ lệ lớp phủ đạt chuẩn chống nước",
+                "weight": 0.075,
+                "value": 96
+            }
+        ]
+    },
+    {
+        "id": "AP022",
+        "productionOrderId": "LSX1004",
+        "name": "Cắt rập chống trượt",
+        "requiredMachineType": "Máy cắt laser",
+        "requiredPosition": "Nhân viên cắt vải",
+        "prevOperation": ["AP021"],
+        "kpis": [
+            {
+                "id": "D11",
+                "name": "Số lượng mảnh cắt chính xác",
+                "weight": 0.15,
+                "value": 4000
+            },
+            {
+                "id": "D12",
+                "name": "Tỷ lệ lệch form/rập khi ráp",
+                "weight": 0.15,
+                "value": 97
+            }
+        ]
+    },
+    {
+        "id": "AP023",
+        "productionOrderId": "LSX1004",
+        "name": "May khóa kéo, túi ẩn, nẹp gió",
+        "requiredMachineType": "Máy may chuyên dụng",
+        "requiredPosition": "Nhân viên may chi tiết",
+        "prevOperation": ["AP022"],
+        "kpis": [
+            {
+                "id": "D21",
+                "name": "Số lượng sản phẩm hoàn tất may chi tiết",
+                "weight": 0.2,
+                "value": 800
+            },
+            {
+                "id": "D22",
+                "name": "Tỷ lệ lệch khóa / nhăn túi / sai nẹp",
+                "weight": 0.2,
+                "value": 94
+            }
+        ]
+    },
+    {
+        "id": "AP024",
+        "productionOrderId": "LSX1004",
+        "name": "May ráp thân, gắn lưới lót",
+        "requiredMachineType": "Máy may công nghiệp",
+        "requiredPosition": "Nhân viên may ráp",
+        "prevOperation": ["AP023"],
+        "kpis": [
+            {
+                "id": "D31",
+                "name": "Số lượng áo ráp đúng tiến độ",
+                "weight": 0.2,
+                "value": 800
+            },
+            {
+                "id": "D32",
+                "name": "Tỷ lệ hở mí, lệch lớp lót",
+                "weight": 0.2,
+                "value": 95
+            }
+        ]
+    },
+    {
+        "id": "AP025",
+        "productionOrderId": "LSX1004",
+        "name": "Ép nhiệt seam sealing tape (chống nước)",
+        "requiredMachineType": "Máy là hơi công nghiệp",
+        "requiredPosition": "Nhân viên là ép",
+        "prevOperation": ["AP024"],
+        "kpis": [
+            {
+                "id": "D41",
+                "name": "Số đường ép nhiệt hoàn tất",
+                "weight": 0.1,
+                "value": 3200
+            },
+            {
+                "id": "D42",
+                "name": "Tỷ lệ bong, ép lệch, không kín nước",
+                "weight": 0.1,
+                "value": 94
+            }
+        ]
+    },
+    {
+        "id": "AP026",
+        "productionOrderId": "LSX1004",
+        "name": "QC – kiểm định lực kéo, độ chống thấm",
+        "requiredMachineType": "Máy thổi khí áp suất",
+        "requiredPosition": "Nhân viên QA/QC",
+        "prevOperation": ["AP025"],
+        "kpis": [
+            {
+                "id": "D51",
+                "name": "Số sản phẩm qua kiểm nghiệm",
+                "weight": 0.05,
+                "value": 800
+            },
+            {
+                "id": "D52",
+                "name": "Tỷ lệ lỗi lực kéo / thấm nước",
+                "weight": 0.05,
+                "value": 96
+            }
+        ]
+    },
+    {
+        "id": "AP027",
+        "productionOrderId": "LSX1004",
+        "name": "Đóng túi",
+        "requiredMachineType": "Máy đóng gói tự động",
+        "requiredPosition": "Nhân viên đóng gói",
+        "prevOperation": ["AP026"],
+        "kpis": [
+            {
+                "id": "D61",
+                "name": "Số lượng áo được đóng túi",
+                "weight": 0.05,
+                "value": 800
+            },
+            {
+                "id": "D62",
+                "name": "Tỷ lệ nhăn, rách túi",
+                "weight": 0.05,
+                "value": 98
+            }
+        ]
+    },
+    {
+        "id": "AP028",
+        "productionOrderId": "LSX1005",
+        "name": "Cắt vải theo từng mảnh",
+        "requiredMachineType": "Máy cắt laser",
+        "requiredPosition": "Nhân viên cắt vải",
+        "prevOperation": [],
+        "kpis": [
+            {
+                "id": "D71",
+                "name": "Số mảnh vải cắt đúng mẫu",
+                "weight": 0.05,
+                "value": 4000
+            },
+            {
+                "id": "D72",
+                "name": "Tỷ lệ sai lệch, rách biên",
+                "weight": 0.05,
+                "value": 97
+            }
+        ]
+    },
+    {
+        "id": "AP029",
+        "productionOrderId": "LSX1005",
+        "name": "In logo",
+        "requiredMachineType": "Máy in công nghiệp",
+        "requiredPosition": "Nhân viên in",
+        "prevOperation": ["AP028"],
+        "kpis": [
+            {
+                "id": "E11",
+                "name": "Số mũ in logo đúng tiến độ",
+                "weight": 0.2,
+                "value": 1500
+            },
+            {
+                "id": "E12",
+                "name": "Tỷ lệ logo in sai vị trí/mờ màu",
+                "weight": 0.2,
+                "value": 96
+            }
+        ]
+    },
+    {
+        "id": "AP030",
+        "productionOrderId": "LSX1005",
+        "name": "May ráp đỉnh mũ",
+        "requiredMachineType": "Máy may công nghiệp",
+        "requiredPosition": "Nhân viên may ráp",
+        "prevOperation": ["AP029"],
+        "kpis": [
+            {
+                "id": "E21",
+                "name": "Số mũ may ráp đỉnh đúng hạn",
+                "weight": 0.175,
+                "value": 1500
+            },
+            {
+                "id": "E22",
+                "name": "Tỷ lệ lệch form đỉnh / bung chỉ",
+                "weight": 0.175,
+                "value": 95
+            }
+        ]
+    },
+    {
+        "id": "AP031",
+        "productionOrderId": "LSX1005",
+        "name": "Đóng nút đỉnh, viền mũ, khóa điều chỉnh",
+        "requiredMachineType": "Máy đóng nút tự động",
+        "requiredPosition": "Nhân viên may chi tiết",
+        "prevOperation": ["AP030"],
+        "kpis": [
+            {
+                "id": "E31",
+                "name": "Số mũ hoàn tất nút, khóa",
+                "weight": 0.15,
+                "value": 1500
+            },
+            {
+                "id": "E32",
+                "name": "Tỷ lệ lệch viền, hở nút, lỗi khóa",
+                "weight": 0.15,
+                "value": 94
+            }
+        ]
+    },
+    {
+        "id": "AP032",
+        "productionOrderId": "LSX1005",
+        "name": "Kiểm QC: đường may, logo, form",
+        "requiredMachineType": "Máy đo form 3D",
+        "requiredPosition": "Nhân viên QA/QC",
+        "prevOperation": ["AP031"],
+        "kpis": [
+            {
+                "id": "E41",
+                "name": "Số mũ được kiểm đạt AQL",
+                "weight": 0.15,
+                "value": 1500
+            },
+            {
+                "id": "E42",
+                "name": "Tỷ lệ lỗi chỉ, form, logo sai",
+                "weight": 0.15,
+                "value": 97
+            }
+        ]
+    },
+    {
+        "id": "AP033",
+        "productionOrderId": "LSX1005",
+        "name": "Đóng hộp lô lớn",
+        "requiredMachineType": "Máy đóng hộp tự động",
+        "requiredPosition": "Nhân viên đóng gói",
+        "prevOperation": ["AP032"],
+        "kpis": [
+            {
+                "id": "E51",
+                "name": "Số mũ được đóng thùng đúng cách",
+                "weight": 0.05,
+                "value": 1500
+            },
+            {
+                "id": "E52",
+                "name": "Tỷ lệ móp méo, đóng sai nhóm",
+                "weight": 0.05,
+                "value": 98
+            }
+        ]
+    },
+    {
+        "id": "AP034",
+        "productionOrderId": "LSX1006",
+        "name": "Thiết kế và rập mẫu theo xu hướng",
+        "requiredMachineType": "Máy cắt rập CNC",
+        "requiredPosition": "Nhân viên thiết kế thời trang",
+        "prevOperation": [],
+        "kpis": [
+            {
+                "id": "E61",
+                "name": "Số mẫu rập hoàn thành đúng deadline",
+                "weight": 0.05,
+                "value": 280
+            },
+            {
+                "id": "E62",
+                "name": "Mức độ hợp xu hướng/thị trường",
+                "weight": 0.05,
+                "value": 90
+            }
+        ]
+    },
+    {
+        "id": "AP035",
+        "productionOrderId": "LSX1006",
+        "name": "Cắt vải theo layplan",
+        "requiredMachineType": "Máy cắt laser",
+        "requiredPosition": "Nhân viên cắt vải",
+        "prevOperation": ["AP034"],
+        "kpis": [
+            {
+                "id": "E71",
+                "name": "Số lượng miếng vải cắt đúng sơ đồ",
+                "weight": 0.025,
+                "value": 7500
+            },
+            {
+                "id": "E72",
+                "name": "Tỷ lệ lệch sơ đồ, hao hụt vải",
+                "weight": 0.025,
+                "value": 96
+            }
+        ]
+    },
+    {
+        "id": "AP036",
+        "productionOrderId": "LSX1006",
+        "name": "May form mẫu (bodice, skirt, tay)",
+        "requiredMachineType": "Máy may công nghiệp",
+        "requiredPosition": "Nhân viên may công nghiệp",
+        "prevOperation": ["AP035"],
+        "kpis": [
+            {
+                "id": "F11",
+                "name": "Số bộ váy may đúng theo form thiết kế",
+                "weight": 0.2,
+                "value": 1000
+            },
+            {
+                "id": "F12",
+                "name": "Tỷ lệ lỗi đường may, nhăn, lệch vải",
+                "weight": 0.2,
+                "value": 95
+            }
+        ]
+    },
+    {
+        "id": "AP037",
+        "productionOrderId": "LSX1006",
+        "name": "Gắn khóa kéo, may lót trong",
+        "requiredMachineType": "Máy may chuyên dụng",
+        "requiredPosition": "Nhân viên may chi tiết",
+        "prevOperation": ["AP036"],
+        "kpis": [
+            {
+                "id": "F21",
+                "name": "Số bộ váy hoàn thiện khóa & lót đúng hạn",
+                "weight": 0.175,
+                "value": 1000
+            },
+            {
+                "id": "F22",
+                "name": "Tỷ lệ lỗi bung khóa, lệch lót",
+                "weight": 0.175,
+                "value": 94
+            }
+        ]
+    },
+    {
+        "id": "AP038",
+        "productionOrderId": "LSX1006",
+        "name": "Fit form và sửa lỗi",
+        "requiredMachineType": "Máy đo 3D",
+        "requiredPosition": "Nhân viên QA/QC",
+        "prevOperation": ["AP037"],
+        "kpis": [
+            {
+                "id": "F31",
+                "name": "Số bộ váy được fit và chỉnh sửa đạt yêu cầu",
+                "weight": 0.15,
+                "value": 1000
+            },
+            {
+                "id": "F32",
+                "name": "Tỷ lệ váy không vừa size, form lỗi",
+                "weight": 0.15,
+                "value": 96
+            }
+        ]
+    },
+    {
+        "id": "AP039",
+        "productionOrderId": "LSX1006",
+        "name": "Là phẳng từng lớp",
+        "requiredMachineType": "Máy là hơi công nghiệp",
+        "requiredPosition": "Nhân viên là ép",
+        "prevOperation": ["AP038"],
+        "kpis": [
+            {
+                "id": "F41",
+                "name": "Số lớp vải được là đúng kỹ thuật",
+                "weight": 0.1,
+                "value": 3000
+            },
+            {
+                "id": "F42",
+                "name": "Tỷ lệ cháy vải, nếp gấp không đúng",
+                "weight": 0.1,
+                "value": 97
+            }
+        ]
+    },
+    {
+        "id": "AP040",
+        "productionOrderId": "LSX1006",
+        "name": "Đính nhãn, tag size",
+        "requiredMachineType": "Máy in nhãn tự động",
+        "requiredPosition": "Nhân viên gắn nhãn",
+        "prevOperation": ["AP039"],
+        "kpis": [
+            {
+                "id": "F51",
+                "name": "Số bộ váy được gắn nhãn hoàn thiện",
+                "weight": 0.05,
+                "value": 1000
+            },
+            {
+                "id": "F52",
+                "name": "Tỷ lệ sai size, nhãn sai vị trí",
+                "weight": 0.05,
+                "value": 98
+            }
+        ]
+    },
+    {
+        "id": "AP041",
+        "productionOrderId": "LSX1006",
+        "name": "Đóng gói theo bộ sưu tập",
+        "requiredMachineType": "Máy đóng gói chân không",
+        "requiredPosition": "Nhân viên đóng gói",
+        "prevOperation": ["AP040"],
+        "kpis": [
+            {
+                "id": "F61",
+                "name": "Số sản phẩm được đóng đúng nhóm BST",
+                "weight": 0.05,
+                "value": 1000
+            },
+            {
+                "id": "F62",
+                "name": "Tỷ lệ đóng nhầm bộ sưu tập, móp méo",
+                "weight": 0.05,
+                "value": 99
+            }
+        ]
+    },
+    {
+        "id": "AP042",
+        "productionOrderId": "LSX1007",
+        "name": "Chuẩn bị vải chiffon, tơ nhân tạo",
+        "requiredMachineType": "Máy đo độ mỏng vải",
+        "requiredPosition": "Nhân viên xử lý vải",
+        "prevOperation": [],
+        "kpis": [
+            {
+                "id": "F71",
+                "name": "Số cuộn vải được kiểm & xử lý",
+                "weight": 0.025,
+                "value": 200
+            },
+            {
+                "id": "F72",
+                "name": "Tỷ lệ lệch màu, độ mỏng không đạt",
+                "weight": 0.025,
+                "value": 95
+            }
+        ]
+    },
+    {
+        "id": "AP043",
+        "productionOrderId": "LSX1007",
+        "name": "Cắt bằng máy dao tròn",
+        "requiredMachineType": "Máy cắt dao tròn",
+        "requiredPosition": "Nhân viên cắt vải",
+        "prevOperation": ["AP042"],
+        "kpis": [
+            {
+                "id": "G11",
+                "name": "Số lớp vải được cắt chính xác",
+                "weight": 0.15,
+                "value": 1200
+            },
+            {
+                "id": "G12",
+                "name": "Tỷ lệ lệch rập, sờn mép",
+                "weight": 0.15,
+                "value": 96
+            }
+        ]
+    },
+    {
+        "id": "AP044",
+        "productionOrderId": "LSX1007",
+        "name": "May chi tiết mềm (nơ cổ, bèo, tay phồng)",
+        "requiredMachineType": "Máy may chuyên dụng",
+        "requiredPosition": "Nhân viên may chi tiết",
+        "prevOperation": ["AP043"],
+        "kpis": [
+            {
+                "id": "G21",
+                "name": "Số chi tiết mềm may hoàn chỉnh",
+                "weight": 0.175,
+                "value": 1800
+            },
+            {
+                "id": "G22",
+                "name": "Tỷ lệ lỗi co rút, lệch form",
+                "weight": 0.175,
+                "value": 94
+            }
+        ]
+    },
+    {
+        "id": "AP045",
+        "productionOrderId": "LSX1007",
+        "name": "May ráp, nẹp nút",
+        "requiredMachineType": "Máy may công nghiệp",
+        "requiredPosition": "Nhân viên may ráp",
+        "prevOperation": ["AP044"],
+        "kpis": [
+            {
+                "id": "G31",
+                "name": "Số váy được may ráp hoàn chỉnh",
+                "weight": 0.15,
+                "value": 600
+            },
+            {
+                "id": "G32",
+                "name": "Tỷ lệ sai nẹp, lỗi may nối",
+                "weight": 0.15,
+                "value": 94
+            }
+        ]
+    },
+    {
+        "id": "AP046",
+        "productionOrderId": "LSX1007",
+        "name": "Là nhẹ",
+        "requiredMachineType": "Máy là hơi công nghiệp",
+        "requiredPosition": "Nhân viên là ép",
+        "prevOperation": ["AP045"],
+        "kpis": [
+            {
+                "id": "G41",
+                "name": "Số chi tiết là đúng quy trình",
+                "weight": 0.1,
+                "value": 2400
+            },
+            {
+                "id": "G42",
+                "name": "Tỷ lệ cháy, bóng vải",
+                "weight": 0.1,
+                "value": 98
+            }
+        ]
+    },
+    {
+        "id": "AP047",
+        "productionOrderId": "LSX1007",
+        "name": "Kiểm tra đường may, độ trong suốt",
+        "requiredMachineType": "Máy soi đường may",
+        "requiredPosition": "Nhân viên QA/QC",
+        "prevOperation": ["AP046"],
+        "kpis": [
+            {
+                "id": "G51",
+                "name": "Số váy kiểm đạt chuẩn xuyên sáng & đường may",
+                "weight": 0.125,
+                "value": 600
+            },
+            {
+                "id": "G52",
+                "name": "Tỷ lệ sai hình, lỗi đường may ẩn",
+                "weight": 0.125,
+                "value": 95
+            }
+        ]
+    },
+    {
+        "id": "AP048",
+        "productionOrderId": "LSX1007",
+        "name": "Đóng gói thành phẩm",
+        "requiredMachineType": "Máy đóng gói tự động",
+        "requiredPosition": "Nhân viên đóng gói",
+        "prevOperation": ["AP047"],
+        "kpis": [
+            {
+                "id": "G61",
+                "name": "Số sản phẩm đóng đúng quy chuẩn",
+                "weight": 0.075,
+                "value": 600
+            },
+            {
+                "id": "G62",
+                "name": "Tỷ lệ móp, sai size, bao bì lỗi",
+                "weight": 0.075,
+                "value": 98
+            }
+        ]
+    },
+    {
+        "id": "AP049",
+        "productionOrderId": "LSX1008",
+        "name": "Cắt vải lưới / thun co giãn",
+        "requiredMachineType": "Máy cắt laser",
+        "requiredPosition": "Nhân viên cắt vải",
+        "prevOperation": [],
+        "kpis": [
+            {
+                "id": "G71",
+                "name": "Số cuộn vải co giãn được xử lý đúng",
+                "weight": 0.05,
+                "value": 150
+            },
+            {
+                "id": "G72",
+                "name": "Tỷ lệ vải bị giãn, co rút lệch",
+                "weight": 0.05,
+                "value": 95
+            }
+        ]
+    },
+    {
+        "id": "AP050",
+        "productionOrderId": "LSX1008",
+        "name": "May quần lót trong (inner)",
+        "requiredMachineType": "Máy may công nghiệp",
+        "requiredPosition": "Nhân viên may công nghiệp",
+        "prevOperation": ["AP049"],
+        "kpis": [
+            {
+                "id": "I11",
+                "name": "Số bộ quần lót hoàn chỉnh được may",
+                "weight": 0.2,
+                "value": 1800
+            },
+            {
+                "id": "I12",
+                "name": "Tỷ lệ may hỏng, lệch đường may",
+                "weight": 0.2,
+                "value": 98
+            }
+        ]
+    },
+    {
+        "id": "AP051",
+        "productionOrderId": "LSX1008",
+        "name": "May thân trước – thân sau",
+        "requiredMachineType": "Máy may công nghiệp",
+        "requiredPosition": "Nhân viên may ráp",
+        "prevOperation": ["AP050"],
+        "kpis": [
+            {
+                "id": "I21",
+                "name": "Số bộ quần lót may hoàn chỉnh thân trước/sau",
+                "weight": 0.2,
+                "value": 1800
+            },
+            {
+                "id": "I22",
+                "name": "Tỷ lệ sai sót về kích thước, form dáng",
+                "weight": 0.2,
+                "value": 97
+            }
+        ]
+    },
+    {
+        "id": "AP052",
+        "productionOrderId": "LSX1008",
+        "name": "May cạp chun + dây rút",
+        "requiredMachineType": "Máy may chuyên dụng",
+        "requiredPosition": "Nhân viên may chi tiết",
+        "prevOperation": ["AP051"],
+        "kpis": [
+            {
+                "id": "I31",
+                "name": "Số quần lót được may cạp chun và dây rút đúng quy trình",
+                "weight": 0.2,
+                "value": 1800
+            },
+            {
+                "id": "I32",
+                "name": "Tỷ lệ cạp chun bị giãn, co rút sai quy cách",
+                "weight": 0.2,
+                "value": 96
+            }
+        ]
+    },
+    {
+        "id": "AP053",
+        "productionOrderId": "LSX1008",
+        "name": "Kiểm định độ co giãn, độ bền vải",
+        "requiredMachineType": "Máy đo độ co giãn",
+        "requiredPosition": "Nhân viên QA/QC",
+        "prevOperation": ["AP052"],
+        "kpis": [
+            {
+                "id": "I41",
+                "name": "Số quần lót qua kiểm định độ co giãn, độ bền vải",
+                "weight": 0.175,
+                "value": 1800
+            },
+            {
+                "id": "I42",
+                "name": "Tỷ lệ không đạt yêu cầu kiểm định",
+                "weight": 0.175,
+                "value": 95
+            }
+        ]
+    },
+    {
+        "id": "AP054",
+        "productionOrderId": "LSX1008",
+        "name": "Gấp gọn, đóng gói túi PE",
+        "requiredMachineType": "Máy đóng gói tự động",
+        "requiredPosition": "Nhân viên đóng gói",
+        "prevOperation": ["AP053"],
+        "kpis": [
+            {
+                "id": "I51",
+                "name": "Số quần lót gấp gọn và đóng gói túi PE hoàn chỉnh",
+                "weight": 0.15,
+                "value": 1800
+            },
+            {
+                "id": "I52",
+                "name": "Tỷ lệ lỗi trong đóng gói (móp, méo, hỏng bao bì)",
+                "weight": 0.15,
+                "value": 98
+            }
+        ]
+    },
+    {
+        "id": "AP055",
+        "productionOrderId": "LSX1009",
+        "name": "Cắt vải cotton/polyester chống trượt",
+        "requiredMachineType": "Máy cắt laser",
+        "requiredPosition": "Nhân viên xử lý vải",
+        "prevOperation": [],
+        "kpis": [
+            {
+                "id": "G11",
+                "name": "Số cuộn vải được cắt chính xác theo yêu cầu",
+                "weight": 0.2,
+                "value": 250
+            },
+            {
+                "id": "G12",
+                "name": "Tỷ lệ cắt vải bị lỗi kích thước, sai vị trí",
+                "weight": 0.2,
+                "value": 98
+            }
+        ]
+    },
+    {
+        "id": "AP056",
+        "productionOrderId": "LSX1009",
+        "name": "May lòng bàn tay với lớp đệm",
+        "requiredMachineType": "Máy may công nghiệp",
+        "requiredPosition": "Nhân viên may chi tiết",
+        "prevOperation": ["AP055"],
+        "kpis": [
+            {
+                "id": "G21",
+                "name": "Số găng tay hoàn chỉnh với lòng bàn tay đệm",
+                "weight": 0.2,
+                "value": 2500
+            },
+            {
+                "id": "G22",
+                "name": "Tỷ lệ lỗi trong may lòng bàn tay (lệch, vải không đều)",
+                "weight": 0.2,
+                "value": 97
+            }
+        ]
+    },
+    {
+        "id": "AP057",
+        "productionOrderId": "LSX1009",
+        "name": "May bo cổ tay co giãn",
+        "requiredMachineType": "Máy may co giãn",
+        "requiredPosition": "Nhân viên may ráp",
+        "prevOperation": ["AP056"],
+        "kpis": [
+            {
+                "id": "G31",
+                "name": "Số găng tay hoàn chỉnh với bo cổ tay đúng yêu cầu",
+                "weight": 0.175,
+                "value": 2500
+            },
+            {
+                "id": "G32",
+                "name": "Tỷ lệ lỗi trong may bo cổ tay (không vừa, co giãn không tốt)",
+                "weight": 0.175,
+                "value": 96
+            }
+        ]
+    },
+    {
+        "id": "AP058",
+        "productionOrderId": "LSX1009",
+        "name": "Là và kiểm độ vừa tay",
+        "requiredMachineType": "Máy là hơi công nghiệp",
+        "requiredPosition": "Nhân viên là ép",
+        "prevOperation": ["AP057"],
+        "kpis": [
+            {
+                "id": "G41",
+                "name": "Số găng tay kiểm tra và đạt độ vừa tay chuẩn",
+                "weight": 0.15,
+                "value": 2500
+            },
+            {
+                "id": "G42",
+                "name": "Tỷ lệ găng tay không đạt độ vừa tay chuẩn",
+                "weight": 0.15,
+                "value": 95
+            }
+        ]
+    },
+    {
+        "id": "AP059",
+        "productionOrderId": "LSX1009",
+        "name": "Test độ trượt & ma sát",
+        "requiredMachineType": "Máy đo ma sát",
+        "requiredPosition": "Nhân viên QA/QC",
+        "prevOperation": ["AP058"],
+        "kpis": [
+            {
+                "id": "G51",
+                "name": "Số găng tay vượt qua kiểm tra độ trượt và ma sát",
+                "weight": 0.1,
+                "value": 2500
+            },
+            {
+                "id": "G52",
+                "name": "Tỷ lệ găng tay không đạt kiểm tra độ trượt & ma sát",
+                "weight": 0.1,
+                "value": 95
+            }
+        ]
+    },
+    {
+        "id": "AP060",
+        "productionOrderId": "LSX1009",
+        "name": "Đóng cặp, dán size tag",
+        "requiredMachineType": "Máy dán nhãn tự động",
+        "requiredPosition": "Nhân viên đóng gói",
+        "prevOperation": ["AP059"],
+        "kpis": [
+            {
+                "id": "G61",
+                "name": "Số găng tay được đóng gói và dán size tag hoàn chỉnh",
+                "weight": 0.1,
+                "value": 2500
+            },
+            {
+                "id": "G62",
+                "name": "Tỷ lệ lỗi trong đóng gói (size tag dán sai, đóng gói hỏng)",
+                "weight": 0.1,
+                "value": 98
+            }
+        ]
+    }
+]
