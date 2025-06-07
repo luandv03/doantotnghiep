@@ -55,6 +55,14 @@
 
 ## II. Các tập dữ liệu thử nghiệm
 
+-   Các tập dữ liệu dưới đây đại diện cho các kịch bản thử nghiệm:
+
+Mỗi bộ dữ liệu được thiết kế để kiểm tra khả năng thích ứng của thuật toán trong các điều kiện khác nhau về quy mô và độ phức tạp. Các bộ dữ liệu được tạo ra theo nguyên tắc tăng dần về số lượng lệnh sản xuất, công đoạn, và nguồn lực, giúp đánh giá hiệu suất mở rộng của thuật toán.
+
+    +   Dư thừa tài nguyên: Các bộ dữ liệu này có số lượng máy móc và nhân viên nhiều hơn so với nhu cầu thực tế của các công đoạn, giúp kiểm tra khả năng tối ưu chi phí của thuật toán khi có nhiều lựa chọn. Bộ dữ liệu 1, 2, 3 nằm trong nhóm này, với tỷ lệ máy móc/công đoạn cao (>5).
+    +   Thiếu máy móc: Các bộ dữ liệu này mô phỏng tình huống khi doanh nghiệp có đủ nhân viên nhưng thiếu máy móc, buộc thuật toán phải tối ưu việc sử dụng máy móc hiệu quả nhất. Bộ dữ liệu 7 và 8 được thiết kế với số lượng máy móc bị giảm xuống so với bộ 6 (252 và 145 máy so với 379 máy), trong khi giữ nguyên số lượng công đoạn và nhân viên.
+    +   Thiếu nhân viên: Các bộ dữ liệu này mô phỏng tình huống khi doanh nghiệp có đủ máy móc nhưng thiếu nhân viên có kỹ năng phù hợp, đòi hỏi thuật toán phải tối ưu hóa việc phân bổ nguồn nhân lực hiếm có. Một số kịch bản trong bộ dữ liệu 4, 5, 6 cũng tập trung vào thách thức này, khi số công đoạn tăng lên đáng kể nhưng số nhân viên không tăng tương ứng.
+
 1. Bộ dữ liệu 1
 
 -   3 lệnh sản xuất, 21 công đoạn, 173 máy móc, 160 nhân viên
@@ -390,7 +398,8 @@
 
 ![alt text](image-17.png)
 
-### Bo 8
+### Bộ 8
+
 | Giải pháp | Số lệnh hoàn thành đúng hạn | Tổng số ca | Tổng chi phí |
 | --------- | --------------------------- | ---------- | ------------ |
 | 1         | 17                          | 87         | 1176268.5    |
@@ -424,8 +433,9 @@
 | 29        | 18                          | 80         | 1174948.5    |
 | 30        | 16                          | 85         | 1197916.5    |
 
-- Lời giải tối ưu nhất: (18, 69, 1179854.5)
-- Thời gian thực thi thuật toán: 220.87 giây
+-   Lời giải tối ưu nhất: (18, 69, 1179854.5)
+-   Thời gian thực thi thuật toán: 60.87 giây
+-   Nhận xét: Bộ dữ liệu 8 là kịch bản với số lượng máy móc bị giới hạn (145 máy cho 126 công đoạn). Thời gian thực thi tăng đáng kể (60.87 giây) do thuật toán phải xử lý nhiều ràng buộc hơn trong quá trình tìm kiếm lời giải. Mặc dù vậy, kết quả vẫn đạt được 18 lệnh hoàn thành với số ca tối ưu thấp nhất (69 ca). Đồng dựa vào đồ thị tỷ lệ rảnh của máy móc ta có thấy tỷ lệ này đã giảm đáng kể so với bộ 7. Điều này chứng tỏ khi nguồn lực máy móc bị hạn chế, thuật toán đã tập trung vào việc phân bổ hiệu quả hơn, đảm bảo các máy được tận dụng tối đa trong từng ca làm việc.
 
 ![alt text](image-20.png)
 
@@ -443,10 +453,10 @@
 | Bộ 4       | 6          | 48           | 303        | 180          | 6                  | 26        | 396,242.0    | 31.11              |
 | Bộ 5       | 9          | 63           | 379        | 180          | 9                  | 42        | 600,066.5    | 36.02              |
 | Bộ 6       | 18         | 126          | 379        | 180          | 18                 | 77        | 1217392.0    | 41.63              |
+| Bộ 7       | 18         | 126          | 252        | 180          | 17                 | 75        | 1180679.5    | 47.96              |
+| Bộ 8       | 18         | 126          | 145        | 180          | 18                 | 69        | 1179854.5    | 60.87              |
 
 ### Nhận xét
 
 -   Qua các bộ dữ liệu ta có thể thấy, tùy vào mỗi lần chạy cho ra kết quả fitness khác nhau
--   Thời gian thực hiện qua các bộ dữ liệu có số lượng công đoạn lớn có cùng tập nhân viên, máy móc với bộ dữ liệu có số lượng công đoạn vừa là không đáng kể
--   Kết quả thử nghiệm cho thấy mỗi lần chạy giải thuật đều tạo ra các giải pháp tối ưu khác nhau, điều này thể hiện tính chất ngẫu nhiên và đa dạng trong không gian tìm kiếm của giải thuật di truyền.
--   Đáng chú ý là thời gian thực thi giữa các bộ dữ liệu không tăng đáng kể, ngay cả khi số lượng công đoạn tăng lên gấp đôi. Điều này chứng tỏ giải thuật có khả năng mở rộng tốt và vẫn duy trì hiệu suất ổn định khi quy mô bài toán tăng lên vì độ phức tạp về thời gian chủ yếu phụ thuộc vào số lượng nguồn lực (nhân viên, máy móc)
+-   Thời gian thực hiện qua các bộ dữ liệu có số lượng công đoạn lớn có cùng tập nhân viên, máy móc với bộ dữ liệu có số lượng công đoạn vừa là không đáng kể vì độ phức tạp về thời gian chủ yếu phụ thuộc vào số lượng nguồn lực (nhân viên, máy móc)
