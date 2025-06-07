@@ -75,6 +75,10 @@
 
 -   9 lệnh sản xuất, 63 công đoạn, 379 máy móc, 180 nhân viên
 
+6. Bộ dữ liệu 6
+
+-   18 lệnh sản xuất, 126 công đoạn, 379 máy móc, 180 nhân viên
+
 ## III. Kết quả chạy thử nghiệm
 
 ### Bộ 1
@@ -293,8 +297,8 @@
 
 ![alt text](image-8.png)
 
+### Bộ 6
 
-### Bo 6
 | Giải pháp | Số lệnh hoàn thành đúng hạn | Tổng số ca | Tổng chi phí |
 | --------- | --------------------------- | ---------- | ------------ |
 | 1         | 15                          | 85         | 1183633.0    |
@@ -328,8 +332,8 @@
 | 29        | 15                          | 93         | 1187774.5    |
 | 30        | 18                          | 77         | 1217392.0    |
 
-- Thời gian thực thi thuật toán: 41.63 giây
-- Lời giải tối ưu nhất:(18, 77, 1217392.0)
+-   Thời gian thực thi thuật toán: 41.63 giây
+-   Lời giải tối ưu nhất:(18, 77, 1217392.0)
 
 ![alt text](image-12.png)
 
@@ -346,21 +350,11 @@
 | Bộ 3       | 5          | 35           | 251        | 170          | 5                  | 12        | 267,630.0    | 26.90              |
 | Bộ 4       | 6          | 48           | 303        | 180          | 6                  | 26        | 396,242.0    | 31.11              |
 | Bộ 5       | 9          | 63           | 379        | 180          | 9                  | 42        | 600,066.5    | 36.02              |
+| Bộ 6       | 18         | 126          | 379        | 180          | 18                 | 77        | 1217392.0    | 41.63              |
 
-### Phân tích
+### Nhận xét
 
-1. **Khả năng hoàn thành lệnh sản xuất**: Thuật toán đã hoàn thành tất cả các lệnh sản xuất trong mỗi bộ dữ liệu, thể hiện độ ổn định cao.
-
-2. **Tối ưu số ca làm việc**: Số ca làm việc tăng theo tỷ lệ với số lệnh sản xuất, nhưng không tăng tuyến tính. Điều này cho thấy thuật toán có khả năng tận dụng hiệu quả lịch trình làm việc.
-
-3. **Tối ưu chi phí**: Chi phí tăng theo số lượng lệnh sản xuất, phản ánh mối quan hệ tương quan giữa khối lượng công việc và chi phí thực hiện.
-
-4. **Thời gian thực thi**: Thời gian thực thi tăng theo độ phức tạp của bài toán, nhưng tăng với tốc độ chậm hơn so với tăng kích thước bài toán, cho thấy thuật toán có khả năng mở rộng tốt.
-
-5. **Mối quan hệ giữa nhân viên và máy móc**: Khi số lượng máy móc và nhân viên tăng lên, thuật toán vẫn duy trì được khả năng tìm ra giải pháp tối ưu, thể hiện khả năng xử lý tốt với các ràng buộc phức tạp.
-
-### Kết luận
-
-Thuật toán đã thể hiện hiệu quả cao trong việc lập lịch sản xuất với nhiều ràng buộc phức tạp. Nó không chỉ hoàn thành được tất cả các lệnh sản xuất mà còn tối ưu hóa chi phí và số ca làm việc. Thời gian thực thi hợp lý cho phép áp dụng thuật toán này trong các tình huống thực tế với quy mô vừa và lớn.
-
-Tuy nhiên, cần lưu ý rằng khi số lượng lệnh sản xuất và công đoạn tăng lên đáng kể (như trong bộ dữ liệu 9), số ca làm việc cần thiết tăng nhanh hơn, điều này có thể đặt ra thách thức về khả năng đáp ứng nguồn lực trong thực tế.
+-   Qua các bộ dữ liệu ta có thể thấy, tùy vào mỗi lần chạy cho ra kết quả fitness khác nhau
+-   Thời gian thực hiện qua các bộ dữ liệu có số lượng công đoạn lớn có cùng tập nhân viên, máy móc với bộ dữ liệu có số lượng công đoạn vừa là không đáng kể
+-   Kết quả thử nghiệm cho thấy mỗi lần chạy giải thuật đều tạo ra các giải pháp tối ưu khác nhau, điều này thể hiện tính chất ngẫu nhiên và đa dạng trong không gian tìm kiếm của giải thuật di truyền.
+-   Đáng chú ý là thời gian thực thi giữa các bộ dữ liệu không tăng đáng kể, ngay cả khi số lượng công đoạn tăng lên gấp đôi. Điều này chứng tỏ giải thuật có khả năng mở rộng tốt và vẫn duy trì hiệu suất ổn định khi quy mô bài toán tăng lên vì độ phức tạp về thời gian chủ yếu phụ thuộc vào số lượng nguồn lực (nhân viên, máy móc)

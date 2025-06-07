@@ -10,7 +10,7 @@ Thuật toán lập lịch sản xuất trong bài toán này được đánh gi
 
 ## 2. Tổng số ca làm việc
 
--   **Mục tiêu**: Tối thiểu hóa (càng ít càng tốt)
+-   **Mục tiêu**: Tối thiểu hóa (càng ít càng tốt), là cơ sở để điều chỉnh thời gian bắt đầu, kết thúc các lệnh sản xuất
 -   **Mô tả**: Đây là tiêu chí thứ hai được xem xét. Tổng số ca làm việc đại diện cho tổng số ca sản xuất cần thiết để hoàn thành tất cả các lệnh sản xuất. Mỗi ngày có tối đa n ca. (Hiện tại các bộ dữ liệu đang xét đều mặc định 4 ca)
 -   **Ảnh hưởng**: Khi hai giải pháp có cùng số lệnh hoàn thành đúng hạn, giải pháp có ít ca làm việc hơn sẽ được ưu tiên.
 
