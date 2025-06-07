@@ -1034,7 +1034,7 @@ class HarmonySearch:
             ready_operations.sort(key=lambda x: x[0])
 
         # Chiến lược lập lịch cải tiến
-        max_days = 59  # Giới hạn số ngày
+        max_days = 79  # Giới hạn số ngày
         
         while True:
             # Chuyển đổi datetime thành chuỗi
