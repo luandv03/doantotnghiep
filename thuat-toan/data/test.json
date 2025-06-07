@@ -1,0 +1,1768 @@
+{
+    "assets": [
+        {
+            "id": "A001",
+            "name": "Máy đo độ co giãn Instron 5969",
+            "machineType": "Máy đo độ co giãn",
+            "costPerHour": 150,
+            "productivity": 0.92
+        },
+        {
+            "id": "A002",
+            "name": "Máy đo độ co giãn ZwickRoell AllroundLine",
+            "machineType": "Máy đo độ co giãn",
+            "costPerHour": 170,
+            "productivity": 0.9
+        },
+        {
+            "id": "A003",
+            "name": "Máy đo độ co giãn MTS Criterion",
+            "machineType": "Máy đo độ co giãn",
+            "costPerHour": 160,
+            "productivity": 0.91
+        },
+        {
+            "id": "A004",
+            "name": "Máy đo độ co giãn Shimadzu AGS-X",
+            "machineType": "Máy đo độ co giãn",
+            "costPerHour": 180,
+            "productivity": 0.93
+        },
+        {
+            "id": "A005",
+            "name": "Máy đo độ co giãn Tinius Olsen H25KTI",
+            "machineType": "Máy đo độ co giãn",
+            "costPerHour": 200,
+            "productivity": 0.94
+        },
+        {
+            "id": "A006",
+            "name": "Máy cắt vải tự động Lectra Vector",
+            "machineType": "Máy cắt vải tự động",
+            "costPerHour": 250,
+            "productivity": 0.88
+        },
+        {
+            "id": "A007",
+            "name": "Máy cắt vải tự động Gerber Cutter",
+            "machineType": "Máy cắt vải tự động",
+            "costPerHour": 220,
+            "productivity": 0.85
+        },
+        {
+            "id": "A008",
+            "name": "Máy cắt vải tự động Zünd G3",
+            "machineType": "Máy cắt vải tự động",
+            "costPerHour": 280,
+            "productivity": 0.9
+        },
+        {
+            "id": "A009",
+            "name": "Máy cắt vải tự động Eastman VX2500",
+            "machineType": "Máy cắt vải tự động",
+            "costPerHour": 240,
+            "productivity": 0.87
+        },
+        {
+            "id": "A010",
+            "name": "Máy cắt vải tự động Bullmer PowerCut",
+            "machineType": "Máy cắt vải tự động",
+            "costPerHour": 260,
+            "productivity": 0.89
+        },
+        {
+            "id": "A011",
+            "name": "Máy may công nghiệp Juki DDL-8700",
+            "machineType": "Máy may công nghiệp",
+            "costPerHour": 80,
+            "productivity": 0.95
+        },
+        {
+            "id": "A012",
+            "name": "Máy may công nghiệp Brother B755",
+            "machineType": "Máy may công nghiệp",
+            "costPerHour": 85,
+            "productivity": 0.93
+        },
+        {
+            "id": "A013",
+            "name": "Máy may công nghiệp Singer 191D",
+            "machineType": "Máy may công nghiệp",
+            "costPerHour": 75,
+            "productivity": 0.92
+        },
+        {
+            "id": "A014",
+            "name": "Máy may công nghiệp Pegasus W600",
+            "machineType": "Máy may công nghiệp",
+            "costPerHour": 90,
+            "productivity": 0.94
+        },
+        {
+            "id": "A015",
+            "name": "Máy may công nghiệp Jack JK-9000B",
+            "machineType": "Máy may công nghiệp",
+            "costPerHour": 95,
+            "productivity": 0.91
+        },
+        {
+            "id": "A016",
+            "name": "Máy may chuyên dụng Juki MO-6714S (vắt sổ)",
+            "machineType": "Máy may chuyên dụng",
+            "costPerHour": 100,
+            "productivity": 0.9
+        },
+        {
+            "id": "A017",
+            "name": "Máy may chuyên dụng Brother BAS-326G (thêu)",
+            "machineType": "Máy may chuyên dụng",
+            "costPerHour": 120,
+            "productivity": 0.88
+        },
+        {
+            "id": "A024",
+            "name": "Máy kiểm tra độ bền Testometric M350-10CT",
+            "machineType": "Máy kiểm tra độ bền",
+            "costPerHour": 180,
+            "productivity": 0.87
+        },
+        {
+            "id": "A025",
+            "name": "Máy kiểm tra độ bền ADMET eXpert 7601",
+            "machineType": "Máy kiểm tra độ bền",
+            "costPerHour": 200,
+            "productivity": 0.85
+        },
+        {
+            "id": "A026",
+            "name": "Máy kiểm tra độ bền Hegewald & Peschke Inspekt 200 kN",
+            "machineType": "Máy kiểm tra độ bền",
+            "costPerHour": 220,
+            "productivity": 0.82
+        },
+        {
+            "id": "A027",
+            "name": "Máy đóng gói tự động Bosch Sigpack HML",
+            "machineType": "Máy đóng gói tự động",
+            "costPerHour": 120,
+            "productivity": 0.93
+        },
+        {
+            "id": "A028",
+            "name": "Máy đóng gói tự động Ishida CCW-R Series",
+            "machineType": "Máy đóng gói tự động",
+            "costPerHour": 130,
+            "productivity": 0.9
+        },
+        {
+            "id": "A029",
+            "name": "Máy đóng gói tự động ULMA HFFS",
+            "machineType": "Máy đóng gói tự động",
+            "costPerHour": 140,
+            "productivity": 0.88
+        },
+        {
+            "id": "A030",
+            "name": "Máy đóng gói tự động Matrix 450",
+            "machineType": "Máy đóng gói tự động",
+            "costPerHour": 110,
+            "productivity": 0.91
+        },
+        {
+            "id": "A031",
+            "name": "Máy đóng gói tự động Viking M Series",
+            "machineType": "Máy đóng gói tự động",
+            "costPerHour": 150,
+            "productivity": 0.89
+        },
+        {
+            "id": "A032",
+            "name": "Máy cắt laser Trotec Speedy 400",
+            "machineType": "Máy cắt laser",
+            "costPerHour": 300,
+            "productivity": 0.89
+        },
+        {
+            "id": "A033",
+            "name": "Máy cắt laser Epilog Fusion Pro",
+            "machineType": "Máy cắt laser",
+            "costPerHour": 320,
+            "productivity": 0.9
+        },
+        {
+            "id": "A034",
+            "name": "Máy cắt laser Universal Laser Systems VLS6.75",
+            "machineType": "Máy cắt laser",
+            "costPerHour": 310,
+            "productivity": 0.88
+        },
+        {
+            "id": "A035",
+            "name": "Máy cắt laser Boss Laser LS-2440",
+            "machineType": "Máy cắt laser",
+            "costPerHour": 290,
+            "productivity": 0.87
+        },
+        {
+            "id": "A036",
+            "name": "Máy đính khuy tự động Juki MB-377",
+            "machineType": "Máy đính khuy tự động",
+            "costPerHour": 90,
+            "productivity": 0.91
+        },
+        {
+            "id": "A037",
+            "name": "Máy đính khuy tự động Yamato AD-1300",
+            "machineType": "Máy đính khuy tự động",
+            "costPerHour": 95,
+            "productivity": 0.89
+        },
+        {
+            "id": "A038",
+            "name": "Máy đính khuy tự động Kansai Special MB-3730",
+            "machineType": "Máy đính khuy tự động",
+            "costPerHour": 100,
+            "productivity": 0.88
+        },
+        {
+            "id": "A039",
+            "name": "Máy đính khuy tự động Sunstar KX-500",
+            "machineType": "Máy đính khuy tự động",
+            "costPerHour": 85,
+            "productivity": 0.92
+        },
+        {
+            "id": "A040",
+            "name": "Máy là hơi công nghiệp Veit 8003LP",
+            "machineType": "Máy là hơi công nghiệp",
+            "costPerHour": 110,
+            "productivity": 0.94
+        },
+        {
+            "id": "A041",
+            "name": "Máy là hơi công nghiệp Macpi 449/16",
+            "machineType": "Máy là hơi công nghiệp",
+            "costPerHour": 120,
+            "productivity": 0.92
+        },
+        {
+            "id": "A042",
+            "name": "Máy là hơi công nghiệp Hoffman M-2000",
+            "machineType": "Máy là hơi công nghiệp",
+            "costPerHour": 115,
+            "productivity": 0.9
+        },
+        {
+            "id": "A043",
+            "name": "Máy là hơi công nghiệp Oshima OS-7000",
+            "machineType": "Máy là hơi công nghiệp",
+            "costPerHour": 130,
+            "productivity": 0.93
+        },
+        {
+            "id": "A044",
+            "name": "Thiết bị kiểm tra mẫu Q-Lab QUV",
+            "machineType": "Thiết bị kiểm tra mẫu",
+            "costPerHour": 150,
+            "productivity": 0.85
+        },
+        {
+            "id": "A045",
+            "name": "Thiết bị kiểm tra mẫu Atlas Xenotest Beta LM",
+            "machineType": "Thiết bị kiểm tra mẫu",
+            "costPerHour": 170,
+            "productivity": 0.87
+        },
+        {
+            "id": "A046",
+            "name": "Thiết bị kiểm tra mẫu SGS SART",
+            "machineType": "Thiết bị kiểm tra mẫu",
+            "costPerHour": 160,
+            "productivity": 0.88
+        },
+        {
+            "id": "A047",
+            "name": "Máy in nhãn Epson ColorWorks C7500",
+            "machineType": "Máy in nhãn",
+            "costPerHour": 70,
+            "productivity": 0.93
+        },
+        {
+            "id": "A048",
+            "name": "Máy in nhãn Zebra ZT410",
+            "machineType": "Máy in nhãn",
+            "costPerHour": 80,
+            "productivity": 0.91
+        },
+        {
+            "id": "A049",
+            "name": "Máy in nhãn Brady M210",
+            "machineType": "Máy in nhãn",
+            "costPerHour": 75,
+            "productivity": 0.89
+        },
+        {
+            "id": "A050",
+            "name": "Máy in nhãn Primera LX900",
+            "machineType": "Máy in nhãn",
+            "costPerHour": 90,
+            "productivity": 0.92
+        },
+        {
+            "id": "A051",
+            "name": "Máy sanforizing Monforts Sanfor",
+            "machineType": "Máy sanforizing",
+            "costPerHour": 400,
+            "productivity": 0.82
+        },
+        {
+            "id": "A052",
+            "name": "Máy sanforizing Bruckner Sanforizer",
+            "machineType": "Máy sanforizing",
+            "costPerHour": 420,
+            "productivity": 0.8
+        },
+        {
+            "id": "A053",
+            "name": "Máy sanforizing Sperotto Rimar Sanfor",
+            "machineType": "Máy sanforizing",
+            "costPerHour": 410,
+            "productivity": 0.81
+        },
+        {
+            "id": "A054",
+            "name": "Máy phủ PU tự động Nordson EFD Precision Coating",
+            "machineType": "Máy phủ PU tự động",
+            "costPerHour": 350,
+            "productivity": 0.84
+        },
+        {
+            "id": "A055",
+            "name": "Máy phủ PU tự động Graco Ultramax II",
+            "machineType": "Máy phủ PU tự động",
+            "costPerHour": 340,
+            "productivity": 0.83
+        },
+        {
+            "id": "A056",
+            "name": "Máy phủ PU tự động Sames Kremlin Airmix",
+            "machineType": "Máy phủ PU tự động",
+            "costPerHour": 360,
+            "productivity": 0.85
+        },
+        {
+            "id": "A057",
+            "name": "Máy thổi khí áp suất Festo Air Blower",
+            "machineType": "Máy thổi khí áp suất",
+            "costPerHour": 180,
+            "productivity": 0.86
+        },
+        {
+            "id": "A058",
+            "name": "Máy thổi khí áp suất Kaeser SK Series",
+            "machineType": "Máy thổi khí áp suất",
+            "costPerHour": 190,
+            "productivity": 0.88
+        },
+        {
+            "id": "A059",
+            "name": "Máy thổi khí áp suất Atlas Copco GA 37",
+            "machineType": "Máy thổi khí áp suất",
+            "costPerHour": 200,
+            "productivity": 0.85
+        },
+        {
+            "id": "A060",
+            "name": "Máy in công nghiệp Kornit Avalanche HD6",
+            "machineType": "Máy in công nghiệp",
+            "costPerHour": 280,
+            "productivity": 0.86
+        },
+        {
+            "id": "A061",
+            "name": "Máy in công nghiệp Mimaki TS55-1800",
+            "machineType": "Máy in công nghiệp",
+            "costPerHour": 270,
+            "productivity": 0.85
+        },
+        {
+            "id": "A062",
+            "name": "Máy in công nghiệp Roland DG Texart XT-640",
+            "machineType": "Máy in công nghiệp",
+            "costPerHour": 290,
+            "productivity": 0.87
+        },
+        {
+            "id": "A063",
+            "name": "Máy đóng nút tự động Juki AMS-210EN",
+            "machineType": "Máy đóng nút tự động",
+            "costPerHour": 95,
+            "productivity": 0.91
+        },
+        {
+            "id": "A064",
+            "name": "Máy đóng nút tự động Yamato AD-1250",
+            "machineType": "Máy đóng nút tự động",
+            "costPerHour": 100,
+            "productivity": 0.89
+        },
+        {
+            "id": "A065",
+            "name": "Máy đóng nút tự động Kansai Special MB-3720",
+            "machineType": "Máy đóng nút tự động",
+            "costPerHour": 105,
+            "productivity": 0.9
+        },
+        {
+            "id": "A066",
+            "name": "Máy đo form 3D Vitus 3D Body Scanner",
+            "machineType": "Máy đo form 3D",
+            "costPerHour": 220,
+            "productivity": 0.88
+        },
+        {
+            "id": "A067",
+            "name": "Máy đo form 3D TechMed 3D Measure",
+            "machineType": "Máy đo form 3D",
+            "costPerHour": 240,
+            "productivity": 0.86
+        },
+        {
+            "id": "A068",
+            "name": "Máy đo form 3D Artec Eva",
+            "machineType": "Máy đo form 3D",
+            "costPerHour": 260,
+            "productivity": 0.9
+        },
+        {
+            "id": "A069",
+            "name": "Máy đóng hộp tự động Bosch CP6",
+            "machineType": "Máy đóng hộp tự động",
+            "costPerHour": 180,
+            "productivity": 0.89
+        },
+        {
+            "id": "A070",
+            "name": "Máy đóng hộp tự động IMA Ilapak Delta 420",
+            "machineType": "Máy đóng hộp tự động",
+            "costPerHour": 200,
+            "productivity": 0.91
+        },
+        {
+            "id": "A071",
+            "name": "Máy đóng hộp tự động Omori Carton Sealer",
+            "machineType": "Máy đóng hộp tự động",
+            "costPerHour": 190,
+            "productivity": 0.87
+        },
+        {
+            "id": "A072",
+            "name": "Máy cắt rập CNC Lectra Versalis",
+            "machineType": "Máy cắt rập CNC",
+            "costPerHour": 320,
+            "productivity": 0.9
+        },
+        {
+            "id": "A073",
+            "name": "Máy cắt rập CNC Gerber Paragon",
+            "machineType": "Máy cắt rập CNC",
+            "costPerHour": 330,
+            "productivity": 0.92
+        },
+        {
+            "id": "A074",
+            "name": "Máy cắt rập CNC Tukatech TUKAcut",
+            "machineType": "Máy cắt rập CNC",
+            "costPerHour": 310,
+            "productivity": 0.88
+        },
+        {
+            "id": "A075",
+            "name": "Máy đo 3D Faro Arm ScanArm",
+            "machineType": "Máy đo 3D",
+            "costPerHour": 350,
+            "productivity": 0.85
+        },
+        {
+            "id": "A076",
+            "name": "Máy đo 3D Creaform HandySCAN 3D",
+            "machineType": "Máy đo 3D",
+            "costPerHour": 370,
+            "productivity": 0.87
+        },
+        {
+            "id": "A077",
+            "name": "Máy đo 3D Hexagon Absolute Arm",
+            "machineType": "Máy đo 3D",
+            "costPerHour": 380,
+            "productivity": 0.89
+        },
+        {
+            "id": "A078",
+            "name": "Máy in nhãn tự động SATO CL4NX",
+            "machineType": "Máy in nhãn tự động",
+            "costPerHour": 95,
+            "productivity": 0.93
+        },
+        {
+            "id": "A079",
+            "name": "Máy in nhãn tự động Honeywell PM45",
+            "machineType": "Máy in nhãn tự động",
+            "costPerHour": 100,
+            "productivity": 0.91
+        },
+        {
+            "id": "A080",
+            "name": "Máy in nhãn tự động Toshiba B-SX4T",
+            "machineType": "Máy in nhãn tự động",
+            "costPerHour": 90,
+            "productivity": 0.94
+        },
+        {
+            "id": "A081",
+            "name": "Máy đóng gói chân không Henkelman Boxer 52",
+            "machineType": "Máy đóng gói chân không",
+            "costPerHour": 280,
+            "productivity": 0.86
+        },
+        {
+            "id": "A082",
+            "name": "Máy đóng gói chân không Multivac C500",
+            "machineType": "Máy đóng gói chân không",
+            "costPerHour": 300,
+            "productivity": 0.88
+        },
+        {
+            "id": "A083",
+            "name": "Máy đóng gói chân không Ulma Packaging HFFS",
+            "machineType": "Máy đóng gói chân không",
+            "costPerHour": 290,
+            "productivity": 0.85
+        },
+        {
+            "id": "A094",
+            "name": "Máy đo ma sát Labthink FPT-F1",
+            "machineType": "Máy đo ma sát",
+            "costPerHour": 130,
+            "productivity": 0.86
+        },
+        {
+            "id": "A095",
+            "name": "Máy đo ma sát Trinity ISR-2000",
+            "machineType": "Máy đo ma sát",
+            "costPerHour": 140,
+            "productivity": 0.84
+        },
+        {
+            "id": "A096",
+            "name": "Máy đo ma sát Taber 5700",
+            "machineType": "Máy đo ma sát",
+            "costPerHour": 135,
+            "productivity": 0.88
+        },
+        {
+            "id": "A097",
+            "name": "Máy dán nhãn tự động Label-Aire 3000 Series",
+            "machineType": "Máy dán nhãn tự động",
+            "costPerHour": 95,
+            "productivity": 0.93
+        },
+        {
+            "id": "A098",
+            "name": "Máy dán nhãn tự động HERMA 500",
+            "machineType": "Máy dán nhãn tự động",
+            "costPerHour": 90,
+            "productivity": 0.94
+        },
+        {
+            "id": "A099",
+            "name": "Máy dán nhãn tự động Pack Leader L-200",
+            "machineType": "Máy dán nhãn tự động",
+            "costPerHour": 100,
+            "productivity": 0.91
+        },
+        {
+            "id": "A110",
+            "name": "Máy cắt vải tự động Bullmer PowerCut",
+            "machineType": "Máy cắt vải tự động",
+            "costPerHour": 260,
+            "productivity": 0.89
+        },
+        {
+            "id": "A111",
+            "name": "Máy cắt vải tự động Bullmer CutMaster",
+            "machineType": "Máy cắt vải tự động",
+            "costPerHour": 265,
+            "productivity": 0.88
+        },
+        {
+            "id": "A112",
+            "name": "Máy cắt vải tự động Zünd G3",
+            "machineType": "Máy cắt vải tự động",
+            "costPerHour": 270,
+            "productivity": 0.87
+        },
+        {
+            "id": "A113",
+            "name": "Máy cắt vải tự động Gerber Paragon",
+            "machineType": "Máy cắt vải tự động",
+            "costPerHour": 275,
+            "productivity": 0.86
+        },
+        {
+            "id": "A114",
+            "name": "Máy cắt vải tự động Lectra Cutter",
+            "machineType": "Máy cắt vải tự động",
+            "costPerHour": 280,
+            "productivity": 0.85
+        },
+        {
+            "id": "A115",
+            "name": "Máy cắt vải tự động Gerber Cutter XL",
+            "machineType": "Máy cắt vải tự động",
+            "costPerHour": 285,
+            "productivity": 0.84
+        },
+        {
+            "id": "A120",
+            "name": "Máy may công nghiệp Juki DDL-9000",
+            "machineType": "Máy may công nghiệp",
+            "costPerHour": 85,
+            "productivity": 0.94
+        },
+        {
+            "id": "A121",
+            "name": "Máy may công nghiệp Brother B755A",
+            "machineType": "Máy may công nghiệp",
+            "costPerHour": 90,
+            "productivity": 0.92
+        },
+        {
+            "id": "A122",
+            "name": "Máy may công nghiệp Singer 191DA",
+            "machineType": "Máy may công nghiệp",
+            "costPerHour": 80,
+            "productivity": 0.95
+        },
+        {
+            "id": "A123",
+            "name": "Máy may công nghiệp Pegasus W600A",
+            "machineType": "Máy may công nghiệp",
+            "costPerHour": 95,
+            "productivity": 0.91
+        },
+        {
+            "id": "A124",
+            "name": "Máy may công nghiệp Jack JK-9000C",
+            "machineType": "Máy may công nghiệp",
+            "costPerHour": 92,
+            "productivity": 0.93
+        },
+        {
+            "id": "A125",
+            "name": "Máy may công nghiệp Juki DDL-8700A",
+            "machineType": "Máy may công nghiệp",
+            "costPerHour": 88,
+            "productivity": 0.94
+        },
+        {
+            "id": "A131",
+            "name": "Máy may chuyên dụng Brother BAS-326G (thêu)",
+            "machineType": "Máy may chuyên dụng",
+            "costPerHour": 120,
+            "productivity": 0.88
+        },
+        {
+            "id": "A132",
+            "name": "Máy may chuyên dụng Consew 206RB (may da)",
+            "machineType": "Máy may chuyên dụng",
+            "costPerHour": 130,
+            "productivity": 0.85
+        },
+        {
+            "id": "A138",
+            "name": "Máy may chuyên dụng Consew 206RB-5 (may da)",
+            "machineType": "Máy may chuyên dụng",
+            "costPerHour": 140,
+            "productivity": 0.83
+        },
+        {
+            "id": "A139",
+            "name": "Máy may chuyên dụng Juki MO-7034S (vắt sổ)",
+            "machineType": "Máy may chuyên dụng",
+            "costPerHour": 120,
+            "productivity": 0.87
+        },
+        {
+            "id": "A140",
+            "name": "Máy giặt công nghiệp Primus C500",
+            "machineType": "Máy giặt công nghiệp",
+            "costPerHour": 210,
+            "productivity": 0.85
+        },
+        {
+            "id": "A141",
+            "name": "Máy giặt công nghiệp IPSO WN100",
+            "machineType": "Máy giặt công nghiệp",
+            "costPerHour": 200,
+            "productivity": 0.86
+        },
+        {
+            "id": "A145",
+            "name": "Máy giặt công nghiệp Primus C450",
+            "machineType": "Máy giặt công nghiệp",
+            "costPerHour": 180,
+            "productivity": 0.87
+        },
+        {
+            "id": "A146",
+            "name": "Máy giặt công nghiệp IPSO WN150",
+            "machineType": "Máy giặt công nghiệp",
+            "costPerHour": 210,
+            "productivity": 0.85
+        },
+        {
+            "id": "A147",
+            "name": "Máy giặt công nghiệp Electrolux W800",
+            "machineType": "Máy giặt công nghiệp",
+            "costPerHour": 220,
+            "productivity": 0.82
+        },
+        {
+            "id": "A148",
+            "name": "Máy giặt công nghiệp Girbau HS-70",
+            "machineType": "Máy giặt công nghiệp",
+            "costPerHour": 180,
+            "productivity": 0.88
+        },
+        {
+            "id": "A149",
+            "name": "Máy giặt công nghiệp Speed Queen SR8",
+            "machineType": "Máy giặt công nghiệp",
+            "costPerHour": 200,
+            "productivity": 0.84
+        },
+        {
+            "id": "A150",
+            "name": "Máy kiểm tra độ bền Testometric M400-15CT",
+            "machineType": "Máy kiểm tra độ bền",
+            "costPerHour": 210,
+            "productivity": 0.85
+        },
+        {
+            "id": "A151",
+            "name": "Máy kiểm tra độ bền ADMET eXpert 7602",
+            "machineType": "Máy kiểm tra độ bền",
+            "costPerHour": 220,
+            "productivity": 0.83
+        },
+        {
+            "id": "A152",
+            "name": "Máy kiểm tra độ bền Hegewald & Peschke Inspekt 300 kN",
+            "machineType": "Máy kiểm tra độ bền",
+            "costPerHour": 200,
+            "productivity": 0.86
+        },
+        {
+            "id": "A153",
+            "name": "Máy kiểm tra độ bền Testometric M450-20CT",
+            "machineType": "Máy kiểm tra độ bền",
+            "costPerHour": 190,
+            "productivity": 0.87
+        },
+        {
+            "id": "A159",
+            "name": "Máy kiểm tra độ bền Testometric M550-30CT",
+            "machineType": "Máy kiểm tra độ bền",
+            "costPerHour": 180,
+            "productivity": 0.87
+        },
+        {
+            "id": "A160",
+            "name": "Máy đóng gói tự động Bosch Sigpack 1000",
+            "machineType": "Máy đóng gói tự động",
+            "costPerHour": 140,
+            "productivity": 0.89
+        },
+        {
+            "id": "A161",
+            "name": "Máy đóng gói tự động Ishida CCW-R Plus",
+            "machineType": "Máy đóng gói tự động",
+            "costPerHour": 130,
+            "productivity": 0.9
+        },
+        {
+            "id": "A162",
+            "name": "Máy đóng gói tự động ULMA TFS",
+            "machineType": "Máy đóng gói tự động",
+            "costPerHour": 120,
+            "productivity": 0.91
+        },
+        {
+            "id": "A163",
+            "name": "Máy đóng gói tự động Matrix 600",
+            "machineType": "Máy đóng gói tự động",
+            "costPerHour": 110,
+            "productivity": 0.92
+        },
+        {
+            "id": "A169",
+            "name": "Máy đóng gói tự động Viking M400",
+            "machineType": "Máy đóng gói tự động",
+            "costPerHour": 145,
+            "productivity": 0.9
+        },
+        {
+            "id": "A170",
+            "name": "Máy cắt laser Trotec Speedy 500",
+            "machineType": "Máy cắt laser",
+            "costPerHour": 330,
+            "productivity": 0.9
+        },
+        {
+            "id": "A171",
+            "name": "Máy cắt laser Epilog Fusion Edge",
+            "machineType": "Máy cắt laser",
+            "costPerHour": 310,
+            "productivity": 0.88
+        },
+        {
+            "id": "A172",
+            "name": "Máy cắt laser Universal Laser Systems VLS8.75",
+            "machineType": "Máy cắt laser",
+            "costPerHour": 320,
+            "productivity": 0.89
+        },
+        {
+            "id": "A173",
+            "name": "Máy cắt laser Boss Laser LS-3655",
+            "machineType": "Máy cắt laser",
+            "costPerHour": 290,
+            "productivity": 0.87
+        },
+        {
+            "id": "A180",
+            "name": "Máy đính khuy tự động Juki MB-377",
+            "machineType": "Máy đính khuy tự động",
+            "costPerHour": 95,
+            "productivity": 0.9
+        },
+        {
+            "id": "A181",
+            "name": "Máy đính khuy tự động Yamato AD-1300",
+            "machineType": "Máy đính khuy tự động",
+            "costPerHour": 100,
+            "productivity": 0.88
+        },
+        {
+            "id": "A187",
+            "name": "Máy đính khuy tự động Sunstar KX-600",
+            "machineType": "Máy đính khuy tự động",
+            "costPerHour": 100,
+            "productivity": 0.88
+        },
+        {
+            "id": "A188",
+            "name": "Máy đính khuy tự động Juki MB-377A",
+            "machineType": "Máy đính khuy tự động",
+            "costPerHour": 95,
+            "productivity": 0.9
+        },
+        {
+            "id": "A189",
+            "name": "Máy đính khuy tự động Yamato AD-1500",
+            "machineType": "Máy đính khuy tự động",
+            "costPerHour": 90,
+            "productivity": 0.89
+        },
+        {
+            "id": "A190",
+            "name": "Máy là hơi công nghiệp Veit 8003LP",
+            "machineType": "Máy là hơi công nghiệp",
+            "costPerHour": 115,
+            "productivity": 0.92
+        },
+        {
+            "id": "A191",
+            "name": "Máy là hơi công nghiệp Macpi 449/16",
+            "machineType": "Máy là hơi công nghiệp",
+            "costPerHour": 120,
+            "productivity": 0.91
+        },
+        {
+            "id": "A192",
+            "name": "Máy là hơi công nghiệp Hoffman M-2000",
+            "machineType": "Máy là hơi công nghiệp",
+            "costPerHour": 110,
+            "productivity": 0.93
+        },
+        {
+            "id": "A193",
+            "name": "Máy là hơi công nghiệp Oshima OS-7000",
+            "machineType": "Máy là hơi công nghiệp",
+            "costPerHour": 130,
+            "productivity": 0.89
+        },
+        {
+            "id": "A194",
+            "name": "Máy là hơi công nghiệp Veit 8004LP",
+            "machineType": "Máy là hơi công nghiệp",
+            "costPerHour": 125,
+            "productivity": 0.94
+        },
+        {
+            "id": "A195",
+            "name": "Máy là hơi công nghiệp Macpi 450/16",
+            "machineType": "Máy là hơi công nghiệp",
+            "costPerHour": 120,
+            "productivity": 0.9
+        },
+        {
+            "id": "A200",
+            "name": "Thiết bị kiểm tra mẫu Q-Lab QUV",
+            "machineType": "Thiết bị kiểm tra mẫu",
+            "costPerHour": 160,
+            "productivity": 0.85
+        },
+        {
+            "id": "A201",
+            "name": "Thiết bị kiểm tra mẫu Atlas Xenotest Beta LM",
+            "machineType": "Thiết bị kiểm tra mẫu",
+            "costPerHour": 170,
+            "productivity": 0.87
+        },
+        {
+            "id": "A202",
+            "name": "Thiết bị kiểm tra mẫu SGS SART",
+            "machineType": "Thiết bị kiểm tra mẫu",
+            "costPerHour": 150,
+            "productivity": 0.88
+        },
+        {
+            "id": "A203",
+            "name": "Thiết bị kiểm tra mẫu Q-Lab QUV 2.0",
+            "machineType": "Thiết bị kiểm tra mẫu",
+            "costPerHour": 160,
+            "productivity": 0.86
+        },
+        {
+            "id": "A204",
+            "name": "Thiết bị kiểm tra mẫu Atlas Xenotest Gamma",
+            "machineType": "Thiết bị kiểm tra mẫu",
+            "costPerHour": 170,
+            "productivity": 0.85
+        },
+        {
+            "id": "A205",
+            "name": "Thiết bị kiểm tra mẫu SGS TEST-4500",
+            "machineType": "Thiết bị kiểm tra mẫu",
+            "costPerHour": 160,
+            "productivity": 0.87
+        },
+        {
+            "id": "A206",
+            "name": "Thiết bị kiểm tra mẫu Q-Lab UV-500",
+            "machineType": "Thiết bị kiểm tra mẫu",
+            "costPerHour": 155,
+            "productivity": 0.86
+        },
+        {
+            "id": "A210",
+            "name": "Máy in nhãn Epson ColorWorks C8500",
+            "machineType": "Máy in nhãn",
+            "costPerHour": 80,
+            "productivity": 0.92
+        },
+        {
+            "id": "A211",
+            "name": "Máy in nhãn Zebra ZT420",
+            "machineType": "Máy in nhãn",
+            "costPerHour": 85,
+            "productivity": 0.9
+        },
+        {
+            "id": "A212",
+            "name": "Máy in nhãn Brady M215",
+            "machineType": "Máy in nhãn",
+            "costPerHour": 75,
+            "productivity": 0.89
+        },
+        {
+            "id": "A213",
+            "name": "Máy in nhãn Primera LX920",
+            "machineType": "Máy in nhãn",
+            "costPerHour": 90,
+            "productivity": 0.91
+        },
+        {
+            "id": "A214",
+            "name": "Máy in nhãn Epson ColorWorks C8600",
+            "machineType": "Máy in nhãn",
+            "costPerHour": 80,
+            "productivity": 0.93
+        },
+        {
+            "id": "A215",
+            "name": "Máy in nhãn Zebra ZT450",
+            "machineType": "Máy in nhãn",
+            "costPerHour": 85,
+            "productivity": 0.9
+        },
+        {
+            "id": "A220",
+            "name": "Máy sanforizing Monforts Sanfor 2.0",
+            "machineType": "Máy sanforizing",
+            "costPerHour": 410,
+            "productivity": 0.82
+        },
+        {
+            "id": "A221",
+            "name": "Máy sanforizing Bruckner Sanforizer 2.0",
+            "machineType": "Máy sanforizing",
+            "costPerHour": 420,
+            "productivity": 0.8
+        },
+        {
+            "id": "A222",
+            "name": "Máy sanforizing Sperotto Rimar Sanfor 2.0",
+            "machineType": "Máy sanforizing",
+            "costPerHour": 415,
+            "productivity": 0.81
+        },
+        {
+            "id": "A223",
+            "name": "Máy sanforizing Monforts Sanfor 3.0",
+            "machineType": "Máy sanforizing",
+            "costPerHour": 400,
+            "productivity": 0.82
+        },
+        {
+            "id": "A224",
+            "name": "Máy sanforizing Bruckner Sanforizer 3.0",
+            "machineType": "Máy sanforizing",
+            "costPerHour": 410,
+            "productivity": 0.81
+        },
+        {
+            "id": "A225",
+            "name": "Máy sanforizing Sperotto Rimar Sanfor 3.0",
+            "machineType": "Máy sanforizing",
+            "costPerHour": 405,
+            "productivity": 0.8
+        },
+        {
+            "id": "A226",
+            "name": "Máy sanforizing Monforts Sanfor 4.0",
+            "machineType": "Máy sanforizing",
+            "costPerHour": 420,
+            "productivity": 0.8
+        },
+        {
+            "id": "A230",
+            "name": "Máy phủ PU tự động Nordson EFD Precision Coating 2.0",
+            "machineType": "Máy phủ PU tự động",
+            "costPerHour": 350,
+            "productivity": 0.84
+        },
+        {
+            "id": "A231",
+            "name": "Máy phủ PU tự động Graco Ultramax II 2.0",
+            "machineType": "Máy phủ PU tự động",
+            "costPerHour": 340,
+            "productivity": 0.83
+        },
+        {
+            "id": "A232",
+            "name": "Máy phủ PU tự động Sames Kremlin Airmix 2.0",
+            "machineType": "Máy phủ PU tự động",
+            "costPerHour": 360,
+            "productivity": 0.85
+        },
+        {
+            "id": "A233",
+            "name": "Máy phủ PU tự động Nordson EFD Precision Coating 3.0",
+            "machineType": "Máy phủ PU tự động",
+            "costPerHour": 345,
+            "productivity": 0.83
+        },
+        {
+            "id": "A234",
+            "name": "Máy phủ PU tự động Graco Ultramax II 3.0",
+            "machineType": "Máy phủ PU tự động",
+            "costPerHour": 355,
+            "productivity": 0.84
+        },
+        {
+            "id": "A235",
+            "name": "Máy phủ PU tự động Sames Kremlin Airmix 3.0",
+            "machineType": "Máy phủ PU tự động",
+            "costPerHour": 340,
+            "productivity": 0.85
+        },
+        {
+            "id": "A239",
+            "name": "Máy phủ PU tự động Nordson EFD Precision Coating 5.0",
+            "machineType": "Máy phủ PU tự động",
+            "costPerHour": 340,
+            "productivity": 0.83
+        },
+        {
+            "id": "A240",
+            "name": "Máy thổi khí áp suất Festo Air Blower 2.0",
+            "machineType": "Máy thổi khí áp suất",
+            "costPerHour": 180,
+            "productivity": 0.86
+        },
+        {
+            "id": "A241",
+            "name": "Máy thổi khí áp suất Kaeser SK Series 2.0",
+            "machineType": "Máy thổi khí áp suất",
+            "costPerHour": 190,
+            "productivity": 0.88
+        },
+        {
+            "id": "A242",
+            "name": "Máy thổi khí áp suất Atlas Copco GA 37 2.0",
+            "machineType": "Máy thổi khí áp suất",
+            "costPerHour": 200,
+            "productivity": 0.85
+        },
+        {
+            "id": "A243",
+            "name": "Máy thổi khí áp suất Festo Air Blower 3.0",
+            "machineType": "Máy thổi khí áp suất",
+            "costPerHour": 185,
+            "productivity": 0.87
+        },
+        {
+            "id": "A244",
+            "name": "Máy thổi khí áp suất Kaeser SK Series 3.0",
+            "machineType": "Máy thổi khí áp suất",
+            "costPerHour": 195,
+            "productivity": 0.88
+        },
+        {
+            "id": "A245",
+            "name": "Máy thổi khí áp suất Atlas Copco GA 37 3.0",
+            "machineType": "Máy thổi khí áp suất",
+            "costPerHour": 195,
+            "productivity": 0.85
+        },
+        {
+            "id": "A250",
+            "name": "Máy in công nghiệp Kornit Avalanche HD6 2.0",
+            "machineType": "Máy in công nghiệp",
+            "costPerHour": 280,
+            "productivity": 0.86
+        },
+        {
+            "id": "A251",
+            "name": "Máy in công nghiệp Mimaki TS55-1800 2.0",
+            "machineType": "Máy in công nghiệp",
+            "costPerHour": 270,
+            "productivity": 0.85
+        },
+        {
+            "id": "A252",
+            "name": "Máy in công nghiệp Roland DG Texart XT-640 2.0",
+            "machineType": "Máy in công nghiệp",
+            "costPerHour": 290,
+            "productivity": 0.87
+        },
+        {
+            "id": "A253",
+            "name": "Máy in công nghiệp Kornit Avalanche HD6 3.0",
+            "machineType": "Máy in công nghiệp",
+            "costPerHour": 285,
+            "productivity": 0.86
+        },
+        {
+            "id": "A254",
+            "name": "Máy in công nghiệp Mimaki TS55-1800 3.0",
+            "machineType": "Máy in công nghiệp",
+            "costPerHour": 275,
+            "productivity": 0.85
+        },
+        {
+            "id": "A255",
+            "name": "Máy in công nghiệp Roland DG Texart XT-640 3.0",
+            "machineType": "Máy in công nghiệp",
+            "costPerHour": 295,
+            "productivity": 0.87
+        },
+        {
+            "id": "A260",
+            "name": "Máy đóng nút tự động Juki AMS-210EN 2.0",
+            "machineType": "Máy đóng nút tự động",
+            "costPerHour": 95,
+            "productivity": 0.91
+        },
+        {
+            "id": "A261",
+            "name": "Máy đóng nút tự động Yamato AD-1250 2.0",
+            "machineType": "Máy đóng nút tự động",
+            "costPerHour": 100,
+            "productivity": 0.89
+        },
+        {
+            "id": "A262",
+            "name": "Máy đóng nút tự động Kansai Special MB-3720 2.0",
+            "machineType": "Máy đóng nút tự động",
+            "costPerHour": 105,
+            "productivity": 0.9
+        },
+        {
+            "id": "A270",
+            "name": "Máy đo form 3D Vitus 3D Body Scanner 2.0",
+            "machineType": "Máy đo form 3D",
+            "costPerHour": 220,
+            "productivity": 0.88
+        },
+        {
+            "id": "A271",
+            "name": "Máy đo form 3D TechMed 3D Measure 2.0",
+            "machineType": "Máy đo form 3D",
+            "costPerHour": 240,
+            "productivity": 0.86
+        },
+        {
+            "id": "A272",
+            "name": "Máy đo form 3D Artec Eva 2.0",
+            "machineType": "Máy đo form 3D",
+            "costPerHour": 260,
+            "productivity": 0.9
+        },
+        {
+            "id": "A273",
+            "name": "Máy đo form 3D Vitus 3D Body Scanner 3.0",
+            "machineType": "Máy đo form 3D",
+            "costPerHour": 225,
+            "productivity": 0.88
+        },
+        {
+            "id": "A279",
+            "name": "Máy đo form 3D Vitus 3D Body Scanner 5.0",
+            "machineType": "Máy đo form 3D",
+            "costPerHour": 235,
+            "productivity": 0.88
+        },
+        {
+            "id": "A280",
+            "name": "Máy đóng hộp tự động Bosch CP6 2.0",
+            "machineType": "Máy đóng hộp tự động",
+            "costPerHour": 180,
+            "productivity": 0.89
+        },
+        {
+            "id": "A281",
+            "name": "Máy đóng hộp tự động IMA Ilapak Delta 420 2.0",
+            "machineType": "Máy đóng hộp tự động",
+            "costPerHour": 200,
+            "productivity": 0.91
+        },
+        {
+            "id": "A282",
+            "name": "Máy đóng hộp tự động Omori Carton Sealer 2.0",
+            "machineType": "Máy đóng hộp tự động",
+            "costPerHour": 190,
+            "productivity": 0.87
+        },
+        {
+            "id": "A283",
+            "name": "Máy đóng hộp tự động Bosch CP6 3.0",
+            "machineType": "Máy đóng hộp tự động",
+            "costPerHour": 185,
+            "productivity": 0.89
+        },
+        {
+            "id": "A284",
+            "name": "Máy đóng hộp tự động IMA Ilapak Delta 420 3.0",
+            "machineType": "Máy đóng hộp tự động",
+            "costPerHour": 205,
+            "productivity": 0.91
+        },
+        {
+            "id": "A290",
+            "name": "Máy cắt rập CNC Lectra Versalis 2.0",
+            "machineType": "Máy cắt rập CNC",
+            "costPerHour": 320,
+            "productivity": 0.9
+        },
+        {
+            "id": "A291",
+            "name": "Máy cắt rập CNC Gerber Paragon 2.0",
+            "machineType": "Máy cắt rập CNC",
+            "costPerHour": 330,
+            "productivity": 0.92
+        },
+        {
+            "id": "A292",
+            "name": "Máy cắt rập CNC Tukatech TUKAcut 2.0",
+            "machineType": "Máy cắt rập CNC",
+            "costPerHour": 310,
+            "productivity": 0.88
+        },
+        {
+            "id": "A293",
+            "name": "Máy cắt rập CNC Lectra Versalis 3.0",
+            "machineType": "Máy cắt rập CNC",
+            "costPerHour": 325,
+            "productivity": 0.9
+        },
+        {
+            "id": "A294",
+            "name": "Máy cắt rập CNC Gerber Paragon 3.0",
+            "machineType": "Máy cắt rập CNC",
+            "costPerHour": 335,
+            "productivity": 0.92
+        },
+        {
+            "id": "A300",
+            "name": "Máy đo 3D Faro Arm ScanArm 2.0",
+            "machineType": "Máy đo 3D",
+            "costPerHour": 350,
+            "productivity": 0.85
+        },
+        {
+            "id": "A301",
+            "name": "Máy đo 3D Creaform HandySCAN 3D 2.0",
+            "machineType": "Máy đo 3D",
+            "costPerHour": 370,
+            "productivity": 0.87
+        },
+        {
+            "id": "A302",
+            "name": "Máy đo 3D Hexagon Absolute Arm 2.0",
+            "machineType": "Máy đo 3D",
+            "costPerHour": 380,
+            "productivity": 0.89
+        },
+        {
+            "id": "A303",
+            "name": "Máy đo 3D Faro Arm ScanArm 3.0",
+            "machineType": "Máy đo 3D",
+            "costPerHour": 360,
+            "productivity": 0.85
+        },
+        {
+            "id": "A304",
+            "name": "Máy đo 3D Creaform HandySCAN 3D 3.0",
+            "machineType": "Máy đo 3D",
+            "costPerHour": 380,
+            "productivity": 0.87
+        },
+        {
+            "id": "A305",
+            "name": "Máy đo 3D Hexagon Absolute Arm 3.0",
+            "machineType": "Máy đo 3D",
+            "costPerHour": 390,
+            "productivity": 0.89
+        },
+        {
+            "id": "A310",
+            "name": "Máy in nhãn tự động SATO CL4NX 2.0",
+            "machineType": "Máy in nhãn tự động",
+            "costPerHour": 95,
+            "productivity": 0.93
+        },
+        {
+            "id": "A311",
+            "name": "Máy in nhãn tự động Honeywell PM45 2.0",
+            "machineType": "Máy in nhãn tự động",
+            "costPerHour": 100,
+            "productivity": 0.91
+        },
+        {
+            "id": "A312",
+            "name": "Máy in nhãn tự động Toshiba B-SX4T 2.0",
+            "machineType": "Máy in nhãn tự động",
+            "costPerHour": 90,
+            "productivity": 0.94
+        },
+        {
+            "id": "A313",
+            "name": "Máy in nhãn tự động SATO CL4NX 3.0",
+            "machineType": "Máy in nhãn tự động",
+            "costPerHour": 97,
+            "productivity": 0.93
+        },
+        {
+            "id": "A320",
+            "name": "Máy đóng gói chân không Henkelman Boxer 53",
+            "machineType": "Máy đóng gói chân không",
+            "costPerHour": 285,
+            "productivity": 0.86
+        },
+        {
+            "id": "A321",
+            "name": "Máy đóng gói chân không Multivac C510",
+            "machineType": "Máy đóng gói chân không",
+            "costPerHour": 310,
+            "productivity": 0.88
+        },
+        {
+            "id": "A322",
+            "name": "Máy đóng gói chân không Ulma Packaging HFFS 2.0",
+            "machineType": "Máy đóng gói chân không",
+            "costPerHour": 295,
+            "productivity": 0.85
+        },
+        {
+            "id": "A323",
+            "name": "Máy đóng gói chân không Henkelman Boxer 54",
+            "machineType": "Máy đóng gói chân không",
+            "costPerHour": 290,
+            "productivity": 0.87
+        },
+        {
+            "id": "A324",
+            "name": "Máy đóng gói chân không Multivac C520",
+            "machineType": "Máy đóng gói chân không",
+            "costPerHour": 315,
+            "productivity": 0.89
+        },
+        {
+            "id": "A330",
+            "name": "Máy đo độ mỏng vải Mitutoyo Thickness Gauge 2",
+            "machineType": "Máy đo độ mỏng vải",
+            "costPerHour": 120,
+            "productivity": 0.9
+        },
+        {
+            "id": "A331",
+            "name": "Máy đo độ mỏng vải Mitutoyo Thickness Gauge 3",
+            "machineType": "Máy đo độ mỏng vải",
+            "costPerHour": 125,
+            "productivity": 0.91
+        },
+        {
+            "id": "A332",
+            "name": "Máy đo độ mỏng vải Mitutoyo Thickness Gauge 4",
+            "machineType": "Máy đo độ mỏng vải",
+            "costPerHour": 130,
+            "productivity": 0.89
+        },
+        {
+            "id": "A333",
+            "name": "Máy đo độ mỏng vải Mitutoyo Thickness Gauge 5",
+            "machineType": "Máy đo độ mỏng vải",
+            "costPerHour": 135,
+            "productivity": 0.88
+        },
+        {
+            "id": "A334",
+            "name": "Máy đo độ mỏng vải Mitutoyo Thickness Gauge 6",
+            "machineType": "Máy đo độ mỏng vải",
+            "costPerHour": 140,
+            "productivity": 0.87
+        },
+        {
+            "id": "A335",
+            "name": "Máy đo độ mỏng vải Mitutoyo Thickness Gauge 7",
+            "machineType": "Máy đo độ mỏng vải",
+            "costPerHour": 145,
+            "productivity": 0.86
+        },
+        {
+            "id": "A336",
+            "name": "Máy đo độ mỏng vải Mitutoyo Thickness Gauge 8",
+            "machineType": "Máy đo độ mỏng vải",
+            "costPerHour": 150,
+            "productivity": 0.85
+        },
+        {
+            "id": "A337",
+            "name": "Máy đo độ mỏng vải Mitutoyo Thickness Gauge 9",
+            "machineType": "Máy đo độ mỏng vải",
+            "costPerHour": 155,
+            "productivity": 0.84
+        },
+        {
+            "id": "A338",
+            "name": "Máy đo độ mỏng vải Mitutoyo Thickness Gauge 10",
+            "machineType": "Máy đo độ mỏng vải",
+            "costPerHour": 160,
+            "productivity": 0.83
+        },
+        {
+            "id": "A339",
+            "name": "Máy đo độ mỏng vải Mitutoyo Thickness Gauge 11",
+            "machineType": "Máy đo độ mỏng vải",
+            "costPerHour": 165,
+            "productivity": 0.82
+        },
+        {
+            "id": "A340",
+            "name": "Máy cắt dao tròn Eastman Rotary Cutter 2",
+            "machineType": "Máy cắt dao tròn",
+            "costPerHour": 155,
+            "productivity": 0.88
+        },
+        {
+            "id": "A341",
+            "name": "Máy cắt dao tròn Olfa RTY-3DX 2",
+            "machineType": "Máy cắt dao tròn",
+            "costPerHour": 145,
+            "productivity": 0.9
+        },
+        {
+            "id": "A342",
+            "name": "Máy cắt dao tròn Martelli Rotary Cutter 2",
+            "machineType": "Máy cắt dao tròn",
+            "costPerHour": 165,
+            "productivity": 0.87
+        },
+        {
+            "id": "A343",
+            "name": "Máy cắt dao tròn Eastman Rotary Cutter 3",
+            "machineType": "Máy cắt dao tròn",
+            "costPerHour": 150,
+            "productivity": 0.88
+        },
+        {
+            "id": "A344",
+            "name": "Máy cắt dao tròn Olfa RTY-3DX 3",
+            "machineType": "Máy cắt dao tròn",
+            "costPerHour": 140,
+            "productivity": 0.9
+        },
+        {
+            "id": "A345",
+            "name": "Máy cắt dao tròn Martelli Rotary Cutter 3",
+            "machineType": "Máy cắt dao tròn",
+            "costPerHour": 160,
+            "productivity": 0.87
+        },
+        {
+            "id": "A346",
+            "name": "Máy cắt dao tròn Eastman Rotary Cutter 4",
+            "machineType": "Máy cắt dao tròn",
+            "costPerHour": 155,
+            "productivity": 0.88
+        },
+        {
+            "id": "A347",
+            "name": "Máy cắt dao tròn Olfa RTY-3DX 4",
+            "machineType": "Máy cắt dao tròn",
+            "costPerHour": 145,
+            "productivity": 0.9
+        },
+        {
+            "id": "A348",
+            "name": "Máy cắt dao tròn Martelli Rotary Cutter 4",
+            "machineType": "Máy cắt dao tròn",
+            "costPerHour": 165,
+            "productivity": 0.87
+        },
+        {
+            "id": "A349",
+            "name": "Máy cắt dao tròn Eastman Rotary Cutter 5",
+            "machineType": "Máy cắt dao tròn",
+            "costPerHour": 150,
+            "productivity": 0.88
+        },
+        {
+            "id": "A350",
+            "name": "Máy soi đường may Veit Vision Sewing Analyzer 2",
+            "machineType": "Máy soi đường may",
+            "costPerHour": 185,
+            "productivity": 0.84
+        },
+        {
+            "id": "A351",
+            "name": "Máy soi đường may QIMA Inspection Camera 2",
+            "machineType": "Máy soi đường may",
+            "costPerHour": 195,
+            "productivity": 0.83
+        },
+        {
+            "id": "A352",
+            "name": "Máy soi đường may Testex Seam Inspection System 2",
+            "machineType": "Máy soi đường may",
+            "costPerHour": 180,
+            "productivity": 0.85
+        },
+        {
+            "id": "A353",
+            "name": "Máy soi đường may Veit Vision Sewing Analyzer 3",
+            "machineType": "Máy soi đường may",
+            "costPerHour": 190,
+            "productivity": 0.84
+        },
+        {
+            "id": "A354",
+            "name": "Máy soi đường may QIMA Inspection Camera 3",
+            "machineType": "Máy soi đường may",
+            "costPerHour": 200,
+            "productivity": 0.82
+        },
+        {
+            "id": "A355",
+            "name": "Máy soi đường may Testex Seam Inspection System 3",
+            "machineType": "Máy soi đường may",
+            "costPerHour": 185,
+            "productivity": 0.84
+        },
+        {
+            "id": "A356",
+            "name": "Máy soi đường may Veit Vision Sewing Analyzer 4",
+            "machineType": "Máy soi đường may",
+            "costPerHour": 195,
+            "productivity": 0.83
+        },
+        {
+            "id": "A357",
+            "name": "Máy soi đường may QIMA Inspection Camera 4",
+            "machineType": "Máy soi đường may",
+            "costPerHour": 200,
+            "productivity": 0.82
+        },
+        {
+            "id": "A358",
+            "name": "Máy soi đường may Testex Seam Inspection System 4",
+            "machineType": "Máy soi đường may",
+            "costPerHour": 180,
+            "productivity": 0.85
+        },
+        {
+            "id": "A359",
+            "name": "Máy soi đường may Veit Vision Sewing Analyzer 5",
+            "machineType": "Máy soi đường may",
+            "costPerHour": 190,
+            "productivity": 0.84
+        },
+        {
+            "id": "A360",
+            "name": "Máy may co giãn Juki MO-6700S 2",
+            "machineType": "Máy may co giãn",
+            "costPerHour": 110,
+            "productivity": 0.92
+        },
+        {
+            "id": "A361",
+            "name": "Máy may co giãn Brother BAS-325G 2",
+            "machineType": "Máy may co giãn",
+            "costPerHour": 105,
+            "productivity": 0.91
+        },
+        {
+            "id": "A362",
+            "name": "Máy may co giãn Pegasus W500 2",
+            "machineType": "Máy may co giãn",
+            "costPerHour": 115,
+            "productivity": 0.89
+        },
+        {
+            "id": "A363",
+            "name": "Máy may co giãn Juki MO-6700S 3",
+            "machineType": "Máy may co giãn",
+            "costPerHour": 110,
+            "productivity": 0.92
+        },
+        {
+            "id": "A367",
+            "name": "Máy may co giãn Brother BAS-325G 4",
+            "machineType": "Máy may co giãn",
+            "costPerHour": 105,
+            "productivity": 0.91
+        },
+        {
+            "id": "A368",
+            "name": "Máy may co giãn Pegasus W500 4",
+            "machineType": "Máy may co giãn",
+            "costPerHour": 115,
+            "productivity": 0.89
+        },
+        {
+            "id": "A369",
+            "name": "Máy may co giãn Juki MO-6700S 5",
+            "machineType": "Máy may co giãn",
+            "costPerHour": 110,
+            "productivity": 0.92
+        },
+        {
+            "id": "A370",
+            "name": "Máy đo ma sát Labthink FPT-F1 2",
+            "machineType": "Máy đo ma sát",
+            "costPerHour": 130,
+            "productivity": 0.86
+        },
+        {
+            "id": "A371",
+            "name": "Máy đo ma sát Trinity ISR-2000 2",
+            "machineType": "Máy đo ma sát",
+            "costPerHour": 140,
+            "productivity": 0.84
+        },
+        {
+            "id": "A372",
+            "name": "Máy đo ma sát Taber 5700 2",
+            "machineType": "Máy đo ma sát",
+            "costPerHour": 135,
+            "productivity": 0.88
+        },
+        {
+            "id": "A373",
+            "name": "Máy đo ma sát Labthink FPT-F1 3",
+            "machineType": "Máy đo ma sát",
+            "costPerHour": 130,
+            "productivity": 0.86
+        },
+        {
+            "id": "A374",
+            "name": "Máy đo ma sát Trinity ISR-2000 3",
+            "machineType": "Máy đo ma sát",
+            "costPerHour": 140,
+            "productivity": 0.84
+        },
+        {
+            "id": "A375",
+            "name": "Máy đo ma sát Taber 5700 3",
+            "machineType": "Máy đo ma sát",
+            "costPerHour": 135,
+            "productivity": 0.88
+        },
+        {
+            "id": "A384",
+            "name": "Máy dán nhãn tự động HERMA 500 3",
+            "machineType": "Máy dán nhãn tự động",
+            "costPerHour": 90,
+            "productivity": 0.94
+        },
+        {
+            "id": "A385",
+            "name": "Máy dán nhãn tự động Pack Leader L-200 3",
+            "machineType": "Máy dán nhãn tự động",
+            "costPerHour": 100,
+            "productivity": 0.91
+        },
+        {
+            "id": "A386",
+            "name": "Máy dán nhãn tự động Label-Aire 3000 Series 4",
+            "machineType": "Máy dán nhãn tự động",
+            "costPerHour": 95,
+            "productivity": 0.93
+        },
+        {
+            "id": "A387",
+            "name": "Máy dán nhãn tự động HERMA 500 4",
+            "machineType": "Máy dán nhãn tự động",
+            "costPerHour": 90,
+            "productivity": 0.94
+        },
+        {
+            "id": "A388",
+            "name": "Máy dán nhãn tự động Pack Leader L-200 4",
+            "machineType": "Máy dán nhãn tự động",
+            "costPerHour": 100,
+            "productivity": 0.91
+        },
+        {
+            "id": "A389",
+            "name": "Máy dán nhãn tự động Label-Aire 3000 Series 5",
+            "machineType": "Máy dán nhãn tự động",
+            "costPerHour": 95,
+            "productivity": 0.93
+        }
+    ]
+}
