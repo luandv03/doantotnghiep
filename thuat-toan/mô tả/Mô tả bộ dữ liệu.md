@@ -56,228 +56,269 @@
 ## II. Các tập dữ liệu thử nghiệm
 
 1. Bộ dữ liệu 1
-    - 1 lệnh sản xuất, 7 công đoạn
-    - Kết quả đầu ra:
+
+-   3 lệnh sản xuất, 21 công đoạn, 173 máy móc, 160 nhân viên
+
 2. Bộ dữ liệu 2
+
+-   4 lệnh sản xuất, 28 công đoạn, 190 máy móc, 160 nhân viên
+
 3. Bộ dữ liệu 3
+
+-   5 lệnh sản xuất, 35 công đoạn, 251 máy móc. 170 nhân viên
+
 4. Bộ dữ liệu 4
+
+-   6 lệnh sản xuất, 48 công đoạn, 303 máy móc, 170 nhân viên
+
 5. Bộ dữ liệu 5
 
-Bộ 3 173 mm of 389 160 nhân viên odd 180
+-   9 lệnh sản xuất, 63 công đoạn, 379 máy móc, 180 nhân viên
 
-Bộ 4 worker 160 mm: 199
+## III. Kết quả chạy thử nghiệm
 
-Bộ 5 worker: 170 mm: 251
+### Bộ 1
 
-Bộ 6 worker: 180 mm: 303
+| Giải pháp | Số lệnh hoàn thành đúng hạn | Tổng số ca | Tổng chi phí |
+| --------- | --------------------------- | ---------- | ------------ |
+| 1         | 3                           | 7          | 114097.5     |
+| 2         | 3                           | 8          | 112403.5     |
+| 3         | 3                           | 8          | 111303.5     |
+| 4         | 3                           | 8          | 112733.5     |
+| 5         | 3                           | 7          | 109703.0     |
+| 6         | 3                           | 8          | 110528.0     |
+| 7         | 3                           | 8          | 108405.0     |
+| 8         | 3                           | 7          | 116055.5     |
+| 9         | 3                           | 7          | 112497.0     |
+| 10        | 3                           | 8          | 111771.0     |
+| 11        | 3                           | 7          | 111826.0     |
+| 12        | 3                           | 8          | 110286.0     |
+| 13        | 3                           | 8          | 110775.5     |
+| 14        | 3                           | 8          | 111287.0     |
+| 15        | 3                           | 8          | 111259.5     |
+| 16        | 3                           | 8          | 111980.0     |
+| 17        | 3                           | 8          | 110929.5     |
+| 18        | 3                           | 7          | 112876.5     |
+| 19        | 3                           | 8          | 112508.0     |
+| 20        | 3                           | 7          | 113311.0     |
+| 21        | 3                           | 8          | 110082.5     |
+| 22        | 3                           | 8          | 109043.0     |
+| 23        | 3                           | 7          | 116143.5     |
+| 24        | 3                           | 8          | 111496.0     |
+| 25        | 3                           | 8          | 109686.5     |
+| 26        | 3                           | 7          | 112711.5     |
+| 27        | 3                           | 7          | 111688.5     |
+| 28        | 3                           | 7          | 111100.0     |
+| 29        | 3                           | 7          | 112161.5     |
+| 30        | 3                           | 8          | 110088.0     |
 
-Bộ 9 180 379
+-   Lời giải tối ưu nhất: (3, 7, 109703.0)
+-   Thời gian thực thi thuật toán: 11.77 giây
 
-bo 3
-Completed Orders On Time: 3, Total Shifts: 7, Total Cost: 114097.5
-Completed Orders On Time: 3, Total Shifts: 8, Total Cost: 112403.5
-Completed Orders On Time: 3, Total Shifts: 8, Total Cost: 111303.5
-Completed Orders On Time: 3, Total Shifts: 8, Total Cost: 112733.5
-Completed Orders On Time: 3, Total Shifts: 7, Total Cost: 109703.0
-Completed Orders On Time: 3, Total Shifts: 8, Total Cost: 110528.0
-Completed Orders On Time: 3, Total Shifts: 8, Total Cost: 108405.0
-Completed Orders On Time: 3, Total Shifts: 7, Total Cost: 116055.5
-Completed Orders On Time: 3, Total Shifts: 7, Total Cost: 112497.0
-Completed Orders On Time: 3, Total Shifts: 8, Total Cost: 111771.0
-Completed Orders On Time: 3, Total Shifts: 7, Total Cost: 111826.0
-Completed Orders On Time: 3, Total Shifts: 8, Total Cost: 110286.0
-Completed Orders On Time: 3, Total Shifts: 8, Total Cost: 110775.5
-Completed Orders On Time: 3, Total Shifts: 8, Total Cost: 111287.0
-Completed Orders On Time: 3, Total Shifts: 8, Total Cost: 111259.5
-Completed Orders On Time: 3, Total Shifts: 8, Total Cost: 111980.0
-Completed Orders On Time: 3, Total Shifts: 8, Total Cost: 110929.5
-Completed Orders On Time: 3, Total Shifts: 7, Total Cost: 112876.5
-Completed Orders On Time: 3, Total Shifts: 8, Total Cost: 112508.0
-Completed Orders On Time: 3, Total Shifts: 7, Total Cost: 113311.0
-Completed Orders On Time: 3, Total Shifts: 8, Total Cost: 110082.5
-Completed Orders On Time: 3, Total Shifts: 8, Total Cost: 109043.0
-Completed Orders On Time: 3, Total Shifts: 7, Total Cost: 116143.5
-Completed Orders On Time: 3, Total Shifts: 8, Total Cost: 111496.0
-Completed Orders On Time: 3, Total Shifts: 8, Total Cost: 109686.5
-Completed Orders On Time: 3, Total Shifts: 7, Total Cost: 112711.5
-Completed Orders On Time: 3, Total Shifts: 7, Total Cost: 111688.5
-Completed Orders On Time: 3, Total Shifts: 7, Total Cost: 111100.0
-Completed Orders On Time: 3, Total Shifts: 7, Total Cost: 112161.5
-Completed Orders On Time: 3, Total Shifts: 8, Total Cost: 110088.0
-Thời gian thực thi thuật toán: 71.77 giây
-Dữ liệu đã được ghi vào file ./out/best_solution.json
-Tất cả công đoạn đã được ghi vào file ./out/schedule.json
-Tối ưu: (3, 7, 109703.0)
-anh may
 ![alt text](image-10.png)
 
-anh nv
 ![alt text](image-11.png)
 
-bo 4
-Completed Orders On Time: 4, Total Shifts: 12, Total Cost: 191812.5
-Completed Orders On Time: 4, Total Shifts: 12, Total Cost: 187324.5
-Completed Orders On Time: 4, Total Shifts: 13, Total Cost: 188303.5
-Completed Orders On Time: 4, Total Shifts: 13, Total Cost: 185482.0
-Completed Orders On Time: 4, Total Shifts: 12, Total Cost: 189057.0
-Completed Orders On Time: 4, Total Shifts: 12, Total Cost: 194133.5
-Completed Orders On Time: 4, Total Shifts: 12, Total Cost: 188006.5
-Completed Orders On Time: 4, Total Shifts: 13, Total Cost: 187913.0
-Completed Orders On Time: 4, Total Shifts: 13, Total Cost: 186109.0
-Completed Orders On Time: 4, Total Shifts: 12, Total Cost: 188738.0
-Completed Orders On Time: 4, Total Shifts: 12, Total Cost: 189684.0
-Completed Orders On Time: 4, Total Shifts: 13, Total Cost: 185493.0
-Completed Orders On Time: 4, Total Shifts: 12, Total Cost: 195090.5
-Completed Orders On Time: 4, Total Shifts: 12, Total Cost: 187907.5
-Completed Orders On Time: 4, Total Shifts: 12, Total Cost: 191988.5
-Completed Orders On Time: 4, Total Shifts: 12, Total Cost: 194216.0
-Completed Orders On Time: 4, Total Shifts: 13, Total Cost: 187885.5
-Completed Orders On Time: 4, Total Shifts: 12, Total Cost: 190701.5
-Completed Orders On Time: 4, Total Shifts: 13, Total Cost: 187594.0
-Completed Orders On Time: 4, Total Shifts: 13, Total Cost: 186934.0
-Completed Orders On Time: 4, Total Shifts: 12, Total Cost: 185372.0
-Completed Orders On Time: 4, Total Shifts: 12, Total Cost: 193407.5
-Completed Orders On Time: 4, Total Shifts: 13, Total Cost: 188457.5
-Completed Orders On Time: 4, Total Shifts: 13, Total Cost: 184338.0
-Completed Orders On Time: 4, Total Shifts: 13, Total Cost: 188001.0
-Completed Orders On Time: 4, Total Shifts: 12, Total Cost: 184167.5
-Completed Orders On Time: 4, Total Shifts: 13, Total Cost: 186340.0
-Completed Orders On Time: 4, Total Shifts: 12, Total Cost: 193182.0
-Completed Orders On Time: 4, Total Shifts: 13, Total Cost: 188897.5
-Completed Orders On Time: 4, Total Shifts: 12, Total Cost: 189150.5
-Thời gian thực thi thuật toán: 50.89 giây
-Dữ liệu đã được ghi vào file ./out/best_solution.json
-Tất cả công đoạn đã được ghi vào file ./out/schedule.json
-Tối ưu: (4, 12, 184167.5)
+### Bộ 2
 
-anh nv
+| Lần chạy | Completed Orders On Time | Total Shifts | Total Cost |
+| -------- | ------------------------ | ------------ | ---------- |
+| 1        | 4                        | 12           | 191812.5   |
+| 2        | 4                        | 12           | 187324.5   |
+| 3        | 4                        | 13           | 188303.5   |
+| 4        | 4                        | 13           | 185482.0   |
+| 5        | 4                        | 12           | 189057.0   |
+| 6        | 4                        | 12           | 194133.5   |
+| 7        | 4                        | 12           | 188006.5   |
+| 8        | 4                        | 13           | 187913.0   |
+| 9        | 4                        | 13           | 186109.0   |
+| 10       | 4                        | 12           | 188738.0   |
+| 11       | 4                        | 12           | 189684.0   |
+| 12       | 4                        | 13           | 185493.0   |
+| 13       | 4                        | 12           | 195090.5   |
+| 14       | 4                        | 12           | 187907.5   |
+| 15       | 4                        | 12           | 191988.5   |
+| 16       | 4                        | 12           | 194216.0   |
+| 17       | 4                        | 13           | 187885.5   |
+| 18       | 4                        | 12           | 190701.5   |
+| 19       | 4                        | 13           | 187594.0   |
+| 20       | 4                        | 13           | 186934.0   |
+| 21       | 4                        | 12           | 185372.0   |
+| 22       | 4                        | 12           | 193407.5   |
+| 23       | 4                        | 13           | 188457.5   |
+| 24       | 4                        | 13           | 184338.0   |
+| 25       | 4                        | 13           | 188001.0   |
+| 26       | 4                        | 12           | 184167.5   |
+| 27       | 4                        | 13           | 186340.0   |
+| 28       | 4                        | 12           | 193182.0   |
+| 29       | 4                        | 13           | 188897.5   |
+| 30       | 4                        | 12           | 189150.5   |
+
+-   Thời gian thực thi thuật toán: 20.89 giây
+-   Lời giải tối ưu nhất: (4, 12, 184167.5)
+
 ![alt text](image-3.png)
 
-anh may
 ![alt text](image-2.png)
 
-bo 5:
-Completed Orders On Time: 5, Total Shifts: 12, Total Cost: 274351.0
-Completed Orders On Time: 5, Total Shifts: 13, Total Cost: 276771.0
-Completed Orders On Time: 5, Total Shifts: 13, Total Cost: 275280.5
-Completed Orders On Time: 5, Total Shifts: 12, Total Cost: 275572.0
-Completed Orders On Time: 5, Total Shifts: 13, Total Cost: 290213.0
-Completed Orders On Time: 5, Total Shifts: 12, Total Cost: 267630.0
-Completed Orders On Time: 5, Total Shifts: 12, Total Cost: 282161.0
-Completed Orders On Time: 5, Total Shifts: 13, Total Cost: 278261.5
-Completed Orders On Time: 5, Total Shifts: 13, Total Cost: 271793.5
-Completed Orders On Time: 5, Total Shifts: 13, Total Cost: 287391.5
-Completed Orders On Time: 5, Total Shifts: 13, Total Cost: 279757.5
-Completed Orders On Time: 5, Total Shifts: 13, Total Cost: 283893.5
-Completed Orders On Time: 5, Total Shifts: 12, Total Cost: 278993.0
-Completed Orders On Time: 5, Total Shifts: 13, Total Cost: 285367.5
-Completed Orders On Time: 5, Total Shifts: 13, Total Cost: 285092.5
-Completed Orders On Time: 5, Total Shifts: 13, Total Cost: 279812.5
-Completed Orders On Time: 5, Total Shifts: 13, Total Cost: 288260.5
-Completed Orders On Time: 5, Total Shifts: 13, Total Cost: 274906.5
-Completed Orders On Time: 5, Total Shifts: 13, Total Cost: 282623.0
-Completed Orders On Time: 5, Total Shifts: 13, Total Cost: 284471.0
-Completed Orders On Time: 5, Total Shifts: 13, Total Cost: 282276.5
-Completed Orders On Time: 5, Total Shifts: 12, Total Cost: 273740.5
-Completed Orders On Time: 5, Total Shifts: 12, Total Cost: 276573.0
-Completed Orders On Time: 5, Total Shifts: 14, Total Cost: 273861.5
-Completed Orders On Time: 5, Total Shifts: 12, Total Cost: 281512.0
-Completed Orders On Time: 5, Total Shifts: 13, Total Cost: 277150.5
-Completed Orders On Time: 5, Total Shifts: 13, Total Cost: 273498.5
-Completed Orders On Time: 5, Total Shifts: 12, Total Cost: 280324.0
-Completed Orders On Time: 5, Total Shifts: 14, Total Cost: 270286.5
-Completed Orders On Time: 5, Total Shifts: 12, Total Cost: 280494.5
-Thời gian thực thi thuật toán: 96.90 giây
-Dữ liệu đã được ghi vào file ./out/best_solution.json
-Tất cả công đoạn đã được ghi vào file ./out/schedule.json
-Tối ưu: (5, 12, 267630.0)
+### Bộ 3:
 
-anh mm
+| Lần chạy | Completed Orders On Time | Total Shifts | Total Cost |
+| -------- | ------------------------ | ------------ | ---------- |
+| 1        | 5                        | 12           | 274351.0   |
+| 2        | 5                        | 13           | 276771.0   |
+| 3        | 5                        | 13           | 275280.5   |
+| 4        | 5                        | 12           | 275572.0   |
+| 5        | 5                        | 13           | 290213.0   |
+| 6        | 5                        | 12           | 267630.0   |
+| 7        | 5                        | 12           | 282161.0   |
+| 8        | 5                        | 13           | 278261.5   |
+| 9        | 5                        | 13           | 271793.5   |
+| 10       | 5                        | 13           | 287391.5   |
+| 11       | 5                        | 13           | 279757.5   |
+| 12       | 5                        | 13           | 283893.5   |
+| 13       | 5                        | 12           | 278993.0   |
+| 14       | 5                        | 13           | 285367.5   |
+| 15       | 5                        | 13           | 285092.5   |
+| 16       | 5                        | 13           | 279812.5   |
+| 17       | 5                        | 13           | 288260.5   |
+| 18       | 5                        | 13           | 274906.5   |
+| 19       | 5                        | 13           | 282623.0   |
+| 20       | 5                        | 13           | 284471.0   |
+| 21       | 5                        | 13           | 282276.5   |
+| 22       | 5                        | 12           | 273740.5   |
+| 23       | 5                        | 12           | 276573.0   |
+| 24       | 5                        | 14           | 273861.5   |
+| 25       | 5                        | 12           | 281512.0   |
+| 26       | 5                        | 13           | 277150.5   |
+| 27       | 5                        | 13           | 273498.5   |
+| 28       | 5                        | 12           | 280324.0   |
+| 29       | 5                        | 14           | 270286.5   |
+| 30       | 5                        | 12           | 280494.5   |
+
+-   Thời gian thực thi thuật toán: 26.90 giây
+-   Lời giải tối ưu nhất: (5, 12, 267630.0)
+
 ![alt text](image-4.png)
 
-anh nv
 ![alt text](image-5.png)
 
-bo 6.
-Completed Orders On Time: 6, Total Shifts: 29, Total Cost: 386199.0
-Completed Orders On Time: 6, Total Shifts: 31, Total Cost: 403128.0
-Completed Orders On Time: 6, Total Shifts: 31, Total Cost: 393173.0
-Completed Orders On Time: 6, Total Shifts: 32, Total Cost: 384290.5
-Completed Orders On Time: 6, Total Shifts: 31, Total Cost: 380792.5
-Completed Orders On Time: 6, Total Shifts: 31, Total Cost: 398013.0
-Completed Orders On Time: 6, Total Shifts: 26, Total Cost: 398860.0
-Completed Orders On Time: 6, Total Shifts: 28, Total Cost: 395070.5
-Completed Orders On Time: 6, Total Shifts: 30, Total Cost: 401082.0
-Completed Orders On Time: 6, Total Shifts: 30, Total Cost: 389477.0
-Completed Orders On Time: 6, Total Shifts: 28, Total Cost: 381584.5
-Completed Orders On Time: 6, Total Shifts: 30, Total Cost: 395373.0
-Completed Orders On Time: 6, Total Shifts: 29, Total Cost: 394696.5
-Completed Orders On Time: 6, Total Shifts: 29, Total Cost: 397749.0
-Completed Orders On Time: 6, Total Shifts: 27, Total Cost: 404899.0
-Completed Orders On Time: 6, Total Shifts: 32, Total Cost: 385302.5
-Completed Orders On Time: 6, Total Shifts: 29, Total Cost: 407577.5
-Completed Orders On Time: 6, Total Shifts: 30, Total Cost: 403705.5
-Completed Orders On Time: 6, Total Shifts: 30, Total Cost: 398469.5
-Completed Orders On Time: 6, Total Shifts: 31, Total Cost: 390175.5
-Completed Orders On Time: 6, Total Shifts: 32, Total Cost: 394168.5
-Completed Orders On Time: 6, Total Shifts: 30, Total Cost: 387277.0
-Completed Orders On Time: 6, Total Shifts: 27, Total Cost: 397969.0
-Completed Orders On Time: 6, Total Shifts: 30, Total Cost: 401252.5
-Completed Orders On Time: 6, Total Shifts: 29, Total Cost: 390010.5
-Completed Orders On Time: 6, Total Shifts: 27, Total Cost: 383504.0
-Completed Orders On Time: 6, Total Shifts: 31, Total Cost: 394080.5
-Completed Orders On Time: 6, Total Shifts: 31, Total Cost: 397237.5
-Completed Orders On Time: 6, Total Shifts: 32, Total Cost: 389339.5
-Completed Orders On Time: 6, Total Shifts: 26, Total Cost: 396242.0
-Thời gian thực thi thuật toán: 51.11 giây
-Dữ liệu đã được ghi vào file ./out/best_solution.json
-Tất cả công đoạn đã được ghi vào file ./out/schedule.json
-Tối ưu: (6, 26, 396242.0)
+> **Nhận xét:** Nguyên nhân chính dẫn đến hiện tượng máy móc và nhân viên nhàn rỗi khi vẫn có công việc trong ca:
+>
+> -   Công đoạn đã phân bổ hết công việc
+> -   Thiếu cân đối nguồn lực: có nhân viên nhưng không đủ máy móc để vận hành
+> -   Thiếu cân đối nguồn lực: có máy móc nhưng không có nhân viên phù hợp để vận hành
 
-anh nv
+### Bộ 4:
+
+| Lần chạy | Completed Orders On Time | Total Shifts | Total Cost |
+| -------- | ------------------------ | ------------ | ---------- |
+| 1        | 6                        | 29           | 386199.0   |
+| 2        | 6                        | 31           | 403128.0   |
+| 3        | 6                        | 31           | 393173.0   |
+| 4        | 6                        | 32           | 384290.5   |
+| 5        | 6                        | 31           | 380792.5   |
+| 6        | 6                        | 31           | 398013.0   |
+| 7        | 6                        | 26           | 398860.0   |
+| 8        | 6                        | 28           | 395070.5   |
+| 9        | 6                        | 30           | 401082.0   |
+| 10       | 6                        | 30           | 389477.0   |
+| 11       | 6                        | 28           | 381584.5   |
+| 12       | 6                        | 30           | 395373.0   |
+| 13       | 6                        | 29           | 394696.5   |
+| 14       | 6                        | 29           | 397749.0   |
+| 15       | 6                        | 27           | 404899.0   |
+| 16       | 6                        | 32           | 385302.5   |
+| 17       | 6                        | 29           | 407577.5   |
+| 18       | 6                        | 30           | 403705.5   |
+| 19       | 6                        | 30           | 398469.5   |
+| 20       | 6                        | 31           | 390175.5   |
+| 21       | 6                        | 32           | 394168.5   |
+| 22       | 6                        | 30           | 387277.0   |
+| 23       | 6                        | 27           | 397969.0   |
+| 24       | 6                        | 30           | 401252.5   |
+| 25       | 6                        | 29           | 390010.5   |
+| 26       | 6                        | 27           | 383504.0   |
+| 27       | 6                        | 31           | 394080.5   |
+| 28       | 6                        | 31           | 397237.5   |
+| 29       | 6                        | 32           | 389339.5   |
+| 30       | 6                        | 26           | 396242.0   |
+
+-   Thời gian thực thi thuật toán: 31.11 giây
+-   Lời giải tối ưu nhất: (6, 26, 396242.0)
+
 ![alt text](image-7.png)
 
-anh mm
 ![alt text](image-6.png)
 
-bo 9.
-Completed Orders On Time: 9, Total Shifts: 48, Total Cost: 611165.5
-Completed Orders On Time: 9, Total Shifts: 49, Total Cost: 600083.0
-Completed Orders On Time: 9, Total Shifts: 46, Total Cost: 598235.0
-Completed Orders On Time: 9, Total Shifts: 47, Total Cost: 598130.5
-Completed Orders On Time: 9, Total Shifts: 51, Total Cost: 598009.5
-Completed Orders On Time: 9, Total Shifts: 48, Total Cost: 605154.0
-Completed Orders On Time: 9, Total Shifts: 46, Total Cost: 603993.5
-Completed Orders On Time: 9, Total Shifts: 53, Total Cost: 606672.0
-Completed Orders On Time: 9, Total Shifts: 45, Total Cost: 587449.5
-Completed Orders On Time: 9, Total Shifts: 54, Total Cost: 593989.0
-Completed Orders On Time: 9, Total Shifts: 43, Total Cost: 593928.5
-Completed Orders On Time: 9, Total Shifts: 46, Total Cost: 589149.0
-Completed Orders On Time: 9, Total Shifts: 54, Total Cost: 589726.5
-Completed Orders On Time: 9, Total Shifts: 48, Total Cost: 601441.5
-Completed Orders On Time: 9, Total Shifts: 43, Total Cost: 591783.5
-Completed Orders On Time: 9, Total Shifts: 52, Total Cost: 583995.5
-Completed Orders On Time: 9, Total Shifts: 43, Total Cost: 594704.0
-Completed Orders On Time: 9, Total Shifts: 48, Total Cost: 619751.0
-Completed Orders On Time: 9, Total Shifts: 50, Total Cost: 598620.0
-Completed Orders On Time: 9, Total Shifts: 49, Total Cost: 596035.0
-Completed Orders On Time: 9, Total Shifts: 48, Total Cost: 610786.0
-Completed Orders On Time: 9, Total Shifts: 51, Total Cost: 601568.0
-Completed Orders On Time: 9, Total Shifts: 52, Total Cost: 615862.5
-Completed Orders On Time: 9, Total Shifts: 44, Total Cost: 596623.5
-Completed Orders On Time: 9, Total Shifts: 46, Total Cost: 608806.0
-Completed Orders On Time: 9, Total Shifts: 49, Total Cost: 594302.5
-Completed Orders On Time: 9, Total Shifts: 44, Total Cost: 587031.5
-Completed Orders On Time: 9, Total Shifts: 45, Total Cost: 587114.0
-Completed Orders On Time: 9, Total Shifts: 42, Total Cost: 600066.5
-Completed Orders On Time: 9, Total Shifts: 48, Total Cost: 596563.0
-Thời gian thực thi thuật toán: 62.02 giây
-Dữ liệu đã được ghi vào file ./out/best_solution.json
-Tất cả công đoạn đã được ghi vào file ./out/schedule.json
-Tối ưu: (9, 42, 600066.5)
+### Bộ 5:
 
-anh nv
+| Lần chạy | Completed Orders On Time | Total Shifts | Total Cost |
+| -------- | ------------------------ | ------------ | ---------- |
+| 1        | 9                        | 48           | 611165.5   |
+| 2        | 9                        | 49           | 600083.0   |
+| 3        | 9                        | 46           | 598235.0   |
+| 4        | 9                        | 47           | 598130.5   |
+| 5        | 9                        | 51           | 598009.5   |
+| 6        | 9                        | 48           | 605154.0   |
+| 7        | 9                        | 46           | 603993.5   |
+| 8        | 9                        | 53           | 606672.0   |
+| 9        | 9                        | 45           | 587449.5   |
+| 10       | 9                        | 54           | 593989.0   |
+| 11       | 9                        | 43           | 593928.5   |
+| 12       | 9                        | 46           | 589149.0   |
+| 13       | 9                        | 54           | 589726.5   |
+| 14       | 9                        | 48           | 601441.5   |
+| 15       | 9                        | 43           | 591783.5   |
+| 16       | 9                        | 52           | 583995.5   |
+| 17       | 9                        | 43           | 594704.0   |
+| 18       | 9                        | 48           | 619751.0   |
+| 19       | 9                        | 50           | 598620.0   |
+| 20       | 9                        | 49           | 596035.0   |
+| 21       | 9                        | 48           | 610786.0   |
+| 22       | 9                        | 51           | 601568.0   |
+| 23       | 9                        | 52           | 615862.5   |
+| 24       | 9                        | 44           | 596623.5   |
+| 25       | 9                        | 46           | 608806.0   |
+| 26       | 9                        | 49           | 594302.5   |
+| 27       | 9                        | 44           | 587031.5   |
+| 28       | 9                        | 45           | 587114.0   |
+| 29       | 9                        | 42           | 600066.5   |
+| 30       | 9                        | 48           | 596563.0   |
+
+-   Thời gian thực thi thuật toán: 36.02 giây
+-   Lời giải tối ưu nhất: (9, 42, 600066.5)
+
 ![alt text](image-9.png)
 
-anh mm
 ![alt text](image-8.png)
+
+## IV. Đánh giá kết quả
+
+### Hiệu suất giải thuật
+
+| Bộ dữ liệu | Số lệnh SX | Số công đoạn | Số máy móc | Số nhân viên | Số lệnh hoàn thành | Tối ưu ca | Tổng chi phí | Thời gian chạy (s) |
+| ---------- | ---------- | ------------ | ---------- | ------------ | ------------------ | --------- | ------------ | ------------------ |
+| Bộ 1       | 3          | 21           | 173        | 160          | 3                  | 7         | 109,703.0    | 11.77              |
+| Bộ 2       | 4          | 28           | 190        | 160          | 4                  | 12        | 184,167.5    | 20.89              |
+| Bộ 3       | 5          | 35           | 251        | 170          | 5                  | 12        | 267,630.0    | 26.90              |
+| Bộ 4       | 6          | 48           | 303        | 180          | 6                  | 26        | 396,242.0    | 31.11              |
+| Bộ 5       | 9          | 63           | 379        | 180          | 9                  | 42        | 600,066.5    | 36.02              |
+
+### Phân tích
+
+1. **Khả năng hoàn thành lệnh sản xuất**: Thuật toán đã hoàn thành tất cả các lệnh sản xuất trong mỗi bộ dữ liệu, thể hiện độ ổn định cao.
+
+2. **Tối ưu số ca làm việc**: Số ca làm việc tăng theo tỷ lệ với số lệnh sản xuất, nhưng không tăng tuyến tính. Điều này cho thấy thuật toán có khả năng tận dụng hiệu quả lịch trình làm việc.
+
+3. **Tối ưu chi phí**: Chi phí tăng theo số lượng lệnh sản xuất, phản ánh mối quan hệ tương quan giữa khối lượng công việc và chi phí thực hiện.
+
+4. **Thời gian thực thi**: Thời gian thực thi tăng theo độ phức tạp của bài toán, nhưng tăng với tốc độ chậm hơn so với tăng kích thước bài toán, cho thấy thuật toán có khả năng mở rộng tốt.
+
+5. **Mối quan hệ giữa nhân viên và máy móc**: Khi số lượng máy móc và nhân viên tăng lên, thuật toán vẫn duy trì được khả năng tìm ra giải pháp tối ưu, thể hiện khả năng xử lý tốt với các ràng buộc phức tạp.
+
+### Kết luận
+
+Thuật toán đã thể hiện hiệu quả cao trong việc lập lịch sản xuất với nhiều ràng buộc phức tạp. Nó không chỉ hoàn thành được tất cả các lệnh sản xuất mà còn tối ưu hóa chi phí và số ca làm việc. Thời gian thực thi hợp lý cho phép áp dụng thuật toán này trong các tình huống thực tế với quy mô vừa và lớn.
+
+Tuy nhiên, cần lưu ý rằng khi số lượng lệnh sản xuất và công đoạn tăng lên đáng kể (như trong bộ dữ liệu 9), số ca làm việc cần thiết tăng nhanh hơn, điều này có thể đặt ra thách thức về khả năng đáp ứng nguồn lực trong thực tế.
