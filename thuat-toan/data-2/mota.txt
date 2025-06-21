@@ -1,27 +1,27 @@
-input 3
-w: 12 - 84 - 98
-m: 13 - 75 - 145
+input 1
+worker: 12 vi tri yeu cau - 84 nhan vien - 98
+machine: 13 loai may yeu cau - 75 may moc - 145
 
-input 4
-12- 84 - 101
+input 2
+12 - 84 - 101
 15 - 70 - 145
 
-input 5
+input 3
 13 - 91 - 101
 19 - 95 - 145
 
-input 6
+input 4
 14 - 98 - 101
 23 - 115 - 145
 
+input 5
+14 - 98 - 101
+26 - 130 - 145
+
+input 6
+14 - 98 - 101
+26 - 130 - 145
+
 input 7
-14 - 98 - 101
-26 - 130 - 145
-
-input 8
-14 - 98 - 101
-26 - 130 - 145
-
-input 9
 14 - 98 - 101
 29 - 145 - 145

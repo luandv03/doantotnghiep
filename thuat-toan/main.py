@@ -40,7 +40,7 @@ def write_parsed_data_to_txt(workers, operations, production_orders, assets, fil
 
 def main():
     # Đọc dữ liệu từ file JSON
-    input_data = load_json("thuat-toan/data-2/input9.json")
+    input_data = load_json("thuat-toan/data-2/input3.json")
     schedule_data = load_json("thuat-toan/data-2/monthly_schedule_t45.json")
 
     # Parse dữ liệu

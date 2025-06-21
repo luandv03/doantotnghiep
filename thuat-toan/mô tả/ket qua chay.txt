@@ -33,8 +33,7 @@ Tổng quan thuật toán:
 Kích thước dữ liệu: 98 nhân viên, 145 máy móc, 20 công đoạn, 3 lệnh sản xuất
 Tham số: HMS=30, MaxIter=100, HCR=0.70, PAR=0.47
 Kết quả tốt nhất: 3 lệnh hoàn thành đúng hạn, 33 ca làm việc, 146349.5 chi phí
-Thời gian chạy: 63.93 giây
-Thời gian thực thi thuật toán: 63.94 giây
+Thời gian thực thi thuật toán: 21.70 giây
 Dữ liệu đã được ghi vào file thuat-toan/out/best_solution.json
 Tất cả công đoạn đã được ghi vào file thuat-toan/out/schedule.json
 Tối ưu: (3, 33, 146349.5)
@@ -77,8 +76,8 @@ Tổng quan thuật toán:
 Kích thước dữ liệu: 101 nhân viên, 145 máy móc, 27 công đoạn, 4 lệnh sản xuất
 Tham số: HMS=30, MaxIter=100, HCR=0.70, PAR=0.42
 Kết quả tốt nhất: 4 lệnh hoàn thành đúng hạn, 42 ca làm việc, 61628682.5 chi phí
-Thời gian chạy: 61.32 giây
-Thời gian thực thi thuật toán: 61.34 giây
+Thời gian chạy: 24.08 giây
+Thời gian thực thi thuật toán: 24.08 giây
 Dữ liệu đã được ghi vào file thuat-toan/out/best_solution.json
 Tất cả công đoạn đã được ghi vào file thuat-toan/out/schedule.json
 Tối ưu: (4, 42, 61628682.5)
@@ -118,8 +117,8 @@ Tổng quan thuật toán:
 Kích thước dữ liệu: 101 nhân viên, 145 máy móc, 33 công đoạn, 5 lệnh sản xuất
 Tham số: HMS=30, MaxIter=100, HCR=0.70, PAR=0.44
 Kết quả tốt nhất: 5 lệnh hoàn thành đúng hạn, 54 ca làm việc, 80457960.0 chi phí
-Thời gian chạy: 57.50 giây
-Thời gian thực thi thuật toán: 57.52 giây
+Thời gian chạy: 26.41 giây
+Thời gian thực thi thuật toán: 26.41 giây
 Dữ liệu đã được ghi vào file thuat-toan/out/best_solution.json
 Tất cả công đoạn đã được ghi vào file thuat-toan/out/schedule.json
 Tối ưu: (5, 54, 80457960.0)
@@ -160,8 +159,8 @@ Tổng quan thuật toán:
 Kích thước dữ liệu: 101 nhân viên, 145 máy móc, 41 công đoạn, 6 lệnh sản xuất
 Tham số: HMS=30, MaxIter=100, HCR=0.70, PAR=0.47
 Kết quả tốt nhất: 6 lệnh hoàn thành đúng hạn, 63 ca làm việc, 100937831.5 chi phí
-Thời gian chạy: 66.74 giây
-Thời gian thực thi thuật toán: 66.75 giây
+Thời gian chạy: 31.78 giây
+Thời gian thực thi thuật toán: 31.79 giây
 Dữ liệu đã được ghi vào file thuat-toan/out/best_solution.json
 Tất cả công đoạn đã được ghi vào file thuat-toan/out/schedule.json
 Tối ưu: (6, 63, 100937831.5)
@@ -203,8 +202,8 @@ Tổng quan thuật toán:
 Kích thước dữ liệu: 101 nhân viên, 145 máy móc, 48 công đoạn, 7 lệnh sản xuất
 Tham số: HMS=30, MaxIter=100, HCR=0.70, PAR=0.40
 Kết quả tốt nhất: 7 lệnh hoàn thành đúng hạn, 67 ca làm việc, 111831208.5 chi phí
-Thời gian chạy: 146.89 giây
-Thời gian thực thi thuật toán: 146.91 giây
+Thời gian chạy: 35.04 giây
+Thời gian thực thi thuật toán: 35.04 giây
 Dữ liệu đã được ghi vào file thuat-toan/out/best_solution.json
 Tất cả công đoạn đã được ghi vào file thuat-toan/out/schedule.json
 Tối ưu: (7, 67, 111831208.5)
@@ -245,8 +244,8 @@ Tổng quan thuật toán:
 Kích thước dữ liệu: 101 nhân viên, 145 máy móc, 54 công đoạn, 8 lệnh sản xuất
 Tham số: HMS=30, MaxIter=100, HCR=0.70, PAR=0.42
 Kết quả tốt nhất: 8 lệnh hoàn thành đúng hạn, 82 ca làm việc, 136685092.5 chi phí
-Thời gian chạy: 97.89 giây
-Thời gian thực thi thuật toán: 97.91 giây
+Thời gian chạy: 37.00 giây
+Thời gian thực thi thuật toán: 37.00 giây
 Dữ liệu đã được ghi vào file thuat-toan/out/best_solution.json
 Tất cả công đoạn đã được ghi vào file thuat-toan/out/schedule.json
 Tối ưu: (8, 82, 136685092.5)
@@ -287,8 +286,8 @@ Tổng quan thuật toán:
 Kích thước dữ liệu: 101 nhân viên, 145 máy móc, 60 công đoạn, 9 lệnh sản xuất
 Tham số: HMS=30, MaxIter=100, HCR=0.70, PAR=0.44
 Kết quả tốt nhất: 9 lệnh hoàn thành đúng hạn, 115 ca làm việc, 173959098.5 chi phí
-Thời gian chạy: 94.39 giây
-Thời gian thực thi thuật toán: 94.41 giây
+Thời gian chạy: 48.33 giây
+Thời gian thực thi thuật toán: 48.33 giây
 Dữ liệu đã được ghi vào file thuat-toan/out/best_solution.json
 Tất cả công đoạn đã được ghi vào file thuat-toan/out/schedule.json
 Tối ưu: (9, 115, 173959098.5)
