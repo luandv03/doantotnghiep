@@ -1,265 +1,294 @@
-lan 1:
-Completed Orders On Time: 7, Total Shifts: 71, Total Cost: 602563.5
-Completed Orders On Time: 9, Total Shifts: 63, Total Cost: 596431.0
-Completed Orders On Time: 7, Total Shifts: 75, Total Cost: 603878.0
-Completed Orders On Time: 4, Total Shifts: 84, Total Cost: 612095.0
-Completed Orders On Time: 7, Total Shifts: 75, Total Cost: 602519.5
-Completed Orders On Time: 7, Total Shifts: 76, Total Cost: 573199.0
-Completed Orders On Time: 8, Total Shifts: 74, Total Cost: 610588.0
-Completed Orders On Time: 8, Total Shifts: 70, Total Cost: 621654.0
-Completed Orders On Time: 8, Total Shifts: 75, Total Cost: 607348.5
-Completed Orders On Time: 7, Total Shifts: 75, Total Cost: 587455.0
-Completed Orders On Time: 8, Total Shifts: 74, Total Cost: 605737.0
-Completed Orders On Time: 8, Total Shifts: 74, Total Cost: 604521.5
-Completed Orders On Time: 7, Total Shifts: 75, Total Cost: 599164.5
-Completed Orders On Time: 8, Total Shifts: 78, Total Cost: 598042.5
-Completed Orders On Time: 7, Total Shifts: 75, Total Cost: 605671.0
-Completed Orders On Time: 8, Total Shifts: 74, Total Cost: 611633.0
-Completed Orders On Time: 8, Total Shifts: 76, Total Cost: 612870.5
-Completed Orders On Time: 8, Total Shifts: 71, Total Cost: 599434.0
-Completed Orders On Time: 7, Total Shifts: 71, Total Cost: 588379.0
-Completed Orders On Time: 7, Total Shifts: 73, Total Cost: 595738.0
-Completed Orders On Time: 7, Total Shifts: 75, Total Cost: 606897.5
-Completed Orders On Time: 7, Total Shifts: 71, Total Cost: 594121.0
-Completed Orders On Time: 8, Total Shifts: 71, Total Cost: 616654.5
-Completed Orders On Time: 6, Total Shifts: 84, Total Cost: 613937.5
-Completed Orders On Time: 5, Total Shifts: 92, Total Cost: 616302.5
-Completed Orders On Time: 7, Total Shifts: 67, Total Cost: 614526.0
-Completed Orders On Time: 7, Total Shifts: 75, Total Cost: 601909.0
-Completed Orders On Time: 8, Total Shifts: 71, Total Cost: 595958.0
-Completed Orders On Time: 8, Total Shifts: 85, Total Cost: 612496.5
-Completed Orders On Time: 7, Total Shifts: 76, Total Cost: 606919.5
-Thời gian thực thi thuật toán: 15.38 giây
-Dữ liệu đã được ghi vào file ./out/best_solution.json
-Tất cả công đoạn đã được ghi vào file ./out/schedule.json
-Tối ưu: (9, 63, 596431.0)
+Completed Orders On Time: 3, Total Shifts: 36, Total Cost: 151387.5
+Completed Orders On Time: 3, Total Shifts: 35, Total Cost: 148472.5
+Completed Orders On Time: 3, Total Shifts: 36, Total Cost: 146388.0
+Completed Orders On Time: 3, Total Shifts: 36, Total Cost: 150865.0
+Completed Orders On Time: 3, Total Shifts: 36, Total Cost: 147724.5
+Completed Orders On Time: 3, Total Shifts: 36, Total Cost: 149352.5
+Completed Orders On Time: 3, Total Shifts: 35, Total Cost: 148648.5
+Completed Orders On Time: 3, Total Shifts: 36, Total Cost: 148830.0
+Completed Orders On Time: 3, Total Shifts: 37, Total Cost: 149099.5
+Completed Orders On Time: 3, Total Shifts: 36, Total Cost: 148236.0
+Completed Orders On Time: 3, Total Shifts: 36, Total Cost: 150375.5
+Completed Orders On Time: 3, Total Shifts: 35, Total Cost: 150265.5
+Completed Orders On Time: 3, Total Shifts: 36, Total Cost: 149512.0
+Completed Orders On Time: 3, Total Shifts: 35, Total Cost: 149638.5
+Completed Orders On Time: 3, Total Shifts: 36, Total Cost: 150348.0
+Completed Orders On Time: 3, Total Shifts: 34, Total Cost: 147559.5
+Completed Orders On Time: 3, Total Shifts: 33, Total Cost: 146349.5
+Completed Orders On Time: 3, Total Shifts: 36, Total Cost: 147444.0
+Completed Orders On Time: 3, Total Shifts: 36, Total Cost: 148945.5
+Completed Orders On Time: 3, Total Shifts: 35, Total Cost: 149072.0
+Completed Orders On Time: 3, Total Shifts: 35, Total Cost: 152190.5
+Completed Orders On Time: 3, Total Shifts: 36, Total Cost: 148148.0
+Completed Orders On Time: 3, Total Shifts: 35, Total Cost: 149050.0
+Completed Orders On Time: 3, Total Shifts: 36, Total Cost: 148043.5
+Completed Orders On Time: 3, Total Shifts: 36, Total Cost: 151283.0
+Completed Orders On Time: 3, Total Shifts: 36, Total Cost: 150144.5
+Completed Orders On Time: 3, Total Shifts: 35, Total Cost: 151239.0
+Completed Orders On Time: 3, Total Shifts: 35, Total Cost: 150975.0
+Completed Orders On Time: 3, Total Shifts: 36, Total Cost: 151503.0
+Completed Orders On Time: 3, Total Shifts: 36, Total Cost: 146311.0
+
+Tổng quan thuật toán:
+Kích thước dữ liệu: 98 nhân viên, 145 máy móc, 20 công đoạn, 3 lệnh sản xuất
+Tham số: HMS=30, MaxIter=100, HCR=0.70, PAR=0.47
+Kết quả tốt nhất: 3 lệnh hoàn thành đúng hạn, 33 ca làm việc, 146349.5 chi phí
+Thời gian chạy: 63.93 giây
+Thời gian thực thi thuật toán: 63.94 giây
+Dữ liệu đã được ghi vào file thuat-toan/out/best_solution.json
+Tất cả công đoạn đã được ghi vào file thuat-toan/out/schedule.json
+Tối ưu: (3, 33, 146349.5)
 
 
-lan 2:
-Completed Orders On Time: 7, Total Shifts: 75, Total Cost: 626450.0
-Completed Orders On Time: 8, Total Shifts: 83, Total Cost: 599071.0
-Completed Orders On Time: 7, Total Shifts: 75, Total Cost: 617820.5
-Completed Orders On Time: 8, Total Shifts: 66, Total Cost: 593994.5
-Completed Orders On Time: 8, Total Shifts: 74, Total Cost: 617281.5
-Completed Orders On Time: 9, Total Shifts: 64, Total Cost: 615015.5
-Completed Orders On Time: 7, Total Shifts: 75, Total Cost: 600765.0
-Completed Orders On Time: 8, Total Shifts: 66, Total Cost: 606358.5
-Completed Orders On Time: 7, Total Shifts: 75, Total Cost: 608586.0
-Completed Orders On Time: 8, Total Shifts: 81, Total Cost: 618123.0
-Completed Orders On Time: 9, Total Shifts: 69, Total Cost: 597069.0
-Completed Orders On Time: 7, Total Shifts: 78, Total Cost: 599841.0
-Completed Orders On Time: 9, Total Shifts: 63, Total Cost: 618981.0
-Completed Orders On Time: 8, Total Shifts: 68, Total Cost: 616077.0
-Completed Orders On Time: 9, Total Shifts: 62, Total Cost: 591591.0
-Completed Orders On Time: 9, Total Shifts: 69, Total Cost: 617512.5
-Completed Orders On Time: 8, Total Shifts: 75, Total Cost: 591354.5
-Completed Orders On Time: 8, Total Shifts: 67, Total Cost: 619784.0
-Completed Orders On Time: 8, Total Shifts: 81, Total Cost: 603740.5
-Completed Orders On Time: 9, Total Shifts: 60, Total Cost: 612469.0
-Completed Orders On Time: 9, Total Shifts: 72, Total Cost: 605528.0
-Completed Orders On Time: 8, Total Shifts: 75, Total Cost: 612166.5
-Completed Orders On Time: 8, Total Shifts: 78, Total Cost: 599241.5
-Completed Orders On Time: 7, Total Shifts: 73, Total Cost: 601722.0
-Completed Orders On Time: 7, Total Shifts: 73, Total Cost: 605918.5
-Completed Orders On Time: 9, Total Shifts: 64, Total Cost: 611550.5
-Completed Orders On Time: 7, Total Shifts: 78, Total Cost: 597223.0
-Completed Orders On Time: 7, Total Shifts: 74, Total Cost: 602475.5
-Completed Orders On Time: 7, Total Shifts: 75, Total Cost: 597547.5
-Completed Orders On Time: 9, Total Shifts: 65, Total Cost: 617639.0
-Thời gian thực thi thuật toán: 15.61 giây
-Dữ liệu đã được ghi vào file ./out/best_solution.json
-Tất cả công đoạn đã được ghi vào file ./out/schedule.json
-Tối ưu: (9, 60, 612469.0)
 
-lan chay 3:
-Completed Orders On Time: 7, Total Shifts: 75, Total Cost: 626450.0
-Completed Orders On Time: 8, Total Shifts: 83, Total Cost: 599071.0
-Completed Orders On Time: 7, Total Shifts: 75, Total Cost: 617820.5
-Completed Orders On Time: 8, Total Shifts: 66, Total Cost: 593994.5
-Completed Orders On Time: 8, Total Shifts: 74, Total Cost: 617281.5
-Completed Orders On Time: 9, Total Shifts: 64, Total Cost: 615015.5
-Completed Orders On Time: 7, Total Shifts: 75, Total Cost: 600765.0
-Completed Orders On Time: 8, Total Shifts: 66, Total Cost: 606358.5
-Completed Orders On Time: 7, Total Shifts: 75, Total Cost: 608586.0
-Completed Orders On Time: 8, Total Shifts: 81, Total Cost: 618123.0
-Completed Orders On Time: 9, Total Shifts: 69, Total Cost: 597069.0
-Completed Orders On Time: 7, Total Shifts: 78, Total Cost: 599841.0
-Completed Orders On Time: 9, Total Shifts: 63, Total Cost: 618981.0
-Completed Orders On Time: 8, Total Shifts: 68, Total Cost: 616077.0
-Completed Orders On Time: 9, Total Shifts: 62, Total Cost: 591591.0
-Completed Orders On Time: 9, Total Shifts: 69, Total Cost: 617512.5
-Completed Orders On Time: 8, Total Shifts: 75, Total Cost: 591354.5
-Completed Orders On Time: 8, Total Shifts: 67, Total Cost: 619784.0
-Completed Orders On Time: 8, Total Shifts: 81, Total Cost: 603740.5
-Completed Orders On Time: 9, Total Shifts: 60, Total Cost: 612469.0
-Completed Orders On Time: 9, Total Shifts: 72, Total Cost: 605528.0
-Completed Orders On Time: 8, Total Shifts: 75, Total Cost: 612166.5
-Completed Orders On Time: 8, Total Shifts: 78, Total Cost: 599241.5
-Completed Orders On Time: 7, Total Shifts: 73, Total Cost: 601722.0
-Completed Orders On Time: 7, Total Shifts: 73, Total Cost: 605918.5
-Completed Orders On Time: 9, Total Shifts: 64, Total Cost: 611550.5
-Completed Orders On Time: 7, Total Shifts: 78, Total Cost: 597223.0
-Completed Orders On Time: 7, Total Shifts: 74, Total Cost: 602475.5
-Completed Orders On Time: 7, Total Shifts: 75, Total Cost: 597547.5
-Completed Orders On Time: 9, Total Shifts: 65, Total Cost: 617639.0
-Thời gian thực thi thuật toán: 15.61 giây
-Dữ liệu đã được ghi vào file ./out/best_solution.json
-Tất cả công đoạn đã được ghi vào file ./out/schedule.json
-Tối ưu: (9, 60, 612469.0)
+input 4
+Completed Orders On Time: 4, Total Shifts: 42, Total Cost: 61844227.5
+Completed Orders On Time: 4, Total Shifts: 44, Total Cost: 60904244.5
+Completed Orders On Time: 4, Total Shifts: 43, Total Cost: 61676257.5
+Completed Orders On Time: 4, Total Shifts: 42, Total Cost: 62627867.5
+Completed Orders On Time: 4, Total Shifts: 43, Total Cost: 61780367.0
+Completed Orders On Time: 4, Total Shifts: 42, Total Cost: 62125453.5
+Completed Orders On Time: 4, Total Shifts: 43, Total Cost: 60858132.5
+Completed Orders On Time: 4, Total Shifts: 42, Total Cost: 62278606.5
+Completed Orders On Time: 4, Total Shifts: 42, Total Cost: 62104212.5
+Completed Orders On Time: 4, Total Shifts: 43, Total Cost: 61345526.0
+Completed Orders On Time: 4, Total Shifts: 42, Total Cost: 61882535.0
+Completed Orders On Time: 4, Total Shifts: 51, Total Cost: 61525315.5
+Completed Orders On Time: 4, Total Shifts: 42, Total Cost: 61628682.5
+Completed Orders On Time: 4, Total Shifts: 51, Total Cost: 61301394.0
+Completed Orders On Time: 4, Total Shifts: 43, Total Cost: 61454008.0
+Completed Orders On Time: 4, Total Shifts: 42, Total Cost: 62037800.0
+Completed Orders On Time: 4, Total Shifts: 44, Total Cost: 61189452.5
+Completed Orders On Time: 4, Total Shifts: 44, Total Cost: 61398579.0
+Completed Orders On Time: 4, Total Shifts: 44, Total Cost: 60982075.0
+Completed Orders On Time: 4, Total Shifts: 42, Total Cost: 61684749.5
+Completed Orders On Time: 4, Total Shifts: 44, Total Cost: 61635871.0
+Completed Orders On Time: 4, Total Shifts: 44, Total Cost: 61050753.5
+Completed Orders On Time: 4, Total Shifts: 44, Total Cost: 61322156.5
+Completed Orders On Time: 4, Total Shifts: 49, Total Cost: 61279542.5
+Completed Orders On Time: 4, Total Shifts: 44, Total Cost: 61880615.5
+Completed Orders On Time: 4, Total Shifts: 42, Total Cost: 61827837.5
+Completed Orders On Time: 4, Total Shifts: 44, Total Cost: 61291054.0
+Completed Orders On Time: 4, Total Shifts: 43, Total Cost: 61010763.0
+Completed Orders On Time: 4, Total Shifts: 44, Total Cost: 61551996.0
+Completed Orders On Time: 4, Total Shifts: 44, Total Cost: 61623798.5
 
+Tổng quan thuật toán:
+Kích thước dữ liệu: 101 nhân viên, 145 máy móc, 27 công đoạn, 4 lệnh sản xuất
+Tham số: HMS=30, MaxIter=100, HCR=0.70, PAR=0.42
+Kết quả tốt nhất: 4 lệnh hoàn thành đúng hạn, 42 ca làm việc, 61628682.5 chi phí
+Thời gian chạy: 61.32 giây
+Thời gian thực thi thuật toán: 61.34 giây
+Dữ liệu đã được ghi vào file thuat-toan/out/best_solution.json
+Tất cả công đoạn đã được ghi vào file thuat-toan/out/schedule.json
+Tối ưu: (4, 42, 61628682.5)
 
-lan 1: 1000
-Completed Orders On Time: 9, Total Shifts: 26, Total Cost: 608751.0
-Completed Orders On Time: 9, Total Shifts: 26, Total Cost: 607073.5
-Completed Orders On Time: 9, Total Shifts: 27, Total Cost: 606237.5
-Completed Orders On Time: 9, Total Shifts: 27, Total Cost: 611462.5
-Completed Orders On Time: 9, Total Shifts: 27, Total Cost: 605060.5
-Completed Orders On Time: 9, Total Shifts: 26, Total Cost: 612771.5
-Completed Orders On Time: 9, Total Shifts: 26, Total Cost: 592526.0
-Completed Orders On Time: 9, Total Shifts: 27, Total Cost: 611286.5
-Completed Orders On Time: 9, Total Shifts: 27, Total Cost: 604147.5
-Completed Orders On Time: 9, Total Shifts: 27, Total Cost: 605918.5
-Completed Orders On Time: 9, Total Shifts: 27, Total Cost: 599907.0
-Completed Orders On Time: 9, Total Shifts: 27, Total Cost: 599434.0
-Completed Orders On Time: 9, Total Shifts: 27, Total Cost: 608514.5
-Completed Orders On Time: 9, Total Shifts: 27, Total Cost: 608635.5
-Completed Orders On Time: 9, Total Shifts: 27, Total Cost: 598493.5
-Completed Orders On Time: 9, Total Shifts: 25, Total Cost: 605291.5
-Completed Orders On Time: 9, Total Shifts: 27, Total Cost: 593488.5
-Completed Orders On Time: 9, Total Shifts: 27, Total Cost: 611127.0
-Completed Orders On Time: 9, Total Shifts: 27, Total Cost: 598834.5
-Completed Orders On Time: 9, Total Shifts: 27, Total Cost: 589721.0
-Completed Orders On Time: 9, Total Shifts: 27, Total Cost: 598939.0
-Completed Orders On Time: 9, Total Shifts: 27, Total Cost: 609521.0
-Completed Orders On Time: 9, Total Shifts: 27, Total Cost: 594649.0
-Completed Orders On Time: 9, Total Shifts: 26, Total Cost: 592735.0
-Completed Orders On Time: 9, Total Shifts: 25, Total Cost: 611110.5
-Completed Orders On Time: 9, Total Shifts: 27, Total Cost: 587169.0
-Completed Orders On Time: 9, Total Shifts: 27, Total Cost: 604862.5
-Completed Orders On Time: 9, Total Shifts: 27, Total Cost: 595941.5
-Completed Orders On Time: 9, Total Shifts: 27, Total Cost: 611374.5
-Completed Orders On Time: 9, Total Shifts: 26, Total Cost: 610824.5
-Thời gian thực thi thuật toán: 1270.15 giây
-Dữ liệu đã được ghi vào file ./out/best_solution.json
-Tất cả công đoạn đã được ghi vào file ./out/schedule.json
-Tối ưu: (9, 25, 605291.5)
+Completed Orders On Time: 5, Total Shifts: 54, Total Cost: 81162730.0
+Completed Orders On Time: 5, Total Shifts: 58, Total Cost: 81152989.5
+Completed Orders On Time: 5, Total Shifts: 56, Total Cost: 80594893.5
+Completed Orders On Time: 5, Total Shifts: 56, Total Cost: 81370052.5
+Completed Orders On Time: 5, Total Shifts: 55, Total Cost: 80738284.0
+Completed Orders On Time: 5, Total Shifts: 56, Total Cost: 80311225.5
+Completed Orders On Time: 5, Total Shifts: 54, Total Cost: 80457960.0
+Completed Orders On Time: 5, Total Shifts: 57, Total Cost: 80034812.0
+Completed Orders On Time: 5, Total Shifts: 54, Total Cost: 81382158.0
+Completed Orders On Time: 5, Total Shifts: 56, Total Cost: 81154584.5
+Completed Orders On Time: 5, Total Shifts: 56, Total Cost: 81441354.5
+Completed Orders On Time: 5, Total Shifts: 54, Total Cost: 81149420.0
+Completed Orders On Time: 5, Total Shifts: 57, Total Cost: 80353014.5
+Completed Orders On Time: 5, Total Shifts: 54, Total Cost: 81322554.5
+Completed Orders On Time: 5, Total Shifts: 56, Total Cost: 80635324.0
+Completed Orders On Time: 5, Total Shifts: 56, Total Cost: 80641484.0
+Completed Orders On Time: 5, Total Shifts: 55, Total Cost: 81571996.0
+Completed Orders On Time: 5, Total Shifts: 55, Total Cost: 82077792.5
+Completed Orders On Time: 5, Total Shifts: 57, Total Cost: 80464384.0
+Completed Orders On Time: 5, Total Shifts: 56, Total Cost: 80906573.0
+Completed Orders On Time: 5, Total Shifts: 56, Total Cost: 81373787.0
+Completed Orders On Time: 5, Total Shifts: 57, Total Cost: 80480295.5
+Completed Orders On Time: 5, Total Shifts: 55, Total Cost: 81244460.0
+Completed Orders On Time: 5, Total Shifts: 55, Total Cost: 81750663.5
+Completed Orders On Time: 5, Total Shifts: 55, Total Cost: 81808611.5
+Completed Orders On Time: 5, Total Shifts: 55, Total Cost: 81340451.5
+Completed Orders On Time: 5, Total Shifts: 56, Total Cost: 81241528.5
+Completed Orders On Time: 5, Total Shifts: 54, Total Cost: 81583397.5
+Completed Orders On Time: 5, Total Shifts: 54, Total Cost: 81563960.5
+Completed Orders On Time: 5, Total Shifts: 56, Total Cost: 80899582.5
 
-lan 2: 1000
-Completed Orders On Time: 9, Total Shifts: 50, Total Cost: 605423.5
-Completed Orders On Time: 9, Total Shifts: 54, Total Cost: 598152.5
-Completed Orders On Time: 9, Total Shifts: 55, Total Cost: 598532.0
-Completed Orders On Time: 9, Total Shifts: 51, Total Cost: 590331.5
-Completed Orders On Time: 9, Total Shifts: 54, Total Cost: 600897.0
-Completed Orders On Time: 9, Total Shifts: 55, Total Cost: 594159.5
-Completed Orders On Time: 9, Total Shifts: 53, Total Cost: 599692.5
-Completed Orders On Time: 9, Total Shifts: 55, Total Cost: 592240.0
-Completed Orders On Time: 9, Total Shifts: 55, Total Cost: 592768.0
-Completed Orders On Time: 9, Total Shifts: 53, Total Cost: 594913.0
-Completed Orders On Time: 9, Total Shifts: 54, Total Cost: 613112.5
-Completed Orders On Time: 9, Total Shifts: 54, Total Cost: 597932.5
-Completed Orders On Time: 9, Total Shifts: 53, Total Cost: 602453.5
-Completed Orders On Time: 9, Total Shifts: 53, Total Cost: 605957.0
-Completed Orders On Time: 9, Total Shifts: 55, Total Cost: 598730.0
-Completed Orders On Time: 9, Total Shifts: 52, Total Cost: 598059.0
-Completed Orders On Time: 9, Total Shifts: 54, Total Cost: 590502.0
-Completed Orders On Time: 9, Total Shifts: 54, Total Cost: 592614.0
-Completed Orders On Time: 9, Total Shifts: 54, Total Cost: 592812.0
-Completed Orders On Time: 9, Total Shifts: 55, Total Cost: 599615.5
-Completed Orders On Time: 9, Total Shifts: 55, Total Cost: 595716.0
-Completed Orders On Time: 9, Total Shifts: 55, Total Cost: 593598.5
-Completed Orders On Time: 9, Total Shifts: 55, Total Cost: 588885.0
-Completed Orders On Time: 9, Total Shifts: 52, Total Cost: 584534.5
-Completed Orders On Time: 9, Total Shifts: 54, Total Cost: 591288.5
-Completed Orders On Time: 9, Total Shifts: 54, Total Cost: 603834.0
-Completed Orders On Time: 9, Total Shifts: 54, Total Cost: 616737.0
-Completed Orders On Time: 9, Total Shifts: 50, Total Cost: 604538.0
-Completed Orders On Time: 9, Total Shifts: 54, Total Cost: 596007.5
-Completed Orders On Time: 9, Total Shifts: 54, Total Cost: 590045.5
-Thời gian thực thi thuật toán: 526.77 giây
-Dữ liệu đã được ghi vào file ./out/best_solution.json
-Tất cả công đoạn đã được ghi vào file ./out/schedule.json
-Tối ưu: (9, 50, 604538.0)
-
-lan 3: 1000
-Completed Orders On Time: 9, Total Shifts: 31, Total Cost: 601848.5
-Completed Orders On Time: 9, Total Shifts: 31, Total Cost: 596942.5
-Completed Orders On Time: 9, Total Shifts: 32, Total Cost: 582296.0
-Completed Orders On Time: 9, Total Shifts: 32, Total Cost: 600721.0
-Completed Orders On Time: 9, Total Shifts: 31, Total Cost: 605071.5
-Completed Orders On Time: 9, Total Shifts: 31, Total Cost: 606782.0
-Completed Orders On Time: 9, Total Shifts: 32, Total Cost: 588263.5
-Completed Orders On Time: 9, Total Shifts: 32, Total Cost: 612370.0
-Completed Orders On Time: 9, Total Shifts: 33, Total Cost: 580921.0
-Completed Orders On Time: 9, Total Shifts: 32, Total Cost: 587009.5
-Completed Orders On Time: 9, Total Shifts: 31, Total Cost: 596981.0
-Completed Orders On Time: 9, Total Shifts: 32, Total Cost: 580624.0
-Completed Orders On Time: 9, Total Shifts: 31, Total Cost: 591255.5
-Completed Orders On Time: 9, Total Shifts: 33, Total Cost: 582461.0
-Completed Orders On Time: 9, Total Shifts: 32, Total Cost: 596442.0
-Completed Orders On Time: 9, Total Shifts: 31, Total Cost: 608195.5
-Completed Orders On Time: 9, Total Shifts: 31, Total Cost: 608855.5
-Completed Orders On Time: 9, Total Shifts: 30, Total Cost: 590128.0
-Completed Orders On Time: 9, Total Shifts: 31, Total Cost: 603548.0
-Completed Orders On Time: 9, Total Shifts: 32, Total Cost: 606226.5
-Completed Orders On Time: 9, Total Shifts: 31, Total Cost: 594847.0
-Completed Orders On Time: 9, Total Shifts: 31, Total Cost: 599648.5
-Completed Orders On Time: 9, Total Shifts: 33, Total Cost: 577956.5
-Completed Orders On Time: 9, Total Shifts: 32, Total Cost: 590056.5
-Completed Orders On Time: 9, Total Shifts: 33, Total Cost: 575195.5
-Completed Orders On Time: 9, Total Shifts: 30, Total Cost: 605154.0
-Completed Orders On Time: 9, Total Shifts: 31, Total Cost: 601139.0
-Completed Orders On Time: 9, Total Shifts: 32, Total Cost: 595149.5
-Completed Orders On Time: 9, Total Shifts: 30, Total Cost: 600468.0
-Completed Orders On Time: 9, Total Shifts: 33, Total Cost: 577533.0
-Thời gian thực thi thuật toán: 1187.05 giây
-Dữ liệu đã được ghi vào file ./out/best_solution.json
-Tất cả công đoạn đã được ghi vào file ./out/schedule.json
-Tối ưu: (9, 30, 590128.0)
+Tổng quan thuật toán:
+Kích thước dữ liệu: 101 nhân viên, 145 máy móc, 33 công đoạn, 5 lệnh sản xuất
+Tham số: HMS=30, MaxIter=100, HCR=0.70, PAR=0.44
+Kết quả tốt nhất: 5 lệnh hoàn thành đúng hạn, 54 ca làm việc, 80457960.0 chi phí
+Thời gian chạy: 57.50 giây
+Thời gian thực thi thuật toán: 57.52 giây
+Dữ liệu đã được ghi vào file thuat-toan/out/best_solution.json
+Tất cả công đoạn đã được ghi vào file thuat-toan/out/schedule.json
+Tối ưu: (5, 54, 80457960.0)
 
 
-lan 1: 200 (10 lenh)
-Completed Orders On Time: 9, Total Shifts: 35, Total Cost: 600132.5
-Completed Orders On Time: 9, Total Shifts: 34, Total Cost: 607926.0
-Completed Orders On Time: 9, Total Shifts: 36, Total Cost: 612480.0
-Completed Orders On Time: 9, Total Shifts: 36, Total Cost: 581526.0
-Completed Orders On Time: 9, Total Shifts: 36, Total Cost: 593950.5
-Completed Orders On Time: 9, Total Shifts: 35, Total Cost: 598818.0
-Completed Orders On Time: 9, Total Shifts: 34, Total Cost: 586437.5
-Completed Orders On Time: 9, Total Shifts: 36, Total Cost: 593615.0
-Completed Orders On Time: 9, Total Shifts: 35, Total Cost: 592108.0
-Completed Orders On Time: 9, Total Shifts: 35, Total Cost: 591569.0
-Completed Orders On Time: 9, Total Shifts: 35, Total Cost: 601392.0
-Completed Orders On Time: 9, Total Shifts: 37, Total Cost: 589457.0
-Completed Orders On Time: 9, Total Shifts: 35, Total Cost: 595732.5
-Completed Orders On Time: 9, Total Shifts: 37, Total Cost: 588648.5
-Completed Orders On Time: 9, Total Shifts: 35, Total Cost: 585112.0
-Completed Orders On Time: 9, Total Shifts: 36, Total Cost: 583770.0
-Completed Orders On Time: 9, Total Shifts: 36, Total Cost: 604758.0
-Completed Orders On Time: 9, Total Shifts: 35, Total Cost: 596502.5
-Completed Orders On Time: 9, Total Shifts: 34, Total Cost: 589336.0
-Completed Orders On Time: 9, Total Shifts: 35, Total Cost: 594649.0
-Completed Orders On Time: 9, Total Shifts: 37, Total Cost: 580673.5
-Completed Orders On Time: 9, Total Shifts: 36, Total Cost: 583451.0
-Completed Orders On Time: 9, Total Shifts: 37, Total Cost: 590375.5
-Completed Orders On Time: 9, Total Shifts: 35, Total Cost: 596117.5
-Completed Orders On Time: 9, Total Shifts: 35, Total Cost: 602288.5
-Completed Orders On Time: 9, Total Shifts: 36, Total Cost: 588714.5
-Completed Orders On Time: 9, Total Shifts: 35, Total Cost: 606743.5
-Completed Orders On Time: 9, Total Shifts: 36, Total Cost: 590271.0
-Completed Orders On Time: 9, Total Shifts: 35, Total Cost: 599054.5
-Completed Orders On Time: 9, Total Shifts: 36, Total Cost: 590007.0
-Thời gian thực thi thuật toán: 184.66 giây
-Dữ liệu đã được ghi vào file ./out/best_solution.json
-Tất cả công đoạn đã được ghi vào file ./out/schedule.json
-Tối ưu: (9, 34, 586437.5)
+Completed Orders On Time: 6, Total Shifts: 69, Total Cost: 100376430.0
+Completed Orders On Time: 6, Total Shifts: 71, Total Cost: 101335118.5
+Completed Orders On Time: 6, Total Shifts: 68, Total Cost: 100518946.0
+Completed Orders On Time: 6, Total Shifts: 70, Total Cost: 100895751.0
+Completed Orders On Time: 6, Total Shifts: 71, Total Cost: 100877051.0
+Completed Orders On Time: 6, Total Shifts: 68, Total Cost: 100510795.0
+Completed Orders On Time: 6, Total Shifts: 64, Total Cost: 101753162.5
+Completed Orders On Time: 6, Total Shifts: 67, Total Cost: 101279128.5
+Completed Orders On Time: 6, Total Shifts: 68, Total Cost: 101057077.0
+Completed Orders On Time: 6, Total Shifts: 71, Total Cost: 101156060.5
+Completed Orders On Time: 6, Total Shifts: 67, Total Cost: 99924066.0
+Completed Orders On Time: 6, Total Shifts: 69, Total Cost: 101280591.5
+Completed Orders On Time: 6, Total Shifts: 69, Total Cost: 101599476.0
+Completed Orders On Time: 6, Total Shifts: 70, Total Cost: 101596825.0
+Completed Orders On Time: 6, Total Shifts: 67, Total Cost: 100883887.5
+Completed Orders On Time: 6, Total Shifts: 69, Total Cost: 101518554.5
+Completed Orders On Time: 6, Total Shifts: 63, Total Cost: 100937831.5
+Completed Orders On Time: 6, Total Shifts: 67, Total Cost: 101175189.5
+Completed Orders On Time: 6, Total Shifts: 67, Total Cost: 101353131.0
+Completed Orders On Time: 6, Total Shifts: 69, Total Cost: 100730745.5
+Completed Orders On Time: 6, Total Shifts: 70, Total Cost: 101604464.5
+Completed Orders On Time: 6, Total Shifts: 67, Total Cost: 101167874.5
+Completed Orders On Time: 6, Total Shifts: 70, Total Cost: 100564409.0
+Completed Orders On Time: 6, Total Shifts: 69, Total Cost: 101197690.0
+Completed Orders On Time: 6, Total Shifts: 69, Total Cost: 101606488.5
+Completed Orders On Time: 6, Total Shifts: 69, Total Cost: 100502875.0
+Completed Orders On Time: 6, Total Shifts: 69, Total Cost: 101266346.5
+Completed Orders On Time: 6, Total Shifts: 67, Total Cost: 101579962.0
+Completed Orders On Time: 6, Total Shifts: 69, Total Cost: 101640341.0
+Completed Orders On Time: 6, Total Shifts: 68, Total Cost: 101436808.0
+
+Tổng quan thuật toán:
+Kích thước dữ liệu: 101 nhân viên, 145 máy móc, 41 công đoạn, 6 lệnh sản xuất
+Tham số: HMS=30, MaxIter=100, HCR=0.70, PAR=0.47
+Kết quả tốt nhất: 6 lệnh hoàn thành đúng hạn, 63 ca làm việc, 100937831.5 chi phí
+Thời gian chạy: 66.74 giây
+Thời gian thực thi thuật toán: 66.75 giây
+Dữ liệu đã được ghi vào file thuat-toan/out/best_solution.json
+Tất cả công đoạn đã được ghi vào file thuat-toan/out/schedule.json
+Tối ưu: (6, 63, 100937831.5)
 
 
-Bộ 3 173 mm of 389 160 nhân viên odd 180
 
-Bộ 4 worker 160 mm: 199
+Completed Orders On Time: 7, Total Shifts: 68, Total Cost: 110055649.0
+Completed Orders On Time: 7, Total Shifts: 70, Total Cost: 112543211.0
+Completed Orders On Time: 7, Total Shifts: 73, Total Cost: 112173534.0
+Completed Orders On Time: 7, Total Shifts: 74, Total Cost: 110947248.5
+Completed Orders On Time: 7, Total Shifts: 67, Total Cost: 111831208.5
+Completed Orders On Time: 7, Total Shifts: 74, Total Cost: 111721203.0
+Completed Orders On Time: 7, Total Shifts: 72, Total Cost: 109776441.5
+Completed Orders On Time: 7, Total Shifts: 71, Total Cost: 111326880.5
+Completed Orders On Time: 7, Total Shifts: 69, Total Cost: 110717926.0
+Completed Orders On Time: 7, Total Shifts: 75, Total Cost: 112497830.5
+Completed Orders On Time: 7, Total Shifts: 74, Total Cost: 112234611.5
+Completed Orders On Time: 7, Total Shifts: 69, Total Cost: 112125282.5
+Completed Orders On Time: 7, Total Shifts: 69, Total Cost: 111871468.5
+Completed Orders On Time: 7, Total Shifts: 76, Total Cost: 111461916.5
+Completed Orders On Time: 7, Total Shifts: 72, Total Cost: 111380368.0
+Completed Orders On Time: 7, Total Shifts: 71, Total Cost: 111501076.5
+Completed Orders On Time: 7, Total Shifts: 69, Total Cost: 111509486.0
+Completed Orders On Time: 6, Total Shifts: 68, Total Cost: 111862063.5
+Completed Orders On Time: 7, Total Shifts: 69, Total Cost: 111263449.0
+Completed Orders On Time: 7, Total Shifts: 69, Total Cost: 112943842.0
+Completed Orders On Time: 7, Total Shifts: 73, Total Cost: 111497754.5
+Completed Orders On Time: 7, Total Shifts: 72, Total Cost: 112028130.5
+Completed Orders On Time: 7, Total Shifts: 68, Total Cost: 112321654.5
+Completed Orders On Time: 7, Total Shifts: 75, Total Cost: 111926303.5
+Completed Orders On Time: 7, Total Shifts: 70, Total Cost: 111599229.5
+Completed Orders On Time: 6, Total Shifts: 67, Total Cost: 111203642.0
+Completed Orders On Time: 7, Total Shifts: 74, Total Cost: 112195418.5
+Completed Orders On Time: 6, Total Shifts: 66, Total Cost: 110970508.0
+Completed Orders On Time: 7, Total Shifts: 72, Total Cost: 112508726.0
+Completed Orders On Time: 7, Total Shifts: 70, Total Cost: 112089604.0
 
-Bộ 5 worker: 170 mm: 251
+Tổng quan thuật toán:
+Kích thước dữ liệu: 101 nhân viên, 145 máy móc, 48 công đoạn, 7 lệnh sản xuất
+Tham số: HMS=30, MaxIter=100, HCR=0.70, PAR=0.40
+Kết quả tốt nhất: 7 lệnh hoàn thành đúng hạn, 67 ca làm việc, 111831208.5 chi phí
+Thời gian chạy: 146.89 giây
+Thời gian thực thi thuật toán: 146.91 giây
+Dữ liệu đã được ghi vào file thuat-toan/out/best_solution.json
+Tất cả công đoạn đã được ghi vào file thuat-toan/out/schedule.json
+Tối ưu: (7, 67, 111831208.5)
 
-Bộ 6 worker: 180 mm: 303
 
-Bộ 9 180 379
+Completed Orders On Time: 7, Total Shifts: 92, Total Cost: 136424112.0
+Completed Orders On Time: 6, Total Shifts: 87, Total Cost: 136153930.0
+Completed Orders On Time: 6, Total Shifts: 86, Total Cost: 137213466.5
+Completed Orders On Time: 7, Total Shifts: 86, Total Cost: 135256704.0
+Completed Orders On Time: 8, Total Shifts: 82, Total Cost: 136685092.5
+Completed Orders On Time: 7, Total Shifts: 97, Total Cost: 135470230.5
+Completed Orders On Time: 6, Total Shifts: 89, Total Cost: 135165129.0
+Completed Orders On Time: 6, Total Shifts: 87, Total Cost: 137290400.5
+Completed Orders On Time: 7, Total Shifts: 89, Total Cost: 136188976.0
+Completed Orders On Time: 6, Total Shifts: 86, Total Cost: 137149105.5
+Completed Orders On Time: 7, Total Shifts: 99, Total Cost: 135288026.5
+Completed Orders On Time: 6, Total Shifts: 89, Total Cost: 138015344.5
+Completed Orders On Time: 7, Total Shifts: 90, Total Cost: 136282745.5
+Completed Orders On Time: 6, Total Shifts: 85, Total Cost: 135958207.0
+Completed Orders On Time: 6, Total Shifts: 89, Total Cost: 136391299.0
+Completed Orders On Time: 7, Total Shifts: 84, Total Cost: 136776178.0
+Completed Orders On Time: 7, Total Shifts: 84, Total Cost: 137105369.5
+Completed Orders On Time: 7, Total Shifts: 88, Total Cost: 135810185.5
+Completed Orders On Time: 6, Total Shifts: 89, Total Cost: 136002872.5
+Completed Orders On Time: 7, Total Shifts: 92, Total Cost: 136163907.0
+Completed Orders On Time: 6, Total Shifts: 88, Total Cost: 136657697.0
+Completed Orders On Time: 7, Total Shifts: 83, Total Cost: 135554243.0
+Completed Orders On Time: 6, Total Shifts: 88, Total Cost: 136678003.0
+Completed Orders On Time: 7, Total Shifts: 84, Total Cost: 136978204.0
+Completed Orders On Time: 6, Total Shifts: 87, Total Cost: 135781068.5
+Completed Orders On Time: 7, Total Shifts: 89, Total Cost: 135480136.0
+Completed Orders On Time: 6, Total Shifts: 87, Total Cost: 136866559.5
+Completed Orders On Time: 6, Total Shifts: 88, Total Cost: 136035515.0
+Completed Orders On Time: 6, Total Shifts: 88, Total Cost: 134549860.5
+Completed Orders On Time: 6, Total Shifts: 87, Total Cost: 135190522.5
+
+Tổng quan thuật toán:
+Kích thước dữ liệu: 101 nhân viên, 145 máy móc, 54 công đoạn, 8 lệnh sản xuất
+Tham số: HMS=30, MaxIter=100, HCR=0.70, PAR=0.42
+Kết quả tốt nhất: 8 lệnh hoàn thành đúng hạn, 82 ca làm việc, 136685092.5 chi phí
+Thời gian chạy: 97.89 giây
+Thời gian thực thi thuật toán: 97.91 giây
+Dữ liệu đã được ghi vào file thuat-toan/out/best_solution.json
+Tất cả công đoạn đã được ghi vào file thuat-toan/out/schedule.json
+Tối ưu: (8, 82, 136685092.5)
+
+
+Completed Orders On Time: 8, Total Shifts: 119, Total Cost: 175474299.0
+Completed Orders On Time: 8, Total Shifts: 119, Total Cost: 176176561.0
+Completed Orders On Time: 8, Total Shifts: 113, Total Cost: 175556705.5
+Completed Orders On Time: 8, Total Shifts: 119, Total Cost: 174934600.5
+Completed Orders On Time: 8, Total Shifts: 123, Total Cost: 175411610.0
+Completed Orders On Time: 8, Total Shifts: 111, Total Cost: 174600855.0
+Completed Orders On Time: 8, Total Shifts: 109, Total Cost: 176301075.5
+Completed Orders On Time: 8, Total Shifts: 111, Total Cost: 175774681.5
+Completed Orders On Time: 8, Total Shifts: 120, Total Cost: 173819728.5
+Completed Orders On Time: 8, Total Shifts: 119, Total Cost: 175144348.5
+Completed Orders On Time: 8, Total Shifts: 117, Total Cost: 175926564.0
+Completed Orders On Time: 8, Total Shifts: 118, Total Cost: 175370382.0
+Completed Orders On Time: 8, Total Shifts: 120, Total Cost: 176082263.5
+Completed Orders On Time: 8, Total Shifts: 119, Total Cost: 175527192.5
+Completed Orders On Time: 8, Total Shifts: 115, Total Cost: 175350598.5
+Completed Orders On Time: 9, Total Shifts: 118, Total Cost: 174597417.5
+Completed Orders On Time: 7, Total Shifts: 112, Total Cost: 175293162.0
+Completed Orders On Time: 8, Total Shifts: 119, Total Cost: 175752500.0
+Completed Orders On Time: 7, Total Shifts: 113, Total Cost: 174476962.0
+Completed Orders On Time: 8, Total Shifts: 119, Total Cost: 176236219.5
+Completed Orders On Time: 8, Total Shifts: 112, Total Cost: 174271014.5
+Completed Orders On Time: 8, Total Shifts: 113, Total Cost: 175928373.5
+Completed Orders On Time: 8, Total Shifts: 114, Total Cost: 175766662.5
+Completed Orders On Time: 8, Total Shifts: 119, Total Cost: 175001706.0
+Completed Orders On Time: 8, Total Shifts: 123, Total Cost: 174359784.5
+Completed Orders On Time: 8, Total Shifts: 113, Total Cost: 175256240.5
+Completed Orders On Time: 8, Total Shifts: 121, Total Cost: 176267305.5
+Completed Orders On Time: 8, Total Shifts: 115, Total Cost: 175210156.0
+Completed Orders On Time: 9, Total Shifts: 115, Total Cost: 173959098.5
+Completed Orders On Time: 8, Total Shifts: 120, Total Cost: 176585882.0
+
+Tổng quan thuật toán:
+Kích thước dữ liệu: 101 nhân viên, 145 máy móc, 60 công đoạn, 9 lệnh sản xuất
+Tham số: HMS=30, MaxIter=100, HCR=0.70, PAR=0.44
+Kết quả tốt nhất: 9 lệnh hoàn thành đúng hạn, 115 ca làm việc, 173959098.5 chi phí
+Thời gian chạy: 94.39 giây
+Thời gian thực thi thuật toán: 94.41 giây
+Dữ liệu đã được ghi vào file thuat-toan/out/best_solution.json
+Tất cả công đoạn đã được ghi vào file thuat-toan/out/schedule.json
+Tối ưu: (9, 115, 173959098.5)

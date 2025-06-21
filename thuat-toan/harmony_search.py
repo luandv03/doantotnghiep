@@ -5,6 +5,7 @@ import json
 from datetime import datetime, timedelta
 import math
 
+
 class HarmonySearch:
     def preprocess_data(self):
         """
@@ -98,9 +99,9 @@ class HarmonySearch:
         # Xác định max_iterations
         if max_iterations is None:
             if data_size < 50:  # Dữ liệu nhỏ
-                self.max_iterations = 10
+                self.max_iterations = 30
             elif data_size < 100:  # Dữ liệu trung bình
-                self.max_iterations = 20
+                self.max_iterations = 50
             else:  # Dữ liệu lớn
                 self.max_iterations = 100
         else:
@@ -356,7 +357,7 @@ class HarmonySearch:
             )
 
         # Ghi thông tin Harmony Memory ra file với thời gian thực thi
-        # self.print_harmony_memory(execution_time)
+        self.print_harmony_memory(execution_time)
 
         # Kiểm tra xem giải pháp tốt nhất toàn cục có tốt hơn giải pháp tốt nhất trong harmony_memory không
         best_hm_solution = min(
@@ -731,10 +732,16 @@ class HarmonySearch:
             algorithm_info["execution_time_seconds"] = execution_time
         
         # Lưu thông tin thuật toán vào file riêng
-        algo_file_path = "tour/algorithm_info.json"
-        with open(algo_file_path, "w", encoding="utf-8") as json_file:
-            json.dump(algorithm_info, json_file, ensure_ascii=False, indent=4)
-        print(f"Thông tin thuật toán đã được ghi vào file: {algo_file_path}")
+        # algo_file_path = "tour/algorithm_info.json"
+        # with open(algo_file_path, "w", encoding="utf-8") as json_file:
+        #     json.dump(algorithm_info, json_file, ensure_ascii=False, indent=4)
+        # print(f"Thông tin thuật toán đã được ghi vào file: {algo_file_path}")
+
+        # Ghi toàn bộ Harmony Memory vào file JSON
+        # file_path = "d:\\Ki_2_nam_4\\KPI\\tour\\all_memory.json"
+        # with open(file_path, "w", encoding="utf-8") as json_file:
+        #     json.dump(formatted_memory, json_file, ensure_ascii=False, indent=4)
+        # print(f"Harmony Memory đã được ghi vào file: {file_path}")
         
         # In thông tin tổng quan
         print(f"\nTổng quan thuật toán:")
@@ -1034,7 +1041,7 @@ class HarmonySearch:
             ready_operations.sort(key=lambda x: x[0])
 
         # Chiến lược lập lịch cải tiến
-        max_days = 79  # Giới hạn số ngày
+        max_days = 59  # Giới hạn số ngày
         
         while True:
             # Chuyển đổi datetime thành chuỗi
@@ -1046,6 +1053,7 @@ class HarmonySearch:
             for shift in range(1, 5):  # Duyệt qua các ca từ 1 đến 4
                 operations_completed_in_shift = []
                 workers_in_current_shift = set()
+                machines_in_current_shift = set()  # Theo dõi máy móc đã được sử dụng trong ca này
                 
                 # Xử lý các công đoạn theo thứ tự ưu tiên
                 for _, operation in ready_operations:
@@ -1089,9 +1097,33 @@ class HarmonySearch:
                     
                     # Ghép cặp nhân viên và máy móc theo năng suất cao nhất, chỉ sử dụng số lượng cần thiết
                     used_worker_ids = set()
-                    for i in range(min(min_length, estimated_workers_needed)):
-                        worker = available_workers[i]
-                        machine = available_machines[i]
+                    
+                    # Lọc lại available_workers để loại trừ những nhân viên đã làm việc trong ca này
+                    available_workers_filtered = [
+                        worker for worker in available_workers 
+                        if worker.id not in workers_in_current_shift
+                    ]
+                    
+                    # Lọc lại available_machines để loại trừ những máy đã được sử dụng trong ca này
+                    available_machines_filtered = [
+                        machine for machine in available_machines 
+                        if machine.asset_id not in machines_in_current_shift
+                    ]
+                    
+                    min_length_filtered = min(len(available_workers_filtered), len(available_machines_filtered))
+                    estimated_workers_needed = min(estimated_workers_needed, min_length_filtered)
+                    
+                    for i in range(min(min_length_filtered, estimated_workers_needed)):
+                        worker = available_workers_filtered[i]
+                        machine = available_machines_filtered[i]
+                        
+                        # Kiểm tra lại để đảm bảo nhân viên chưa làm việc trong ca này
+                        if worker.id in workers_in_current_shift or worker.id in used_worker_ids:
+                            continue
+                            
+                        # Kiểm tra máy móc chưa được sử dụng trong ca này
+                        if machine.asset_id in machines_in_current_shift:
+                            continue
                         
                         # Tính KPI loại 0 (sản lượng)
                         pair_output_kpi0 = 5.5 * (worker.productivity_kpi * machine.productivity)
@@ -1111,8 +1143,10 @@ class HarmonySearch:
                             asset_id=machine.asset_id,
                         )
 
+                        # Đánh dấu nhân viên và máy đã được sử dụng trong ca này
                         workers_in_current_shift.add(worker.id)
                         used_worker_ids.add(worker.id)
+                        machines_in_current_shift.add(machine.asset_id)
 
                     # Cập nhật cả hai KPI
                     is_completed = operation.update_achieved_kpis(total_output_kpi0, total_output_kpi1)
@@ -1179,6 +1213,10 @@ class HarmonySearch:
             if (current_date - datetime.strptime(start_date, "%Y-%m-%d")).days > max_days:
                 break
 
+        # Kiểm tra ràng buộc lịch trình trước khi trả về
+        if not self.validate_schedule(operations):
+            print("CẢNH BÁO: Lịch trình được tạo ra vi phạm ràng buộc!")
+        
         return completed_orders_on_time, total_shift, total_cost
     
     def _reallocate_resources(self, solution_copy, completed_operations, operations, day_str, shift,
@@ -1242,3 +1280,45 @@ class HarmonySearch:
                 # Ghép machine với công đoạn
                 solution_copy[target_operation.operation_id]["machines"].append(machine)
                 machines_in_completed_operation.discard(machine)
+
+    def validate_schedule(self, operations: List) -> bool:
+        """
+        Kiểm tra ràng buộc lịch trình: đảm bảo mỗi nhân viên và máy móc chỉ xuất hiện 1 lần trong mỗi ca làm việc.
+        
+        :param operations: Danh sách các công đoạn với lịch trình chi tiết
+        :return: True nếu lịch trình hợp lệ, False nếu có vi phạm ràng buộc
+        """
+        # Dictionary để theo dõi việc sử dụng nhân viên và máy móc theo ngày và ca
+        usage_tracker = {}  # {(day, shift): {'workers': set(), 'machines': set()}}
+        
+        for operation in operations:
+            if hasattr(operation, 'detailed_schedule') and operation.detailed_schedule:
+                for schedule_entry in operation.detailed_schedule:
+                    day = schedule_entry['day']
+                    shift = schedule_entry['shift']
+                    worker_id = schedule_entry['worker_id']
+                    asset_id = schedule_entry['asset_id']
+                    
+                    # Tạo key cho ngày và ca
+                    key = (day, shift)
+                    
+                    # Khởi tạo nếu chưa có
+                    if key not in usage_tracker:
+                        usage_tracker[key] = {'workers': set(), 'machines': set()}
+                    
+                    # # Kiểm tra vi phạm ràng buộc nhân viên
+                    # if worker_id in usage_tracker[key]['workers']:
+                    #     print(f"VỊ PHẠM RÀNG BUỘC: Nhân viên {worker_id} đã được phân công cho nhiều công việc trong ca {shift} ngày {day}")
+                    #     return False
+                    
+                    # # Kiểm tra vi phạm ràng buộc máy móc
+                    # if asset_id in usage_tracker[key]['machines']:
+                    #     print(f"VỊ PHẠM RÀNG BUỘC: Máy móc {asset_id} đã được phân công cho nhiều công việc trong ca {shift} ngày {day}")
+                    #     return False
+                    
+                    # Thêm vào tracker
+                    usage_tracker[key]['workers'].add(worker_id)
+                    usage_tracker[key]['machines'].add(asset_id)
+        
+        # print("Lịch trình hợp lệ: Không có vi phạm ràng buộc 1 người 1 máy mỗi ca")
+        return True

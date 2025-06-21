@@ -1,0 +1,884 @@
+[
+  {
+    "id": "W0010",
+    "name": "Mai Quốc Huy",
+    "email": "mai.quoc.huy.g2b@gmail.com",
+    "position": "Nhân viên AQL",
+    "productivityKPI": 75,
+    "qualityKPI": 0.87,
+    "salaryPerHour": 34
+  },
+  {
+    "id": "W0009",
+    "name": "Trịnh Ngọc Hân",
+    "email": "trinh.ngoc.han.g2b@gmail.com",
+    "position": "Nhân viên AQL",
+    "productivityKPI": 70,
+    "qualityKPI": 0.88,
+    "salaryPerHour": 33
+  },
+  {
+    "id": "W0008",
+    "name": "Dương Thị Thanh",
+    "email": "duong.thi.thanh.g2b@gmail.com",
+    "position": "Nhân viên AQL",
+    "productivityKPI": 65,
+    "qualityKPI": 0.89,
+    "salaryPerHour": 29
+  },
+  {
+    "id": "W0007",
+    "name": "Phan Văn Nhân",
+    "email": "phan.van.nhan.g2b@gmail.com",
+    "position": "Nhân viên AQL",
+    "productivityKPI": 60,
+    "qualityKPI": 0.9,
+    "salaryPerHour": 27
+  },
+  {
+    "id": "W0006",
+    "name": "Đỗ Thị Lan Hương",
+    "email": "do.thi.lan.huong.g2b@gmail.com",
+    "position": "Nhân viên AQL",
+    "productivityKPI": 55,
+    "qualityKPI": 0.91,
+    "salaryPerHour": 29
+  },
+  {
+    "id": "W0005",
+    "name": "Nguyễn Hoàng Long",
+    "email": "nguyen.hoang.long.g2b@gmail.com",
+    "position": "Nhân viên AQL",
+    "productivityKPI": 50,
+    "qualityKPI": 0.92,
+    "salaryPerHour": 25
+  },
+  {
+    "id": "W0004",
+    "name": "Trần Thị Thuý Diễm",
+    "email": "tran.thi.thuy.diem.g2b@gmail.com",
+    "position": "Nhân viên AQL",
+    "productivityKPI": 45,
+    "qualityKPI": 0.93,
+    "salaryPerHour": 24
+  },
+  {
+    "id": "W0020",
+    "name": "Lý Thị Cẩm Nhung",
+    "email": "ly.thi.cam.nhung.g2b@gmail.com",
+    "position": "Nhân viên QA/QC",
+    "productivityKPI": 32,
+    "qualityKPI": 0.89,
+    "salaryPerHour": 25
+  },
+  {
+    "id": "W0019",
+    "name": "Phạm Trọng Khoa",
+    "email": "pham.trong.khoa.g2b@gmail.com",
+    "position": "Nhân viên QA/QC",
+    "productivityKPI": 30,
+    "qualityKPI": 0.9,
+    "salaryPerHour": 23
+  },
+  {
+    "id": "W0018",
+    "name": "Đoàn Thị Mộng Như",
+    "email": "doan.thi.mong.nhu.g2b@gmail.com",
+    "position": "Nhân viên QA/QC",
+    "productivityKPI": 28,
+    "qualityKPI": 0.91,
+    "salaryPerHour": 28
+  },
+  {
+    "id": "W0017",
+    "name": "Nguyễn Minh Quang",
+    "email": "nguyen.minh.quang.g2b@gmail.com",
+    "position": "Nhân viên QA/QC",
+    "productivityKPI": 26,
+    "qualityKPI": 0.92,
+    "salaryPerHour": 24
+  },
+  {
+    "id": "W0016",
+    "name": "Tô Thị Diệp",
+    "email": "to.thi.diep.g2b@gmail.com",
+    "position": "Nhân viên QA/QC",
+    "productivityKPI": 24,
+    "qualityKPI": 0.93,
+    "salaryPerHour": 25
+  },
+  {
+    "id": "W0015",
+    "name": "Đặng Hoàng Phúc",
+    "email": "dang.hoang.phuc.g2b@gmail.com",
+    "position": "Nhân viên QA/QC",
+    "productivityKPI": 22,
+    "qualityKPI": 0.94,
+    "salaryPerHour": 24
+  },
+  {
+    "id": "W0014",
+    "name": "Bùi Thị Kiều Oanh",
+    "email": "bui.thi.kieu.oanh.g2b@gmail.com",
+    "position": "Nhân viên QA/QC",
+    "productivityKPI": 20,
+    "qualityKPI": 0.95,
+    "salaryPerHour": 30
+  },
+  {
+    "id": "W0030",
+    "name": "Trần Quốc Cường",
+    "email": "tran.quoc.cuong.g2b@gmail.com",
+    "position": "Nhân viên cắt vải",
+    "productivityKPI": 105,
+    "qualityKPI": 0.89,
+    "salaryPerHour": 32
+  },
+  {
+    "id": "W0029",
+    "name": "Nguyễn Thanh Ngọc",
+    "email": "nguyen.thanh.ngoc.g2b@gmail.com",
+    "position": "Nhân viên cắt vải",
+    "productivityKPI": 100,
+    "qualityKPI": 0.9,
+    "salaryPerHour": 28
+  },
+  {
+    "id": "W0028",
+    "name": "Bùi Văn Được",
+    "email": "bui.van.duoc.g2b@gmail.com",
+    "position": "Nhân viên cắt vải",
+    "productivityKPI": 95,
+    "qualityKPI": 0.91,
+    "salaryPerHour": 37
+  },
+  {
+    "id": "W0027",
+    "name": "Đinh Quốc Duy",
+    "email": "dinh.quoc.duy.g2b@gmail.com",
+    "position": "Nhân viên cắt vải",
+    "productivityKPI": 90,
+    "qualityKPI": 0.92,
+    "salaryPerHour": 28
+  },
+  {
+    "id": "W0026",
+    "name": "Dương Thị Lệ Quyên",
+    "email": "duong.thi.le.quyen.g2b@gmail.com",
+    "position": "Nhân viên cắt vải",
+    "productivityKPI": 85,
+    "qualityKPI": 0.93,
+    "salaryPerHour": 30
+  },
+  {
+    "id": "W0025",
+    "name": "Võ Đức Thiện",
+    "email": "vo.duc.thien.g2b@gmail.com",
+    "position": "Nhân viên cắt vải",
+    "productivityKPI": 80,
+    "qualityKPI": 0.94,
+    "salaryPerHour": 31
+  },
+  {
+    "id": "W0024",
+    "name": "Nguyễn Ngọc Lệ",
+    "email": "nguyen.ngoc.le.g2b@gmail.com",
+    "position": "Nhân viên cắt vải",
+    "productivityKPI": 75,
+    "qualityKPI": 0.95,
+    "salaryPerHour": 29
+  },
+  {
+    "id": "W0040",
+    "name": "Trịnh Văn Đạt",
+    "email": "trinh.van.dat.g2b@gmail.com",
+    "position": "Nhân viên đóng gói",
+    "productivityKPI": 90,
+    "qualityKPI": 0.89,
+    "salaryPerHour": 32
+  },
+  {
+    "id": "W0039",
+    "name": "Nguyễn Văn Khang",
+    "email": "nguyen.van.khang.g2b@gmail.com",
+    "position": "Nhân viên đóng gói",
+    "productivityKPI": 85,
+    "qualityKPI": 0.9,
+    "salaryPerHour": 28
+  },
+  {
+    "id": "W0038",
+    "name": "Phan Thị Thuý Nga",
+    "email": "phan.thi.thuy.nga.g2b@gmail.com",
+    "position": "Nhân viên đóng gói",
+    "productivityKPI": 80,
+    "qualityKPI": 0.91,
+    "salaryPerHour": 28
+  },
+  {
+    "id": "W0037",
+    "name": "Vũ Thị Thanh Thảo",
+    "email": "vu.thi.thanh.thao.g2b@gmail.com",
+    "position": "Nhân viên đóng gói",
+    "productivityKPI": 75,
+    "qualityKPI": 0.92,
+    "salaryPerHour": 31
+  },
+  {
+    "id": "W0036",
+    "name": "Ngô Văn Phước",
+    "email": "ngo.van.phuoc.g2b@gmail.com",
+    "position": "Nhân viên đóng gói",
+    "productivityKPI": 70,
+    "qualityKPI": 0.93,
+    "salaryPerHour": 32
+  },
+  {
+    "id": "W0035",
+    "name": "Trần Thị Diệu Linh",
+    "email": "tran.thi.dieu.linh.g2b@gmail.com",
+    "position": "Nhân viên đóng gói",
+    "productivityKPI": 65,
+    "qualityKPI": 0.94,
+    "salaryPerHour": 28
+  },
+  {
+    "id": "W0034",
+    "name": "Tạ Thị Tuyết Mai",
+    "email": "ta.thi.tuyet.mai.g2b@gmail.com",
+    "position": "Nhân viên đóng gói",
+    "productivityKPI": 60,
+    "qualityKPI": 0.95,
+    "salaryPerHour": 25
+  },
+  {
+    "id": "W0050",
+    "name": "Vũ Kim Ngân",
+    "email": "vu.kim.ngan.g2b@gmail.com",
+    "position": "Nhân viên đính khuy",
+    "productivityKPI": 70,
+    "qualityKPI": 0.89,
+    "salaryPerHour": 29
+  },
+  {
+    "id": "W0060",
+    "name": "Vũ Hoàng Lan",
+    "email": "vu.hoang.lan.g2b@gmail.com",
+    "position": "Nhân viên đính khuy",
+    "productivityKPI": 70,
+    "qualityKPI": 0.89,
+    "salaryPerHour": 31
+  },
+  {
+    "id": "W0049",
+    "name": "Dương Tuấn Anh",
+    "email": "duong.tuan.anh.g2b@gmail.com",
+    "position": "Nhân viên đính khuy",
+    "productivityKPI": 65,
+    "qualityKPI": 0.9,
+    "salaryPerHour": 26
+  },
+  {
+    "id": "W0059",
+    "name": "Lê Trọng Tường",
+    "email": "le.trong.tuong.g2b@gmail.com",
+    "position": "Nhân viên đính khuy",
+    "productivityKPI": 65,
+    "qualityKPI": 0.9,
+    "salaryPerHour": 33
+  },
+  {
+    "id": "W0048",
+    "name": "Ngô Thị Lan",
+    "email": "ngo.thi.lan.g2b@gmail.com",
+    "position": "Nhân viên đính khuy",
+    "productivityKPI": 60,
+    "qualityKPI": 0.91,
+    "salaryPerHour": 28
+  },
+  {
+    "id": "W0058",
+    "name": "Vũ Thuỳ Nam",
+    "email": "vu.thuy.nam.g2b@gmail.com",
+    "position": "Nhân viên đính khuy",
+    "productivityKPI": 60,
+    "qualityKPI": 0.91,
+    "salaryPerHour": 31
+  },
+  {
+    "id": "W0047",
+    "name": "Hồ Văn An",
+    "email": "ho.van.an.g2b@gmail.com",
+    "position": "Nhân viên đính khuy",
+    "productivityKPI": 55,
+    "qualityKPI": 0.92,
+    "salaryPerHour": 30
+  },
+  {
+    "id": "W0070",
+    "name": "Phan Minh Lan",
+    "email": "phan.minh.lan.g2b@gmail.com",
+    "position": "Nhân viên gắn nhãn",
+    "productivityKPI": 70,
+    "qualityKPI": 0.89,
+    "salaryPerHour": 29
+  },
+  {
+    "id": "W0069",
+    "name": "Huỳnh Ngọc Quân",
+    "email": "huynh.ngoc.quan.g2b@gmail.com",
+    "position": "Nhân viên gắn nhãn",
+    "productivityKPI": 65,
+    "qualityKPI": 0.9,
+    "salaryPerHour": 32
+  },
+  {
+    "id": "W0068",
+    "name": "Ngô Tuấn Hiếu",
+    "email": "ngo.tuan.hieu.g2b@gmail.com",
+    "position": "Nhân viên gắn nhãn",
+    "productivityKPI": 60,
+    "qualityKPI": 0.91,
+    "salaryPerHour": 29
+  },
+  {
+    "id": "W0067",
+    "name": "Lê Quốc Dũng",
+    "email": "le.quoc.dung.g2b@gmail.com",
+    "position": "Nhân viên gắn nhãn",
+    "productivityKPI": 55,
+    "qualityKPI": 0.92,
+    "salaryPerHour": 23
+  },
+  {
+    "id": "W0065",
+    "name": "Dương Thị Quân",
+    "email": "duong.thi.quan.g2b@gmail.com",
+    "position": "Nhân viên gắn nhãn",
+    "productivityKPI": 50,
+    "qualityKPI": 0.94,
+    "salaryPerHour": 26
+  },
+  {
+    "id": "W0066",
+    "name": "Huỳnh Thanh Thắng",
+    "email": "huynh.thanh.thang.g2b@gmail.com",
+    "position": "Nhân viên gắn nhãn",
+    "productivityKPI": 50,
+    "qualityKPI": 0.93,
+    "salaryPerHour": 24
+  },
+  {
+    "id": "W0064",
+    "name": "Hồ Gia Vy",
+    "email": "ho.gia.vy.g2b@gmail.com",
+    "position": "Nhân viên gắn nhãn",
+    "productivityKPI": 45,
+    "qualityKPI": 0.95,
+    "salaryPerHour": 22
+  },
+  {
+    "id": "W0080",
+    "name": "Hồ Văn Tú",
+    "email": "ho.van.tu.g2b@gmail.com",
+    "position": "Nhân viên in",
+    "productivityKPI": 65,
+    "qualityKPI": 0.89,
+    "salaryPerHour": 29
+  },
+  {
+    "id": "W0079",
+    "name": "Ngô Thị Như Quỳnh",
+    "email": "ngo.thi.nhu.quynh.g2b@gmail.com",
+    "position": "Nhân viên in",
+    "productivityKPI": 60,
+    "qualityKPI": 0.9,
+    "salaryPerHour": 27
+  },
+  {
+    "id": "W0078",
+    "name": "Trần Hoàng Thái",
+    "email": "tran.hoang.thai.g2b@gmail.com",
+    "position": "Nhân viên in",
+    "productivityKPI": 55,
+    "qualityKPI": 0.91,
+    "salaryPerHour": 32
+  },
+  {
+    "id": "W0077",
+    "name": "Vũ Minh Khôi",
+    "email": "vu.minh.khoi.g2b@gmail.com",
+    "position": "Nhân viên in",
+    "productivityKPI": 50,
+    "qualityKPI": 0.92,
+    "salaryPerHour": 30
+  },
+  {
+    "id": "W0076",
+    "name": "Bùi Thị Thuỳ Dương",
+    "email": "bui.thi.thuy.duong.g2b@gmail.com",
+    "position": "Nhân viên in",
+    "productivityKPI": 45,
+    "qualityKPI": 0.93,
+    "salaryPerHour": 32
+  },
+  {
+    "id": "W0075",
+    "name": "Lê Quang Huy",
+    "email": "le.quang.huy.g2b@gmail.com",
+    "position": "Nhân viên in",
+    "productivityKPI": 40,
+    "qualityKPI": 0.94,
+    "salaryPerHour": 22
+  },
+  {
+    "id": "W0074",
+    "name": "Đặng Ngọc Lan",
+    "email": "dang.ngoc.lan.g2b@gmail.com",
+    "position": "Nhân viên in",
+    "productivityKPI": 35,
+    "qualityKPI": 0.95,
+    "salaryPerHour": 25
+  },
+  {
+    "id": "W0090",
+    "name": "Đỗ Thị Hồng",
+    "email": "do.thi.hong.g2b@gmail.com",
+    "position": "Nhân viên là ép",
+    "productivityKPI": 32,
+    "qualityKPI": 0.89,
+    "salaryPerHour": 24
+  },
+  {
+    "id": "W0089",
+    "name": "Lê Minh Đạt",
+    "email": "le.minh.dat.g2b@gmail.com",
+    "position": "Nhân viên là ép",
+    "productivityKPI": 30,
+    "qualityKPI": 0.9,
+    "salaryPerHour": 26
+  },
+  {
+    "id": "W0088",
+    "name": "Tô Quốc Hưng",
+    "email": "to.quoc.hung.g2b@gmail.com",
+    "position": "Nhân viên là ép",
+    "productivityKPI": 28,
+    "qualityKPI": 0.91,
+    "salaryPerHour": 22
+  },
+  {
+    "id": "W0087",
+    "name": "Nguyễn Văn Sơn",
+    "email": "nguyen.van.son.g2b@gmail.com",
+    "position": "Nhân viên là ép",
+    "productivityKPI": 25,
+    "qualityKPI": 0.92,
+    "salaryPerHour": 25
+  },
+  {
+    "id": "W0086",
+    "name": "Trịnh Bảo Trâm",
+    "email": "trinh.bao.tram.g2b@gmail.com",
+    "position": "Nhân viên là ép",
+    "productivityKPI": 22,
+    "qualityKPI": 0.93,
+    "salaryPerHour": 26
+  },
+  {
+    "id": "W0085",
+    "name": "Dương Trọng Nghĩa",
+    "email": "duong.trong.nghia.g2b@gmail.com",
+    "position": "Nhân viên là ép",
+    "productivityKPI": 20,
+    "qualityKPI": 0.94,
+    "salaryPerHour": 23
+  },
+  {
+    "id": "W0084",
+    "name": "Lưu Thị Ánh",
+    "email": "luu.thi.anh.g2b@gmail.com",
+    "position": "Nhân viên là ép",
+    "productivityKPI": 17,
+    "qualityKPI": 0.95,
+    "salaryPerHour": 24
+  },
+  {
+    "id": "W0100",
+    "name": "Võ Thanh Tùng",
+    "email": "vo.thanh.tung.g2b@gmail.com",
+    "position": "Nhân viên may chi tiết",
+    "productivityKPI": 18,
+    "qualityKPI": 0.89,
+    "salaryPerHour": 26
+  },
+  {
+    "id": "W0099",
+    "name": "Trương Minh Trí",
+    "email": "truong.minh.tri.g2b@gmail.com",
+    "position": "Nhân viên may chi tiết",
+    "productivityKPI": 17,
+    "qualityKPI": 0.9,
+    "salaryPerHour": 22
+  },
+  {
+    "id": "W0098",
+    "name": "Lý Thị Thu Hà",
+    "email": "ly.thi.thu.ha.g2b@gmail.com",
+    "position": "Nhân viên may chi tiết",
+    "productivityKPI": 15,
+    "qualityKPI": 0.91,
+    "salaryPerHour": 21
+  },
+  {
+    "id": "W0097",
+    "name": "Phan Nhật Hào",
+    "email": "phan.nhat.hao.g2b@gmail.com",
+    "position": "Nhân viên may chi tiết",
+    "productivityKPI": 14,
+    "qualityKPI": 0.92,
+    "salaryPerHour": 19
+  },
+  {
+    "id": "W0110",
+    "name": "Hồ Bảo Anh",
+    "email": "ho.bao.anh.g2b@gmail.com",
+    "position": "Nhân viên may chi tiết",
+    "productivityKPI": 14,
+    "qualityKPI": 0.89,
+    "salaryPerHour": 27
+  },
+  {
+    "id": "W0109",
+    "name": "Nguyễn Quốc Cường",
+    "email": "nguyen.quoc.cuong.g2b@gmail.com",
+    "position": "Nhân viên may chi tiết",
+    "productivityKPI": 13,
+    "qualityKPI": 0.9,
+    "salaryPerHour": 25
+  },
+  {
+    "id": "W0096",
+    "name": "Đặng Quang Huy",
+    "email": "dang.quang.huy.g2b@gmail.com",
+    "position": "Nhân viên may chi tiết",
+    "productivityKPI": 12,
+    "qualityKPI": 0.93,
+    "salaryPerHour": 27
+  },
+  {
+    "id": "W0130",
+    "name": "Đinh Huyền Trang",
+    "email": "dinh.huyen.trang.g2b@gmail.com",
+    "position": "Nhân viên may công nghiệp",
+    "productivityKPI": 50,
+    "qualityKPI": 0.95,
+    "salaryPerHour": 29
+  },
+  {
+    "id": "W0129",
+    "name": "Ngô Văn Khánh",
+    "email": "ngo.van.khanh.g2b@gmail.com",
+    "position": "Nhân viên may công nghiệp",
+    "productivityKPI": 48,
+    "qualityKPI": 0.98,
+    "salaryPerHour": 33
+  },
+  {
+    "id": "W0128",
+    "name": "Trần Thị Bích",
+    "email": "tran.thi.bich.g2b@gmail.com",
+    "position": "Nhân viên may công nghiệp",
+    "productivityKPI": 46,
+    "qualityKPI": 0.99,
+    "salaryPerHour": 33
+  },
+  {
+    "id": "W0127",
+    "name": "Hồ Ngọc Minh",
+    "email": "ho.ngoc.minh.g2b@gmail.com",
+    "position": "Nhân viên may công nghiệp",
+    "productivityKPI": 44,
+    "qualityKPI": 0.97,
+    "salaryPerHour": 28
+  },
+  {
+    "id": "W0126",
+    "name": "Bùi Hồng Phúc",
+    "email": "bui.hong.phuc.g2b@gmail.com",
+    "position": "Nhân viên may công nghiệp",
+    "productivityKPI": 42,
+    "qualityKPI": 0.99,
+    "salaryPerHour": 22
+  },
+  {
+    "id": "W0125",
+    "name": "Vũ Văn Quang",
+    "email": "vu.van.quang.g2b@gmail.com",
+    "position": "Nhân viên may công nghiệp",
+    "productivityKPI": 40,
+    "qualityKPI": 0.98,
+    "salaryPerHour": 24
+  },
+  {
+    "id": "W0124",
+    "name": "Phạm Thị Huyền",
+    "email": "pham.thi.huyen.g2b@gmail.com",
+    "position": "Nhân viên may công nghiệp",
+    "productivityKPI": 38,
+    "qualityKPI": 0.97,
+    "salaryPerHour": 23
+  },
+  {
+    "id": "W0220",
+    "name": "Bùi Nhật Linh",
+    "email": "bui.nhat.linh.g2b@gmail.com",
+    "position": "Nhân viên may ráp",
+    "productivityKPI": 50,
+    "qualityKPI": 0.99,
+    "salaryPerHour": 31
+  },
+  {
+    "id": "W0219",
+    "name": "Phan Thị Thanh",
+    "email": "phan.thi.thanh.g2b@gmail.com",
+    "position": "Nhân viên may ráp",
+    "productivityKPI": 48,
+    "qualityKPI": 0.95,
+    "salaryPerHour": 28
+  },
+  {
+    "id": "W0218",
+    "name": "Vũ Anh Duy",
+    "email": "vu.anh.duy.g2b@gmail.com",
+    "position": "Nhân viên may ráp",
+    "productivityKPI": 46,
+    "qualityKPI": 0.98,
+    "salaryPerHour": 27
+  },
+  {
+    "id": "W0217",
+    "name": "Đặng Thị Kim Ngân",
+    "email": "dang.thi.kim.ngan.g2b@gmail.com",
+    "position": "Nhân viên may ráp",
+    "productivityKPI": 44,
+    "qualityKPI": 0.97,
+    "salaryPerHour": 29
+  },
+  {
+    "id": "W0216",
+    "name": "Hồ Văn Duy",
+    "email": "ho.van.duy.g2b@gmail.com",
+    "position": "Nhân viên may ráp",
+    "productivityKPI": 42,
+    "qualityKPI": 0.99,
+    "salaryPerHour": 23
+  },
+  {
+    "id": "W0215",
+    "name": "Đinh Gia Bảo",
+    "email": "dinh.gia.bao.g2b@gmail.com",
+    "position": "Nhân viên may ráp",
+    "productivityKPI": 40,
+    "qualityKPI": 0.98,
+    "salaryPerHour": 25
+  },
+  {
+    "id": "W0214",
+    "name": "Trần Hoài Phong",
+    "email": "tran.hoai.phong.g2b@gmail.com",
+    "position": "Nhân viên may ráp",
+    "productivityKPI": 38,
+    "qualityKPI": 0.97,
+    "salaryPerHour": 27
+  },
+  {
+    "id": "W0310",
+    "name": "Hồ Thị Thảo",
+    "email": "ho.thi.thao.g2b@gmail.com",
+    "position": "Nhân viên thiết kế thời trang",
+    "productivityKPI": 28,
+    "qualityKPI": 0.96,
+    "salaryPerHour": 25
+  },
+  {
+    "id": "W0309",
+    "name": "Đỗ Minh Tâm",
+    "email": "do.minh.tam.g2b@gmail.com",
+    "position": "Nhân viên thiết kế thời trang",
+    "productivityKPI": 26,
+    "qualityKPI": 0.95,
+    "salaryPerHour": 25
+  },
+  {
+    "id": "W0308",
+    "name": "Võ Văn Tường",
+    "email": "vo.van.tuong.g2b@gmail.com",
+    "position": "Nhân viên thiết kế thời trang",
+    "productivityKPI": 25,
+    "qualityKPI": 0.94,
+    "salaryPerHour": 30
+  },
+  {
+    "id": "W0307",
+    "name": "Trịnh Thị Lan",
+    "email": "trinh.thi.lan.g2b@gmail.com",
+    "position": "Nhân viên thiết kế thời trang",
+    "productivityKPI": 24,
+    "qualityKPI": 0.93,
+    "salaryPerHour": 27
+  },
+  {
+    "id": "W0306",
+    "name": "Nguyễn Văn Hòa",
+    "email": "nguyen.van.hoa.g2b@gmail.com",
+    "position": "Nhân viên thiết kế thời trang",
+    "productivityKPI": 23,
+    "qualityKPI": 0.92,
+    "salaryPerHour": 22
+  },
+  {
+    "id": "W0305",
+    "name": "Tạ Thị Phương",
+    "email": "ta.thi.phuong.g2b@gmail.com",
+    "position": "Nhân viên thiết kế thời trang",
+    "productivityKPI": 22,
+    "qualityKPI": 0.9,
+    "salaryPerHour": 25
+  },
+  {
+    "id": "W0304",
+    "name": "Đoàn Quốc Anh",
+    "email": "doan.quoc.anh.g2b@gmail.com",
+    "position": "Nhân viên thiết kế thời trang",
+    "productivityKPI": 21,
+    "qualityKPI": 0.89,
+    "salaryPerHour": 22
+  },
+  {
+    "id": "W0410",
+    "name": "Trần Đức Huy",
+    "email": "tran.duc.huy.g2b@gmail.com",
+    "position": "Nhân viên vận hành máy giặt",
+    "productivityKPI": 58,
+    "qualityKPI": 1,
+    "salaryPerHour": 30
+  },
+  {
+    "id": "W0409",
+    "name": "Dương Văn Tuấn",
+    "email": "duong.van.tuan.g2b@gmail.com",
+    "position": "Nhân viên vận hành máy giặt",
+    "productivityKPI": 56,
+    "qualityKPI": 0.99,
+    "salaryPerHour": 27
+  },
+  {
+    "id": "W0408",
+    "name": "Bùi Văn Khôi",
+    "email": "bui.van.khoi.g2b@gmail.com",
+    "position": "Nhân viên vận hành máy giặt",
+    "productivityKPI": 54,
+    "qualityKPI": 0.99,
+    "salaryPerHour": 28
+  },
+  {
+    "id": "W0407",
+    "name": "Nguyễn Hoàng An",
+    "email": "nguyen.hoang.an.g2b@gmail.com",
+    "position": "Nhân viên vận hành máy giặt",
+    "productivityKPI": 52,
+    "qualityKPI": 0.98,
+    "salaryPerHour": 32
+  },
+  {
+    "id": "W0406",
+    "name": "Phan Quang Vinh",
+    "email": "phan.quang.vinh.g2b@gmail.com",
+    "position": "Nhân viên vận hành máy giặt",
+    "productivityKPI": 50,
+    "qualityKPI": 0.97,
+    "salaryPerHour": 27
+  },
+  {
+    "id": "W0405",
+    "name": "Trần Đăng Minh",
+    "email": "tran.dang.minh.g2b@gmail.com",
+    "position": "Nhân viên vận hành máy giặt",
+    "productivityKPI": 48,
+    "qualityKPI": 0.96,
+    "salaryPerHour": 31
+  },
+  {
+    "id": "W0404",
+    "name": "Ngô Thị Thanh Loan",
+    "email": "ngo.thi.thanh.loan.g2b@gmail.com",
+    "position": "Nhân viên vận hành máy giặt",
+    "productivityKPI": 46,
+    "qualityKPI": 0.95,
+    "salaryPerHour": 24
+  },
+  {
+    "id": "W0510",
+    "name": "Hồ Văn Đạt",
+    "email": "ho.van.dat.g2b@gmail.com",
+    "position": "Nhân viên xử lý vải",
+    "productivityKPI": 28,
+    "qualityKPI": 0.957,
+    "salaryPerHour": 20
+  },
+  {
+    "id": "W0509",
+    "name": "Lưu Gia Linh",
+    "email": "luu.gia.linh.g2b@gmail.com",
+    "position": "Nhân viên xử lý vải",
+    "productivityKPI": 26,
+    "qualityKPI": 0.955,
+    "salaryPerHour": 21
+  },
+  {
+    "id": "W0508",
+    "name": "Vũ Anh Tuấn",
+    "email": "vu.anh.tuan.g2b@gmail.com",
+    "position": "Nhân viên xử lý vải",
+    "productivityKPI": 24,
+    "qualityKPI": 0.952,
+    "salaryPerHour": 22
+  },
+  {
+    "id": "W0507",
+    "name": "Bùi Thị Kim Cúc",
+    "email": "bui.thi.kim.cuc.g2b@gmail.com",
+    "position": "Nhân viên xử lý vải",
+    "productivityKPI": 22,
+    "qualityKPI": 0.95,
+    "salaryPerHour": 27
+  },
+  {
+    "id": "W0506",
+    "name": "Đặng Đức Trung",
+    "email": "dang.dech.trung.g2b@gmail.com",
+    "position": "Nhân viên xử lý vải",
+    "productivityKPI": 20,
+    "qualityKPI": 0.945,
+    "salaryPerHour": 25
+  },
+  {
+    "id": "W0505",
+    "name": "Võ Thị Mỹ Linh",
+    "email": "vo.thi.my.linh.g2b@gmail.com",
+    "position": "Nhân viên xử lý vải",
+    "productivityKPI": 18,
+    "qualityKPI": 0.94,
+    "salaryPerHour": 25
+  },
+  {
+    "id": "W0504",
+    "name": "Phạm Minh Hải",
+    "email": "pham.minh.hai.g2b@gmail.com",
+    "position": "Nhân viên xử lý vải",
+    "productivityKPI": 16,
+    "qualityKPI": 0.935,
+    "salaryPerHour": 24
+  }
+]
