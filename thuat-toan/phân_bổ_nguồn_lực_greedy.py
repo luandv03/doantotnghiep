@@ -13,7 +13,7 @@ def load_data_files():
     """
     Tìm và đọc file input và schedule từ thư mục hiện tại
     """
-    input_file = "./data-2/input4.json"  # Đường dẫn mặc định
+    input_file = "./data-2/input3.json"  # Đường dẫn mặc định
     schedule_file = "./data-2/monthly_schedule_t45.json"  # Đường dẫn mặc định
     
     if not input_file:
