@@ -5,63 +5,56 @@
             "name": "Lệnh sản xuất áo sơ mi T4/2025",
             "quantity": 1000,
             "startDate": "2025-04-01",
-            "endDate": "2025-04-27"
+            "endDate": "2025-04-19"
         },
         {
             "id": "LSX0002",
             "name": "Lệnh sản xuất áo thun T4/2025",
             "quantity": 2000,
             "startDate": "2025-04-01",
-            "endDate": "2025-04-27"
+            "endDate": "2025-04-21"
         },
         {
             "id": "LSX0003",
             "name": "Lệnh sản xuất quần jean T4/2025",
             "quantity": 1000,
             "startDate": "2025-04-01",
-            "endDate": "2025-04-27"
+            "endDate": "2025-04-20"
         },
         {
             "id": "LSX0004",
             "name": "Lệnh sản xuất áo khoác gió T4/2025",
             "quantity": 800,
             "startDate": "2025-04-01",
-            "endDate": "2025-04-27"
+            "endDate": "2025-04-20"
         },
         {
             "id": "LSX0005",
             "name": "Lệnh sản xuất nón kết T4/2025",
             "quantity": 1500,
             "startDate": "2025-04-01",
-            "endDate": "2025-04-27"
+            "endDate": "2025-04-22"
         },
         {
             "id": "LSX0006",
             "name": "Lệnh sản xuất váy nữ T4/2025",
             "quantity": 1000,
             "startDate": "2025-04-01",
-            "endDate": "2025-04-26"
+            "endDate": "2025-04-20"
         },
         {
             "id": "LSX0007",
             "name": "Lệnh sản xuất áo blazer nữ T4/2025",
             "quantity": 600,
             "startDate": "2025-04-01",
-            "endDate": "2025-04-27"
+            "endDate": "2025-04-21"
         },
         {
             "id": "LSX0008",
             "name": "Lệnh sản xuất quần short thể thao T4/2025",
             "quantity": 1800,
             "startDate": "2025-04-01",
-            "endDate": "2025-04-27"
-        },
-        {
-            "id": "LSX0009",
-            "name": "Lệnh sản xuất găng tay vải T4/2025",
-            "quantity": 2500,
-            "startDate": "2025-04-01",
-            "endDate": "2025-04-30"
+            "endDate": "2025-04-21"
         }
     ],
     "operations": [
@@ -1250,138 +1243,6 @@
                     "name": "Tỷ lệ lỗi trong đóng gói (móp, méo, hỏng bao bì)",
                     "weight": 0.15,
                     "value": 1800
-                }
-            ]
-        },
-        {
-            "id": "OP055",
-            "productionOrderId": "LSX0009",
-            "name": "Cắt vải cotton/polyester chống trượt",
-            "requiredMachineType": "Máy cắt laser",
-            "requiredPosition": "Nhân viên xử lý vải",
-            "prevOperation": [],
-            "kpis": [
-                {
-                    "id": "G11",
-                    "name": "Số cuộn vải được cắt chính xác theo yêu cầu",
-                    "weight": 0.2,
-                    "value": 2500
-                },
-                {
-                    "id": "G12",
-                    "name": "Tỷ lệ cắt vải bị lỗi kích thước, sai vị trí",
-                    "weight": 0.2,
-                    "value": 2500
-                }
-            ]
-        },
-        {
-            "id": "OP056",
-            "productionOrderId": "LSX0009",
-            "name": "May lòng bàn tay với lớp đệm",
-            "requiredMachineType": "Máy may công nghiệp",
-            "requiredPosition": "Nhân viên may chi tiết",
-            "prevOperation": ["OP055"],
-            "kpis": [
-                {
-                    "id": "G21",
-                    "name": "Số găng tay hoàn chỉnh với lòng bàn tay đệm",
-                    "weight": 0.2,
-                    "value": 2500
-                },
-                {
-                    "id": "G22",
-                    "name": "Tỷ lệ lỗi trong may lòng bàn tay (lệch, vải không đều)",
-                    "weight": 0.2,
-                    "value": 2500
-                }
-            ]
-        },
-        {
-            "id": "OP057",
-            "productionOrderId": "LSX0009",
-            "name": "May bo cổ tay co giãn",
-            "requiredMachineType": "Máy may co giãn",
-            "requiredPosition": "Nhân viên may ráp",
-            "prevOperation": ["OP056"],
-            "kpis": [
-                {
-                    "id": "G31",
-                    "name": "Số găng tay hoàn chỉnh với bo cổ tay đúng yêu cầu",
-                    "weight": 0.175,
-                    "value": 2500
-                },
-                {
-                    "id": "G32",
-                    "name": "Tỷ lệ lỗi trong may bo cổ tay (không vừa, co giãn không tốt)",
-                    "weight": 0.175,
-                    "value": 2500
-                }
-            ]
-        },
-        {
-            "id": "OP058",
-            "productionOrderId": "LSX0009",
-            "name": "Là và kiểm độ vừa tay",
-            "requiredMachineType": "Máy là hơi công nghiệp",
-            "requiredPosition": "Nhân viên là ép",
-            "prevOperation": ["OP057"],
-            "kpis": [
-                {
-                    "id": "G41",
-                    "name": "Số găng tay kiểm tra và đạt độ vừa tay chuẩn",
-                    "weight": 0.15,
-                    "value": 2500
-                },
-                {
-                    "id": "G42",
-                    "name": "Tỷ lệ găng tay không đạt độ vừa tay chuẩn",
-                    "weight": 0.15,
-                    "value": 2500
-                }
-            ]
-        },
-        {
-            "id": "OP059",
-            "productionOrderId": "LSX0009",
-            "name": "Test độ trượt & ma sát",
-            "requiredMachineType": "Máy đo ma sát",
-            "requiredPosition": "Nhân viên QA/QC",
-            "prevOperation": ["OP058"],
-            "kpis": [
-                {
-                    "id": "G51",
-                    "name": "Số găng tay vượt qua kiểm tra độ trượt và ma sát",
-                    "weight": 0.1,
-                    "value": 2500
-                },
-                {
-                    "id": "G52",
-                    "name": "Tỷ lệ găng tay không đạt kiểm tra độ trượt & ma sát",
-                    "weight": 0.1,
-                    "value": 2500
-                }
-            ]
-        },
-        {
-            "id": "OP060",
-            "productionOrderId": "LSX0009",
-            "name": "Đóng cặp, dán size tag",
-            "requiredMachineType": "Máy dán nhãn tự động",
-            "requiredPosition": "Nhân viên đóng gói",
-            "prevOperation": ["OP059"],
-            "kpis": [
-                {
-                    "id": "G61",
-                    "name": "Số găng tay được đóng gói và dán size tag hoàn chỉnh",
-                    "weight": 0.1,
-                    "value": 2500
-                },
-                {
-                    "id": "G62",
-                    "name": "Tỷ lệ lỗi trong đóng gói (size tag dán sai, đóng gói hỏng)",
-                    "weight": 0.1,
-                    "value": 2500
                 }
             ]
         }
