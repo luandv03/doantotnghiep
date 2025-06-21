@@ -63,7 +63,7 @@ def main():
         sys.exit(1)
 
     # Đọc dữ liệu từ file JSON
-    # input_data = load_json("./data-2/input3.json")
+    input_data = load_json("./data-2/input3.json")
     schedule_data = load_json("./data-2/monthly_schedule_t45.json")
 
     # Parse dữ liệu
