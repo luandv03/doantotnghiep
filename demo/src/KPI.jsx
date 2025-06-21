@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import scheduleData from "../../thuat-toan/out/schedule.json";
+import scheduleData from "../../thuat-toan/out/out3/input3/schedule.json";
 import inputData from "../../thuat-toan/data-2/input3.json";
 
 const filterOperationByCommandId = (commandId = "All") => {

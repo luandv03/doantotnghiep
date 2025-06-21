@@ -1,0 +1,40 @@
+Completed Orders On Time: 6, Total Shifts: 61, Total Cost: 100707651.0
+Completed Orders On Time: 6, Total Shifts: 61, Total Cost: 101361804.5
+Completed Orders On Time: 6, Total Shifts: 61, Total Cost: 100637702.0
+Completed Orders On Time: 6, Total Shifts: 62, Total Cost: 99657640.5
+Completed Orders On Time: 6, Total Shifts: 61, Total Cost: 100098905.5
+Completed Orders On Time: 6, Total Shifts: 61, Total Cost: 99892039.5
+Completed Orders On Time: 6, Total Shifts: 61, Total Cost: 100804440.0
+Completed Orders On Time: 6, Total Shifts: 61, Total Cost: 99665093.0
+Completed Orders On Time: 6, Total Shifts: 63, Total Cost: 101260676.0
+Completed Orders On Time: 6, Total Shifts: 63, Total Cost: 100226516.5
+Completed Orders On Time: 6, Total Shifts: 62, Total Cost: 101927133.0
+Completed Orders On Time: 6, Total Shifts: 61, Total Cost: 101645109.5
+Completed Orders On Time: 6, Total Shifts: 61, Total Cost: 100665895.0
+Completed Orders On Time: 6, Total Shifts: 61, Total Cost: 100120372.0
+Completed Orders On Time: 6, Total Shifts: 61, Total Cost: 100098361.0
+Completed Orders On Time: 6, Total Shifts: 61, Total Cost: 100923344.5
+Completed Orders On Time: 6, Total Shifts: 62, Total Cost: 100351405.0
+Completed Orders On Time: 6, Total Shifts: 61, Total Cost: 100449217.0
+Completed Orders On Time: 6, Total Shifts: 63, Total Cost: 100414435.0
+Completed Orders On Time: 6, Total Shifts: 60, Total Cost: 100365144.0
+Completed Orders On Time: 6, Total Shifts: 61, Total Cost: 100190574.0
+Completed Orders On Time: 6, Total Shifts: 61, Total Cost: 101121174.0
+Completed Orders On Time: 6, Total Shifts: 63, Total Cost: 101182015.0
+Completed Orders On Time: 6, Total Shifts: 60, Total Cost: 100222496.0
+Completed Orders On Time: 6, Total Shifts: 63, Total Cost: 100096194.0
+Completed Orders On Time: 6, Total Shifts: 61, Total Cost: 101352531.5
+Completed Orders On Time: 6, Total Shifts: 61, Total Cost: 100297175.0
+Completed Orders On Time: 6, Total Shifts: 61, Total Cost: 100670883.5
+Completed Orders On Time: 6, Total Shifts: 60, Total Cost: 101037915.0
+Completed Orders On Time: 6, Total Shifts: 63, Total Cost: 100856959.5
+
+Tổng quan thuật toán:
+Kích thước dữ liệu: 101 nhân viên, 145 máy móc, 41 công đoạn, 6 lệnh sản xuất
+Tham số: HMS=30, MaxIter=100, HCR=0.70, PAR=0.50
+Kết quả tốt nhất: 6 lệnh hoàn thành đúng hạn, 60 ca làm việc, 100222496.0 chi phí
+Thời gian chạy: 29.97 giây
+Thời gian thực thi thuật toán: 29.97 giây
+Dữ liệu đã được ghi vào file ./out/out2/input6/best_solution.json
+Tất cả công đoạn đã được ghi vào file ./out/out2/input6/schedule.json
+Tối ưu: (6, 60, 100222496.0)

@@ -1,0 +1,40 @@
+Completed Orders On Time: 7, Total Shifts: 85, Total Cost: 137977642.0
+Completed Orders On Time: 7, Total Shifts: 83, Total Cost: 136241561.5
+Completed Orders On Time: 7, Total Shifts: 84, Total Cost: 135588139.5
+Completed Orders On Time: 7, Total Shifts: 85, Total Cost: 137723569.5
+Completed Orders On Time: 7, Total Shifts: 85, Total Cost: 136923440.5
+Completed Orders On Time: 8, Total Shifts: 79, Total Cost: 136178768.0
+Completed Orders On Time: 7, Total Shifts: 84, Total Cost: 136908084.5
+Completed Orders On Time: 7, Total Shifts: 83, Total Cost: 137851994.5
+Completed Orders On Time: 7, Total Shifts: 85, Total Cost: 135765338.5
+Completed Orders On Time: 7, Total Shifts: 84, Total Cost: 136432609.5
+Completed Orders On Time: 7, Total Shifts: 82, Total Cost: 135841139.5
+Completed Orders On Time: 7, Total Shifts: 85, Total Cost: 134721070.0
+Completed Orders On Time: 7, Total Shifts: 84, Total Cost: 136241957.5
+Completed Orders On Time: 7, Total Shifts: 85, Total Cost: 137236550.0
+Completed Orders On Time: 7, Total Shifts: 82, Total Cost: 136086824.5
+Completed Orders On Time: 7, Total Shifts: 83, Total Cost: 136858579.0
+Completed Orders On Time: 7, Total Shifts: 83, Total Cost: 136687474.0
+Completed Orders On Time: 7, Total Shifts: 85, Total Cost: 136749519.5
+Completed Orders On Time: 7, Total Shifts: 85, Total Cost: 135629175.0
+Completed Orders On Time: 7, Total Shifts: 86, Total Cost: 137519849.5
+Completed Orders On Time: 8, Total Shifts: 84, Total Cost: 136370987.5
+Completed Orders On Time: 7, Total Shifts: 82, Total Cost: 136984699.5
+Completed Orders On Time: 7, Total Shifts: 85, Total Cost: 137078249.0
+Completed Orders On Time: 7, Total Shifts: 85, Total Cost: 136169484.0
+Completed Orders On Time: 8, Total Shifts: 83, Total Cost: 136623201.0
+Completed Orders On Time: 7, Total Shifts: 85, Total Cost: 136345341.0
+Completed Orders On Time: 7, Total Shifts: 85, Total Cost: 136493302.0
+Completed Orders On Time: 7, Total Shifts: 84, Total Cost: 136830347.5
+Completed Orders On Time: 7, Total Shifts: 85, Total Cost: 135938143.0
+Completed Orders On Time: 7, Total Shifts: 85, Total Cost: 136170831.5
+
+Tổng quan thuật toán:
+Kích thước dữ liệu: 101 nhân viên, 145 máy móc, 54 công đoạn, 8 lệnh sản xuất
+Tham số: HMS=30, MaxIter=100, HCR=0.70, PAR=0.44
+Kết quả tốt nhất: 8 lệnh hoàn thành đúng hạn, 79 ca làm việc, 136178768.0 chi phí
+Thời gian chạy: 33.80 giây
+Thời gian thực thi thuật toán: 33.84 giây
+Dữ liệu đã được ghi vào file ./out/out2/input8/best_solution.json
+Tất cả công đoạn đã được ghi vào file ./out/out2/input8/schedule.json
+Tối ưu: (8, 79, 136178768.0)

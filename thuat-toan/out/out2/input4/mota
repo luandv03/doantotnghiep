@@ -1,0 +1,40 @@
+Completed Orders On Time: 4, Total Shifts: 36, Total Cost: 61483581.5
+Completed Orders On Time: 4, Total Shifts: 40, Total Cost: 61534154.0
+Completed Orders On Time: 4, Total Shifts: 41, Total Cost: 61757608.0
+Completed Orders On Time: 4, Total Shifts: 40, Total Cost: 61094924.0
+Completed Orders On Time: 4, Total Shifts: 40, Total Cost: 60757735.5
+Completed Orders On Time: 4, Total Shifts: 40, Total Cost: 61189760.5
+Completed Orders On Time: 4, Total Shifts: 40, Total Cost: 61017687.5
+Completed Orders On Time: 4, Total Shifts: 40, Total Cost: 60595128.0
+Completed Orders On Time: 4, Total Shifts: 41, Total Cost: 60924308.5
+Completed Orders On Time: 4, Total Shifts: 38, Total Cost: 61404013.0
+Completed Orders On Time: 4, Total Shifts: 41, Total Cost: 61360117.5
+Completed Orders On Time: 4, Total Shifts: 36, Total Cost: 61426794.0
+Completed Orders On Time: 4, Total Shifts: 40, Total Cost: 61433328.0
+Completed Orders On Time: 4, Total Shifts: 40, Total Cost: 61228854.5
+Completed Orders On Time: 4, Total Shifts: 41, Total Cost: 61579952.5
+Completed Orders On Time: 4, Total Shifts: 40, Total Cost: 61501462.0
+Completed Orders On Time: 4, Total Shifts: 40, Total Cost: 60932866.5
+Completed Orders On Time: 4, Total Shifts: 40, Total Cost: 60808896.5
+Completed Orders On Time: 4, Total Shifts: 40, Total Cost: 60383279.0
+Completed Orders On Time: 4, Total Shifts: 41, Total Cost: 60758296.5
+Completed Orders On Time: 4, Total Shifts: 40, Total Cost: 59730792.0
+Completed Orders On Time: 4, Total Shifts: 40, Total Cost: 60193699.5
+Completed Orders On Time: 4, Total Shifts: 41, Total Cost: 60955477.0
+Completed Orders On Time: 4, Total Shifts: 40, Total Cost: 61396076.5
+Completed Orders On Time: 4, Total Shifts: 40, Total Cost: 60592361.5
+Completed Orders On Time: 4, Total Shifts: 40, Total Cost: 61515481.5
+Completed Orders On Time: 4, Total Shifts: 40, Total Cost: 60740218.0
+Completed Orders On Time: 4, Total Shifts: 41, Total Cost: 61117573.0
+Completed Orders On Time: 4, Total Shifts: 41, Total Cost: 60837199.5
+Completed Orders On Time: 4, Total Shifts: 40, Total Cost: 61555703.0
+
+Tổng quan thuật toán:
+Kích thước dữ liệu: 101 nhân viên, 145 máy móc, 27 công đoạn, 4 lệnh sản xuất
+Tham số: HMS=30, MaxIter=100, HCR=0.70, PAR=0.50
+Kết quả tốt nhất: 4 lệnh hoàn thành đúng hạn, 36 ca làm việc, 61426794.0 chi phí
+Thời gian chạy: 22.14 giây
+Thời gian thực thi thuật toán: 22.14 giây
+Dữ liệu đã được ghi vào file ./out/out2/input4/best_solution.json
+Tất cả công đoạn đã được ghi vào file ./out/out2/input4/schedule.json
+Tối ưu: (4, 36, 61426794.0)

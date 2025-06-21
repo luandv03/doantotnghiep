@@ -1,0 +1,40 @@
+Completed Orders On Time: 5, Total Shifts: 51, Total Cost: 81506293.0
+Completed Orders On Time: 5, Total Shifts: 50, Total Cost: 81479530.0
+Completed Orders On Time: 5, Total Shifts: 50, Total Cost: 81726216.0
+Completed Orders On Time: 5, Total Shifts: 50, Total Cost: 80887306.5
+Completed Orders On Time: 5, Total Shifts: 48, Total Cost: 81193453.0
+Completed Orders On Time: 5, Total Shifts: 50, Total Cost: 80833137.0
+Completed Orders On Time: 5, Total Shifts: 50, Total Cost: 81616639.5
+Completed Orders On Time: 5, Total Shifts: 49, Total Cost: 81056030.0
+Completed Orders On Time: 5, Total Shifts: 52, Total Cost: 80693349.0
+Completed Orders On Time: 5, Total Shifts: 52, Total Cost: 80810620.0
+Completed Orders On Time: 5, Total Shifts: 51, Total Cost: 82186175.5
+Completed Orders On Time: 5, Total Shifts: 51, Total Cost: 82113982.5
+Completed Orders On Time: 5, Total Shifts: 50, Total Cost: 81334236.5
+Completed Orders On Time: 5, Total Shifts: 51, Total Cost: 81146736.0
+Completed Orders On Time: 5, Total Shifts: 52, Total Cost: 80869921.0
+Completed Orders On Time: 5, Total Shifts: 52, Total Cost: 80318837.5
+Completed Orders On Time: 5, Total Shifts: 50, Total Cost: 81167075.0
+Completed Orders On Time: 5, Total Shifts: 50, Total Cost: 81117030.5
+Completed Orders On Time: 5, Total Shifts: 51, Total Cost: 80729231.0
+Completed Orders On Time: 5, Total Shifts: 51, Total Cost: 80673494.0
+Completed Orders On Time: 5, Total Shifts: 51, Total Cost: 80832609.0
+Completed Orders On Time: 5, Total Shifts: 50, Total Cost: 80903108.0
+Completed Orders On Time: 5, Total Shifts: 51, Total Cost: 81321267.5
+Completed Orders On Time: 5, Total Shifts: 50, Total Cost: 81443015.5
+Completed Orders On Time: 5, Total Shifts: 51, Total Cost: 81175974.0
+Completed Orders On Time: 5, Total Shifts: 52, Total Cost: 80186095.0
+Completed Orders On Time: 5, Total Shifts: 49, Total Cost: 80946107.0
+Completed Orders On Time: 5, Total Shifts: 51, Total Cost: 81703655.0
+Completed Orders On Time: 5, Total Shifts: 51, Total Cost: 81100904.5
+Completed Orders On Time: 5, Total Shifts: 51, Total Cost: 81405472.5
+
+Tổng quan thuật toán:
+Kích thước dữ liệu: 101 nhân viên, 145 máy móc, 33 công đoạn, 5 lệnh sản xuất
+Tham số: HMS=30, MaxIter=100, HCR=0.70, PAR=0.50
+Kết quả tốt nhất: 5 lệnh hoàn thành đúng hạn, 48 ca làm việc, 81193453.0 chi phí
+Thời gian chạy: 27.00 giây
+Thời gian thực thi thuật toán: 27.01 giây
+Dữ liệu đã được ghi vào file ./out/out2/input5/best_solution.json
+Tất cả công đoạn đã được ghi vào file ./out/out2/input5/schedule.json
+Tối ưu: (5, 48, 81193453.0)
