@@ -3,8 +3,8 @@ import Timeline, { TimelineHeaders, DateHeader } from "react-calendar-timeline";
 import "react-calendar-timeline/dist/Timeline.scss";
 import moment from "moment";
 
-import scheduleData from "../../thuat-toan/out/out3/input3/schedule.json";
-import inputData from "../../thuat-toan/data-2/input3.json";
+import scheduleData from "../../thuat-toan/out/out3/input9/schedule.json";
+import inputData from "../../thuat-toan/data-2/input9.json";
 
 // const shiftTimes = {
 //     1: { start: "00:00", end: "05:30" },

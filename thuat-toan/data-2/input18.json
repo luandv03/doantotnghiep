@@ -2815,25 +2815,11 @@
             "productivity": 0.88
         },
         {
-            "id": "A007",
-            "name": "Máy cắt vải tự động Gerber Cutter",
-            "machineType": "Máy cắt vải tự động",
-            "costPerHour": 220,
-            "productivity": 0.85
-        },
-        {
             "id": "A008",
             "name": "Máy cắt vải tự động Zünd G3",
             "machineType": "Máy cắt vải tự động",
             "costPerHour": 280,
             "productivity": 0.9
-        },
-        {
-            "id": "A009",
-            "name": "Máy cắt vải tự động Eastman VX2500",
-            "machineType": "Máy cắt vải tự động",
-            "costPerHour": 240,
-            "productivity": 0.87
         },
         {
             "id": "A010",
@@ -2850,32 +2836,11 @@
             "productivity": 0.95
         },
         {
-            "id": "A012",
-            "name": "Máy may công nghiệp Brother B755",
-            "machineType": "Máy may công nghiệp",
-            "costPerHour": 85,
-            "productivity": 0.93
-        },
-        {
-            "id": "A013",
-            "name": "Máy may công nghiệp Singer 191D",
-            "machineType": "Máy may công nghiệp",
-            "costPerHour": 75,
-            "productivity": 0.92
-        },
-        {
             "id": "A014",
             "name": "Máy may công nghiệp Pegasus W600",
             "machineType": "Máy may công nghiệp",
             "costPerHour": 90,
             "productivity": 0.94
-        },
-        {
-            "id": "A015",
-            "name": "Máy may công nghiệp Jack JK-9000B",
-            "machineType": "Máy may công nghiệp",
-            "costPerHour": 95,
-            "productivity": 0.91
         },
         {
             "id": "A016",
@@ -2892,20 +2857,6 @@
             "productivity": 0.88
         },
         {
-            "id": "A018",
-            "name": "Máy may chuyên dụng Consew 206RB (may da)",
-            "machineType": "Máy may chuyên dụng",
-            "costPerHour": 130,
-            "productivity": 0.85
-        },
-        {
-            "id": "A019",
-            "name": "Máy giặt công nghiệp Primus C400",
-            "machineType": "Máy giặt công nghiệp",
-            "costPerHour": 200,
-            "productivity": 0.85
-        },
-        {
             "id": "A020",
             "name": "Máy giặt công nghiệp IPSO WN86",
             "machineType": "Máy giặt công nghiệp",
@@ -2913,25 +2864,11 @@
             "productivity": 0.86
         },
         {
-            "id": "A021",
-            "name": "Máy giặt công nghiệp Electrolux W586H",
-            "machineType": "Máy giặt công nghiệp",
-            "costPerHour": 210,
-            "productivity": 0.84
-        },
-        {
             "id": "A022",
             "name": "Máy giặt công nghiệp Girbau HS-60",
             "machineType": "Máy giặt công nghiệp",
             "costPerHour": 180,
             "productivity": 0.88
-        },
-        {
-            "id": "A023",
-            "name": "Máy giặt công nghiệp Speed Queen SR7",
-            "machineType": "Máy giặt công nghiệp",
-            "costPerHour": 220,
-            "productivity": 0.82
         },
         {
             "id": "A024",
@@ -2948,13 +2885,6 @@
             "productivity": 0.85
         },
         {
-            "id": "A026",
-            "name": "Máy kiểm tra độ bền Hegewald & Peschke Inspekt 200 kN",
-            "machineType": "Máy kiểm tra độ bền",
-            "costPerHour": 220,
-            "productivity": 0.82
-        },
-        {
             "id": "A027",
             "name": "Máy đóng gói tự động Bosch Sigpack HML",
             "machineType": "Máy đóng gói tự động",
@@ -2962,32 +2892,11 @@
             "productivity": 0.93
         },
         {
-            "id": "A028",
-            "name": "Máy đóng gói tự động Ishida CCW-R Series",
-            "machineType": "Máy đóng gói tự động",
-            "costPerHour": 130,
-            "productivity": 0.9
-        },
-        {
-            "id": "A029",
-            "name": "Máy đóng gói tự động ULMA HFFS",
-            "machineType": "Máy đóng gói tự động",
-            "costPerHour": 140,
-            "productivity": 0.88
-        },
-        {
             "id": "A030",
             "name": "Máy đóng gói tự động Matrix 450",
             "machineType": "Máy đóng gói tự động",
             "costPerHour": 110,
             "productivity": 0.91
-        },
-        {
-            "id": "A031",
-            "name": "Máy đóng gói tự động Viking M Series",
-            "machineType": "Máy đóng gói tự động",
-            "costPerHour": 150,
-            "productivity": 0.89
         },
         {
             "id": "A032",
@@ -3004,39 +2913,11 @@
             "productivity": 0.9
         },
         {
-            "id": "A034",
-            "name": "Máy cắt laser Universal Laser Systems VLS6.75",
-            "machineType": "Máy cắt laser",
-            "costPerHour": 310,
-            "productivity": 0.88
-        },
-        {
-            "id": "A035",
-            "name": "Máy cắt laser Boss Laser LS-2440",
-            "machineType": "Máy cắt laser",
-            "costPerHour": 290,
-            "productivity": 0.87
-        },
-        {
             "id": "A036",
             "name": "Máy đính khuy tự động Juki MB-377",
             "machineType": "Máy đính khuy tự động",
             "costPerHour": 90,
             "productivity": 0.91
-        },
-        {
-            "id": "A037",
-            "name": "Máy đính khuy tự động Yamato AD-1300",
-            "machineType": "Máy đính khuy tự động",
-            "costPerHour": 95,
-            "productivity": 0.89
-        },
-        {
-            "id": "A038",
-            "name": "Máy đính khuy tự động Kansai Special MB-3730",
-            "machineType": "Máy đính khuy tự động",
-            "costPerHour": 100,
-            "productivity": 0.88
         },
         {
             "id": "A039",
@@ -3053,32 +2934,11 @@
             "productivity": 0.94
         },
         {
-            "id": "A041",
-            "name": "Máy là hơi công nghiệp Macpi 449/16",
-            "machineType": "Máy là hơi công nghiệp",
-            "costPerHour": 120,
-            "productivity": 0.92
-        },
-        {
-            "id": "A042",
-            "name": "Máy là hơi công nghiệp Hoffman M-2000",
-            "machineType": "Máy là hơi công nghiệp",
-            "costPerHour": 115,
-            "productivity": 0.9
-        },
-        {
             "id": "A043",
             "name": "Máy là hơi công nghiệp Oshima OS-7000",
             "machineType": "Máy là hơi công nghiệp",
             "costPerHour": 130,
             "productivity": 0.93
-        },
-        {
-            "id": "A044",
-            "name": "Thiết bị kiểm tra mẫu Q-Lab QUV",
-            "machineType": "Thiết bị kiểm tra mẫu",
-            "costPerHour": 150,
-            "productivity": 0.85
         },
         {
             "id": "A045",
@@ -3102,20 +2962,6 @@
             "productivity": 0.93
         },
         {
-            "id": "A048",
-            "name": "Máy in nhãn Zebra ZT410",
-            "machineType": "Máy in nhãn",
-            "costPerHour": 80,
-            "productivity": 0.91
-        },
-        {
-            "id": "A049",
-            "name": "Máy in nhãn Brady M210",
-            "machineType": "Máy in nhãn",
-            "costPerHour": 75,
-            "productivity": 0.89
-        },
-        {
             "id": "A050",
             "name": "Máy in nhãn Primera LX900",
             "machineType": "Máy in nhãn",
@@ -3128,13 +2974,6 @@
             "machineType": "Máy sanforizing",
             "costPerHour": 400,
             "productivity": 0.82
-        },
-        {
-            "id": "A052",
-            "name": "Máy sanforizing Bruckner Sanforizer",
-            "machineType": "Máy sanforizing",
-            "costPerHour": 420,
-            "productivity": 0.8
         },
         {
             "id": "A053",
@@ -3151,25 +2990,11 @@
             "productivity": 0.84
         },
         {
-            "id": "A055",
-            "name": "Máy phủ PU tự động Graco Ultramax II",
-            "machineType": "Máy phủ PU tự động",
-            "costPerHour": 340,
-            "productivity": 0.83
-        },
-        {
             "id": "A056",
             "name": "Máy phủ PU tự động Sames Kremlin Airmix",
             "machineType": "Máy phủ PU tự động",
             "costPerHour": 360,
             "productivity": 0.85
-        },
-        {
-            "id": "A057",
-            "name": "Máy thổi khí áp suất Festo Air Blower",
-            "machineType": "Máy thổi khí áp suất",
-            "costPerHour": 180,
-            "productivity": 0.86
         },
         {
             "id": "A058",
@@ -3179,25 +3004,11 @@
             "productivity": 0.88
         },
         {
-            "id": "A059",
-            "name": "Máy thổi khí áp suất Atlas Copco GA 37",
-            "machineType": "Máy thổi khí áp suất",
-            "costPerHour": 200,
-            "productivity": 0.85
-        },
-        {
             "id": "A060",
             "name": "Máy in công nghiệp Kornit Avalanche HD6",
             "machineType": "Máy in công nghiệp",
             "costPerHour": 280,
             "productivity": 0.86
-        },
-        {
-            "id": "A061",
-            "name": "Máy in công nghiệp Mimaki TS55-1800",
-            "machineType": "Máy in công nghiệp",
-            "costPerHour": 270,
-            "productivity": 0.85
         },
         {
             "id": "A062",
@@ -3214,32 +3025,11 @@
             "productivity": 0.91
         },
         {
-            "id": "A064",
-            "name": "Máy đóng nút tự động Yamato AD-1250",
-            "machineType": "Máy đóng nút tự động",
-            "costPerHour": 100,
-            "productivity": 0.89
-        },
-        {
-            "id": "A065",
-            "name": "Máy đóng nút tự động Kansai Special MB-3720",
-            "machineType": "Máy đóng nút tự động",
-            "costPerHour": 105,
-            "productivity": 0.9
-        },
-        {
             "id": "A066",
             "name": "Máy đo form 3D Vitus 3D Body Scanner",
             "machineType": "Máy đo form 3D",
             "costPerHour": 220,
             "productivity": 0.88
-        },
-        {
-            "id": "A067",
-            "name": "Máy đo form 3D TechMed 3D Measure",
-            "machineType": "Máy đo form 3D",
-            "costPerHour": 240,
-            "productivity": 0.86
         },
         {
             "id": "A068",
@@ -3263,13 +3053,6 @@
             "productivity": 0.91
         },
         {
-            "id": "A071",
-            "name": "Máy đóng hộp tự động Omori Carton Sealer",
-            "machineType": "Máy đóng hộp tự động",
-            "costPerHour": 190,
-            "productivity": 0.87
-        },
-        {
             "id": "A072",
             "name": "Máy cắt rập CNC Lectra Versalis",
             "machineType": "Máy cắt rập CNC",
@@ -3282,20 +3065,6 @@
             "machineType": "Máy cắt rập CNC",
             "costPerHour": 330,
             "productivity": 0.92
-        },
-        {
-            "id": "A074",
-            "name": "Máy cắt rập CNC Tukatech TUKAcut",
-            "machineType": "Máy cắt rập CNC",
-            "costPerHour": 310,
-            "productivity": 0.88
-        },
-        {
-            "id": "A075",
-            "name": "Máy đo 3D Faro Arm ScanArm",
-            "machineType": "Máy đo 3D",
-            "costPerHour": 350,
-            "productivity": 0.85
         },
         {
             "id": "A076",
@@ -3319,13 +3088,6 @@
             "productivity": 0.93
         },
         {
-            "id": "A079",
-            "name": "Máy in nhãn tự động Honeywell PM45",
-            "machineType": "Máy in nhãn tự động",
-            "costPerHour": 100,
-            "productivity": 0.91
-        },
-        {
             "id": "A080",
             "name": "Máy in nhãn tự động Toshiba B-SX4T",
             "machineType": "Máy in nhãn tự động",
@@ -3333,25 +3095,11 @@
             "productivity": 0.94
         },
         {
-            "id": "A081",
-            "name": "Máy đóng gói chân không Henkelman Boxer 52",
-            "machineType": "Máy đóng gói chân không",
-            "costPerHour": 280,
-            "productivity": 0.86
-        },
-        {
             "id": "A082",
             "name": "Máy đóng gói chân không Multivac C500",
             "machineType": "Máy đóng gói chân không",
             "costPerHour": 300,
             "productivity": 0.88
-        },
-        {
-            "id": "A083",
-            "name": "Máy đóng gói chân không Ulma Packaging HFFS",
-            "machineType": "Máy đóng gói chân không",
-            "costPerHour": 290,
-            "productivity": 0.85
         },
         {
             "id": "A084",
@@ -3375,25 +3123,11 @@
             "productivity": 0.9
         },
         {
-            "id": "A087",
-            "name": "Máy cắt dao tròn Martelli Rotary Cutter",
-            "machineType": "Máy cắt dao tròn",
-            "costPerHour": 160,
-            "productivity": 0.87
-        },
-        {
             "id": "A088",
             "name": "Máy soi đường may Veit Vision Sewing Analyzer",
             "machineType": "Máy soi đường may",
             "costPerHour": 180,
             "productivity": 0.85
-        },
-        {
-            "id": "A089",
-            "name": "Máy soi đường may QIMA Inspection Camera",
-            "machineType": "Máy soi đường may",
-            "costPerHour": 200,
-            "productivity": 0.82
         },
         {
             "id": "A090",
@@ -3410,32 +3144,11 @@
             "productivity": 0.92
         },
         {
-            "id": "A092",
-            "name": "Máy may co giãn Brother BAS-325G",
-            "machineType": "Máy may co giãn",
-            "costPerHour": 105,
-            "productivity": 0.91
-        },
-        {
-            "id": "A093",
-            "name": "Máy may co giãn Pegasus W500",
-            "machineType": "Máy may co giãn",
-            "costPerHour": 115,
-            "productivity": 0.89
-        },
-        {
             "id": "A094",
             "name": "Máy đo ma sát Labthink FPT-F1",
             "machineType": "Máy đo ma sát",
             "costPerHour": 130,
             "productivity": 0.86
-        },
-        {
-            "id": "A095",
-            "name": "Máy đo ma sát Trinity ISR-2000",
-            "machineType": "Máy đo ma sát",
-            "costPerHour": 140,
-            "productivity": 0.84
         },
         {
             "id": "A096",
@@ -3459,13 +3172,6 @@
             "productivity": 0.94
         },
         {
-            "id": "A099",
-            "name": "Máy dán nhãn tự động Pack Leader L-200",
-            "machineType": "Máy dán nhãn tự động",
-            "costPerHour": 100,
-            "productivity": 0.91
-        },
-        {
             "id": "A110",
             "name": "Máy cắt vải tự động Bullmer PowerCut",
             "machineType": "Máy cắt vải tự động",
@@ -3480,74 +3186,11 @@
             "productivity": 0.88
         },
         {
-            "id": "A112",
-            "name": "Máy cắt vải tự động Zünd G3",
-            "machineType": "Máy cắt vải tự động",
-            "costPerHour": 270,
-            "productivity": 0.87
-        },
-        {
-            "id": "A113",
-            "name": "Máy cắt vải tự động Gerber Paragon",
-            "machineType": "Máy cắt vải tự động",
-            "costPerHour": 275,
-            "productivity": 0.86
-        },
-        {
-            "id": "A114",
-            "name": "Máy cắt vải tự động Lectra Cutter",
-            "machineType": "Máy cắt vải tự động",
-            "costPerHour": 280,
-            "productivity": 0.85
-        },
-        {
-            "id": "A115",
-            "name": "Máy cắt vải tự động Gerber Cutter XL",
-            "machineType": "Máy cắt vải tự động",
-            "costPerHour": 285,
-            "productivity": 0.84
-        },
-        {
-            "id": "A116",
-            "name": "Máy cắt vải tự động Eastman Supercut",
-            "machineType": "Máy cắt vải tự động",
-            "costPerHour": 290,
-            "productivity": 0.83
-        },
-        {
-            "id": "A117",
-            "name": "Máy cắt vải tự động Bullmer Cut 2000",
-            "machineType": "Máy cắt vải tự động",
-            "costPerHour": 295,
-            "productivity": 0.82
-        },
-        {
-            "id": "A118",
-            "name": "Máy cắt vải tự động Lectra iX",
-            "machineType": "Máy cắt vải tự động",
-            "costPerHour": 300,
-            "productivity": 0.81
-        },
-        {
-            "id": "A119",
-            "name": "Máy cắt vải tự động Zünd G5",
-            "machineType": "Máy cắt vải tự động",
-            "costPerHour": 310,
-            "productivity": 0.8
-        },
-        {
             "id": "A120",
             "name": "Máy may công nghiệp Juki DDL-9000",
             "machineType": "Máy may công nghiệp",
             "costPerHour": 85,
             "productivity": 0.94
-        },
-        {
-            "id": "A121",
-            "name": "Máy may công nghiệp Brother B755A",
-            "machineType": "Máy may công nghiệp",
-            "costPerHour": 90,
-            "productivity": 0.92
         },
         {
             "id": "A122",
@@ -3557,53 +3200,11 @@
             "productivity": 0.95
         },
         {
-            "id": "A123",
-            "name": "Máy may công nghiệp Pegasus W600A",
-            "machineType": "Máy may công nghiệp",
-            "costPerHour": 95,
-            "productivity": 0.91
-        },
-        {
-            "id": "A124",
-            "name": "Máy may công nghiệp Jack JK-9000C",
-            "machineType": "Máy may công nghiệp",
-            "costPerHour": 92,
-            "productivity": 0.93
-        },
-        {
             "id": "A125",
             "name": "Máy may công nghiệp Juki DDL-8700A",
             "machineType": "Máy may công nghiệp",
             "costPerHour": 88,
             "productivity": 0.94
-        },
-        {
-            "id": "A126",
-            "name": "Máy may công nghiệp Brother B700",
-            "machineType": "Máy may công nghiệp",
-            "costPerHour": 86,
-            "productivity": 0.91
-        },
-        {
-            "id": "A127",
-            "name": "Máy may công nghiệp Singer 192D",
-            "machineType": "Máy may công nghiệp",
-            "costPerHour": 75,
-            "productivity": 0.92
-        },
-        {
-            "id": "A128",
-            "name": "Máy may công nghiệp Pegasus W600B",
-            "machineType": "Máy may công nghiệp",
-            "costPerHour": 90,
-            "productivity": 0.94
-        },
-        {
-            "id": "A129",
-            "name": "Máy may công nghiệp Jack JK-9000D",
-            "machineType": "Máy may công nghiệp",
-            "costPerHour": 95,
-            "productivity": 0.93
         },
         {
             "id": "A130",
@@ -3620,81 +3221,11 @@
             "productivity": 0.88
         },
         {
-            "id": "A132",
-            "name": "Máy may chuyên dụng Consew 206RB (may da)",
-            "machineType": "Máy may chuyên dụng",
-            "costPerHour": 130,
-            "productivity": 0.85
-        },
-        {
             "id": "A133",
             "name": "Máy may chuyên dụng Juki MO-1000S (vắt sổ)",
             "machineType": "Máy may chuyên dụng",
             "costPerHour": 110,
             "productivity": 0.89
-        },
-        {
-            "id": "A134",
-            "name": "Máy may chuyên dụng Brother BAS-210G (thêu)",
-            "machineType": "Máy may chuyên dụng",
-            "costPerHour": 125,
-            "productivity": 0.87
-        },
-        {
-            "id": "A135",
-            "name": "Máy may chuyên dụng Consew 737-RB (may da)",
-            "machineType": "Máy may chuyên dụng",
-            "costPerHour": 135,
-            "productivity": 0.84
-        },
-        {
-            "id": "A136",
-            "name": "Máy may chuyên dụng Juki MO-6841S (vắt sổ)",
-            "machineType": "Máy may chuyên dụng",
-            "costPerHour": 115,
-            "productivity": 0.88
-        },
-        {
-            "id": "A137",
-            "name": "Máy may chuyên dụng Brother BAS-354G (thêu)",
-            "machineType": "Máy may chuyên dụng",
-            "costPerHour": 130,
-            "productivity": 0.86
-        },
-        {
-            "id": "A138",
-            "name": "Máy may chuyên dụng Consew 206RB-5 (may da)",
-            "machineType": "Máy may chuyên dụng",
-            "costPerHour": 140,
-            "productivity": 0.83
-        },
-        {
-            "id": "A139",
-            "name": "Máy may chuyên dụng Juki MO-7034S (vắt sổ)",
-            "machineType": "Máy may chuyên dụng",
-            "costPerHour": 120,
-            "productivity": 0.87
-        },
-        {
-            "id": "A140",
-            "name": "Máy giặt công nghiệp Primus C500",
-            "machineType": "Máy giặt công nghiệp",
-            "costPerHour": 210,
-            "productivity": 0.85
-        },
-        {
-            "id": "A141",
-            "name": "Máy giặt công nghiệp IPSO WN100",
-            "machineType": "Máy giặt công nghiệp",
-            "costPerHour": 200,
-            "productivity": 0.86
-        },
-        {
-            "id": "A142",
-            "name": "Máy giặt công nghiệp Electrolux W700",
-            "machineType": "Máy giặt công nghiệp",
-            "costPerHour": 220,
-            "productivity": 0.84
         },
         {
             "id": "A143",
@@ -3704,13 +3235,6 @@
             "productivity": 0.88
         },
         {
-            "id": "A144",
-            "name": "Máy giặt công nghiệp Speed Queen SR9",
-            "machineType": "Máy giặt công nghiệp",
-            "costPerHour": 230,
-            "productivity": 0.83
-        },
-        {
             "id": "A145",
             "name": "Máy giặt công nghiệp Primus C450",
             "machineType": "Máy giặt công nghiệp",
@@ -3718,46 +3242,11 @@
             "productivity": 0.87
         },
         {
-            "id": "A146",
-            "name": "Máy giặt công nghiệp IPSO WN150",
-            "machineType": "Máy giặt công nghiệp",
-            "costPerHour": 210,
-            "productivity": 0.85
-        },
-        {
-            "id": "A147",
-            "name": "Máy giặt công nghiệp Electrolux W800",
-            "machineType": "Máy giặt công nghiệp",
-            "costPerHour": 220,
-            "productivity": 0.82
-        },
-        {
             "id": "A148",
             "name": "Máy giặt công nghiệp Girbau HS-70",
             "machineType": "Máy giặt công nghiệp",
             "costPerHour": 180,
             "productivity": 0.88
-        },
-        {
-            "id": "A149",
-            "name": "Máy giặt công nghiệp Speed Queen SR8",
-            "machineType": "Máy giặt công nghiệp",
-            "costPerHour": 200,
-            "productivity": 0.84
-        },
-        {
-            "id": "A150",
-            "name": "Máy kiểm tra độ bền Testometric M400-15CT",
-            "machineType": "Máy kiểm tra độ bền",
-            "costPerHour": 210,
-            "productivity": 0.85
-        },
-        {
-            "id": "A151",
-            "name": "Máy kiểm tra độ bền ADMET eXpert 7602",
-            "machineType": "Máy kiểm tra độ bền",
-            "costPerHour": 220,
-            "productivity": 0.83
         },
         {
             "id": "A152",
@@ -3774,60 +3263,11 @@
             "productivity": 0.87
         },
         {
-            "id": "A154",
-            "name": "Máy kiểm tra độ bền ADMET eXpert 7603",
-            "machineType": "Máy kiểm tra độ bền",
-            "costPerHour": 210,
-            "productivity": 0.84
-        },
-        {
-            "id": "A155",
-            "name": "Máy kiểm tra độ bền Hegewald & Peschke Inspekt 400 kN",
-            "machineType": "Máy kiểm tra độ bền",
-            "costPerHour": 230,
-            "productivity": 0.82
-        },
-        {
-            "id": "A156",
-            "name": "Máy kiểm tra độ bền Testometric M500-25CT",
-            "machineType": "Máy kiểm tra độ bền",
-            "costPerHour": 220,
-            "productivity": 0.83
-        },
-        {
-            "id": "A157",
-            "name": "Máy kiểm tra độ bền ADMET eXpert 7604",
-            "machineType": "Máy kiểm tra độ bền",
-            "costPerHour": 200,
-            "productivity": 0.85
-        },
-        {
-            "id": "A158",
-            "name": "Máy kiểm tra độ bền Hegewald & Peschke Inspekt 500 kN",
-            "machineType": "Máy kiểm tra độ bền",
-            "costPerHour": 210,
-            "productivity": 0.84
-        },
-        {
             "id": "A159",
             "name": "Máy kiểm tra độ bền Testometric M550-30CT",
             "machineType": "Máy kiểm tra độ bền",
             "costPerHour": 180,
             "productivity": 0.87
-        },
-        {
-            "id": "A160",
-            "name": "Máy đóng gói tự động Bosch Sigpack 1000",
-            "machineType": "Máy đóng gói tự động",
-            "costPerHour": 140,
-            "productivity": 0.89
-        },
-        {
-            "id": "A161",
-            "name": "Máy đóng gói tự động Ishida CCW-R Plus",
-            "machineType": "Máy đóng gói tự động",
-            "costPerHour": 130,
-            "productivity": 0.9
         },
         {
             "id": "A162",
@@ -3844,46 +3284,11 @@
             "productivity": 0.92
         },
         {
-            "id": "A164",
-            "name": "Máy đóng gói tự động Viking M300",
-            "machineType": "Máy đóng gói tự động",
-            "costPerHour": 150,
-            "productivity": 0.88
-        },
-        {
-            "id": "A165",
-            "name": "Máy đóng gói tự động Bosch Sigpack 2000",
-            "machineType": "Máy đóng gói tự động",
-            "costPerHour": 140,
-            "productivity": 0.89
-        },
-        {
-            "id": "A166",
-            "name": "Máy đóng gói tự động Ishida CCW-R Max",
-            "machineType": "Máy đóng gói tự động",
-            "costPerHour": 135,
-            "productivity": 0.87
-        },
-        {
-            "id": "A167",
-            "name": "Máy đóng gói tự động ULMA HFFS 1000",
-            "machineType": "Máy đóng gói tự động",
-            "costPerHour": 120,
-            "productivity": 0.91
-        },
-        {
             "id": "A168",
             "name": "Máy đóng gói tự động Matrix 700",
             "machineType": "Máy đóng gói tự động",
             "costPerHour": 110,
             "productivity": 0.92
-        },
-        {
-            "id": "A169",
-            "name": "Máy đóng gói tự động Viking M400",
-            "machineType": "Máy đóng gói tự động",
-            "costPerHour": 145,
-            "productivity": 0.9
         },
         {
             "id": "A170",
@@ -3893,13 +3298,6 @@
             "productivity": 0.9
         },
         {
-            "id": "A171",
-            "name": "Máy cắt laser Epilog Fusion Edge",
-            "machineType": "Máy cắt laser",
-            "costPerHour": 310,
-            "productivity": 0.88
-        },
-        {
             "id": "A172",
             "name": "Máy cắt laser Universal Laser Systems VLS8.75",
             "machineType": "Máy cắt laser",
@@ -3907,67 +3305,11 @@
             "productivity": 0.89
         },
         {
-            "id": "A173",
-            "name": "Máy cắt laser Boss Laser LS-3655",
-            "machineType": "Máy cắt laser",
-            "costPerHour": 290,
-            "productivity": 0.87
-        },
-        {
             "id": "A174",
             "name": "Máy cắt laser Trotec Speedy 600",
             "machineType": "Máy cắt laser",
             "costPerHour": 340,
             "productivity": 0.9
-        },
-        {
-            "id": "A175",
-            "name": "Máy cắt laser Epilog Mini 24",
-            "machineType": "Máy cắt laser",
-            "costPerHour": 300,
-            "productivity": 0.88
-        },
-        {
-            "id": "A176",
-            "name": "Máy cắt laser Universal Laser Systems VLS10.75",
-            "machineType": "Máy cắt laser",
-            "costPerHour": 310,
-            "productivity": 0.89
-        },
-        {
-            "id": "A177",
-            "name": "Máy cắt laser Boss Laser LS-1325",
-            "machineType": "Máy cắt laser",
-            "costPerHour": 280,
-            "productivity": 0.87
-        },
-        {
-            "id": "A178",
-            "name": "Máy cắt laser Trotec Speedy 300",
-            "machineType": "Máy cắt laser",
-            "costPerHour": 320,
-            "productivity": 0.89
-        },
-        {
-            "id": "A179",
-            "name": "Máy cắt laser Epilog Zing 16",
-            "machineType": "Máy cắt laser",
-            "costPerHour": 300,
-            "productivity": 0.88
-        },
-        {
-            "id": "A180",
-            "name": "Máy đính khuy tự động Juki MB-377",
-            "machineType": "Máy đính khuy tự động",
-            "costPerHour": 95,
-            "productivity": 0.9
-        },
-        {
-            "id": "A181",
-            "name": "Máy đính khuy tự động Yamato AD-1300",
-            "machineType": "Máy đính khuy tự động",
-            "costPerHour": 100,
-            "productivity": 0.88
         },
         {
             "id": "A182",
@@ -3984,59 +3326,10 @@
             "productivity": 0.92
         },
         {
-            "id": "A184",
-            "name": "Máy đính khuy tự động Juki MB-376",
-            "machineType": "Máy đính khuy tự động",
-            "costPerHour": 95,
-            "productivity": 0.89
-        },
-        {
-            "id": "A185",
-            "name": "Máy đính khuy tự động Yamato AD-1400",
-            "machineType": "Máy đính khuy tự động",
-            "costPerHour": 90,
-            "productivity": 0.9
-        },
-        {
             "id": "A186",
             "name": "Máy đính khuy tự động Kansai Special MB-3740",
             "machineType": "Máy đính khuy tự động",
             "costPerHour": 85,
-            "productivity": 0.91
-        },
-        {
-            "id": "A187",
-            "name": "Máy đính khuy tự động Sunstar KX-600",
-            "machineType": "Máy đính khuy tự động",
-            "costPerHour": 100,
-            "productivity": 0.88
-        },
-        {
-            "id": "A188",
-            "name": "Máy đính khuy tự động Juki MB-377A",
-            "machineType": "Máy đính khuy tự động",
-            "costPerHour": 95,
-            "productivity": 0.9
-        },
-        {
-            "id": "A189",
-            "name": "Máy đính khuy tự động Yamato AD-1500",
-            "machineType": "Máy đính khuy tự động",
-            "costPerHour": 90,
-            "productivity": 0.89
-        },
-        {
-            "id": "A190",
-            "name": "Máy là hơi công nghiệp Veit 8003LP",
-            "machineType": "Máy là hơi công nghiệp",
-            "costPerHour": 115,
-            "productivity": 0.92
-        },
-        {
-            "id": "A191",
-            "name": "Máy là hơi công nghiệp Macpi 449/16",
-            "machineType": "Máy là hơi công nghiệp",
-            "costPerHour": 120,
             "productivity": 0.91
         },
         {
@@ -4047,13 +3340,6 @@
             "productivity": 0.93
         },
         {
-            "id": "A193",
-            "name": "Máy là hơi công nghiệp Oshima OS-7000",
-            "machineType": "Máy là hơi công nghiệp",
-            "costPerHour": 130,
-            "productivity": 0.89
-        },
-        {
             "id": "A194",
             "name": "Máy là hơi công nghiệp Veit 8004LP",
             "machineType": "Máy là hơi công nghiệp",
@@ -4061,46 +3347,11 @@
             "productivity": 0.94
         },
         {
-            "id": "A195",
-            "name": "Máy là hơi công nghiệp Macpi 450/16",
-            "machineType": "Máy là hơi công nghiệp",
-            "costPerHour": 120,
-            "productivity": 0.9
-        },
-        {
-            "id": "A196",
-            "name": "Máy là hơi công nghiệp Hoffman M-3000",
-            "machineType": "Máy là hơi công nghiệp",
-            "costPerHour": 115,
-            "productivity": 0.92
-        },
-        {
             "id": "A197",
             "name": "Máy là hơi công nghiệp Oshima OS-8000",
             "machineType": "Máy là hơi công nghiệp",
             "costPerHour": 130,
             "productivity": 0.93
-        },
-        {
-            "id": "A198",
-            "name": "Máy là hơi công nghiệp Veit 9000LP",
-            "machineType": "Máy là hơi công nghiệp",
-            "costPerHour": 125,
-            "productivity": 0.91
-        },
-        {
-            "id": "A199",
-            "name": "Máy là hơi công nghiệp Macpi 500/16",
-            "machineType": "Máy là hơi công nghiệp",
-            "costPerHour": 110,
-            "productivity": 0.9
-        },
-        {
-            "id": "A200",
-            "name": "Thiết bị kiểm tra mẫu Q-Lab QUV",
-            "machineType": "Thiết bị kiểm tra mẫu",
-            "costPerHour": 160,
-            "productivity": 0.85
         },
         {
             "id": "A201",
@@ -4117,53 +3368,11 @@
             "productivity": 0.88
         },
         {
-            "id": "A203",
-            "name": "Thiết bị kiểm tra mẫu Q-Lab QUV 2.0",
-            "machineType": "Thiết bị kiểm tra mẫu",
-            "costPerHour": 160,
-            "productivity": 0.86
-        },
-        {
-            "id": "A204",
-            "name": "Thiết bị kiểm tra mẫu Atlas Xenotest Gamma",
-            "machineType": "Thiết bị kiểm tra mẫu",
-            "costPerHour": 170,
-            "productivity": 0.85
-        },
-        {
-            "id": "A205",
-            "name": "Thiết bị kiểm tra mẫu SGS TEST-4500",
-            "machineType": "Thiết bị kiểm tra mẫu",
-            "costPerHour": 160,
-            "productivity": 0.87
-        },
-        {
-            "id": "A206",
-            "name": "Thiết bị kiểm tra mẫu Q-Lab UV-500",
-            "machineType": "Thiết bị kiểm tra mẫu",
-            "costPerHour": 155,
-            "productivity": 0.86
-        },
-        {
             "id": "A207",
             "name": "Thiết bị kiểm tra mẫu Atlas Xenotest Plus",
             "machineType": "Thiết bị kiểm tra mẫu",
             "costPerHour": 170,
             "productivity": 0.88
-        },
-        {
-            "id": "A208",
-            "name": "Thiết bị kiểm tra mẫu SGS UV-800",
-            "machineType": "Thiết bị kiểm tra mẫu",
-            "costPerHour": 150,
-            "productivity": 0.85
-        },
-        {
-            "id": "A209",
-            "name": "Thiết bị kiểm tra mẫu Q-Lab 3000X",
-            "machineType": "Thiết bị kiểm tra mẫu",
-            "costPerHour": 160,
-            "productivity": 0.87
         },
         {
             "id": "A210",
@@ -4173,46 +3382,11 @@
             "productivity": 0.92
         },
         {
-            "id": "A211",
-            "name": "Máy in nhãn Zebra ZT420",
-            "machineType": "Máy in nhãn",
-            "costPerHour": 85,
-            "productivity": 0.9
-        },
-        {
-            "id": "A212",
-            "name": "Máy in nhãn Brady M215",
-            "machineType": "Máy in nhãn",
-            "costPerHour": 75,
-            "productivity": 0.89
-        },
-        {
-            "id": "A213",
-            "name": "Máy in nhãn Primera LX920",
-            "machineType": "Máy in nhãn",
-            "costPerHour": 90,
-            "productivity": 0.91
-        },
-        {
             "id": "A214",
             "name": "Máy in nhãn Epson ColorWorks C8600",
             "machineType": "Máy in nhãn",
             "costPerHour": 80,
             "productivity": 0.93
-        },
-        {
-            "id": "A215",
-            "name": "Máy in nhãn Zebra ZT450",
-            "machineType": "Máy in nhãn",
-            "costPerHour": 85,
-            "productivity": 0.9
-        },
-        {
-            "id": "A216",
-            "name": "Máy in nhãn Brady M220",
-            "machineType": "Máy in nhãn",
-            "costPerHour": 70,
-            "productivity": 0.91
         },
         {
             "id": "A217",
@@ -4222,39 +3396,11 @@
             "productivity": 0.92
         },
         {
-            "id": "A218",
-            "name": "Máy in nhãn Epson ColorWorks C8700",
-            "machineType": "Máy in nhãn",
-            "costPerHour": 75,
-            "productivity": 0.89
-        },
-        {
-            "id": "A219",
-            "name": "Máy in nhãn Zebra ZT430",
-            "machineType": "Máy in nhãn",
-            "costPerHour": 80,
-            "productivity": 0.91
-        },
-        {
             "id": "A220",
             "name": "Máy sanforizing Monforts Sanfor 2.0",
             "machineType": "Máy sanforizing",
             "costPerHour": 410,
             "productivity": 0.82
-        },
-        {
-            "id": "A221",
-            "name": "Máy sanforizing Bruckner Sanforizer 2.0",
-            "machineType": "Máy sanforizing",
-            "costPerHour": 420,
-            "productivity": 0.8
-        },
-        {
-            "id": "A222",
-            "name": "Máy sanforizing Sperotto Rimar Sanfor 2.0",
-            "machineType": "Máy sanforizing",
-            "costPerHour": 415,
-            "productivity": 0.81
         },
         {
             "id": "A223",
@@ -4264,60 +3410,11 @@
             "productivity": 0.82
         },
         {
-            "id": "A224",
-            "name": "Máy sanforizing Bruckner Sanforizer 3.0",
-            "machineType": "Máy sanforizing",
-            "costPerHour": 410,
-            "productivity": 0.81
-        },
-        {
-            "id": "A225",
-            "name": "Máy sanforizing Sperotto Rimar Sanfor 3.0",
-            "machineType": "Máy sanforizing",
-            "costPerHour": 405,
-            "productivity": 0.8
-        },
-        {
-            "id": "A226",
-            "name": "Máy sanforizing Monforts Sanfor 4.0",
-            "machineType": "Máy sanforizing",
-            "costPerHour": 420,
-            "productivity": 0.8
-        },
-        {
-            "id": "A227",
-            "name": "Máy sanforizing Bruckner Sanforizer 4.0",
-            "machineType": "Máy sanforizing",
-            "costPerHour": 415,
-            "productivity": 0.81
-        },
-        {
             "id": "A228",
             "name": "Máy sanforizing Sperotto Rimar Sanfor 4.0",
             "machineType": "Máy sanforizing",
             "costPerHour": 400,
             "productivity": 0.82
-        },
-        {
-            "id": "A229",
-            "name": "Máy sanforizing Monforts Sanfor 5.0",
-            "machineType": "Máy sanforizing",
-            "costPerHour": 410,
-            "productivity": 0.8
-        },
-        {
-            "id": "A230",
-            "name": "Máy phủ PU tự động Nordson EFD Precision Coating 2.0",
-            "machineType": "Máy phủ PU tự động",
-            "costPerHour": 350,
-            "productivity": 0.84
-        },
-        {
-            "id": "A231",
-            "name": "Máy phủ PU tự động Graco Ultramax II 2.0",
-            "machineType": "Máy phủ PU tự động",
-            "costPerHour": 340,
-            "productivity": 0.83
         },
         {
             "id": "A232",
@@ -4327,39 +3424,11 @@
             "productivity": 0.85
         },
         {
-            "id": "A233",
-            "name": "Máy phủ PU tự động Nordson EFD Precision Coating 3.0",
-            "machineType": "Máy phủ PU tự động",
-            "costPerHour": 345,
-            "productivity": 0.83
-        },
-        {
-            "id": "A234",
-            "name": "Máy phủ PU tự động Graco Ultramax II 3.0",
-            "machineType": "Máy phủ PU tự động",
-            "costPerHour": 355,
-            "productivity": 0.84
-        },
-        {
             "id": "A235",
             "name": "Máy phủ PU tự động Sames Kremlin Airmix 3.0",
             "machineType": "Máy phủ PU tự động",
             "costPerHour": 340,
             "productivity": 0.85
-        },
-        {
-            "id": "A236",
-            "name": "Máy phủ PU tự động Nordson EFD Precision Coating 4.0",
-            "machineType": "Máy phủ PU tự động",
-            "costPerHour": 355,
-            "productivity": 0.84
-        },
-        {
-            "id": "A237",
-            "name": "Máy phủ PU tự động Graco Ultramax II 4.0",
-            "machineType": "Máy phủ PU tự động",
-            "costPerHour": 350,
-            "productivity": 0.83
         },
         {
             "id": "A238",
@@ -4369,32 +3438,11 @@
             "productivity": 0.85
         },
         {
-            "id": "A239",
-            "name": "Máy phủ PU tự động Nordson EFD Precision Coating 5.0",
-            "machineType": "Máy phủ PU tự động",
-            "costPerHour": 340,
-            "productivity": 0.83
-        },
-        {
-            "id": "A240",
-            "name": "Máy thổi khí áp suất Festo Air Blower 2.0",
-            "machineType": "Máy thổi khí áp suất",
-            "costPerHour": 180,
-            "productivity": 0.86
-        },
-        {
             "id": "A241",
             "name": "Máy thổi khí áp suất Kaeser SK Series 2.0",
             "machineType": "Máy thổi khí áp suất",
             "costPerHour": 190,
             "productivity": 0.88
-        },
-        {
-            "id": "A242",
-            "name": "Máy thổi khí áp suất Atlas Copco GA 37 2.0",
-            "machineType": "Máy thổi khí áp suất",
-            "costPerHour": 200,
-            "productivity": 0.85
         },
         {
             "id": "A243",
@@ -4411,53 +3459,11 @@
             "productivity": 0.88
         },
         {
-            "id": "A245",
-            "name": "Máy thổi khí áp suất Atlas Copco GA 37 3.0",
-            "machineType": "Máy thổi khí áp suất",
-            "costPerHour": 195,
-            "productivity": 0.85
-        },
-        {
-            "id": "A246",
-            "name": "Máy thổi khí áp suất Festo Air Blower 4.0",
-            "machineType": "Máy thổi khí áp suất",
-            "costPerHour": 190,
-            "productivity": 0.86
-        },
-        {
             "id": "A247",
             "name": "Máy thổi khí áp suất Kaeser SK Series 4.0",
             "machineType": "Máy thổi khí áp suất",
             "costPerHour": 200,
             "productivity": 0.88
-        },
-        {
-            "id": "A248",
-            "name": "Máy thổi khí áp suất Atlas Copco GA 37 4.0",
-            "machineType": "Máy thổi khí áp suất",
-            "costPerHour": 185,
-            "productivity": 0.85
-        },
-        {
-            "id": "A249",
-            "name": "Máy thổi khí áp suất Festo Air Blower 5.0",
-            "machineType": "Máy thổi khí áp suất",
-            "costPerHour": 180,
-            "productivity": 0.86
-        },
-        {
-            "id": "A250",
-            "name": "Máy in công nghiệp Kornit Avalanche HD6 2.0",
-            "machineType": "Máy in công nghiệp",
-            "costPerHour": 280,
-            "productivity": 0.86
-        },
-        {
-            "id": "A251",
-            "name": "Máy in công nghiệp Mimaki TS55-1800 2.0",
-            "machineType": "Máy in công nghiệp",
-            "costPerHour": 270,
-            "productivity": 0.85
         },
         {
             "id": "A252",
@@ -4467,39 +3473,11 @@
             "productivity": 0.87
         },
         {
-            "id": "A253",
-            "name": "Máy in công nghiệp Kornit Avalanche HD6 3.0",
-            "machineType": "Máy in công nghiệp",
-            "costPerHour": 285,
-            "productivity": 0.86
-        },
-        {
-            "id": "A254",
-            "name": "Máy in công nghiệp Mimaki TS55-1800 3.0",
-            "machineType": "Máy in công nghiệp",
-            "costPerHour": 275,
-            "productivity": 0.85
-        },
-        {
             "id": "A255",
             "name": "Máy in công nghiệp Roland DG Texart XT-640 3.0",
             "machineType": "Máy in công nghiệp",
             "costPerHour": 295,
             "productivity": 0.87
-        },
-        {
-            "id": "A256",
-            "name": "Máy in công nghiệp Kornit Avalanche HD6 4.0",
-            "machineType": "Máy in công nghiệp",
-            "costPerHour": 290,
-            "productivity": 0.86
-        },
-        {
-            "id": "A257",
-            "name": "Máy in công nghiệp Mimaki TS55-1800 4.0",
-            "machineType": "Máy in công nghiệp",
-            "costPerHour": 280,
-            "productivity": 0.85
         },
         {
             "id": "A258",
@@ -4509,32 +3487,11 @@
             "productivity": 0.87
         },
         {
-            "id": "A259",
-            "name": "Máy in công nghiệp Kornit Avalanche HD6 5.0",
-            "machineType": "Máy in công nghiệp",
-            "costPerHour": 295,
-            "productivity": 0.86
-        },
-        {
             "id": "A260",
             "name": "Máy đóng nút tự động Juki AMS-210EN 2.0",
             "machineType": "Máy đóng nút tự động",
             "costPerHour": 95,
             "productivity": 0.91
-        },
-        {
-            "id": "A261",
-            "name": "Máy đóng nút tự động Yamato AD-1250 2.0",
-            "machineType": "Máy đóng nút tự động",
-            "costPerHour": 100,
-            "productivity": 0.89
-        },
-        {
-            "id": "A262",
-            "name": "Máy đóng nút tự động Kansai Special MB-3720 2.0",
-            "machineType": "Máy đóng nút tự động",
-            "costPerHour": 105,
-            "productivity": 0.9
         },
         {
             "id": "A263",
@@ -4544,39 +3501,11 @@
             "productivity": 0.91
         },
         {
-            "id": "A264",
-            "name": "Máy đóng nút tự động Yamato AD-1250 3.0",
-            "machineType": "Máy đóng nút tự động",
-            "costPerHour": 102,
-            "productivity": 0.89
-        },
-        {
-            "id": "A265",
-            "name": "Máy đóng nút tự động Kansai Special MB-3720 3.0",
-            "machineType": "Máy đóng nút tự động",
-            "costPerHour": 107,
-            "productivity": 0.9
-        },
-        {
             "id": "A266",
             "name": "Máy đóng nút tự động Juki AMS-210EN 4.0",
             "machineType": "Máy đóng nút tự động",
             "costPerHour": 99,
             "productivity": 0.91
-        },
-        {
-            "id": "A267",
-            "name": "Máy đóng nút tự động Yamato AD-1250 4.0",
-            "machineType": "Máy đóng nút tự động",
-            "costPerHour": 104,
-            "productivity": 0.89
-        },
-        {
-            "id": "A268",
-            "name": "Máy đóng nút tự động Kansai Special MB-3720 4.0",
-            "machineType": "Máy đóng nút tự động",
-            "costPerHour": 109,
-            "productivity": 0.9
         },
         {
             "id": "A269",
@@ -4586,39 +3515,11 @@
             "productivity": 0.91
         },
         {
-            "id": "A270",
-            "name": "Máy đo form 3D Vitus 3D Body Scanner 2.0",
-            "machineType": "Máy đo form 3D",
-            "costPerHour": 220,
-            "productivity": 0.88
-        },
-        {
-            "id": "A271",
-            "name": "Máy đo form 3D TechMed 3D Measure 2.0",
-            "machineType": "Máy đo form 3D",
-            "costPerHour": 240,
-            "productivity": 0.86
-        },
-        {
             "id": "A272",
             "name": "Máy đo form 3D Artec Eva 2.0",
             "machineType": "Máy đo form 3D",
             "costPerHour": 260,
             "productivity": 0.9
-        },
-        {
-            "id": "A273",
-            "name": "Máy đo form 3D Vitus 3D Body Scanner 3.0",
-            "machineType": "Máy đo form 3D",
-            "costPerHour": 225,
-            "productivity": 0.88
-        },
-        {
-            "id": "A274",
-            "name": "Máy đo form 3D TechMed 3D Measure 3.0",
-            "machineType": "Máy đo form 3D",
-            "costPerHour": 245,
-            "productivity": 0.86
         },
         {
             "id": "A275",
@@ -4628,39 +3529,11 @@
             "productivity": 0.9
         },
         {
-            "id": "A276",
-            "name": "Máy đo form 3D Vitus 3D Body Scanner 4.0",
-            "machineType": "Máy đo form 3D",
-            "costPerHour": 230,
-            "productivity": 0.88
-        },
-        {
-            "id": "A277",
-            "name": "Máy đo form 3D TechMed 3D Measure 4.0",
-            "machineType": "Máy đo form 3D",
-            "costPerHour": 250,
-            "productivity": 0.86
-        },
-        {
             "id": "A278",
             "name": "Máy đo form 3D Artec Eva 4.0",
             "machineType": "Máy đo form 3D",
             "costPerHour": 270,
             "productivity": 0.9
-        },
-        {
-            "id": "A279",
-            "name": "Máy đo form 3D Vitus 3D Body Scanner 5.0",
-            "machineType": "Máy đo form 3D",
-            "costPerHour": 235,
-            "productivity": 0.88
-        },
-        {
-            "id": "A280",
-            "name": "Máy đóng hộp tự động Bosch CP6 2.0",
-            "machineType": "Máy đóng hộp tự động",
-            "costPerHour": 180,
-            "productivity": 0.89
         },
         {
             "id": "A281",
@@ -4670,39 +3543,11 @@
             "productivity": 0.91
         },
         {
-            "id": "A282",
-            "name": "Máy đóng hộp tự động Omori Carton Sealer 2.0",
-            "machineType": "Máy đóng hộp tự động",
-            "costPerHour": 190,
-            "productivity": 0.87
-        },
-        {
-            "id": "A283",
-            "name": "Máy đóng hộp tự động Bosch CP6 3.0",
-            "machineType": "Máy đóng hộp tự động",
-            "costPerHour": 185,
-            "productivity": 0.89
-        },
-        {
             "id": "A284",
             "name": "Máy đóng hộp tự động IMA Ilapak Delta 420 3.0",
             "machineType": "Máy đóng hộp tự động",
             "costPerHour": 205,
             "productivity": 0.91
-        },
-        {
-            "id": "A285",
-            "name": "Máy đóng hộp tự động Omori Carton Sealer 3.0",
-            "machineType": "Máy đóng hộp tự động",
-            "costPerHour": 195,
-            "productivity": 0.87
-        },
-        {
-            "id": "A286",
-            "name": "Máy đóng hộp tự động Bosch CP6 4.0",
-            "machineType": "Máy đóng hộp tự động",
-            "costPerHour": 190,
-            "productivity": 0.89
         },
         {
             "id": "A287",
@@ -4712,46 +3557,11 @@
             "productivity": 0.91
         },
         {
-            "id": "A288",
-            "name": "Máy đóng hộp tự động Omori Carton Sealer 4.0",
-            "machineType": "Máy đóng hộp tự động",
-            "costPerHour": 200,
-            "productivity": 0.87
-        },
-        {
-            "id": "A289",
-            "name": "Máy đóng hộp tự động Bosch CP6 5.0",
-            "machineType": "Máy đóng hộp tự động",
-            "costPerHour": 195,
-            "productivity": 0.89
-        },
-        {
-            "id": "A290",
-            "name": "Máy cắt rập CNC Lectra Versalis 2.0",
-            "machineType": "Máy cắt rập CNC",
-            "costPerHour": 320,
-            "productivity": 0.9
-        },
-        {
             "id": "A291",
             "name": "Máy cắt rập CNC Gerber Paragon 2.0",
             "machineType": "Máy cắt rập CNC",
             "costPerHour": 330,
             "productivity": 0.92
-        },
-        {
-            "id": "A292",
-            "name": "Máy cắt rập CNC Tukatech TUKAcut 2.0",
-            "machineType": "Máy cắt rập CNC",
-            "costPerHour": 310,
-            "productivity": 0.88
-        },
-        {
-            "id": "A293",
-            "name": "Máy cắt rập CNC Lectra Versalis 3.0",
-            "machineType": "Máy cắt rập CNC",
-            "costPerHour": 325,
-            "productivity": 0.9
         },
         {
             "id": "A294",
@@ -4761,53 +3571,11 @@
             "productivity": 0.92
         },
         {
-            "id": "A295",
-            "name": "Máy cắt rập CNC Tukatech TUKAcut 3.0",
-            "machineType": "Máy cắt rập CNC",
-            "costPerHour": 315,
-            "productivity": 0.88
-        },
-        {
-            "id": "A296",
-            "name": "Máy cắt rập CNC Lectra Versalis 4.0",
-            "machineType": "Máy cắt rập CNC",
-            "costPerHour": 330,
-            "productivity": 0.9
-        },
-        {
             "id": "A297",
             "name": "Máy cắt rập CNC Gerber Paragon 4.0",
             "machineType": "Máy cắt rập CNC",
             "costPerHour": 340,
             "productivity": 0.92
-        },
-        {
-            "id": "A298",
-            "name": "Máy cắt rập CNC Tukatech TUKAcut 4.0",
-            "machineType": "Máy cắt rập CNC",
-            "costPerHour": 320,
-            "productivity": 0.88
-        },
-        {
-            "id": "A299",
-            "name": "Máy cắt rập CNC Lectra Versalis 5.0",
-            "machineType": "Máy cắt rập CNC",
-            "costPerHour": 335,
-            "productivity": 0.9
-        },
-        {
-            "id": "A300",
-            "name": "Máy đo 3D Faro Arm ScanArm 2.0",
-            "machineType": "Máy đo 3D",
-            "costPerHour": 350,
-            "productivity": 0.85
-        },
-        {
-            "id": "A301",
-            "name": "Máy đo 3D Creaform HandySCAN 3D 2.0",
-            "machineType": "Máy đo 3D",
-            "costPerHour": 370,
-            "productivity": 0.87
         },
         {
             "id": "A302",
@@ -4817,39 +3585,11 @@
             "productivity": 0.89
         },
         {
-            "id": "A303",
-            "name": "Máy đo 3D Faro Arm ScanArm 3.0",
-            "machineType": "Máy đo 3D",
-            "costPerHour": 360,
-            "productivity": 0.85
-        },
-        {
-            "id": "A304",
-            "name": "Máy đo 3D Creaform HandySCAN 3D 3.0",
-            "machineType": "Máy đo 3D",
-            "costPerHour": 380,
-            "productivity": 0.87
-        },
-        {
             "id": "A305",
             "name": "Máy đo 3D Hexagon Absolute Arm 3.0",
             "machineType": "Máy đo 3D",
             "costPerHour": 390,
             "productivity": 0.89
-        },
-        {
-            "id": "A306",
-            "name": "Máy đo 3D Faro Arm ScanArm 4.0",
-            "machineType": "Máy đo 3D",
-            "costPerHour": 370,
-            "productivity": 0.85
-        },
-        {
-            "id": "A307",
-            "name": "Máy đo 3D Creaform HandySCAN 3D 4.0",
-            "machineType": "Máy đo 3D",
-            "costPerHour": 390,
-            "productivity": 0.87
         },
         {
             "id": "A308",
@@ -4859,46 +3599,11 @@
             "productivity": 0.89
         },
         {
-            "id": "A309",
-            "name": "Máy đo 3D Faro Arm ScanArm 5.0",
-            "machineType": "Máy đo 3D",
-            "costPerHour": 380,
-            "productivity": 0.85
-        },
-        {
-            "id": "A310",
-            "name": "Máy in nhãn tự động SATO CL4NX 2.0",
-            "machineType": "Máy in nhãn tự động",
-            "costPerHour": 95,
-            "productivity": 0.93
-        },
-        {
-            "id": "A311",
-            "name": "Máy in nhãn tự động Honeywell PM45 2.0",
-            "machineType": "Máy in nhãn tự động",
-            "costPerHour": 100,
-            "productivity": 0.91
-        },
-        {
             "id": "A312",
             "name": "Máy in nhãn tự động Toshiba B-SX4T 2.0",
             "machineType": "Máy in nhãn tự động",
             "costPerHour": 90,
             "productivity": 0.94
-        },
-        {
-            "id": "A313",
-            "name": "Máy in nhãn tự động SATO CL4NX 3.0",
-            "machineType": "Máy in nhãn tự động",
-            "costPerHour": 97,
-            "productivity": 0.93
-        },
-        {
-            "id": "A314",
-            "name": "Máy in nhãn tự động Honeywell PM45 3.0",
-            "machineType": "Máy in nhãn tự động",
-            "costPerHour": 102,
-            "productivity": 0.91
         },
         {
             "id": "A315",
@@ -4908,20 +3613,6 @@
             "productivity": 0.94
         },
         {
-            "id": "A316",
-            "name": "Máy in nhãn tự động SATO CL4NX 4.0",
-            "machineType": "Máy in nhãn tự động",
-            "costPerHour": 100,
-            "productivity": 0.93
-        },
-        {
-            "id": "A317",
-            "name": "Máy in nhãn tự động Honeywell PM45 4.0",
-            "machineType": "Máy in nhãn tự động",
-            "costPerHour": 105,
-            "productivity": 0.91
-        },
-        {
             "id": "A318",
             "name": "Máy in nhãn tự động Toshiba B-SX4T 4.0",
             "machineType": "Máy in nhãn tự động",
@@ -4929,32 +3620,11 @@
             "productivity": 0.94
         },
         {
-            "id": "A319",
-            "name": "Máy in nhãn tự động SATO CL4NX 5.0",
-            "machineType": "Máy in nhãn tự động",
-            "costPerHour": 102,
-            "productivity": 0.93
-        },
-        {
-            "id": "A320",
-            "name": "Máy đóng gói chân không Henkelman Boxer 53",
-            "machineType": "Máy đóng gói chân không",
-            "costPerHour": 285,
-            "productivity": 0.86
-        },
-        {
             "id": "A321",
             "name": "Máy đóng gói chân không Multivac C510",
             "machineType": "Máy đóng gói chân không",
             "costPerHour": 310,
             "productivity": 0.88
-        },
-        {
-            "id": "A322",
-            "name": "Máy đóng gói chân không Ulma Packaging HFFS 2.0",
-            "machineType": "Máy đóng gói chân không",
-            "costPerHour": 295,
-            "productivity": 0.85
         },
         {
             "id": "A323",
@@ -4971,39 +3641,11 @@
             "productivity": 0.89
         },
         {
-            "id": "A325",
-            "name": "Máy đóng gói chân không Ulma Packaging HFFS 2.1",
-            "machineType": "Máy đóng gói chân không",
-            "costPerHour": 300,
-            "productivity": 0.86
-        },
-        {
-            "id": "A326",
-            "name": "Máy đóng gói chân không Henkelman Boxer 55",
-            "machineType": "Máy đóng gói chân không",
-            "costPerHour": 295,
-            "productivity": 0.87
-        },
-        {
             "id": "A327",
             "name": "Máy đóng gói chân không Multivac C530",
             "machineType": "Máy đóng gói chân không",
             "costPerHour": 320,
             "productivity": 0.88
-        },
-        {
-            "id": "A328",
-            "name": "Máy đóng gói chân không Ulma Packaging HFFS 2.2",
-            "machineType": "Máy đóng gói chân không",
-            "costPerHour": 305,
-            "productivity": 0.85
-        },
-        {
-            "id": "A329",
-            "name": "Máy đóng gói chân không Henkelman Boxer 56",
-            "machineType": "Máy đóng gói chân không",
-            "costPerHour": 300,
-            "productivity": 0.86
         },
         {
             "id": "A330",
@@ -5034,74 +3676,11 @@
             "productivity": 0.88
         },
         {
-            "id": "A334",
-            "name": "Máy đo độ mỏng vải Mitutoyo Thickness Gauge 6",
-            "machineType": "Máy đo độ mỏng vải",
-            "costPerHour": 140,
-            "productivity": 0.87
-        },
-        {
-            "id": "A335",
-            "name": "Máy đo độ mỏng vải Mitutoyo Thickness Gauge 7",
-            "machineType": "Máy đo độ mỏng vải",
-            "costPerHour": 145,
-            "productivity": 0.86
-        },
-        {
-            "id": "A336",
-            "name": "Máy đo độ mỏng vải Mitutoyo Thickness Gauge 8",
-            "machineType": "Máy đo độ mỏng vải",
-            "costPerHour": 150,
-            "productivity": 0.85
-        },
-        {
-            "id": "A337",
-            "name": "Máy đo độ mỏng vải Mitutoyo Thickness Gauge 9",
-            "machineType": "Máy đo độ mỏng vải",
-            "costPerHour": 155,
-            "productivity": 0.84
-        },
-        {
-            "id": "A338",
-            "name": "Máy đo độ mỏng vải Mitutoyo Thickness Gauge 10",
-            "machineType": "Máy đo độ mỏng vải",
-            "costPerHour": 160,
-            "productivity": 0.83
-        },
-        {
-            "id": "A339",
-            "name": "Máy đo độ mỏng vải Mitutoyo Thickness Gauge 11",
-            "machineType": "Máy đo độ mỏng vải",
-            "costPerHour": 165,
-            "productivity": 0.82
-        },
-        {
-            "id": "A340",
-            "name": "Máy cắt dao tròn Eastman Rotary Cutter 2",
-            "machineType": "Máy cắt dao tròn",
-            "costPerHour": 155,
-            "productivity": 0.88
-        },
-        {
             "id": "A341",
             "name": "Máy cắt dao tròn Olfa RTY-3DX 2",
             "machineType": "Máy cắt dao tròn",
             "costPerHour": 145,
             "productivity": 0.9
-        },
-        {
-            "id": "A342",
-            "name": "Máy cắt dao tròn Martelli Rotary Cutter 2",
-            "machineType": "Máy cắt dao tròn",
-            "costPerHour": 165,
-            "productivity": 0.87
-        },
-        {
-            "id": "A343",
-            "name": "Máy cắt dao tròn Eastman Rotary Cutter 3",
-            "machineType": "Máy cắt dao tròn",
-            "costPerHour": 150,
-            "productivity": 0.88
         },
         {
             "id": "A344",
@@ -5111,39 +3690,11 @@
             "productivity": 0.9
         },
         {
-            "id": "A345",
-            "name": "Máy cắt dao tròn Martelli Rotary Cutter 3",
-            "machineType": "Máy cắt dao tròn",
-            "costPerHour": 160,
-            "productivity": 0.87
-        },
-        {
-            "id": "A346",
-            "name": "Máy cắt dao tròn Eastman Rotary Cutter 4",
-            "machineType": "Máy cắt dao tròn",
-            "costPerHour": 155,
-            "productivity": 0.88
-        },
-        {
             "id": "A347",
             "name": "Máy cắt dao tròn Olfa RTY-3DX 4",
             "machineType": "Máy cắt dao tròn",
             "costPerHour": 145,
             "productivity": 0.9
-        },
-        {
-            "id": "A348",
-            "name": "Máy cắt dao tròn Martelli Rotary Cutter 4",
-            "machineType": "Máy cắt dao tròn",
-            "costPerHour": 165,
-            "productivity": 0.87
-        },
-        {
-            "id": "A349",
-            "name": "Máy cắt dao tròn Eastman Rotary Cutter 5",
-            "machineType": "Máy cắt dao tròn",
-            "costPerHour": 150,
-            "productivity": 0.88
         },
         {
             "id": "A350",
@@ -5153,53 +3704,11 @@
             "productivity": 0.84
         },
         {
-            "id": "A351",
-            "name": "Máy soi đường may QIMA Inspection Camera 2",
-            "machineType": "Máy soi đường may",
-            "costPerHour": 195,
-            "productivity": 0.83
-        },
-        {
             "id": "A352",
             "name": "Máy soi đường may Testex Seam Inspection System 2",
             "machineType": "Máy soi đường may",
             "costPerHour": 180,
             "productivity": 0.85
-        },
-        {
-            "id": "A353",
-            "name": "Máy soi đường may Veit Vision Sewing Analyzer 3",
-            "machineType": "Máy soi đường may",
-            "costPerHour": 190,
-            "productivity": 0.84
-        },
-        {
-            "id": "A354",
-            "name": "Máy soi đường may QIMA Inspection Camera 3",
-            "machineType": "Máy soi đường may",
-            "costPerHour": 200,
-            "productivity": 0.82
-        },
-        {
-            "id": "A355",
-            "name": "Máy soi đường may Testex Seam Inspection System 3",
-            "machineType": "Máy soi đường may",
-            "costPerHour": 185,
-            "productivity": 0.84
-        },
-        {
-            "id": "A356",
-            "name": "Máy soi đường may Veit Vision Sewing Analyzer 4",
-            "machineType": "Máy soi đường may",
-            "costPerHour": 195,
-            "productivity": 0.83
-        },
-        {
-            "id": "A357",
-            "name": "Máy soi đường may QIMA Inspection Camera 4",
-            "machineType": "Máy soi đường may",
-            "costPerHour": 200,
-            "productivity": 0.82
         },
         {
             "id": "A358",
@@ -5209,32 +3718,11 @@
             "productivity": 0.85
         },
         {
-            "id": "A359",
-            "name": "Máy soi đường may Veit Vision Sewing Analyzer 5",
-            "machineType": "Máy soi đường may",
-            "costPerHour": 190,
-            "productivity": 0.84
-        },
-        {
             "id": "A360",
             "name": "Máy may co giãn Juki MO-6700S 2",
             "machineType": "Máy may co giãn",
             "costPerHour": 110,
             "productivity": 0.92
-        },
-        {
-            "id": "A361",
-            "name": "Máy may co giãn Brother BAS-325G 2",
-            "machineType": "Máy may co giãn",
-            "costPerHour": 105,
-            "productivity": 0.91
-        },
-        {
-            "id": "A362",
-            "name": "Máy may co giãn Pegasus W500 2",
-            "machineType": "Máy may co giãn",
-            "costPerHour": 115,
-            "productivity": 0.89
         },
         {
             "id": "A363",
@@ -5244,39 +3732,11 @@
             "productivity": 0.92
         },
         {
-            "id": "A364",
-            "name": "Máy may co giãn Brother BAS-325G 3",
-            "machineType": "Máy may co giãn",
-            "costPerHour": 105,
-            "productivity": 0.91
-        },
-        {
-            "id": "A365",
-            "name": "Máy may co giãn Pegasus W500 3",
-            "machineType": "Máy may co giãn",
-            "costPerHour": 115,
-            "productivity": 0.89
-        },
-        {
             "id": "A366",
             "name": "Máy may co giãn Juki MO-6700S 4",
             "machineType": "Máy may co giãn",
             "costPerHour": 110,
             "productivity": 0.92
-        },
-        {
-            "id": "A367",
-            "name": "Máy may co giãn Brother BAS-325G 4",
-            "machineType": "Máy may co giãn",
-            "costPerHour": 105,
-            "productivity": 0.91
-        },
-        {
-            "id": "A368",
-            "name": "Máy may co giãn Pegasus W500 4",
-            "machineType": "Máy may co giãn",
-            "costPerHour": 115,
-            "productivity": 0.89
         },
         {
             "id": "A369",
@@ -5286,39 +3746,11 @@
             "productivity": 0.92
         },
         {
-            "id": "A370",
-            "name": "Máy đo ma sát Labthink FPT-F1 2",
-            "machineType": "Máy đo ma sát",
-            "costPerHour": 130,
-            "productivity": 0.86
-        },
-        {
-            "id": "A371",
-            "name": "Máy đo ma sát Trinity ISR-2000 2",
-            "machineType": "Máy đo ma sát",
-            "costPerHour": 140,
-            "productivity": 0.84
-        },
-        {
             "id": "A372",
             "name": "Máy đo ma sát Taber 5700 2",
             "machineType": "Máy đo ma sát",
             "costPerHour": 135,
             "productivity": 0.88
-        },
-        {
-            "id": "A373",
-            "name": "Máy đo ma sát Labthink FPT-F1 3",
-            "machineType": "Máy đo ma sát",
-            "costPerHour": 130,
-            "productivity": 0.86
-        },
-        {
-            "id": "A374",
-            "name": "Máy đo ma sát Trinity ISR-2000 3",
-            "machineType": "Máy đo ma sát",
-            "costPerHour": 140,
-            "productivity": 0.84
         },
         {
             "id": "A375",
@@ -5328,39 +3760,11 @@
             "productivity": 0.88
         },
         {
-            "id": "A376",
-            "name": "Máy đo ma sát Labthink FPT-F1 4",
-            "machineType": "Máy đo ma sát",
-            "costPerHour": 130,
-            "productivity": 0.86
-        },
-        {
-            "id": "A377",
-            "name": "Máy đo ma sát Trinity ISR-2000 4",
-            "machineType": "Máy đo ma sát",
-            "costPerHour": 140,
-            "productivity": 0.84
-        },
-        {
             "id": "A378",
             "name": "Máy đo ma sát Taber 5700 4",
             "machineType": "Máy đo ma sát",
             "costPerHour": 135,
             "productivity": 0.88
-        },
-        {
-            "id": "A379",
-            "name": "Máy đo ma sát Labthink FPT-F1 5",
-            "machineType": "Máy đo ma sát",
-            "costPerHour": 130,
-            "productivity": 0.86
-        },
-        {
-            "id": "A380",
-            "name": "Máy dán nhãn tự động Label-Aire 3000 Series 2",
-            "machineType": "Máy dán nhãn tự động",
-            "costPerHour": 95,
-            "productivity": 0.93
         },
         {
             "id": "A381",
@@ -5370,20 +3774,6 @@
             "productivity": 0.94
         },
         {
-            "id": "A382",
-            "name": "Máy dán nhãn tự động Pack Leader L-200 2",
-            "machineType": "Máy dán nhãn tự động",
-            "costPerHour": 100,
-            "productivity": 0.91
-        },
-        {
-            "id": "A383",
-            "name": "Máy dán nhãn tự động Label-Aire 3000 Series 3",
-            "machineType": "Máy dán nhãn tự động",
-            "costPerHour": 95,
-            "productivity": 0.93
-        },
-        {
             "id": "A384",
             "name": "Máy dán nhãn tự động HERMA 500 3",
             "machineType": "Máy dán nhãn tự động",
@@ -5391,1481 +3781,922 @@
             "productivity": 0.94
         },
         {
-            "id": "A385",
-            "name": "Máy dán nhãn tự động Pack Leader L-200 3",
-            "machineType": "Máy dán nhãn tự động",
-            "costPerHour": 100,
-            "productivity": 0.91
-        },
-        {
-            "id": "A386",
-            "name": "Máy dán nhãn tự động Label-Aire 3000 Series 4",
-            "machineType": "Máy dán nhãn tự động",
-            "costPerHour": 95,
-            "productivity": 0.93
-        },
-        {
             "id": "A387",
             "name": "Máy dán nhãn tự động HERMA 500 4",
             "machineType": "Máy dán nhãn tự động",
             "costPerHour": 90,
             "productivity": 0.94
-        },
-        {
-            "id": "A388",
-            "name": "Máy dán nhãn tự động Pack Leader L-200 4",
-            "machineType": "Máy dán nhãn tự động",
-            "costPerHour": 100,
-            "productivity": 0.91
-        },
-        {
-            "id": "A389",
-            "name": "Máy dán nhãn tự động Label-Aire 3000 Series 5",
-            "machineType": "Máy dán nhãn tự động",
-            "costPerHour": 95,
-            "productivity": 0.93
         }
     ],
     "workers": [
         {
-            "id": "W0001",
-            "name": "Đinh Thị Tố Uyên",
-            "position": "Nhân viên AQL",
-            "productivityKPI": 30,
+            "id": "WA000",
+            "name": "Nguyễn Đức Phú",
+            "email": "nguyen.duc.phu.g2b@gmail.com",
+            "position": "Quản đốc nhà máy may mặc",
+            "productivityKPI": 100,
+            "qualityKPI": 1,
+            "salaryPerHour": 45000
+        },
+        {
+            "id": "WB001",
+            "name": "Hoàng Hải Phong",
+            "email": "hoang.hai.phong.g2b@gmail.com",
+            "position": "Phó quản đốc nhà máy may mặc",
+            "productivityKPI": 98,
             "qualityKPI": 0.98,
-            "salaryPerHour": 22
+            "salaryPerHour": 35000
         },
         {
-            "id": "W0002",
-            "name": "Tạ Minh Quân",
-            "position": "Nhân viên AQL",
-            "productivityKPI": 35,
-            "qualityKPI": 0.96,
-            "salaryPerHour": 26
-        },
-        {
-            "id": "W0003",
-            "name": "Ngô Văn Lâm",
-            "position": "Nhân viên AQL",
-            "productivityKPI": 40,
-            "qualityKPI": 0.94,
-            "salaryPerHour": 29
-        },
-        {
-            "id": "W0004",
-            "name": "Trần Thị Thuý Diễm",
-            "position": "Nhân viên AQL",
-            "productivityKPI": 45,
-            "qualityKPI": 0.93,
-            "salaryPerHour": 25
-        },
-        {
-            "id": "W0005",
-            "name": "Nguyễn Hoàng Long",
-            "position": "Nhân viên AQL",
-            "productivityKPI": 50,
-            "qualityKPI": 0.92,
-            "salaryPerHour": 30
-        },
-        {
-            "id": "W0006",
-            "name": "Đỗ Thị Lan Hương",
-            "position": "Nhân viên AQL",
-            "productivityKPI": 55,
-            "qualityKPI": 0.91,
-            "salaryPerHour": 24
-        },
-        {
-            "id": "W0007",
-            "name": "Phan Văn Nhân",
-            "position": "Nhân viên AQL",
-            "productivityKPI": 60,
-            "qualityKPI": 0.9,
-            "salaryPerHour": 27
-        },
-        {
-            "id": "W0008",
-            "name": "Dương Thị Thanh",
-            "position": "Nhân viên AQL",
-            "productivityKPI": 65,
-            "qualityKPI": 0.89,
-            "salaryPerHour": 30
-        },
-        {
-            "id": "W0009",
-            "name": "Trịnh Ngọc Hân",
-            "position": "Nhân viên AQL",
-            "productivityKPI": 70,
-            "qualityKPI": 0.88,
-            "salaryPerHour": 25
+            "id": "WC001",
+            "name": "Ngô Văn Thức",
+            "email": "ngo.van.thuc.g2b@gmail.com",
+            "position": "Nhân viên kiểm định chất lượng thành phẩm",
+            "productivityKPI": 99,
+            "qualityKPI": 1,
+            "salaryPerHour": 30000
         },
         {
             "id": "W0010",
             "name": "Mai Quốc Huy",
+            "email": "mai.quoc.huy.g2b@gmail.com",
             "position": "Nhân viên AQL",
             "productivityKPI": 75,
             "qualityKPI": 0.87,
-            "salaryPerHour": 30
+            "salaryPerHour": 75000
         },
         {
-            "id": "W0011",
-            "name": "Nguyễn Thị Hoài Thu",
-            "position": "Nhân viên QA/QC",
-            "productivityKPI": 15,
-            "qualityKPI": 0.98,
-            "salaryPerHour": 21
+            "id": "W0009",
+            "name": "Trịnh Ngọc Hân",
+            "email": "trinh.ngoc.han.g2b@gmail.com",
+            "position": "Nhân viên AQL",
+            "productivityKPI": 70,
+            "qualityKPI": 0.88,
+            "salaryPerHour": 70000
         },
         {
-            "id": "W0012",
-            "name": "Trương Văn Thái",
-            "position": "Nhân viên QA/QC",
-            "productivityKPI": 16,
-            "qualityKPI": 0.97,
-            "salaryPerHour": 23
+            "id": "W0008",
+            "name": "Dương Thị Thanh",
+            "email": "duong.thi.thanh.g2b@gmail.com",
+            "position": "Nhân viên AQL",
+            "productivityKPI": 65,
+            "qualityKPI": 0.89,
+            "salaryPerHour": 65000
         },
         {
-            "id": "W0013",
-            "name": "Lê Minh Châu",
-            "position": "Nhân viên QA/QC",
-            "productivityKPI": 18,
-            "qualityKPI": 0.96,
-            "salaryPerHour": 23
-        },
-        {
-            "id": "W0014",
-            "name": "Bùi Thị Kiều Oanh",
-            "position": "Nhân viên QA/QC",
-            "productivityKPI": 20,
-            "qualityKPI": 0.95,
-            "salaryPerHour": 24
-        },
-        {
-            "id": "W0015",
-            "name": "Đặng Hoàng Phúc",
-            "position": "Nhân viên QA/QC",
-            "productivityKPI": 22,
-            "qualityKPI": 0.94,
-            "salaryPerHour": 19
-        },
-        {
-            "id": "W0016",
-            "name": "Tô Thị Diệp",
-            "position": "Nhân viên QA/QC",
-            "productivityKPI": 24,
-            "qualityKPI": 0.93,
-            "salaryPerHour": 21
-        },
-        {
-            "id": "W0017",
-            "name": "Nguyễn Minh Quang",
-            "position": "Nhân viên QA/QC",
-            "productivityKPI": 26,
-            "qualityKPI": 0.92,
-            "salaryPerHour": 29
-        },
-        {
-            "id": "W0018",
-            "name": "Đoàn Thị Mộng Như",
-            "position": "Nhân viên QA/QC",
-            "productivityKPI": 28,
-            "qualityKPI": 0.91,
-            "salaryPerHour": 23
-        },
-        {
-            "id": "W0019",
-            "name": "Phạm Trọng Khoa",
-            "position": "Nhân viên QA/QC",
-            "productivityKPI": 30,
+            "id": "W0007",
+            "name": "Phan Văn Nhân",
+            "email": "phan.van.nhan.g2b@gmail.com",
+            "position": "Nhân viên AQL",
+            "productivityKPI": 60,
             "qualityKPI": 0.9,
-            "salaryPerHour": 26
+            "salaryPerHour": 60000
+        },
+        {
+            "id": "W0006",
+            "name": "Đỗ Thị Lan Hương",
+            "email": "do.thi.lan.huong.g2b@gmail.com",
+            "position": "Nhân viên AQL",
+            "productivityKPI": 55,
+            "qualityKPI": 0.91,
+            "salaryPerHour": 55000
+        },
+        {
+            "id": "W0005",
+            "name": "Nguyễn Hoàng Long",
+            "email": "nguyen.hoang.long.g2b@gmail.com",
+            "position": "Nhân viên AQL",
+            "productivityKPI": 50,
+            "qualityKPI": 0.92,
+            "salaryPerHour": 50000
+        },
+        {
+            "id": "W0004",
+            "name": "Trần Thị Thuý Diễm",
+            "email": "tran.thi.thuy.diem.g2b@gmail.com",
+            "position": "Nhân viên AQL",
+            "productivityKPI": 45,
+            "qualityKPI": 0.93,
+            "salaryPerHour": 45000
         },
         {
             "id": "W0020",
             "name": "Lý Thị Cẩm Nhung",
+            "email": "ly.thi.cam.nhung.g2b@gmail.com",
             "position": "Nhân viên QA/QC",
             "productivityKPI": 32,
             "qualityKPI": 0.89,
-            "salaryPerHour": 23
+            "salaryPerHour": 80000
         },
         {
-            "id": "W0021",
-            "name": "Vũ Minh Nhật",
-            "position": "Nhân viên cắt vải",
-            "productivityKPI": 60,
-            "qualityKPI": 0.98,
-            "salaryPerHour": 29
-        },
-        {
-            "id": "W0022",
-            "name": "Trần Thị Tường Vy",
-            "position": "Nhân viên cắt vải",
-            "productivityKPI": 65,
-            "qualityKPI": 0.97,
-            "salaryPerHour": 26
-        },
-        {
-            "id": "W0023",
-            "name": "Hồ Quang Vinh",
-            "position": "Nhân viên cắt vải",
-            "productivityKPI": 70,
-            "qualityKPI": 0.96,
-            "salaryPerHour": 28
-        },
-        {
-            "id": "W0024",
-            "name": "Nguyễn Ngọc Lệ",
-            "position": "Nhân viên cắt vải",
-            "productivityKPI": 75,
-            "qualityKPI": 0.95,
-            "salaryPerHour": 30
-        },
-        {
-            "id": "W0025",
-            "name": "Võ Đức Thiện",
-            "position": "Nhân viên cắt vải",
-            "productivityKPI": 80,
-            "qualityKPI": 0.94,
-            "salaryPerHour": 30
-        },
-        {
-            "id": "W0026",
-            "name": "Dương Thị Lệ Quyên",
-            "position": "Nhân viên cắt vải",
-            "productivityKPI": 85,
-            "qualityKPI": 0.93,
-            "salaryPerHour": 31
-        },
-        {
-            "id": "W0027",
-            "name": "Đinh Quốc Duy",
-            "position": "Nhân viên cắt vải",
-            "productivityKPI": 90,
-            "qualityKPI": 0.92,
-            "salaryPerHour": 29
-        },
-        {
-            "id": "W0028",
-            "name": "Bùi Văn Được",
-            "position": "Nhân viên cắt vải",
-            "productivityKPI": 95,
-            "qualityKPI": 0.91,
-            "salaryPerHour": 35
-        },
-        {
-            "id": "W0029",
-            "name": "Nguyễn Thanh Ngọc",
-            "position": "Nhân viên cắt vải",
-            "productivityKPI": 100,
+            "id": "W0019",
+            "name": "Phạm Trọng Khoa",
+            "email": "pham.trong.khoa.g2b@gmail.com",
+            "position": "Nhân viên QA/QC",
+            "productivityKPI": 30,
             "qualityKPI": 0.9,
-            "salaryPerHour": 28
+            "salaryPerHour": 75000
+        },
+        {
+            "id": "W0018",
+            "name": "Đoàn Thị Mộng Như",
+            "email": "doan.thi.mong.nhu.g2b@gmail.com",
+            "position": "Nhân viên QA/QC",
+            "productivityKPI": 28,
+            "qualityKPI": 0.91,
+            "salaryPerHour": 70000
+        },
+        {
+            "id": "W0017",
+            "name": "Nguyễn Minh Quang",
+            "email": "nguyen.minh.quang.g2b@gmail.com",
+            "position": "Nhân viên QA/QC",
+            "productivityKPI": 26,
+            "qualityKPI": 0.92,
+            "salaryPerHour": 65000
+        },
+        {
+            "id": "W0016",
+            "name": "Tô Thị Diệp",
+            "email": "to.thi.diep.g2b@gmail.com",
+            "position": "Nhân viên QA/QC",
+            "productivityKPI": 24,
+            "qualityKPI": 0.93,
+            "salaryPerHour": 60000
+        },
+        {
+            "id": "W0015",
+            "name": "Đặng Hoàng Phúc",
+            "email": "dang.hoang.phuc.g2b@gmail.com",
+            "position": "Nhân viên QA/QC",
+            "productivityKPI": 22,
+            "qualityKPI": 0.94,
+            "salaryPerHour": 55000
+        },
+        {
+            "id": "W0014",
+            "name": "Bùi Thị Kiều Oanh",
+            "email": "bui.thi.kieu.oanh.g2b@gmail.com",
+            "position": "Nhân viên QA/QC",
+            "productivityKPI": 20,
+            "qualityKPI": 0.95,
+            "salaryPerHour": 50000
         },
         {
             "id": "W0030",
             "name": "Trần Quốc Cường",
+            "email": "tran.quoc.cuong.g2b@gmail.com",
             "position": "Nhân viên cắt vải",
             "productivityKPI": 105,
             "qualityKPI": 0.89,
-            "salaryPerHour": 37
+            "salaryPerHour": 75000
         },
         {
-            "id": "W0031",
-            "name": "Mai Thị Thuỷ",
-            "position": "Nhân viên đóng gói",
-            "productivityKPI": 45,
-            "qualityKPI": 0.98,
-            "salaryPerHour": 29
-        },
-        {
-            "id": "W0032",
-            "name": "Đỗ Ngọc Minh",
-            "position": "Nhân viên đóng gói",
-            "productivityKPI": 50,
-            "qualityKPI": 0.97,
-            "salaryPerHour": 25
-        },
-        {
-            "id": "W0033",
-            "name": "Lê Văn Nghĩa",
-            "position": "Nhân viên đóng gói",
-            "productivityKPI": 55,
-            "qualityKPI": 0.96,
-            "salaryPerHour": 24
-        },
-        {
-            "id": "W0034",
-            "name": "Tạ Thị Tuyết Mai",
-            "position": "Nhân viên đóng gói",
-            "productivityKPI": 60,
-            "qualityKPI": 0.95,
-            "salaryPerHour": 29
-        },
-        {
-            "id": "W0035",
-            "name": "Trần Thị Diệu Linh",
-            "position": "Nhân viên đóng gói",
-            "productivityKPI": 65,
-            "qualityKPI": 0.94,
-            "salaryPerHour": 27
-        },
-        {
-            "id": "W0036",
-            "name": "Ngô Văn Phước",
-            "position": "Nhân viên đóng gói",
-            "productivityKPI": 70,
-            "qualityKPI": 0.93,
-            "salaryPerHour": 33
-        },
-        {
-            "id": "W0037",
-            "name": "Vũ Thị Thanh Thảo",
-            "position": "Nhân viên đóng gói",
-            "productivityKPI": 75,
-            "qualityKPI": 0.92,
-            "salaryPerHour": 30
-        },
-        {
-            "id": "W0038",
-            "name": "Phan Thị Thuý Nga",
-            "position": "Nhân viên đóng gói",
-            "productivityKPI": 80,
-            "qualityKPI": 0.91,
-            "salaryPerHour": 35
-        },
-        {
-            "id": "W0039",
-            "name": "Nguyễn Văn Khang",
-            "position": "Nhân viên đóng gói",
-            "productivityKPI": 85,
+            "id": "W0029",
+            "name": "Nguyễn Thanh Ngọc",
+            "email": "nguyen.thanh.ngoc.g2b@gmail.com",
+            "position": "Nhân viên cắt vải",
+            "productivityKPI": 100,
             "qualityKPI": 0.9,
-            "salaryPerHour": 27
+            "salaryPerHour": 70000
+        },
+        {
+            "id": "W0028",
+            "name": "Bùi Văn Được",
+            "email": "bui.van.duoc.g2b@gmail.com",
+            "position": "Nhân viên cắt vải",
+            "productivityKPI": 95,
+            "qualityKPI": 0.91,
+            "salaryPerHour": 65000
+        },
+        {
+            "id": "W0027",
+            "name": "Đinh Quốc Duy",
+            "email": "dinh.quoc.duy.g2b@gmail.com",
+            "position": "Nhân viên cắt vải",
+            "productivityKPI": 90,
+            "qualityKPI": 0.92,
+            "salaryPerHour": 60000
+        },
+        {
+            "id": "W0026",
+            "name": "Dương Thị Lệ Quyên",
+            "email": "duong.thi.le.quyen.g2b@gmail.com",
+            "position": "Nhân viên cắt vải",
+            "productivityKPI": 85,
+            "qualityKPI": 0.93,
+            "salaryPerHour": 55000
+        },
+        {
+            "id": "W0025",
+            "name": "Võ Đức Thiện",
+            "email": "vo.duc.thien.g2b@gmail.com",
+            "position": "Nhân viên cắt vải",
+            "productivityKPI": 80,
+            "qualityKPI": 0.94,
+            "salaryPerHour": 50000
+        },
+        {
+            "id": "W0024",
+            "name": "Nguyễn Ngọc Lệ",
+            "email": "nguyen.ngoc.le.g2b@gmail.com",
+            "position": "Nhân viên cắt vải",
+            "productivityKPI": 75,
+            "qualityKPI": 0.95,
+            "salaryPerHour": 45000
         },
         {
             "id": "W0040",
             "name": "Trịnh Văn Đạt",
+            "email": "trinh.van.dat.g2b@gmail.com",
             "position": "Nhân viên đóng gói",
             "productivityKPI": 90,
             "qualityKPI": 0.89,
-            "salaryPerHour": 30
+            "salaryPerHour": 75000
         },
         {
-            "id": "W0041",
-            "name": "Nguyễn Thanh Hoa",
-            "position": "Nhân viên đính khuy",
-            "productivityKPI": 25,
-            "qualityKPI": 0.98,
-            "salaryPerHour": 21
-        },
-        {
-            "id": "W0042",
-            "name": "Trần Quốc Khánh",
-            "position": "Nhân viên đính khuy",
-            "productivityKPI": 30,
-            "qualityKPI": 0.97,
-            "salaryPerHour": 23
-        },
-        {
-            "id": "W0043",
-            "name": "Lê Thị Trinh",
-            "position": "Nhân viên đính khuy",
-            "productivityKPI": 35,
-            "qualityKPI": 0.96,
-            "salaryPerHour": 28
-        },
-        {
-            "id": "W0044",
-            "name": "Phạm Thị Thu",
-            "position": "Nhân viên đính khuy",
-            "productivityKPI": 40,
-            "qualityKPI": 0.95,
-            "salaryPerHour": 23
-        },
-        {
-            "id": "W0045",
-            "name": "Bùi Văn Tâm",
-            "position": "Nhân viên đính khuy",
-            "productivityKPI": 45,
-            "qualityKPI": 0.94,
-            "salaryPerHour": 29
-        },
-        {
-            "id": "W0046",
-            "name": "Đỗ Thị Minh",
-            "position": "Nhân viên đính khuy",
-            "productivityKPI": 50,
-            "qualityKPI": 0.93,
-            "salaryPerHour": 24
-        },
-        {
-            "id": "W0047",
-            "name": "Hồ Văn An",
-            "position": "Nhân viên đính khuy",
-            "productivityKPI": 55,
-            "qualityKPI": 0.92,
-            "salaryPerHour": 30
-        },
-        {
-            "id": "W0048",
-            "name": "Ngô Thị Lan",
-            "position": "Nhân viên đính khuy",
-            "productivityKPI": 60,
-            "qualityKPI": 0.91,
-            "salaryPerHour": 22
-        },
-        {
-            "id": "W0049",
-            "name": "Dương Tuấn Anh",
-            "position": "Nhân viên đính khuy",
-            "productivityKPI": 65,
+            "id": "W0039",
+            "name": "Nguyễn Văn Khang",
+            "email": "nguyen.van.khang.g2b@gmail.com",
+            "position": "Nhân viên đóng gói",
+            "productivityKPI": 85,
             "qualityKPI": 0.9,
-            "salaryPerHour": 28
+            "salaryPerHour": 70000
+        },
+        {
+            "id": "W0038",
+            "name": "Phan Thị Thuý Nga",
+            "email": "phan.thi.thuy.nga.g2b@gmail.com",
+            "position": "Nhân viên đóng gói",
+            "productivityKPI": 80,
+            "qualityKPI": 0.91,
+            "salaryPerHour": 65000
+        },
+        {
+            "id": "W0037",
+            "name": "Vũ Thị Thanh Thảo",
+            "email": "vu.thi.thanh.thao.g2b@gmail.com",
+            "position": "Nhân viên đóng gói",
+            "productivityKPI": 75,
+            "qualityKPI": 0.92,
+            "salaryPerHour": 60000
+        },
+        {
+            "id": "W0036",
+            "name": "Ngô Văn Phước",
+            "email": "ngo.van.phuoc.g2b@gmail.com",
+            "position": "Nhân viên đóng gói",
+            "productivityKPI": 70,
+            "qualityKPI": 0.93,
+            "salaryPerHour": 55000
+        },
+        {
+            "id": "W0035",
+            "name": "Trần Thị Diệu Linh",
+            "email": "tran.thi.dieu.linh.g2b@gmail.com",
+            "position": "Nhân viên đóng gói",
+            "productivityKPI": 65,
+            "qualityKPI": 0.94,
+            "salaryPerHour": 50000
+        },
+        {
+            "id": "W0034",
+            "name": "Tạ Thị Tuyết Mai",
+            "email": "ta.thi.tuyet.mai.g2b@gmail.com",
+            "position": "Nhân viên đóng gói",
+            "productivityKPI": 60,
+            "qualityKPI": 0.95,
+            "salaryPerHour": 45000
         },
         {
             "id": "W0050",
             "name": "Vũ Kim Ngân",
+            "email": "vu.kim.ngan.g2b@gmail.com",
             "position": "Nhân viên đính khuy",
             "productivityKPI": 70,
             "qualityKPI": 0.89,
-            "salaryPerHour": 31
-        },
-        {
-            "id": "W0051",
-            "name": "Vũ Hữu Tú",
-            "position": "Nhân viên đính khuy",
-            "productivityKPI": 25,
-            "qualityKPI": 0.98,
-            "salaryPerHour": 27
-        },
-        {
-            "id": "W0052",
-            "name": "Bùi Văn Ngân",
-            "position": "Nhân viên đính khuy",
-            "productivityKPI": 30,
-            "qualityKPI": 0.97,
-            "salaryPerHour": 26
-        },
-        {
-            "id": "W0053",
-            "name": "Đặng Quốc Trí",
-            "position": "Nhân viên đính khuy",
-            "productivityKPI": 35,
-            "qualityKPI": 0.96,
-            "salaryPerHour": 20
-        },
-        {
-            "id": "W0054",
-            "name": "Bùi Mạnh Vy",
-            "position": "Nhân viên đính khuy",
-            "productivityKPI": 40,
-            "qualityKPI": 0.95,
-            "salaryPerHour": 28
-        },
-        {
-            "id": "W0055",
-            "name": "Lê Gia Vy",
-            "position": "Nhân viên đính khuy",
-            "productivityKPI": 45,
-            "qualityKPI": 0.94,
-            "salaryPerHour": 30
-        },
-        {
-            "id": "W0056",
-            "name": "Bùi Mạnh Quang",
-            "position": "Nhân viên đính khuy",
-            "productivityKPI": 50,
-            "qualityKPI": 0.93,
-            "salaryPerHour": 28
-        },
-        {
-            "id": "W0057",
-            "name": "Dương Gia Nhung",
-            "position": "Nhân viên đính khuy",
-            "productivityKPI": 55,
-            "qualityKPI": 0.92,
-            "salaryPerHour": 27
-        },
-        {
-            "id": "W0058",
-            "name": "Vũ Thuỳ Nam",
-            "position": "Nhân viên đính khuy",
-            "productivityKPI": 60,
-            "qualityKPI": 0.91,
-            "salaryPerHour": 31
-        },
-        {
-            "id": "W0059",
-            "name": "Lê Trọng Tường",
-            "position": "Nhân viên đính khuy",
-            "productivityKPI": 65,
-            "qualityKPI": 0.9,
-            "salaryPerHour": 30
+            "salaryPerHour": 70000
         },
         {
             "id": "W0060",
             "name": "Vũ Hoàng Lan",
+            "email": "vu.hoang.lan.g2b@gmail.com",
             "position": "Nhân viên đính khuy",
             "productivityKPI": 70,
             "qualityKPI": 0.89,
-            "salaryPerHour": 29
+            "salaryPerHour": 70000
         },
         {
-            "id": "W0061",
-            "name": "Vũ Hoàng Thu",
-            "position": "Nhân viên gắn nhãn",
-            "productivityKPI": 30,
-            "qualityKPI": 0.98,
-            "salaryPerHour": 26
-        },
-        {
-            "id": "W0062",
-            "name": "Phạm Tuấn Sơn",
-            "position": "Nhân viên gắn nhãn",
-            "productivityKPI": 35,
-            "qualityKPI": 0.97,
-            "salaryPerHour": 26
-        },
-        {
-            "id": "W0063",
-            "name": "Ngô Thị Thảo",
-            "position": "Nhân viên gắn nhãn",
-            "productivityKPI": 40,
-            "qualityKPI": 0.96,
-            "salaryPerHour": 24
-        },
-        {
-            "id": "W0064",
-            "name": "Hồ Gia Vy",
-            "position": "Nhân viên gắn nhãn",
-            "productivityKPI": 45,
-            "qualityKPI": 0.95,
-            "salaryPerHour": 24
-        },
-        {
-            "id": "W0065",
-            "name": "Dương Thị Quân",
-            "position": "Nhân viên gắn nhãn",
-            "productivityKPI": 50,
-            "qualityKPI": 0.94,
-            "salaryPerHour": 23
-        },
-        {
-            "id": "W0066",
-            "name": "Huỳnh Thanh Thắng",
-            "position": "Nhân viên gắn nhãn",
-            "productivityKPI": 50,
-            "qualityKPI": 0.93,
-            "salaryPerHour": 27
-        },
-        {
-            "id": "W0067",
-            "name": "Lê Quốc Dũng",
-            "position": "Nhân viên gắn nhãn",
-            "productivityKPI": 55,
-            "qualityKPI": 0.92,
-            "salaryPerHour": 23
-        },
-        {
-            "id": "W0068",
-            "name": "Ngô Tuấn Hiếu",
-            "position": "Nhân viên gắn nhãn",
-            "productivityKPI": 60,
-            "qualityKPI": 0.91,
-            "salaryPerHour": 31
-        },
-        {
-            "id": "W0069",
-            "name": "Huỳnh Ngọc Quân",
-            "position": "Nhân viên gắn nhãn",
+            "id": "W0049",
+            "name": "Dương Tuấn Anh",
+            "email": "duong.tuan.anh.g2b@gmail.com",
+            "position": "Nhân viên đính khuy",
             "productivityKPI": 65,
             "qualityKPI": 0.9,
-            "salaryPerHour": 29
+            "salaryPerHour": 65000
+        },
+        {
+            "id": "W0059",
+            "name": "Lê Trọng Tường",
+            "email": "le.trong.tuong.g2b@gmail.com",
+            "position": "Nhân viên đính khuy",
+            "productivityKPI": 65,
+            "qualityKPI": 0.9,
+            "salaryPerHour": 65000
+        },
+        {
+            "id": "W0048",
+            "name": "Ngô Thị Lan",
+            "email": "ngo.thi.lan.g2b@gmail.com",
+            "position": "Nhân viên đính khuy",
+            "productivityKPI": 60,
+            "qualityKPI": 0.91,
+            "salaryPerHour": 60000
+        },
+        {
+            "id": "W0058",
+            "name": "Vũ Thuỳ Nam",
+            "email": "vu.thuy.nam.g2b@gmail.com",
+            "position": "Nhân viên đính khuy",
+            "productivityKPI": 60,
+            "qualityKPI": 0.91,
+            "salaryPerHour": 60000
+        },
+        {
+            "id": "W0047",
+            "name": "Hồ Văn An",
+            "email": "ho.van.an.g2b@gmail.com",
+            "position": "Nhân viên đính khuy",
+            "productivityKPI": 55,
+            "qualityKPI": 0.92,
+            "salaryPerHour": 55000
         },
         {
             "id": "W0070",
             "name": "Phan Minh Lan",
+            "email": "phan.minh.lan.g2b@gmail.com",
             "position": "Nhân viên gắn nhãn",
             "productivityKPI": 70,
             "qualityKPI": 0.89,
-            "salaryPerHour": 28
+            "salaryPerHour": 60000
         },
         {
-            "id": "W0071",
-            "name": "Trần Thị Mai",
-            "position": "Nhân viên in",
-            "productivityKPI": 20,
-            "qualityKPI": 0.98,
-            "salaryPerHour": 21
-        },
-        {
-            "id": "W0072",
-            "name": "Nguyễn Thanh Long",
-            "position": "Nhân viên in",
-            "productivityKPI": 25,
-            "qualityKPI": 0.97,
-            "salaryPerHour": 21
-        },
-        {
-            "id": "W0073",
-            "name": "Phạm Hoàng Dũng",
-            "position": "Nhân viên in",
-            "productivityKPI": 30,
-            "qualityKPI": 0.96,
-            "salaryPerHour": 26
-        },
-        {
-            "id": "W0074",
-            "name": "Đặng Ngọc Lan",
-            "position": "Nhân viên in",
-            "productivityKPI": 35,
-            "qualityKPI": 0.95,
-            "salaryPerHour": 24
-        },
-        {
-            "id": "W0075",
-            "name": "Lê Quang Huy",
-            "position": "Nhân viên in",
-            "productivityKPI": 40,
-            "qualityKPI": 0.94,
-            "salaryPerHour": 29
-        },
-        {
-            "id": "W0076",
-            "name": "Bùi Thị Thuỳ Dương",
-            "position": "Nhân viên in",
-            "productivityKPI": 45,
-            "qualityKPI": 0.93,
-            "salaryPerHour": 21
-        },
-        {
-            "id": "W0077",
-            "name": "Vũ Minh Khôi",
-            "position": "Nhân viên in",
-            "productivityKPI": 50,
-            "qualityKPI": 0.92,
-            "salaryPerHour": 25
-        },
-        {
-            "id": "W0078",
-            "name": "Trần Hoàng Thái",
-            "position": "Nhân viên in",
-            "productivityKPI": 55,
-            "qualityKPI": 0.91,
-            "salaryPerHour": 26
-        },
-        {
-            "id": "W0079",
-            "name": "Ngô Thị Như Quỳnh",
-            "position": "Nhân viên in",
-            "productivityKPI": 60,
+            "id": "W0069",
+            "name": "Huỳnh Ngọc Quân",
+            "email": "huynh.ngoc.quan.g2b@gmail.com",
+            "position": "Nhân viên gắn nhãn",
+            "productivityKPI": 65,
             "qualityKPI": 0.9,
-            "salaryPerHour": 26
+            "salaryPerHour": 60000
+        },
+        {
+            "id": "W0068",
+            "name": "Ngô Tuấn Hiếu",
+            "email": "ngo.tuan.hieu.g2b@gmail.com",
+            "position": "Nhân viên gắn nhãn",
+            "productivityKPI": 60,
+            "qualityKPI": 0.91,
+            "salaryPerHour": 55000
+        },
+        {
+            "id": "W0067",
+            "name": "Lê Quốc Dũng",
+            "email": "le.quoc.dung.g2b@gmail.com",
+            "position": "Nhân viên gắn nhãn",
+            "productivityKPI": 55,
+            "qualityKPI": 0.92,
+            "salaryPerHour": 55000
+        },
+        {
+            "id": "W0065",
+            "name": "Dương Thị Quân",
+            "email": "duong.thi.quan.g2b@gmail.com",
+            "position": "Nhân viên gắn nhãn",
+            "productivityKPI": 50,
+            "qualityKPI": 0.94,
+            "salaryPerHour": 50000
+        },
+        {
+            "id": "W0066",
+            "name": "Huỳnh Thanh Thắng",
+            "email": "huynh.thanh.thang.g2b@gmail.com",
+            "position": "Nhân viên gắn nhãn",
+            "productivityKPI": 50,
+            "qualityKPI": 0.93,
+            "salaryPerHour": 50000
+        },
+        {
+            "id": "W0064",
+            "name": "Hồ Gia Vy",
+            "email": "ho.gia.vy.g2b@gmail.com",
+            "position": "Nhân viên gắn nhãn",
+            "productivityKPI": 45,
+            "qualityKPI": 0.95,
+            "salaryPerHour": 45000
         },
         {
             "id": "W0080",
             "name": "Hồ Văn Tú",
+            "email": "ho.van.tu.g2b@gmail.com",
             "position": "Nhân viên in",
             "productivityKPI": 65,
             "qualityKPI": 0.89,
-            "salaryPerHour": 27
+            "salaryPerHour": 65000
         },
         {
-            "id": "W0081",
-            "name": "Đinh Hữu Phước",
-            "position": "Nhân viên là ép",
-            "productivityKPI": 10,
-            "qualityKPI": 0.98,
-            "salaryPerHour": 24
-        },
-        {
-            "id": "W0082",
-            "name": "Nguyễn Gia Hân",
-            "position": "Nhân viên là ép",
-            "productivityKPI": 12,
-            "qualityKPI": 0.97,
-            "salaryPerHour": 22
-        },
-        {
-            "id": "W0083",
-            "name": "Phạm Minh Tâm",
-            "position": "Nhân viên là ép",
-            "productivityKPI": 15,
-            "qualityKPI": 0.96,
-            "salaryPerHour": 26
-        },
-        {
-            "id": "W0084",
-            "name": "Lưu Thị Ánh",
-            "position": "Nhân viên là ép",
-            "productivityKPI": 17,
-            "qualityKPI": 0.95,
-            "salaryPerHour": 24
-        },
-        {
-            "id": "W0085",
-            "name": "Dương Trọng Nghĩa",
-            "position": "Nhân viên là ép",
-            "productivityKPI": 20,
-            "qualityKPI": 0.94,
-            "salaryPerHour": 23
-        },
-        {
-            "id": "W0086",
-            "name": "Trịnh Bảo Trâm",
-            "position": "Nhân viên là ép",
-            "productivityKPI": 22,
-            "qualityKPI": 0.93,
-            "salaryPerHour": 24
-        },
-        {
-            "id": "W0087",
-            "name": "Nguyễn Văn Sơn",
-            "position": "Nhân viên là ép",
-            "productivityKPI": 25,
-            "qualityKPI": 0.92,
-            "salaryPerHour": 21
-        },
-        {
-            "id": "W0088",
-            "name": "Tô Quốc Hưng",
-            "position": "Nhân viên là ép",
-            "productivityKPI": 28,
-            "qualityKPI": 0.91,
-            "salaryPerHour": 23
-        },
-        {
-            "id": "W0089",
-            "name": "Lê Minh Đạt",
-            "position": "Nhân viên là ép",
-            "productivityKPI": 30,
+            "id": "W0079",
+            "name": "Ngô Thị Như Quỳnh",
+            "email": "ngo.thi.nhu.quynh.g2b@gmail.com",
+            "position": "Nhân viên in",
+            "productivityKPI": 60,
             "qualityKPI": 0.9,
-            "salaryPerHour": 26
+            "salaryPerHour": 60000
+        },
+        {
+            "id": "W0078",
+            "name": "Trần Hoàng Thái",
+            "email": "tran.hoang.thai.g2b@gmail.com",
+            "position": "Nhân viên in",
+            "productivityKPI": 55,
+            "qualityKPI": 0.91,
+            "salaryPerHour": 60000
+        },
+        {
+            "id": "W0077",
+            "name": "Vũ Minh Khôi",
+            "email": "vu.minh.khoi.g2b@gmail.com",
+            "position": "Nhân viên in",
+            "productivityKPI": 50,
+            "qualityKPI": 0.92,
+            "salaryPerHour": 55000
+        },
+        {
+            "id": "W0076",
+            "name": "Bùi Thị Thuỳ Dương",
+            "email": "bui.thi.thuy.duong.g2b@gmail.com",
+            "position": "Nhân viên in",
+            "productivityKPI": 45,
+            "qualityKPI": 0.93,
+            "salaryPerHour": 55000
+        },
+        {
+            "id": "W0075",
+            "name": "Lê Quang Huy",
+            "email": "le.quang.huy.g2b@gmail.com",
+            "position": "Nhân viên in",
+            "productivityKPI": 40,
+            "qualityKPI": 0.94,
+            "salaryPerHour": 50000
+        },
+        {
+            "id": "W0074",
+            "name": "Đặng Ngọc Lan",
+            "email": "dang.ngoc.lan.g2b@gmail.com",
+            "position": "Nhân viên in",
+            "productivityKPI": 35,
+            "qualityKPI": 0.95,
+            "salaryPerHour": 45000
         },
         {
             "id": "W0090",
             "name": "Đỗ Thị Hồng",
+            "email": "do.thi.hong.g2b@gmail.com",
             "position": "Nhân viên là ép",
             "productivityKPI": 32,
             "qualityKPI": 0.89,
-            "salaryPerHour": 22
+            "salaryPerHour": 60000
         },
         {
-            "id": "W0091",
-            "name": "Phạm Quốc Thiên",
-            "position": "Nhân viên may chi tiết",
-            "productivityKPI": 5,
-            "qualityKPI": 0.98,
-            "salaryPerHour": 24
-        },
-        {
-            "id": "W0092",
-            "name": "Mai Thị Kim Chi",
-            "position": "Nhân viên may chi tiết",
-            "productivityKPI": 6,
-            "qualityKPI": 0.97,
-            "salaryPerHour": 23
-        },
-        {
-            "id": "W0093",
-            "name": "Nguyễn Đăng Khoa",
-            "position": "Nhân viên may chi tiết",
-            "productivityKPI": 7,
-            "qualityKPI": 0.96,
-            "salaryPerHour": 24
-        },
-        {
-            "id": "W0094",
-            "name": "Trần Thanh Vân",
-            "position": "Nhân viên may chi tiết",
-            "productivityKPI": 8,
-            "qualityKPI": 0.95,
-            "salaryPerHour": 22
-        },
-        {
-            "id": "W0095",
-            "name": "Vũ Bảo Châu",
-            "position": "Nhân viên may chi tiết",
-            "productivityKPI": 10,
-            "qualityKPI": 0.94,
-            "salaryPerHour": 22
-        },
-        {
-            "id": "W0096",
-            "name": "Đặng Quang Huy",
-            "position": "Nhân viên may chi tiết",
-            "productivityKPI": 12,
-            "qualityKPI": 0.93,
-            "salaryPerHour": 23
-        },
-        {
-            "id": "W0097",
-            "name": "Phan Nhật Hào",
-            "position": "Nhân viên may chi tiết",
-            "productivityKPI": 14,
-            "qualityKPI": 0.92,
-            "salaryPerHour": 23
-        },
-        {
-            "id": "W0098",
-            "name": "Lý Thị Thu Hà",
-            "position": "Nhân viên may chi tiết",
-            "productivityKPI": 15,
-            "qualityKPI": 0.91,
-            "salaryPerHour": 24
-        },
-        {
-            "id": "W0099",
-            "name": "Trương Minh Trí",
-            "position": "Nhân viên may chi tiết",
-            "productivityKPI": 17,
+            "id": "W0089",
+            "name": "Lê Minh Đạt",
+            "email": "le.minh.dat.g2b@gmail.com",
+            "position": "Nhân viên là ép",
+            "productivityKPI": 30,
             "qualityKPI": 0.9,
-            "salaryPerHour": 23
+            "salaryPerHour": 60000
+        },
+        {
+            "id": "W0088",
+            "name": "Tô Quốc Hưng",
+            "email": "to.quoc.hung.g2b@gmail.com",
+            "position": "Nhân viên là ép",
+            "productivityKPI": 28,
+            "qualityKPI": 0.91,
+            "salaryPerHour": 55000
+        },
+        {
+            "id": "W0087",
+            "name": "Nguyễn Văn Sơn",
+            "email": "nguyen.van.son.g2b@gmail.com",
+            "position": "Nhân viên là ép",
+            "productivityKPI": 25,
+            "qualityKPI": 0.92,
+            "salaryPerHour": 55000
+        },
+        {
+            "id": "W0086",
+            "name": "Trịnh Bảo Trâm",
+            "email": "trinh.bao.tram.g2b@gmail.com",
+            "position": "Nhân viên là ép",
+            "productivityKPI": 22,
+            "qualityKPI": 0.93,
+            "salaryPerHour": 50000
+        },
+        {
+            "id": "W0085",
+            "name": "Dương Trọng Nghĩa",
+            "email": "duong.trong.nghia.g2b@gmail.com",
+            "position": "Nhân viên là ép",
+            "productivityKPI": 20,
+            "qualityKPI": 0.94,
+            "salaryPerHour": 50000
+        },
+        {
+            "id": "W0084",
+            "name": "Lưu Thị Ánh",
+            "email": "luu.thi.anh.g2b@gmail.com",
+            "position": "Nhân viên là ép",
+            "productivityKPI": 17,
+            "qualityKPI": 0.95,
+            "salaryPerHour": 45000
         },
         {
             "id": "W0100",
             "name": "Võ Thanh Tùng",
+            "email": "vo.thanh.tung.g2b@gmail.com",
             "position": "Nhân viên may chi tiết",
             "productivityKPI": 18,
             "qualityKPI": 0.89,
-            "salaryPerHour": 25
+            "salaryPerHour": 60000
         },
         {
-            "id": "W0101",
-            "name": "Huỳnh Mai Vy",
+            "id": "W0099",
+            "name": "Trương Minh Trí",
+            "email": "truong.minh.tri.g2b@gmail.com",
             "position": "Nhân viên may chi tiết",
-            "productivityKPI": 5,
-            "qualityKPI": 0.98,
-            "salaryPerHour": 19
-        },
-        {
-            "id": "W0102",
-            "name": "Bùi Đức Toàn",
-            "position": "Nhân viên may chi tiết",
-            "productivityKPI": 6,
-            "qualityKPI": 0.97,
-            "salaryPerHour": 22
-        },
-        {
-            "id": "W0103",
-            "name": "Ngô Thị Bảo Ngọc",
-            "position": "Nhân viên may chi tiết",
-            "productivityKPI": 7,
-            "qualityKPI": 0.96,
-            "salaryPerHour": 21
-        },
-        {
-            "id": "W0104",
-            "name": "Đỗ Gia Khánh",
-            "position": "Nhân viên may chi tiết",
-            "productivityKPI": 8,
-            "qualityKPI": 0.95,
-            "salaryPerHour": 22
-        },
-        {
-            "id": "W0105",
-            "name": "Lê Minh Hương",
-            "position": "Nhân viên may chi tiết",
-            "productivityKPI": 9,
-            "qualityKPI": 0.94,
-            "salaryPerHour": 22
-        },
-        {
-            "id": "W0106",
-            "name": "Tạ Văn Thắng",
-            "position": "Nhân viên may chi tiết",
-            "productivityKPI": 10,
-            "qualityKPI": 0.93,
-            "salaryPerHour": 18
-        },
-        {
-            "id": "W0107",
-            "name": "Dương Thị Quỳnh Anh",
-            "position": "Nhân viên may chi tiết",
-            "productivityKPI": 11,
-            "qualityKPI": 0.92,
-            "salaryPerHour": 20
-        },
-        {
-            "id": "W0108",
-            "name": "Lưu Vũ Khang",
-            "position": "Nhân viên may chi tiết",
-            "productivityKPI": 12,
-            "qualityKPI": 0.91,
-            "salaryPerHour": 25
-        },
-        {
-            "id": "W0109",
-            "name": "Nguyễn Quốc Cường",
-            "position": "Nhân viên may chi tiết",
-            "productivityKPI": 13,
+            "productivityKPI": 17,
             "qualityKPI": 0.9,
-            "salaryPerHour": 25
+            "salaryPerHour": 60000
+        },
+        {
+            "id": "W0098",
+            "name": "Lý Thị Thu Hà",
+            "email": "ly.thi.thu.ha.g2b@gmail.com",
+            "position": "Nhân viên may chi tiết",
+            "productivityKPI": 15,
+            "qualityKPI": 0.91,
+            "salaryPerHour": 55000
+        },
+        {
+            "id": "W0097",
+            "name": "Phan Nhật Hào",
+            "email": "phan.nhat.hao.g2b@gmail.com",
+            "position": "Nhân viên may chi tiết",
+            "productivityKPI": 14,
+            "qualityKPI": 0.92,
+            "salaryPerHour": 55000
         },
         {
             "id": "W0110",
             "name": "Hồ Bảo Anh",
+            "email": "ho.bao.anh.g2b@gmail.com",
             "position": "Nhân viên may chi tiết",
             "productivityKPI": 14,
             "qualityKPI": 0.89,
-            "salaryPerHour": 24
+            "salaryPerHour": 55000
         },
         {
-            "id": "W0111",
-            "name": "Trịnh Minh Khang",
-            "position": "Nhân viên may công nghiệp",
-            "productivityKPI": 18,
-            "qualityKPI": 0.95,
-            "salaryPerHour": 23
+            "id": "W0109",
+            "name": "Nguyễn Quốc Cường",
+            "email": "nguyen.quoc.cuong.g2b@gmail.com",
+            "position": "Nhân viên may chi tiết",
+            "productivityKPI": 13,
+            "qualityKPI": 0.9,
+            "salaryPerHour": 55000
         },
         {
-            "id": "W0112",
-            "name": "Trần Nhật Minh",
-            "position": "Nhân viên may công nghiệp",
-            "productivityKPI": 19,
-            "qualityKPI": 0.96,
-            "salaryPerHour": 22
-        },
-        {
-            "id": "W0113",
-            "name": "Phạm Hoài Nam",
-            "position": "Nhân viên may công nghiệp",
-            "productivityKPI": 20,
-            "qualityKPI": 0.94,
-            "salaryPerHour": 21
-        },
-        {
-            "id": "W0114",
-            "name": "Nguyễn Văn Lộc",
-            "position": "Nhân viên may công nghiệp",
-            "productivityKPI": 22,
-            "qualityKPI": 0.97,
-            "salaryPerHour": 24
-        },
-        {
-            "id": "W0115",
-            "name": "Đoàn Thanh Phong",
-            "position": "Nhân viên may công nghiệp",
-            "productivityKPI": 23,
-            "qualityKPI": 0.96,
-            "salaryPerHour": 26
-        },
-        {
-            "id": "W0116",
-            "name": "Võ Ngọc Hân",
-            "position": "Nhân viên may công nghiệp",
-            "productivityKPI": 25,
-            "qualityKPI": 0.99,
-            "salaryPerHour": 24
-        },
-        {
-            "id": "W0117",
-            "name": "Trần Hoàng Lâm",
-            "position": "Nhân viên may công nghiệp",
-            "productivityKPI": 27,
-            "qualityKPI": 0.97,
-            "salaryPerHour": 27
-        },
-        {
-            "id": "W0118",
-            "name": "Trịnh Hải Yến",
-            "position": "Nhân viên may công nghiệp",
-            "productivityKPI": 28,
-            "qualityKPI": 0.95,
-            "salaryPerHour": 22
-        },
-        {
-            "id": "W0119",
-            "name": "Nguyễn Thị Ngọc Mai",
-            "position": "Nhân viên may công nghiệp",
-            "productivityKPI": 30,
-            "qualityKPI": 0.98,
-            "salaryPerHour": 29
-        },
-        {
-            "id": "W0120",
-            "name": "Đặng Anh Khoa",
-            "position": "Nhân viên may công nghiệp",
-            "productivityKPI": 32,
-            "qualityKPI": 0.98,
-            "salaryPerHour": 28
-        },
-        {
-            "id": "W0121",
-            "name": "Lê Thị Hạnh",
-            "position": "Nhân viên may công nghiệp",
-            "productivityKPI": 34,
-            "qualityKPI": 0.96,
-            "salaryPerHour": 32
-        },
-        {
-            "id": "W0122",
-            "name": "Nguyễn Văn Tài",
-            "position": "Nhân viên may công nghiệp",
-            "productivityKPI": 35,
-            "qualityKPI": 0.94,
-            "salaryPerHour": 22
-        },
-        {
-            "id": "W0123",
-            "name": "Đặng Minh Đức",
-            "position": "Nhân viên may công nghiệp",
-            "productivityKPI": 36,
-            "qualityKPI": 0.96,
-            "salaryPerHour": 31
-        },
-        {
-            "id": "W0124",
-            "name": "Phạm Thị Huyền",
-            "position": "Nhân viên may công nghiệp",
-            "productivityKPI": 38,
-            "qualityKPI": 0.97,
-            "salaryPerHour": 28
-        },
-        {
-            "id": "W0125",
-            "name": "Vũ Văn Quang",
-            "position": "Nhân viên may công nghiệp",
-            "productivityKPI": 40,
-            "qualityKPI": 0.98,
-            "salaryPerHour": 25
-        },
-        {
-            "id": "W0126",
-            "name": "Bùi Hồng Phúc",
-            "position": "Nhân viên may công nghiệp",
-            "productivityKPI": 42,
-            "qualityKPI": 0.99,
-            "salaryPerHour": 26
-        },
-        {
-            "id": "W0127",
-            "name": "Hồ Ngọc Minh",
-            "position": "Nhân viên may công nghiệp",
-            "productivityKPI": 44,
-            "qualityKPI": 0.97,
-            "salaryPerHour": 26
-        },
-        {
-            "id": "W0128",
-            "name": "Trần Thị Bích",
-            "position": "Nhân viên may công nghiệp",
-            "productivityKPI": 46,
-            "qualityKPI": 0.99,
-            "salaryPerHour": 28
-        },
-        {
-            "id": "W0129",
-            "name": "Ngô Văn Khánh",
-            "position": "Nhân viên may công nghiệp",
-            "productivityKPI": 48,
-            "qualityKPI": 0.98,
-            "salaryPerHour": 25
+            "id": "W0096",
+            "name": "Đặng Quang Huy",
+            "email": "dang.quang.huy.g2b@gmail.com",
+            "position": "Nhân viên may chi tiết",
+            "productivityKPI": 12,
+            "qualityKPI": 0.93,
+            "salaryPerHour": 50000
         },
         {
             "id": "W0130",
             "name": "Đinh Huyền Trang",
+            "email": "dinh.huyen.trang.g2b@gmail.com",
             "position": "Nhân viên may công nghiệp",
             "productivityKPI": 50,
             "qualityKPI": 0.95,
-            "salaryPerHour": 22
+            "salaryPerHour": 80000
         },
         {
-            "id": "W0201",
-            "name": "Lưu Thanh Nam",
-            "position": "Nhân viên may ráp",
-            "productivityKPI": 18,
-            "qualityKPI": 0.94,
-            "salaryPerHour": 23
-        },
-        {
-            "id": "W0202",
-            "name": "Mai Văn Thái",
-            "position": "Nhân viên may ráp",
-            "productivityKPI": 19,
-            "qualityKPI": 0.95,
-            "salaryPerHour": 25
-        },
-        {
-            "id": "W0203",
-            "name": "Dương Ngọc Bích",
-            "position": "Nhân viên may ráp",
-            "productivityKPI": 20,
-            "qualityKPI": 0.96,
-            "salaryPerHour": 26
-        },
-        {
-            "id": "W0204",
-            "name": "Trịnh Văn Thành",
-            "position": "Nhân viên may ráp",
-            "productivityKPI": 22,
-            "qualityKPI": 0.97,
-            "salaryPerHour": 24
-        },
-        {
-            "id": "W0205",
-            "name": "Võ Thị Cẩm Tú",
-            "position": "Nhân viên may ráp",
-            "productivityKPI": 23,
-            "qualityKPI": 0.95,
-            "salaryPerHour": 22
-        },
-        {
-            "id": "W0206",
-            "name": "Nguyễn Hữu Lộc",
-            "position": "Nhân viên may ráp",
-            "productivityKPI": 25,
+            "id": "W0129",
+            "name": "Ngô Văn Khánh",
+            "email": "ngo.van.khanh.g2b@gmail.com",
+            "position": "Nhân viên may công nghiệp",
+            "productivityKPI": 48,
             "qualityKPI": 0.98,
-            "salaryPerHour": 24
+            "salaryPerHour": 75000
         },
         {
-            "id": "W0207",
-            "name": "Tô Minh Hằng",
-            "position": "Nhân viên may ráp",
-            "productivityKPI": 27,
-            "qualityKPI": 0.96,
-            "salaryPerHour": 26
-        },
-        {
-            "id": "W0208",
-            "name": "Phan Thị Tuyết",
-            "position": "Nhân viên may ráp",
-            "productivityKPI": 28,
-            "qualityKPI": 0.97,
-            "salaryPerHour": 22
-        },
-        {
-            "id": "W0209",
-            "name": "Lê Đức Hòa",
-            "position": "Nhân viên may ráp",
-            "productivityKPI": 30,
-            "qualityKPI": 0.95,
-            "salaryPerHour": 25
-        },
-        {
-            "id": "W0210",
-            "name": "Đỗ Văn Phúc",
-            "position": "Nhân viên may ráp",
-            "productivityKPI": 32,
-            "qualityKPI": 0.96,
-            "salaryPerHour": 22
-        },
-        {
-            "id": "W0211",
-            "name": "Trần Hữu Thắng",
-            "position": "Nhân viên may ráp",
-            "productivityKPI": 34,
-            "qualityKPI": 0.94,
-            "salaryPerHour": 26
-        },
-        {
-            "id": "W0212",
-            "name": "Phạm Mai Chi",
-            "position": "Nhân viên may ráp",
-            "productivityKPI": 35,
-            "qualityKPI": 0.95,
-            "salaryPerHour": 24
-        },
-        {
-            "id": "W0213",
-            "name": "Nguyễn Thị Nhàn",
-            "position": "Nhân viên may ráp",
-            "productivityKPI": 36,
-            "qualityKPI": 0.96,
-            "salaryPerHour": 25
-        },
-        {
-            "id": "W0214",
-            "name": "Trần Hoài Phong",
-            "position": "Nhân viên may ráp",
-            "productivityKPI": 38,
-            "qualityKPI": 0.97,
-            "salaryPerHour": 22
-        },
-        {
-            "id": "W0215",
-            "name": "Đinh Gia Bảo",
-            "position": "Nhân viên may ráp",
-            "productivityKPI": 40,
-            "qualityKPI": 0.98,
-            "salaryPerHour": 26
-        },
-        {
-            "id": "W0216",
-            "name": "Hồ Văn Duy",
-            "position": "Nhân viên may ráp",
-            "productivityKPI": 42,
+            "id": "W0128",
+            "name": "Trần Thị Bích",
+            "email": "tran.thi.bich.g2b@gmail.com",
+            "position": "Nhân viên may công nghiệp",
+            "productivityKPI": 46,
             "qualityKPI": 0.99,
-            "salaryPerHour": 24
+            "salaryPerHour": 75000
         },
         {
-            "id": "W0217",
-            "name": "Đặng Thị Kim Ngân",
-            "position": "Nhân viên may ráp",
+            "id": "W0127",
+            "name": "Hồ Ngọc Minh",
+            "email": "ho.ngoc.minh.g2b@gmail.com",
+            "position": "Nhân viên may công nghiệp",
             "productivityKPI": 44,
             "qualityKPI": 0.97,
-            "salaryPerHour": 29
+            "salaryPerHour": 72000
         },
         {
-            "id": "W0218",
-            "name": "Vũ Anh Duy",
-            "position": "Nhân viên may ráp",
-            "productivityKPI": 46,
+            "id": "W0126",
+            "name": "Bùi Hồng Phúc",
+            "email": "bui.hong.phuc.g2b@gmail.com",
+            "position": "Nhân viên may công nghiệp",
+            "productivityKPI": 42,
+            "qualityKPI": 0.99,
+            "salaryPerHour": 72000
+        },
+        {
+            "id": "W0125",
+            "name": "Vũ Văn Quang",
+            "email": "vu.van.quang.g2b@gmail.com",
+            "position": "Nhân viên may công nghiệp",
+            "productivityKPI": 40,
             "qualityKPI": 0.98,
-            "salaryPerHour": 27
+            "salaryPerHour": 70000
         },
         {
-            "id": "W0219",
-            "name": "Phan Thị Thanh",
-            "position": "Nhân viên may ráp",
-            "productivityKPI": 48,
-            "qualityKPI": 0.95,
-            "salaryPerHour": 23
+            "id": "W0124",
+            "name": "Phạm Thị Huyền",
+            "email": "pham.thi.huyen.g2b@gmail.com",
+            "position": "Nhân viên may công nghiệp",
+            "productivityKPI": 38,
+            "qualityKPI": 0.97,
+            "salaryPerHour": 70000
         },
         {
             "id": "W0220",
             "name": "Bùi Nhật Linh",
+            "email": "bui.nhat.linh.g2b@gmail.com",
             "position": "Nhân viên may ráp",
             "productivityKPI": 50,
             "qualityKPI": 0.99,
-            "salaryPerHour": 26
+            "salaryPerHour": 80000
         },
         {
-            "id": "W0301",
-            "name": "Lê Ngọc Dung",
-            "position": "Nhân viên thiết kế thời trang",
-            "productivityKPI": 18,
-            "qualityKPI": 0.85,
-            "salaryPerHour": 26
-        },
-        {
-            "id": "W0302",
-            "name": "Trương Hữu Nghị",
-            "position": "Nhân viên thiết kế thời trang",
-            "productivityKPI": 19,
-            "qualityKPI": 0.86,
-            "salaryPerHour": 23
-        },
-        {
-            "id": "W0303",
-            "name": "Dương Thị Mộng Tuyền",
-            "position": "Nhân viên thiết kế thời trang",
-            "productivityKPI": 20,
-            "qualityKPI": 0.88,
-            "salaryPerHour": 25
-        },
-        {
-            "id": "W0304",
-            "name": "Đoàn Quốc Anh",
-            "position": "Nhân viên thiết kế thời trang",
-            "productivityKPI": 21,
-            "qualityKPI": 0.89,
-            "salaryPerHour": 25
-        },
-        {
-            "id": "W0305",
-            "name": "Tạ Thị Phương",
-            "position": "Nhân viên thiết kế thời trang",
-            "productivityKPI": 22,
-            "qualityKPI": 0.9,
-            "salaryPerHour": 22
-        },
-        {
-            "id": "W0306",
-            "name": "Nguyễn Văn Hòa",
-            "position": "Nhân viên thiết kế thời trang",
-            "productivityKPI": 23,
-            "qualityKPI": 0.92,
-            "salaryPerHour": 25
-        },
-        {
-            "id": "W0307",
-            "name": "Trịnh Thị Lan",
-            "position": "Nhân viên thiết kế thời trang",
-            "productivityKPI": 24,
-            "qualityKPI": 0.93,
-            "salaryPerHour": 20
-        },
-        {
-            "id": "W0308",
-            "name": "Võ Văn Tường",
-            "position": "Nhân viên thiết kế thời trang",
-            "productivityKPI": 25,
-            "qualityKPI": 0.94,
-            "salaryPerHour": 22
-        },
-        {
-            "id": "W0309",
-            "name": "Đỗ Minh Tâm",
-            "position": "Nhân viên thiết kế thời trang",
-            "productivityKPI": 26,
+            "id": "W0219",
+            "name": "Phan Thị Thanh",
+            "email": "phan.thi.thanh.g2b@gmail.com",
+            "position": "Nhân viên may ráp",
+            "productivityKPI": 48,
             "qualityKPI": 0.95,
-            "salaryPerHour": 23
+            "salaryPerHour": 75000
+        },
+        {
+            "id": "W0218",
+            "name": "Vũ Anh Duy",
+            "email": "vu.anh.duy.g2b@gmail.com",
+            "position": "Nhân viên may ráp",
+            "productivityKPI": 46,
+            "qualityKPI": 0.98,
+            "salaryPerHour": 72000
+        },
+        {
+            "id": "W0217",
+            "name": "Đặng Thị Kim Ngân",
+            "email": "dang.thi.kim.ngan.g2b@gmail.com",
+            "position": "Nhân viên may ráp",
+            "productivityKPI": 44,
+            "qualityKPI": 0.97,
+            "salaryPerHour": 70000
+        },
+        {
+            "id": "W0216",
+            "name": "Hồ Văn Duy",
+            "email": "ho.van.duy.g2b@gmail.com",
+            "position": "Nhân viên may ráp",
+            "productivityKPI": 42,
+            "qualityKPI": 0.99,
+            "salaryPerHour": 68000
+        },
+        {
+            "id": "W0215",
+            "name": "Đinh Gia Bảo",
+            "email": "dinh.gia.bao.g2b@gmail.com",
+            "position": "Nhân viên may ráp",
+            "productivityKPI": 40,
+            "qualityKPI": 0.98,
+            "salaryPerHour": 67000
+        },
+        {
+            "id": "W0214",
+            "name": "Trần Hoài Phong",
+            "email": "tran.hoai.phong.g2b@gmail.com",
+            "position": "Nhân viên may ráp",
+            "productivityKPI": 38,
+            "qualityKPI": 0.97,
+            "salaryPerHour": 66000
         },
         {
             "id": "W0310",
             "name": "Hồ Thị Thảo",
+            "email": "ho.thi.thao.g2b@gmail.com",
             "position": "Nhân viên thiết kế thời trang",
             "productivityKPI": 28,
             "qualityKPI": 0.96,
-            "salaryPerHour": 26
+            "salaryPerHour": 80000
         },
         {
-            "id": "W0401",
-            "name": "Lưu Thị Bảo Anh",
-            "position": "Nhân viên vận hành máy giặt",
-            "productivityKPI": 40,
-            "qualityKPI": 0.92,
-            "salaryPerHour": 25
-        },
-        {
-            "id": "W0402",
-            "name": "Vũ Thị Xuân",
-            "position": "Nhân viên vận hành máy giặt",
-            "productivityKPI": 42,
-            "qualityKPI": 0.93,
-            "salaryPerHour": 27
-        },
-        {
-            "id": "W0403",
-            "name": "Mai Nhật Minh",
-            "position": "Nhân viên vận hành máy giặt",
-            "productivityKPI": 44,
-            "qualityKPI": 0.94,
-            "salaryPerHour": 29
-        },
-        {
-            "id": "W0404",
-            "name": "Ngô Thị Thanh Loan",
-            "position": "Nhân viên vận hành máy giặt",
-            "productivityKPI": 46,
+            "id": "W0309",
+            "name": "Đỗ Minh Tâm",
+            "email": "do.minh.tam.g2b@gmail.com",
+            "position": "Nhân viên thiết kế thời trang",
+            "productivityKPI": 26,
             "qualityKPI": 0.95,
-            "salaryPerHour": 29
+            "salaryPerHour": 78000
         },
         {
-            "id": "W0405",
-            "name": "Trần Đăng Minh",
-            "position": "Nhân viên vận hành máy giặt",
-            "productivityKPI": 48,
-            "qualityKPI": 0.96,
-            "salaryPerHour": 21
+            "id": "W0308",
+            "name": "Võ Văn Tường",
+            "email": "vo.van.tuong.g2b@gmail.com",
+            "position": "Nhân viên thiết kế thời trang",
+            "productivityKPI": 25,
+            "qualityKPI": 0.94,
+            "salaryPerHour": 75000
         },
         {
-            "id": "W0406",
-            "name": "Phan Quang Vinh",
-            "position": "Nhân viên vận hành máy giặt",
-            "productivityKPI": 50,
-            "qualityKPI": 0.97,
-            "salaryPerHour": 29
+            "id": "W0307",
+            "name": "Trịnh Thị Lan",
+            "email": "trinh.thi.lan.g2b@gmail.com",
+            "position": "Nhân viên thiết kế thời trang",
+            "productivityKPI": 24,
+            "qualityKPI": 0.93,
+            "salaryPerHour": 72000
         },
         {
-            "id": "W0407",
-            "name": "Nguyễn Hoàng An",
-            "position": "Nhân viên vận hành máy giặt",
-            "productivityKPI": 52,
-            "qualityKPI": 0.98,
-            "salaryPerHour": 24
+            "id": "W0306",
+            "name": "Nguyễn Văn Hòa",
+            "email": "nguyen.van.hoa.g2b@gmail.com",
+            "position": "Nhân viên thiết kế thời trang",
+            "productivityKPI": 23,
+            "qualityKPI": 0.92,
+            "salaryPerHour": 70000
         },
         {
-            "id": "W0408",
-            "name": "Bùi Văn Khôi",
-            "position": "Nhân viên vận hành máy giặt",
-            "productivityKPI": 54,
-            "qualityKPI": 0.99,
-            "salaryPerHour": 23
+            "id": "W0305",
+            "name": "Tạ Thị Phương",
+            "email": "ta.thi.phuong.g2b@gmail.com",
+            "position": "Nhân viên thiết kế thời trang",
+            "productivityKPI": 22,
+            "qualityKPI": 0.9,
+            "salaryPerHour": 68000
         },
         {
-            "id": "W0409",
-            "name": "Dương Văn Tuấn",
-            "position": "Nhân viên vận hành máy giặt",
-            "productivityKPI": 56,
-            "qualityKPI": 0.99,
-            "salaryPerHour": 27
+            "id": "W0304",
+            "name": "Đoàn Quốc Anh",
+            "email": "doan.quoc.anh.g2b@gmail.com",
+            "position": "Nhân viên thiết kế thời trang",
+            "productivityKPI": 21,
+            "qualityKPI": 0.89,
+            "salaryPerHour": 66000
         },
         {
             "id": "W0410",
             "name": "Trần Đức Huy",
+            "email": "tran.duc.huy.g2b@gmail.com",
             "position": "Nhân viên vận hành máy giặt",
             "productivityKPI": 58,
             "qualityKPI": 1,
-            "salaryPerHour": 27
+            "salaryPerHour": 60000
         },
         {
-            "id": "W0501",
-            "name": "Nguyễn Thị Thuỳ Trang",
-            "position": "Nhân viên xử lý vải",
-            "productivityKPI": 10,
-            "qualityKPI": 0.92,
-            "salaryPerHour": 25
+            "id": "W0409",
+            "name": "Dương Văn Tuấn",
+            "email": "duong.van.tuan.g2b@gmail.com",
+            "position": "Nhân viên vận hành máy giặt",
+            "productivityKPI": 56,
+            "qualityKPI": 0.99,
+            "salaryPerHour": 58000
         },
         {
-            "id": "W0502",
-            "name": "Lê Văn Hiếu",
-            "position": "Nhân viên xử lý vải",
-            "productivityKPI": 12,
-            "qualityKPI": 0.925,
-            "salaryPerHour": 26
+            "id": "W0408",
+            "name": "Bùi Văn Khôi",
+            "email": "bui.van.khoi.g2b@gmail.com",
+            "position": "Nhân viên vận hành máy giặt",
+            "productivityKPI": 54,
+            "qualityKPI": 0.99,
+            "salaryPerHour": 55000
         },
         {
-            "id": "W0503",
-            "name": "Trần Ngọc Phương",
-            "position": "Nhân viên xử lý vải",
-            "productivityKPI": 14,
-            "qualityKPI": 0.93,
-            "salaryPerHour": 22
+            "id": "W0407",
+            "name": "Nguyễn Hoàng An",
+            "email": "nguyen.hoang.an.g2b@gmail.com",
+            "position": "Nhân viên vận hành máy giặt",
+            "productivityKPI": 52,
+            "qualityKPI": 0.98,
+            "salaryPerHour": 52000
         },
         {
-            "id": "W0504",
-            "name": "Phạm Minh Hải",
-            "position": "Nhân viên xử lý vải",
-            "productivityKPI": 16,
-            "qualityKPI": 0.935,
-            "salaryPerHour": 26
+            "id": "W0406",
+            "name": "Phan Quang Vinh",
+            "email": "phan.quang.vinh.g2b@gmail.com",
+            "position": "Nhân viên vận hành máy giặt",
+            "productivityKPI": 50,
+            "qualityKPI": 0.97,
+            "salaryPerHour": 50000
         },
         {
-            "id": "W0505",
-            "name": "Võ Thị Mỹ Linh",
-            "position": "Nhân viên xử lý vải",
-            "productivityKPI": 18,
-            "qualityKPI": 0.94,
-            "salaryPerHour": 24
+            "id": "W0405",
+            "name": "Trần Đăng Minh",
+            "email": "tran.dang.minh.g2b@gmail.com",
+            "position": "Nhân viên vận hành máy giặt",
+            "productivityKPI": 48,
+            "qualityKPI": 0.96,
+            "salaryPerHour": 48000
         },
         {
-            "id": "W0506",
-            "name": "Đặng Đức Trung",
-            "position": "Nhân viên xử lý vải",
-            "productivityKPI": 20,
-            "qualityKPI": 0.945,
-            "salaryPerHour": 24
-        },
-        {
-            "id": "W0507",
-            "name": "Bùi Thị Kim Cúc",
-            "position": "Nhân viên xử lý vải",
-            "productivityKPI": 22,
+            "id": "W0404",
+            "name": "Ngô Thị Thanh Loan",
+            "email": "ngo.thi.thanh.loan.g2b@gmail.com",
+            "position": "Nhân viên vận hành máy giặt",
+            "productivityKPI": 46,
             "qualityKPI": 0.95,
-            "salaryPerHour": 20
-        },
-        {
-            "id": "W0508",
-            "name": "Vũ Anh Tuấn",
-            "position": "Nhân viên xử lý vải",
-            "productivityKPI": 24,
-            "qualityKPI": 0.952,
-            "salaryPerHour": 20
-        },
-        {
-            "id": "W0509",
-            "name": "Lưu Gia Linh",
-            "position": "Nhân viên xử lý vải",
-            "productivityKPI": 26,
-            "qualityKPI": 0.955,
-            "salaryPerHour": 21
+            "salaryPerHour": 46000
         },
         {
             "id": "W0510",
             "name": "Hồ Văn Đạt",
+            "email": "ho.van.dat.g2b@gmail.com",
             "position": "Nhân viên xử lý vải",
             "productivityKPI": 28,
             "qualityKPI": 0.957,
-            "salaryPerHour": 25
+            "salaryPerHour": 52000
+        },
+        {
+            "id": "W0509",
+            "name": "Lưu Gia Linh",
+            "email": "luu.gia.linh.g2b@gmail.com",
+            "position": "Nhân viên xử lý vải",
+            "productivityKPI": 26,
+            "qualityKPI": 0.955,
+            "salaryPerHour": 50000
+        },
+        {
+            "id": "W0508",
+            "name": "Vũ Anh Tuấn",
+            "email": "vu.anh.tuan.g2b@gmail.com",
+            "position": "Nhân viên xử lý vải",
+            "productivityKPI": 24,
+            "qualityKPI": 0.952,
+            "salaryPerHour": 46000
+        },
+        {
+            "id": "W0507",
+            "name": "Bùi Thị Kim Cúc",
+            "email": "bui.thi.kim.cuc.g2b@gmail.com",
+            "position": "Nhân viên xử lý vải",
+            "productivityKPI": 22,
+            "qualityKPI": 0.95,
+            "salaryPerHour": 44000
+        },
+        {
+            "id": "W0506",
+            "name": "Đặng Đức Trung",
+            "email": "dang.dech.trung.g2b@gmail.com",
+            "position": "Nhân viên xử lý vải",
+            "productivityKPI": 20,
+            "qualityKPI": 0.945,
+            "salaryPerHour": 42000
+        },
+        {
+            "id": "W0505",
+            "name": "Võ Thị Mỹ Linh",
+            "email": "vo.thi.my.linh.g2b@gmail.com",
+            "position": "Nhân viên xử lý vải",
+            "productivityKPI": 18,
+            "qualityKPI": 0.94,
+            "salaryPerHour": 40000
+        },
+        {
+            "id": "W0504",
+            "name": "Phạm Minh Hải",
+            "email": "pham.minh.hai.g2b@gmail.com",
+            "position": "Nhân viên xử lý vải",
+            "productivityKPI": 16,
+            "qualityKPI": 0.935,
+            "salaryPerHour": 39000
         }
     ]
 }

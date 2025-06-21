@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import monthlySchedule from "../../thuat-toan/data-2/monthly_schedule_t45.json"; // Lịch đăng ký
-import assignedSchedule from "../../thuat-toan/out/out3/input3/schedule.json"; // Lịch phân công
-import inputData from "../../thuat-toan/data-2/input3.json"; // Dữ liệu đầu vào
+import assignedSchedule from "../../thuat-toan/out/out3/input9/schedule.json"; // Lịch phân công
+import inputData from "../../thuat-toan/data-2/input9.json"; // Dữ liệu đầu vào
 
 const Schedule = () => {
     const [selectedOperation, setSelectedOperation] = useState("All");
