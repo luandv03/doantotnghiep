@@ -5,7 +5,7 @@ from encoder import (
     parse_production_orders,
     parse_assets,
 )
-from harmony_search import HarmonySearch  # Import thuật toán Harmony Search
+from harmony_search_nhanh_can_trong_so import HarmonySearch  # Import thuật toán Harmony Search
 import json
 import time
 import sys
@@ -40,30 +40,30 @@ def write_parsed_data_to_txt(workers, operations, production_orders, assets, fil
 
 
 def main():
-    # Kiểm tra xem có đủ tham số command line không
-    if len(sys.argv) < 2:
-        print("Cách sử dụng: python main.py <input_file>")
-        print("Ví dụ: python main.py input3.json")
-        sys.exit(1)
+    # # Kiểm tra xem có đủ tham số command line không
+    # if len(sys.argv) < 2:
+    #     print("Cách sử dụng: python main.py <input_file>")
+    #     print("Ví dụ: python main.py input3.json")
+    #     sys.exit(1)
     
-    # Lấy tên file từ command line argument
-    input_filename = sys.argv[1]
+    # # Lấy tên file từ command line argument
+    # input_filename = sys.argv[1]
     
-    # Tạo đường dẫn đầy đủ
-    input_path = f"./data-2/{input_filename}"
+    # # Tạo đường dẫn đầy đủ
+    # input_path = f"./data-2/{input_filename}"
     
-    # Đọc dữ liệu từ file JSON
-    try:
-        input_data = load_json(input_path)
-    except FileNotFoundError:
-        print(f"Không tìm thấy file: {input_path}")
-        sys.exit(1)
-    except Exception as e:
-        print(f"Lỗi khi đọc file {input_path}: {e}")
-        sys.exit(1)
+    # # Đọc dữ liệu từ file JSON
+    # try:
+    #     input_data = load_json(input_path)
+    # except FileNotFoundError:
+    #     print(f"Không tìm thấy file: {input_path}")
+    #     sys.exit(1)
+    # except Exception as e:
+    #     print(f"Lỗi khi đọc file {input_path}: {e}")
+    #     sys.exit(1)
 
     # Đọc dữ liệu từ file JSON
-    # input_data = load_json("./data-2/input3.json")
+    input_data = load_json("./data-2/input3.json")
     schedule_data = load_json("./data-2/monthly_schedule_t45.json")
 
     # Parse dữ liệu
@@ -93,14 +93,18 @@ def main():
     # Chuyển đổi best_solution thành JSON
     serialized_solution = serialize_best_solution(best_solution)
 
-    output_path = "./out/best_solution.json"
+    # output_path = f"../out/out2/{input_filename}/best_solution.json"
+    output_path ="../out/out2/input3/best_solution.json"
     write_data_to_json(
         serialized_solution,
         output_path,
     )
 
+    # export_all_operations_to_json(
+    #     operations_copy, f"../out/out2/{input_filename}/schedule.json"
+    # )
     export_all_operations_to_json(
-        operations_copy, "./out/schedule.json"
+        operations_copy, "../out/out2/input3/schedule.json"
     )
 
     print(f"Tối ưu: {best_fitness}")

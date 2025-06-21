@@ -5,7 +5,7 @@ from encoder import (
     parse_production_orders,
     parse_assets,
 )
-from harmony_search import HarmonySearch  # Import thuật toán Harmony Search
+from harmony_search_cai_thien1 import HarmonySearch  # Import thuật toán Harmony Search
 import json
 import time
 import sys
