@@ -41,29 +41,29 @@ def write_parsed_data_to_txt(workers, operations, production_orders, assets, fil
 
 def main():
     # Kiểm tra xem có đủ tham số command line không
-    if len(sys.argv) < 2:
-        print("Cách sử dụng: python main.py <input_file>")
-        print("Ví dụ: python main.py input3.json")
-        sys.exit(1)
+    # if len(sys.argv) < 2:
+    #     print("Cách sử dụng: python main.py <input_file>")
+    #     print("Ví dụ: python main.py input3.json")
+    #     sys.exit(1)
     
-    # Lấy tên file từ command line argument
-    input_filename = sys.argv[1]
+    # # Lấy tên file từ command line argument
+    # input_filename = sys.argv[1]
     
-    # Tạo đường dẫn đầy đủ
-    input_path = f"./data-2/{input_filename}"
+    # # Tạo đường dẫn đầy đủ
+    # input_path = f"./data-2/{input_filename}"
     
-    # Đọc dữ liệu từ file JSON
-    try:
-        input_data = load_json(input_path)
-    except FileNotFoundError:
-        print(f"Không tìm thấy file: {input_path}")
-        sys.exit(1)
-    except Exception as e:
-        print(f"Lỗi khi đọc file {input_path}: {e}")
-        sys.exit(1)
+    # # Đọc dữ liệu từ file JSON
+    # try:
+    #     input_data = load_json(input_path)
+    # except FileNotFoundError:
+    #     print(f"Không tìm thấy file: {input_path}")
+    #     sys.exit(1)
+    # except Exception as e:
+    #     print(f"Lỗi khi đọc file {input_path}: {e}")
+    #     sys.exit(1)
 
     # Đọc dữ liệu từ file JSON
-    input_data = load_json("./data-2/input3.json")
+    input_data = load_json("./data-2/input18.json")
     schedule_data = load_json("./data-2/monthly_schedule_t45.json")
 
     # Parse dữ liệu

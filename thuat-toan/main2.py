@@ -63,7 +63,7 @@ def main():
     #     sys.exit(1)
 
     # Đọc dữ liệu từ file JSON
-    input_data = load_json("./data-2/input9.json")
+    input_data = load_json("./data-2/input18.json")
     schedule_data = load_json("./data-2/monthly_schedule_t45.json")
 
     # Parse dữ liệu
@@ -94,7 +94,7 @@ def main():
     serialized_solution = serialize_best_solution(best_solution)
 
     # output_path = f"../out/out2/{input_filename}/best_solution.json"
-    output_path ="./out/out2/input9/best_solution.json"
+    output_path ="./out/out2/input18/best_solution.json"
     write_data_to_json(
         serialized_solution,
         output_path,
@@ -104,7 +104,7 @@ def main():
     #     operations_copy, f"../out/out2/{input_filename}/schedule.json"
     # )
     export_all_operations_to_json(
-        operations_copy, "./out/out2/input9/schedule.json"
+        operations_copy, "./out/out2/input18/schedule.json"
     )
 
     print(f"Tối ưu: {best_fitness}")
