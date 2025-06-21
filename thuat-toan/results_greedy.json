@@ -1,0 +1,2417 @@
+{
+  "summary": {
+    "completed_orders": 4,
+    "total_orders": 4,
+    "completed_operations": 27,
+    "total_operations": 27,
+    "total_shifts_used": 33,
+    "total_cost": 61383124.0,
+    "execution_time": 0.005097389221191406
+  },
+  "operations": {
+    "OP001": {
+      "kpi": {
+        "A01": 1149.5,
+        "A02": 1091.7860799999999
+      },
+      "done": true,
+      "history": [
+        {
+          "date": "2025-04-01",
+          "shift": 1,
+          "worker_id": "W0509",
+          "worker_name": "Lưu Gia Linh",
+          "machine_id": "A005",
+          "machine_name": "Máy đo độ co giãn Tinius Olsen H25KTI",
+          "ns": 134.42,
+          "cl": 128.37109999999998,
+          "cost": 276100.0
+        },
+        {
+          "date": "2025-04-01",
+          "shift": 1,
+          "worker_id": "W0506",
+          "worker_name": "Đặng Đức Trung",
+          "machine_id": "A004",
+          "machine_name": "Máy đo độ co giãn Shimadzu AGS-X",
+          "ns": 102.30000000000001,
+          "cl": 96.6735,
+          "cost": 231990.0
+        },
+        {
+          "date": "2025-04-01",
+          "shift": 1,
+          "worker_id": "W0505",
+          "worker_name": "Võ Thị Mỹ Linh",
+          "machine_id": "A001",
+          "machine_name": "Máy đo độ co giãn Instron 5969",
+          "ns": 91.08000000000001,
+          "cl": 85.6152,
+          "cost": 220825.0
+        },
+        {
+          "date": "2025-04-01",
+          "shift": 2,
+          "worker_id": "W0510",
+          "worker_name": "Hồ Văn Đạt",
+          "machine_id": "A005",
+          "machine_name": "Máy đo độ co giãn Tinius Olsen H25KTI",
+          "ns": 144.76,
+          "cl": 138.53531999999998,
+          "cost": 287100.0
+        },
+        {
+          "date": "2025-04-01",
+          "shift": 2,
+          "worker_id": "W0507",
+          "worker_name": "Bùi Thị Kim Cúc",
+          "machine_id": "A004",
+          "machine_name": "Máy đo độ co giãn Shimadzu AGS-X",
+          "ns": 112.53,
+          "cl": 106.9035,
+          "cost": 242990.0
+        },
+        {
+          "date": "2025-04-01",
+          "shift": 3,
+          "worker_id": "W0509",
+          "worker_name": "Lưu Gia Linh",
+          "machine_id": "A005",
+          "machine_name": "Máy đo độ co giãn Tinius Olsen H25KTI",
+          "ns": 134.42,
+          "cl": 128.37109999999998,
+          "cost": 276100.0
+        },
+        {
+          "date": "2025-04-01",
+          "shift": 3,
+          "worker_id": "W0506",
+          "worker_name": "Đặng Đức Trung",
+          "machine_id": "A004",
+          "machine_name": "Máy đo độ co giãn Shimadzu AGS-X",
+          "ns": 102.30000000000001,
+          "cl": 96.6735,
+          "cost": 231990.0
+        },
+        {
+          "date": "2025-04-01",
+          "shift": 3,
+          "worker_id": "W0505",
+          "worker_name": "Võ Thị Mỹ Linh",
+          "machine_id": "A001",
+          "machine_name": "Máy đo độ co giãn Instron 5969",
+          "ns": 91.08000000000001,
+          "cl": 85.6152,
+          "cost": 220825.0
+        },
+        {
+          "date": "2025-04-01",
+          "shift": 4,
+          "worker_id": "W0508",
+          "worker_name": "Vũ Anh Tuấn",
+          "machine_id": "A005",
+          "machine_name": "Máy đo độ co giãn Tinius Olsen H25KTI",
+          "ns": 124.08,
+          "cl": 118.12415999999999,
+          "cost": 254100.0
+        },
+        {
+          "date": "2025-04-01",
+          "shift": 4,
+          "worker_id": "W0507",
+          "worker_name": "Bùi Thị Kim Cúc",
+          "machine_id": "A004",
+          "machine_name": "Máy đo độ co giãn Shimadzu AGS-X",
+          "ns": 112.53,
+          "cl": 106.9035,
+          "cost": 242990.0
+        }
+      ],
+      "cost": 2485010.0
+    },
+    "OP002": {
+      "kpi": {
+        "A11": 1356.575,
+        "A12": 1242.3097500000001
+      },
+      "done": true,
+      "history": [
+        {
+          "date": "2025-04-02",
+          "shift": 1,
+          "worker_id": "W0027",
+          "worker_name": "Đinh Quốc Duy",
+          "machine_id": "A008",
+          "machine_name": "Máy cắt vải tự động Zünd G3",
+          "ns": 445.5,
+          "cl": 409.86,
+          "cost": 331540.0
+        },
+        {
+          "date": "2025-04-02",
+          "shift": 1,
+          "worker_id": "W0026",
+          "worker_name": "Dương Thị Lệ Quyên",
+          "machine_id": "A010",
+          "machine_name": "Máy cắt vải tự động Bullmer PowerCut",
+          "ns": 416.07500000000005,
+          "cl": 386.94975000000005,
+          "cost": 303930.0
+        },
+        {
+          "date": "2025-04-02",
+          "shift": 2,
+          "worker_id": "W0029",
+          "worker_name": "Nguyễn Thanh Ngọc",
+          "machine_id": "A008",
+          "machine_name": "Máy cắt vải tự động Zünd G3",
+          "ns": 495.0,
+          "cl": 445.5,
+          "cost": 386540.0
+        }
+      ],
+      "cost": 1022010.0
+    },
+    "OP003": {
+      "kpi": {
+        "A21": 1194.4899999999998,
+        "A22": 1165.5852999999997
+      },
+      "done": true,
+      "history": [
+        {
+          "date": "2025-04-02",
+          "shift": 3,
+          "worker_id": "W0220",
+          "worker_name": "Bùi Nhật Linh",
+          "machine_id": "A011",
+          "machine_name": "Máy may công nghiệp Juki DDL-8700",
+          "ns": 261.25,
+          "cl": 258.6375,
+          "cost": 440440.0
+        },
+        {
+          "date": "2025-04-02",
+          "shift": 3,
+          "worker_id": "W0219",
+          "worker_name": "Phan Thị Thanh",
+          "machine_id": "A122",
+          "machine_name": "Máy may công nghiệp Singer 191DA",
+          "ns": 250.79999999999995,
+          "cl": 238.25999999999993,
+          "cost": 412940.0
+        },
+        {
+          "date": "2025-04-02",
+          "shift": 3,
+          "worker_id": "W0218",
+          "worker_name": "Vũ Anh Duy",
+          "machine_id": "A014",
+          "machine_name": "Máy may công nghiệp Pegasus W600",
+          "ns": 237.81999999999996,
+          "cl": 233.06359999999995,
+          "cost": 396495.0
+        },
+        {
+          "date": "2025-04-02",
+          "shift": 3,
+          "worker_id": "W0217",
+          "worker_name": "Đặng Thị Kim Ngân",
+          "machine_id": "A120",
+          "machine_name": "Máy may công nghiệp Juki DDL-9000",
+          "ns": 227.48,
+          "cl": 220.6556,
+          "cost": 385467.5
+        },
+        {
+          "date": "2025-04-02",
+          "shift": 3,
+          "worker_id": "W0216",
+          "worker_name": "Hồ Văn Duy",
+          "machine_id": "A125",
+          "machine_name": "Máy may công nghiệp Juki DDL-8700A",
+          "ns": 217.14,
+          "cl": 214.96859999999998,
+          "cost": 374484.0
+        }
+      ],
+      "cost": 2009826.5
+    },
+    "OP004": {
+      "kpi": {
+        "A31": 1167.32,
+        "A32": 1054.5161
+      },
+      "done": true,
+      "history": [
+        {
+          "date": "2025-04-02",
+          "shift": 4,
+          "worker_id": "W0099",
+          "worker_name": "Trương Minh Trí",
+          "machine_id": "A016",
+          "machine_name": "Máy may chuyên dụng Juki MO-6714S (vắt sổ)",
+          "ns": 84.15,
+          "cl": 75.73500000000001,
+          "cost": 330550.0
+        },
+        {
+          "date": "2025-04-02",
+          "shift": 4,
+          "worker_id": "W0098",
+          "worker_name": "Lý Thị Thu Hà",
+          "machine_id": "A130",
+          "machine_name": "Máy may chuyên dụng Juki MO-6714S (vắt sổ)",
+          "ns": 74.25,
+          "cl": 67.5675,
+          "cost": 303050.0
+        },
+        {
+          "date": "2025-04-02",
+          "shift": 4,
+          "worker_id": "W0110",
+          "worker_name": "Hồ Bảo Anh",
+          "machine_id": "A133",
+          "machine_name": "Máy may chuyên dụng Juki MO-1000S (vắt sổ)",
+          "ns": 68.53,
+          "cl": 60.9917,
+          "cost": 303105.0
+        },
+        {
+          "date": "2025-04-02",
+          "shift": 4,
+          "worker_id": "W0109",
+          "worker_name": "Nguyễn Quốc Cường",
+          "machine_id": "A017",
+          "machine_name": "Máy may chuyên dụng Brother BAS-326G (thêu)",
+          "ns": 62.919999999999995,
+          "cl": 56.62799999999999,
+          "cost": 303160.0
+        },
+        {
+          "date": "2025-04-02",
+          "shift": 4,
+          "worker_id": "W0096",
+          "worker_name": "Đặng Quang Huy",
+          "machine_id": "A131",
+          "machine_name": "Máy may chuyên dụng Brother BAS-326G (thêu)",
+          "ns": 58.080000000000005,
+          "cl": 54.01440000000001,
+          "cost": 275660.0
+        },
+        {
+          "date": "2025-04-03",
+          "shift": 2,
+          "worker_id": "W0099",
+          "worker_name": "Trương Minh Trí",
+          "machine_id": "A016",
+          "machine_name": "Máy may chuyên dụng Juki MO-6714S (vắt sổ)",
+          "ns": 84.15,
+          "cl": 75.73500000000001,
+          "cost": 330550.0
+        },
+        {
+          "date": "2025-04-03",
+          "shift": 2,
+          "worker_id": "W0098",
+          "worker_name": "Lý Thị Thu Hà",
+          "machine_id": "A130",
+          "machine_name": "Máy may chuyên dụng Juki MO-6714S (vắt sổ)",
+          "ns": 74.25,
+          "cl": 67.5675,
+          "cost": 303050.0
+        },
+        {
+          "date": "2025-04-03",
+          "shift": 2,
+          "worker_id": "W0097",
+          "worker_name": "Phan Nhật Hào",
+          "machine_id": "A133",
+          "machine_name": "Máy may chuyên dụng Juki MO-1000S (vắt sổ)",
+          "ns": 68.53,
+          "cl": 63.0476,
+          "cost": 303105.0
+        },
+        {
+          "date": "2025-04-03",
+          "shift": 2,
+          "worker_id": "W0110",
+          "worker_name": "Hồ Bảo Anh",
+          "machine_id": "A017",
+          "machine_name": "Máy may chuyên dụng Brother BAS-326G (thêu)",
+          "ns": 67.76,
+          "cl": 60.306400000000004,
+          "cost": 303160.0
+        },
+        {
+          "date": "2025-04-03",
+          "shift": 3,
+          "worker_id": "W0100",
+          "worker_name": "Võ Thanh Tùng",
+          "machine_id": "A016",
+          "machine_name": "Máy may chuyên dụng Juki MO-6714S (vắt sổ)",
+          "ns": 89.1,
+          "cl": 79.29899999999999,
+          "cost": 330550.0
+        },
+        {
+          "date": "2025-04-03",
+          "shift": 3,
+          "worker_id": "W0109",
+          "worker_name": "Nguyễn Quốc Cường",
+          "machine_id": "A130",
+          "machine_name": "Máy may chuyên dụng Juki MO-6714S (vắt sổ)",
+          "ns": 64.35000000000001,
+          "cl": 57.915000000000006,
+          "cost": 303050.0
+        },
+        {
+          "date": "2025-04-04",
+          "shift": 1,
+          "worker_id": "W0097",
+          "worker_name": "Phan Nhật Hào",
+          "machine_id": "A016",
+          "machine_name": "Máy may chuyên dụng Juki MO-6714S (vắt sổ)",
+          "ns": 69.3,
+          "cl": 63.756,
+          "cost": 303050.0
+        },
+        {
+          "date": "2025-04-04",
+          "shift": 1,
+          "worker_id": "W0096",
+          "worker_name": "Đặng Quang Huy",
+          "machine_id": "A130",
+          "machine_name": "Máy may chuyên dụng Juki MO-6714S (vắt sổ)",
+          "ns": 59.400000000000006,
+          "cl": 55.24200000000001,
+          "cost": 275550.0
+        },
+        {
+          "date": "2025-04-04",
+          "shift": 2,
+          "worker_id": "W0100",
+          "worker_name": "Võ Thanh Tùng",
+          "machine_id": "A016",
+          "machine_name": "Máy may chuyên dụng Juki MO-6714S (vắt sổ)",
+          "ns": 89.1,
+          "cl": 79.29899999999999,
+          "cost": 330550.0
+        },
+        {
+          "date": "2025-04-04",
+          "shift": 2,
+          "worker_id": "W0099",
+          "worker_name": "Trương Minh Trí",
+          "machine_id": "A130",
+          "machine_name": "Máy may chuyên dụng Juki MO-6714S (vắt sổ)",
+          "ns": 84.15,
+          "cl": 75.73500000000001,
+          "cost": 330550.0
+        },
+        {
+          "date": "2025-04-04",
+          "shift": 3,
+          "worker_id": "W0110",
+          "worker_name": "Hồ Bảo Anh",
+          "machine_id": "A016",
+          "machine_name": "Máy may chuyên dụng Juki MO-6714S (vắt sổ)",
+          "ns": 69.3,
+          "cl": 61.677,
+          "cost": 303050.0
+        }
+      ],
+      "cost": 4931740.0
+    },
+    "OP005": {
+      "kpi": {
+        "A41": 1045.44,
+        "A42": 1032.4688
+      },
+      "done": true,
+      "history": [
+        {
+          "date": "2025-04-04",
+          "shift": 4,
+          "worker_id": "W0408",
+          "worker_name": "Bùi Văn Khôi",
+          "machine_id": "A022",
+          "machine_name": "Máy giặt công nghiệp Girbau HS-60",
+          "ns": 261.36,
+          "cl": 258.7464,
+          "cost": 303490.0
+        },
+        {
+          "date": "2025-04-05",
+          "shift": 1,
+          "worker_id": "W0409",
+          "worker_name": "Dương Văn Tuấn",
+          "machine_id": "A022",
+          "machine_name": "Máy giặt công nghiệp Girbau HS-60",
+          "ns": 271.04,
+          "cl": 268.3296,
+          "cost": 319990.0
+        },
+        {
+          "date": "2025-04-05",
+          "shift": 1,
+          "worker_id": "W0407",
+          "worker_name": "Nguyễn Hoàng An",
+          "machine_id": "A143",
+          "machine_name": "Máy giặt công nghiệp Girbau HS-90",
+          "ns": 251.67999999999998,
+          "cl": 246.64639999999997,
+          "cost": 287045.0
+        },
+        {
+          "date": "2025-04-05",
+          "shift": 2,
+          "worker_id": "W0408",
+          "worker_name": "Bùi Văn Khôi",
+          "machine_id": "A022",
+          "machine_name": "Máy giặt công nghiệp Girbau HS-60",
+          "ns": 261.36,
+          "cl": 258.7464,
+          "cost": 303490.0
+        }
+      ],
+      "cost": 1214015.0
+    },
+    "OP006": {
+      "kpi": {
+        "A51": 1090.98,
+        "A52": 1004.2757999999999
+      },
+      "done": true,
+      "history": [
+        {
+          "date": "2025-04-05",
+          "shift": 3,
+          "worker_id": "W0019",
+          "worker_name": "Phạm Trọng Khoa",
+          "machine_id": "A024",
+          "machine_name": "Máy kiểm tra độ bền Testometric M350-10CT",
+          "ns": 143.55,
+          "cl": 129.19500000000002,
+          "cost": 413490.0
+        },
+        {
+          "date": "2025-04-05",
+          "shift": 3,
+          "worker_id": "W0018",
+          "worker_name": "Đoàn Thị Mộng Như",
+          "machine_id": "A153",
+          "machine_name": "Máy kiểm tra độ bền Testometric M450-20CT",
+          "ns": 133.98,
+          "cl": 121.92179999999999,
+          "cost": 386045.0
+        },
+        {
+          "date": "2025-04-05",
+          "shift": 3,
+          "worker_id": "W0014",
+          "worker_name": "Bùi Thị Kiều Oanh",
+          "machine_id": "A159",
+          "machine_name": "Máy kiểm tra độ bền Testometric M550-30CT",
+          "ns": 95.69999999999999,
+          "cl": 90.91499999999999,
+          "cost": 275990.0
+        },
+        {
+          "date": "2025-04-05",
+          "shift": 4,
+          "worker_id": "W0017",
+          "worker_name": "Nguyễn Minh Quang",
+          "machine_id": "A024",
+          "machine_name": "Máy kiểm tra độ bền Testometric M350-10CT",
+          "ns": 124.41000000000001,
+          "cl": 114.45720000000001,
+          "cost": 358490.0
+        },
+        {
+          "date": "2025-04-05",
+          "shift": 4,
+          "worker_id": "W0016",
+          "worker_name": "Tô Thị Diệp",
+          "machine_id": "A153",
+          "machine_name": "Máy kiểm tra độ bền Testometric M450-20CT",
+          "ns": 114.83999999999999,
+          "cl": 106.8012,
+          "cost": 331045.0
+        },
+        {
+          "date": "2025-04-06",
+          "shift": 1,
+          "worker_id": "W0018",
+          "worker_name": "Đoàn Thị Mộng Như",
+          "machine_id": "A024",
+          "machine_name": "Máy kiểm tra độ bền Testometric M350-10CT",
+          "ns": 133.98,
+          "cl": 121.92179999999999,
+          "cost": 385990.0
+        },
+        {
+          "date": "2025-04-06",
+          "shift": 1,
+          "worker_id": "W0015",
+          "worker_name": "Đặng Hoàng Phúc",
+          "machine_id": "A153",
+          "machine_name": "Máy kiểm tra độ bền Testometric M450-20CT",
+          "ns": 105.27000000000001,
+          "cl": 98.9538,
+          "cost": 303545.0
+        },
+        {
+          "date": "2025-04-06",
+          "shift": 1,
+          "worker_id": "W0014",
+          "worker_name": "Bùi Thị Kiều Oanh",
+          "machine_id": "A159",
+          "machine_name": "Máy kiểm tra độ bền Testometric M550-30CT",
+          "ns": 95.69999999999999,
+          "cl": 90.91499999999999,
+          "cost": 275990.0
+        },
+        {
+          "date": "2025-04-06",
+          "shift": 3,
+          "worker_id": "W0019",
+          "worker_name": "Phạm Trọng Khoa",
+          "machine_id": "A024",
+          "machine_name": "Máy kiểm tra độ bền Testometric M350-10CT",
+          "ns": 143.55,
+          "cl": 129.19500000000002,
+          "cost": 413490.0
+        }
+      ],
+      "cost": 3144075.0
+    },
+    "OP007": {
+      "kpi": {
+        "A61": 1198.725,
+        "A62": 1089.429
+      },
+      "done": true,
+      "history": [
+        {
+          "date": "2025-04-06",
+          "shift": 4,
+          "worker_id": "W0040",
+          "worker_name": "Trịnh Văn Đạt",
+          "machine_id": "A027",
+          "machine_name": "Máy đóng gói tự động Bosch Sigpack HML",
+          "ns": 460.35,
+          "cl": 409.7115,
+          "cost": 413160.0
+        },
+        {
+          "date": "2025-04-06",
+          "shift": 4,
+          "worker_id": "W0034",
+          "worker_name": "Tạ Thị Tuyết Mai",
+          "machine_id": "A163",
+          "machine_name": "Máy đóng gói tự động Matrix 600",
+          "ns": 303.6,
+          "cl": 288.42,
+          "cost": 248105.0
+        },
+        {
+          "date": "2025-04-07",
+          "shift": 1,
+          "worker_id": "W0039",
+          "worker_name": "Nguyễn Văn Khang",
+          "machine_id": "A027",
+          "machine_name": "Máy đóng gói tự động Bosch Sigpack HML",
+          "ns": 434.775,
+          "cl": 391.2975,
+          "cost": 385660.0
+        }
+      ],
+      "cost": 1046925.0
+    },
+    "OP008": {
+      "kpi": {
+        "B11": 2252.25,
+        "B12": 2063.9025
+      },
+      "done": true,
+      "history": [
+        {
+          "date": "2025-04-01",
+          "shift": 1,
+          "worker_id": "W0027",
+          "worker_name": "Đinh Quốc Duy",
+          "machine_id": "A033",
+          "machine_name": "Máy cắt laser Epilog Fusion Pro",
+          "ns": 445.5,
+          "cl": 409.86,
+          "cost": 331760.0
+        },
+        {
+          "date": "2025-04-01",
+          "shift": 1,
+          "worker_id": "W0026",
+          "worker_name": "Dương Thị Lệ Quyên",
+          "machine_id": "A170",
+          "machine_name": "Máy cắt laser Trotec Speedy 500",
+          "ns": 420.75,
+          "cl": 391.2975,
+          "cost": 304315.0
+        },
+        {
+          "date": "2025-04-01",
+          "shift": 1,
+          "worker_id": "W0025",
+          "worker_name": "Võ Đức Thiện",
+          "machine_id": "A174",
+          "machine_name": "Máy cắt laser Trotec Speedy 600",
+          "ns": 396.0,
+          "cl": 372.23999999999995,
+          "cost": 276870.0
+        },
+        {
+          "date": "2025-04-01",
+          "shift": 2,
+          "worker_id": "W0028",
+          "worker_name": "Bùi Văn Được",
+          "machine_id": "A033",
+          "machine_name": "Máy cắt laser Epilog Fusion Pro",
+          "ns": 470.25,
+          "cl": 427.9275,
+          "cost": 359260.0
+        },
+        {
+          "date": "2025-04-01",
+          "shift": 3,
+          "worker_id": "W0030",
+          "worker_name": "Trần Quốc Cường",
+          "machine_id": "A033",
+          "machine_name": "Máy cắt laser Epilog Fusion Pro",
+          "ns": 519.75,
+          "cl": 462.5775,
+          "cost": 414260.0
+        }
+      ],
+      "cost": 1686465.0
+    },
+    "OP009": {
+      "kpi": {
+        "B21": 2075.1499999999996,
+        "B22": 2015.7752999999998
+      },
+      "done": true,
+      "history": [
+        {
+          "date": "2025-04-01",
+          "shift": 4,
+          "worker_id": "W0130",
+          "worker_name": "Đinh Huyền Trang",
+          "machine_id": "A011",
+          "machine_name": "Máy may công nghiệp Juki DDL-8700",
+          "ns": 261.25,
+          "cl": 248.1875,
+          "cost": 440440.0
+        },
+        {
+          "date": "2025-04-01",
+          "shift": 4,
+          "worker_id": "W0127",
+          "worker_name": "Hồ Ngọc Minh",
+          "machine_id": "A122",
+          "machine_name": "Máy may công nghiệp Singer 191DA",
+          "ns": 229.89999999999998,
+          "cl": 223.003,
+          "cost": 396440.0
+        },
+        {
+          "date": "2025-04-01",
+          "shift": 4,
+          "worker_id": "W0126",
+          "worker_name": "Bùi Hồng Phúc",
+          "machine_id": "A014",
+          "machine_name": "Máy may công nghiệp Pegasus W600",
+          "ns": 217.14,
+          "cl": 214.96859999999998,
+          "cost": 396495.0
+        },
+        {
+          "date": "2025-04-02",
+          "shift": 1,
+          "worker_id": "W0129",
+          "worker_name": "Ngô Văn Khánh",
+          "machine_id": "A011",
+          "machine_name": "Máy may công nghiệp Juki DDL-8700",
+          "ns": 250.79999999999995,
+          "cl": 245.78399999999996,
+          "cost": 412940.0
+        },
+        {
+          "date": "2025-04-02",
+          "shift": 1,
+          "worker_id": "W0125",
+          "worker_name": "Vũ Văn Quang",
+          "machine_id": "A122",
+          "machine_name": "Máy may công nghiệp Singer 191DA",
+          "ns": 209.0,
+          "cl": 204.82,
+          "cost": 385440.0
+        },
+        {
+          "date": "2025-04-02",
+          "shift": 1,
+          "worker_id": "W0124",
+          "worker_name": "Phạm Thị Huyền",
+          "machine_id": "A014",
+          "machine_name": "Máy may công nghiệp Pegasus W600",
+          "ns": 196.45999999999998,
+          "cl": 190.56619999999998,
+          "cost": 385495.0
+        },
+        {
+          "date": "2025-04-02",
+          "shift": 2,
+          "worker_id": "W0127",
+          "worker_name": "Hồ Ngọc Minh",
+          "machine_id": "A011",
+          "machine_name": "Máy may công nghiệp Juki DDL-8700",
+          "ns": 229.89999999999998,
+          "cl": 223.003,
+          "cost": 396440.0
+        },
+        {
+          "date": "2025-04-02",
+          "shift": 2,
+          "worker_id": "W0126",
+          "worker_name": "Bùi Hồng Phúc",
+          "machine_id": "A122",
+          "machine_name": "Máy may công nghiệp Singer 191DA",
+          "ns": 219.45,
+          "cl": 217.25549999999998,
+          "cost": 396440.0
+        },
+        {
+          "date": "2025-04-02",
+          "shift": 4,
+          "worker_id": "W0130",
+          "worker_name": "Đinh Huyền Trang",
+          "machine_id": "A011",
+          "machine_name": "Máy may công nghiệp Juki DDL-8700",
+          "ns": 261.25,
+          "cl": 248.1875,
+          "cost": 440440.0
+        }
+      ],
+      "cost": 3650570.0
+    },
+    "OP010": {
+      "kpi": {
+        "B31": 2548.9750000000004,
+        "B32": 2301.5740000000005
+      },
+      "done": true,
+      "history": [
+        {
+          "date": "2025-04-03",
+          "shift": 1,
+          "worker_id": "W0049",
+          "worker_name": "Dương Tuấn Anh",
+          "machine_id": "A039",
+          "machine_name": "Máy đính khuy tự động Sunstar KX-500",
+          "ns": 328.90000000000003,
+          "cl": 296.01000000000005,
+          "cost": 357967.5
+        },
+        {
+          "date": "2025-04-03",
+          "shift": 1,
+          "worker_id": "W0059",
+          "worker_name": "Lê Trọng Tường",
+          "machine_id": "A183",
+          "machine_name": "Máy đính khuy tự động Sunstar KX-500",
+          "ns": 328.90000000000003,
+          "cl": 296.01000000000005,
+          "cost": 357967.5
+        },
+        {
+          "date": "2025-04-03",
+          "shift": 1,
+          "worker_id": "W0058",
+          "worker_name": "Vũ Thuỳ Nam",
+          "machine_id": "A036",
+          "machine_name": "Máy đính khuy tự động Juki MB-377",
+          "ns": 300.3,
+          "cl": 273.273,
+          "cost": 330495.0
+        },
+        {
+          "date": "2025-04-03",
+          "shift": 1,
+          "worker_id": "W0047",
+          "worker_name": "Hồ Văn An",
+          "machine_id": "A182",
+          "machine_name": "Máy đính khuy tự động Kansai Special MB-3730",
+          "ns": 275.27500000000003,
+          "cl": 253.25300000000004,
+          "cost": 302995.0
+        },
+        {
+          "date": "2025-04-03",
+          "shift": 2,
+          "worker_id": "W0060",
+          "worker_name": "Vũ Hoàng Lan",
+          "machine_id": "A039",
+          "machine_name": "Máy đính khuy tự động Sunstar KX-500",
+          "ns": 354.20000000000005,
+          "cl": 315.23800000000006,
+          "cost": 385467.5
+        },
+        {
+          "date": "2025-04-03",
+          "shift": 2,
+          "worker_id": "W0048",
+          "worker_name": "Ngô Thị Lan",
+          "machine_id": "A183",
+          "machine_name": "Máy đính khuy tự động Sunstar KX-500",
+          "ns": 303.6,
+          "cl": 276.276,
+          "cost": 330467.5
+        },
+        {
+          "date": "2025-04-03",
+          "shift": 3,
+          "worker_id": "W0058",
+          "worker_name": "Vũ Thuỳ Nam",
+          "machine_id": "A039",
+          "machine_name": "Máy đính khuy tự động Sunstar KX-500",
+          "ns": 303.6,
+          "cl": 276.276,
+          "cost": 330467.5
+        },
+        {
+          "date": "2025-04-03",
+          "shift": 4,
+          "worker_id": "W0060",
+          "worker_name": "Vũ Hoàng Lan",
+          "machine_id": "A039",
+          "machine_name": "Máy đính khuy tự động Sunstar KX-500",
+          "ns": 354.20000000000005,
+          "cl": 315.23800000000006,
+          "cost": 385467.5
+        }
+      ],
+      "cost": 2781295.0
+    },
+    "OP011": {
+      "kpi": {
+        "B41": 2224.8599999999997,
+        "B42": 2048.42385
+      },
+      "done": true,
+      "history": [
+        {
+          "date": "2025-04-04",
+          "shift": 1,
+          "worker_id": "W0088",
+          "worker_name": "Tô Quốc Hưng",
+          "machine_id": "A040",
+          "machine_name": "Máy là hơi công nghiệp Veit 8003LP",
+          "ns": 144.76,
+          "cl": 131.7316,
+          "cost": 303105.0
+        },
+        {
+          "date": "2025-04-04",
+          "shift": 1,
+          "worker_id": "W0087",
+          "worker_name": "Nguyễn Văn Sơn",
+          "machine_id": "A194",
+          "machine_name": "Máy là hơi công nghiệp Veit 8004LP",
+          "ns": 129.25,
+          "cl": 118.91000000000001,
+          "cost": 303187.5
+        },
+        {
+          "date": "2025-04-04",
+          "shift": 1,
+          "worker_id": "W0085",
+          "worker_name": "Dương Trọng Nghĩa",
+          "machine_id": "A043",
+          "machine_name": "Máy là hơi công nghiệp Oshima OS-7000",
+          "ns": 102.30000000000001,
+          "cl": 96.162,
+          "cost": 275715.0
+        },
+        {
+          "date": "2025-04-04",
+          "shift": 3,
+          "worker_id": "W0090",
+          "worker_name": "Đỗ Thị Hồng",
+          "machine_id": "A040",
+          "machine_name": "Máy là hơi công nghiệp Veit 8003LP",
+          "ns": 165.44,
+          "cl": 147.2416,
+          "cost": 330605.0
+        },
+        {
+          "date": "2025-04-04",
+          "shift": 3,
+          "worker_id": "W0086",
+          "worker_name": "Trịnh Bảo Trâm",
+          "machine_id": "A194",
+          "machine_name": "Máy là hơi công nghiệp Veit 8004LP",
+          "ns": 113.74,
+          "cl": 105.7782,
+          "cost": 275687.5
+        },
+        {
+          "date": "2025-04-04",
+          "shift": 3,
+          "worker_id": "W0084",
+          "worker_name": "Lưu Thị Ánh",
+          "machine_id": "A043",
+          "machine_name": "Máy là hơi công nghiệp Oshima OS-7000",
+          "ns": 86.955,
+          "cl": 82.60725,
+          "cost": 248215.0
+        },
+        {
+          "date": "2025-04-04",
+          "shift": 4,
+          "worker_id": "W0089",
+          "worker_name": "Lê Minh Đạt",
+          "machine_id": "A040",
+          "machine_name": "Máy là hơi công nghiệp Veit 8003LP",
+          "ns": 155.1,
+          "cl": 139.59,
+          "cost": 330605.0
+        },
+        {
+          "date": "2025-04-04",
+          "shift": 4,
+          "worker_id": "W0088",
+          "worker_name": "Tô Quốc Hưng",
+          "machine_id": "A194",
+          "machine_name": "Máy là hơi công nghiệp Veit 8004LP",
+          "ns": 144.76,
+          "cl": 131.7316,
+          "cost": 303187.5
+        },
+        {
+          "date": "2025-04-04",
+          "shift": 4,
+          "worker_id": "W0087",
+          "worker_name": "Nguyễn Văn Sơn",
+          "machine_id": "A043",
+          "machine_name": "Máy là hơi công nghiệp Oshima OS-7000",
+          "ns": 127.875,
+          "cl": 117.64500000000001,
+          "cost": 303215.0
+        },
+        {
+          "date": "2025-04-05",
+          "shift": 1,
+          "worker_id": "W0086",
+          "worker_name": "Trịnh Bảo Trâm",
+          "machine_id": "A040",
+          "machine_name": "Máy là hơi công nghiệp Veit 8003LP",
+          "ns": 113.74,
+          "cl": 105.7782,
+          "cost": 275605.0
+        },
+        {
+          "date": "2025-04-05",
+          "shift": 1,
+          "worker_id": "W0085",
+          "worker_name": "Dương Trọng Nghĩa",
+          "machine_id": "A194",
+          "machine_name": "Máy là hơi công nghiệp Veit 8004LP",
+          "ns": 103.39999999999998,
+          "cl": 97.19599999999997,
+          "cost": 275687.5
+        },
+        {
+          "date": "2025-04-05",
+          "shift": 2,
+          "worker_id": "W0087",
+          "worker_name": "Nguyễn Văn Sơn",
+          "machine_id": "A040",
+          "machine_name": "Máy là hơi công nghiệp Veit 8003LP",
+          "ns": 129.25,
+          "cl": 118.91000000000001,
+          "cost": 303105.0
+        },
+        {
+          "date": "2025-04-05",
+          "shift": 2,
+          "worker_id": "W0084",
+          "worker_name": "Lưu Thị Ánh",
+          "machine_id": "A194",
+          "machine_name": "Máy là hơi công nghiệp Veit 8004LP",
+          "ns": 87.88999999999999,
+          "cl": 83.49549999999998,
+          "cost": 248187.5
+        },
+        {
+          "date": "2025-04-05",
+          "shift": 3,
+          "worker_id": "W0088",
+          "worker_name": "Tô Quốc Hưng",
+          "machine_id": "A040",
+          "machine_name": "Máy là hơi công nghiệp Veit 8003LP",
+          "ns": 144.76,
+          "cl": 131.7316,
+          "cost": 303105.0
+        },
+        {
+          "date": "2025-04-05",
+          "shift": 4,
+          "worker_id": "W0087",
+          "worker_name": "Nguyễn Văn Sơn",
+          "machine_id": "A040",
+          "machine_name": "Máy là hơi công nghiệp Veit 8003LP",
+          "ns": 129.25,
+          "cl": 118.91000000000001,
+          "cost": 303105.0
+        },
+        {
+          "date": "2025-04-06",
+          "shift": 1,
+          "worker_id": "W0086",
+          "worker_name": "Trịnh Bảo Trâm",
+          "machine_id": "A040",
+          "machine_name": "Máy là hơi công nghiệp Veit 8003LP",
+          "ns": 113.74,
+          "cl": 105.7782,
+          "cost": 275605.0
+        },
+        {
+          "date": "2025-04-06",
+          "shift": 1,
+          "worker_id": "W0084",
+          "worker_name": "Lưu Thị Ánh",
+          "machine_id": "A194",
+          "machine_name": "Máy là hơi công nghiệp Veit 8004LP",
+          "ns": 87.88999999999999,
+          "cl": 83.49549999999998,
+          "cost": 248187.5
+        },
+        {
+          "date": "2025-04-06",
+          "shift": 2,
+          "worker_id": "W0088",
+          "worker_name": "Tô Quốc Hưng",
+          "machine_id": "A040",
+          "machine_name": "Máy là hơi công nghiệp Veit 8003LP",
+          "ns": 144.76,
+          "cl": 131.7316,
+          "cost": 303105.0
+        }
+      ],
+      "cost": 5209215.0
+    },
+    "OP012": {
+      "kpi": {
+        "B51": 2395.8,
+        "B52": 2138.5540000000005
+      },
+      "done": true,
+      "history": [
+        {
+          "date": "2025-04-06",
+          "shift": 3,
+          "worker_id": "W0010",
+          "worker_name": "Mai Quốc Huy",
+          "machine_id": "A046",
+          "machine_name": "Thiết bị kiểm tra mẫu SGS SART",
+          "ns": 363.0,
+          "cl": 315.81,
+          "cost": 413380.0
+        },
+        {
+          "date": "2025-04-06",
+          "shift": 3,
+          "worker_id": "W0007",
+          "worker_name": "Phan Văn Nhân",
+          "machine_id": "A202",
+          "machine_name": "Thiết bị kiểm tra mẫu SGS SART",
+          "ns": 290.4,
+          "cl": 261.36,
+          "cost": 330825.0
+        },
+        {
+          "date": "2025-04-06",
+          "shift": 3,
+          "worker_id": "W0005",
+          "worker_name": "Nguyễn Hoàng Long",
+          "machine_id": "A207",
+          "machine_name": "Thiết bị kiểm tra mẫu Atlas Xenotest Plus",
+          "ns": 242.0,
+          "cl": 222.64000000000001,
+          "cost": 275935.0
+        },
+        {
+          "date": "2025-04-06",
+          "shift": 4,
+          "worker_id": "W0009",
+          "worker_name": "Trịnh Ngọc Hân",
+          "machine_id": "A046",
+          "machine_name": "Thiết bị kiểm tra mẫu SGS SART",
+          "ns": 338.8,
+          "cl": 298.144,
+          "cost": 385880.0
+        },
+        {
+          "date": "2025-04-06",
+          "shift": 4,
+          "worker_id": "W0008",
+          "worker_name": "Dương Thị Thanh",
+          "machine_id": "A202",
+          "machine_name": "Thiết bị kiểm tra mẫu SGS SART",
+          "ns": 314.6,
+          "cl": 279.994,
+          "cost": 358325.0
+        },
+        {
+          "date": "2025-04-06",
+          "shift": 4,
+          "worker_id": "W0004",
+          "worker_name": "Trần Thị Thuý Diễm",
+          "machine_id": "A207",
+          "machine_name": "Thiết bị kiểm tra mẫu Atlas Xenotest Plus",
+          "ns": 217.8,
+          "cl": 202.55400000000003,
+          "cost": 248435.0
+        },
+        {
+          "date": "2025-04-07",
+          "shift": 1,
+          "worker_id": "W0010",
+          "worker_name": "Mai Quốc Huy",
+          "machine_id": "A046",
+          "machine_name": "Thiết bị kiểm tra mẫu SGS SART",
+          "ns": 363.0,
+          "cl": 315.81,
+          "cost": 413380.0
+        },
+        {
+          "date": "2025-04-07",
+          "shift": 1,
+          "worker_id": "W0006",
+          "worker_name": "Đỗ Thị Lan Hương",
+          "machine_id": "A202",
+          "machine_name": "Thiết bị kiểm tra mẫu SGS SART",
+          "ns": 266.2,
+          "cl": 242.242,
+          "cost": 303325.0
+        }
+      ],
+      "cost": 2729485.0
+    },
+    "OP013": {
+      "kpi": {
+        "B61": 2376.0,
+        "B62": 2169.222
+      },
+      "done": true,
+      "history": [
+        {
+          "date": "2025-04-07",
+          "shift": 2,
+          "worker_id": "W0070",
+          "worker_name": "Phan Minh Lan",
+          "machine_id": "A047",
+          "machine_name": "Máy in nhãn Epson ColorWorks C7500",
+          "ns": 358.05000000000007,
+          "cl": 318.6645000000001,
+          "cost": 330385.0
+        },
+        {
+          "date": "2025-04-07",
+          "shift": 3,
+          "worker_id": "W0065",
+          "worker_name": "Dương Thị Quân",
+          "machine_id": "A047",
+          "machine_name": "Máy in nhãn Epson ColorWorks C7500",
+          "ns": 255.75,
+          "cl": 240.40499999999997,
+          "cost": 275385.0
+        },
+        {
+          "date": "2025-04-07",
+          "shift": 3,
+          "worker_id": "W0066",
+          "worker_name": "Huỳnh Thanh Thắng",
+          "machine_id": "A214",
+          "machine_name": "Máy in nhãn Epson ColorWorks C8600",
+          "ns": 255.75,
+          "cl": 237.84750000000003,
+          "cost": 275440.0
+        },
+        {
+          "date": "2025-04-07",
+          "shift": 3,
+          "worker_id": "W0064",
+          "worker_name": "Hồ Gia Vy",
+          "machine_id": "A050",
+          "machine_name": "Máy in nhãn Primera LX900",
+          "ns": 227.7,
+          "cl": 216.31499999999997,
+          "cost": 247995.0
+        },
+        {
+          "date": "2025-04-07",
+          "shift": 4,
+          "worker_id": "W0070",
+          "worker_name": "Phan Minh Lan",
+          "machine_id": "A047",
+          "machine_name": "Máy in nhãn Epson ColorWorks C7500",
+          "ns": 358.05000000000007,
+          "cl": 318.6645000000001,
+          "cost": 330385.0
+        },
+        {
+          "date": "2025-04-07",
+          "shift": 4,
+          "worker_id": "W0068",
+          "worker_name": "Ngô Tuấn Hiếu",
+          "machine_id": "A214",
+          "machine_name": "Máy in nhãn Epson ColorWorks C8600",
+          "ns": 306.90000000000003,
+          "cl": 279.27900000000005,
+          "cost": 302940.0
+        },
+        {
+          "date": "2025-04-08",
+          "shift": 1,
+          "worker_id": "W0069",
+          "worker_name": "Huỳnh Ngọc Quân",
+          "machine_id": "A047",
+          "machine_name": "Máy in nhãn Epson ColorWorks C7500",
+          "ns": 332.475,
+          "cl": 299.2275,
+          "cost": 330385.0
+        },
+        {
+          "date": "2025-04-08",
+          "shift": 1,
+          "worker_id": "W0067",
+          "worker_name": "Lê Quốc Dũng",
+          "machine_id": "A214",
+          "machine_name": "Máy in nhãn Epson ColorWorks C8600",
+          "ns": 281.32500000000005,
+          "cl": 258.8190000000001,
+          "cost": 302940.0
+        }
+      ],
+      "cost": 2395855.0
+    },
+    "OP014": {
+      "kpi": {
+        "B71": 2232.4500000000003,
+        "B72": 2055.0805
+      },
+      "done": true,
+      "history": [
+        {
+          "date": "2025-04-08",
+          "shift": 2,
+          "worker_id": "W0038",
+          "worker_name": "Phan Thị Thuý Nga",
+          "machine_id": "A027",
+          "machine_name": "Máy đóng gói tự động Bosch Sigpack HML",
+          "ns": 409.20000000000005,
+          "cl": 372.37200000000007,
+          "cost": 358160.0
+        },
+        {
+          "date": "2025-04-08",
+          "shift": 2,
+          "worker_id": "W0036",
+          "worker_name": "Ngô Văn Phước",
+          "machine_id": "A163",
+          "machine_name": "Máy đóng gói tự động Matrix 600",
+          "ns": 354.20000000000005,
+          "cl": 329.40600000000006,
+          "cost": 303105.0
+        },
+        {
+          "date": "2025-04-08",
+          "shift": 2,
+          "worker_id": "W0035",
+          "worker_name": "Trần Thị Diệu Linh",
+          "machine_id": "A168",
+          "machine_name": "Máy đóng gói tự động Matrix 700",
+          "ns": 328.90000000000003,
+          "cl": 309.166,
+          "cost": 275605.0
+        },
+        {
+          "date": "2025-04-08",
+          "shift": 2,
+          "worker_id": "W0034",
+          "worker_name": "Tạ Thị Tuyết Mai",
+          "machine_id": "A030",
+          "machine_name": "Máy đóng gói tự động Matrix 450",
+          "ns": 300.3,
+          "cl": 285.285,
+          "cost": 248105.0
+        },
+        {
+          "date": "2025-04-08",
+          "shift": 3,
+          "worker_id": "W0040",
+          "worker_name": "Trịnh Văn Đạt",
+          "machine_id": "A027",
+          "machine_name": "Máy đóng gói tự động Bosch Sigpack HML",
+          "ns": 460.35,
+          "cl": 409.7115,
+          "cost": 413160.0
+        },
+        {
+          "date": "2025-04-08",
+          "shift": 3,
+          "worker_id": "W0037",
+          "worker_name": "Vũ Thị Thanh Thảo",
+          "machine_id": "A163",
+          "machine_name": "Máy đóng gói tự động Matrix 600",
+          "ns": 379.5,
+          "cl": 349.14000000000004,
+          "cost": 330605.0
+        }
+      ],
+      "cost": 1928740.0
+    },
+    "OP015": {
+      "kpi": {
+        "C11": 1091.4199999999998,
+        "C12": 1035.73052
+      },
+      "done": true,
+      "history": [
+        {
+          "date": "2025-04-02",
+          "shift": 1,
+          "worker_id": "W0509",
+          "worker_name": "Lưu Gia Linh",
+          "machine_id": "A051",
+          "machine_name": "Máy sanforizing Monforts Sanfor",
+          "ns": 117.26,
+          "cl": 111.9833,
+          "cost": 277200.0
+        },
+        {
+          "date": "2025-04-02",
+          "shift": 1,
+          "worker_id": "W0505",
+          "worker_name": "Võ Thị Mỹ Linh",
+          "machine_id": "A220",
+          "machine_name": "Máy sanforizing Monforts Sanfor 2.0",
+          "ns": 81.17999999999999,
+          "cl": 76.30919999999999,
+          "cost": 222255.0
+        },
+        {
+          "date": "2025-04-02",
+          "shift": 2,
+          "worker_id": "W0510",
+          "worker_name": "Hồ Văn Đạt",
+          "machine_id": "A051",
+          "machine_name": "Máy sanforizing Monforts Sanfor",
+          "ns": 126.27999999999999,
+          "cl": 120.84995999999998,
+          "cost": 288200.0
+        },
+        {
+          "date": "2025-04-02",
+          "shift": 2,
+          "worker_id": "W0506",
+          "worker_name": "Đặng Đức Trung",
+          "machine_id": "A220",
+          "machine_name": "Máy sanforizing Monforts Sanfor 2.0",
+          "ns": 90.19999999999999,
+          "cl": 85.23899999999999,
+          "cost": 233255.0
+        },
+        {
+          "date": "2025-04-02",
+          "shift": 2,
+          "worker_id": "W0504",
+          "worker_name": "Phạm Minh Hải",
+          "machine_id": "A223",
+          "machine_name": "Máy sanforizing Monforts Sanfor 3.0",
+          "ns": 72.16,
+          "cl": 67.4696,
+          "cost": 216700.0
+        },
+        {
+          "date": "2025-04-02",
+          "shift": 3,
+          "worker_id": "W0509",
+          "worker_name": "Lưu Gia Linh",
+          "machine_id": "A051",
+          "machine_name": "Máy sanforizing Monforts Sanfor",
+          "ns": 117.26,
+          "cl": 111.9833,
+          "cost": 277200.0
+        },
+        {
+          "date": "2025-04-02",
+          "shift": 3,
+          "worker_id": "W0508",
+          "worker_name": "Vũ Anh Tuấn",
+          "machine_id": "A220",
+          "machine_name": "Máy sanforizing Monforts Sanfor 2.0",
+          "ns": 108.24,
+          "cl": 103.04448,
+          "cost": 255255.0
+        },
+        {
+          "date": "2025-04-02",
+          "shift": 4,
+          "worker_id": "W0507",
+          "worker_name": "Bùi Thị Kim Cúc",
+          "machine_id": "A051",
+          "machine_name": "Máy sanforizing Monforts Sanfor",
+          "ns": 99.22,
+          "cl": 94.259,
+          "cost": 244200.0
+        },
+        {
+          "date": "2025-04-02",
+          "shift": 4,
+          "worker_id": "W0505",
+          "worker_name": "Võ Thị Mỹ Linh",
+          "machine_id": "A220",
+          "machine_name": "Máy sanforizing Monforts Sanfor 2.0",
+          "ns": 81.17999999999999,
+          "cl": 76.30919999999999,
+          "cost": 222255.0
+        },
+        {
+          "date": "2025-04-03",
+          "shift": 1,
+          "worker_id": "W0508",
+          "worker_name": "Vũ Anh Tuấn",
+          "machine_id": "A051",
+          "machine_name": "Máy sanforizing Monforts Sanfor",
+          "ns": 108.24,
+          "cl": 103.04448,
+          "cost": 255200.0
+        },
+        {
+          "date": "2025-04-03",
+          "shift": 1,
+          "worker_id": "W0506",
+          "worker_name": "Đặng Đức Trung",
+          "machine_id": "A220",
+          "machine_name": "Máy sanforizing Monforts Sanfor 2.0",
+          "ns": 90.19999999999999,
+          "cl": 85.23899999999999,
+          "cost": 233255.0
+        }
+      ],
+      "cost": 2724975.0
+    },
+    "OP016": {
+      "kpi": {
+        "C21": 1386.0,
+        "C22": 1262.745
+      },
+      "done": true,
+      "history": [
+        {
+          "date": "2025-04-03",
+          "shift": 2,
+          "worker_id": "W0030",
+          "worker_name": "Trần Quốc Cường",
+          "machine_id": "A033",
+          "machine_name": "Máy cắt laser Epilog Fusion Pro",
+          "ns": 519.75,
+          "cl": 462.5775,
+          "cost": 414260.0
+        },
+        {
+          "date": "2025-04-03",
+          "shift": 2,
+          "worker_id": "W0028",
+          "worker_name": "Bùi Văn Được",
+          "machine_id": "A170",
+          "machine_name": "Máy cắt laser Trotec Speedy 500",
+          "ns": 470.25,
+          "cl": 427.9275,
+          "cost": 359315.0
+        },
+        {
+          "date": "2025-04-03",
+          "shift": 2,
+          "worker_id": "W0025",
+          "worker_name": "Võ Đức Thiện",
+          "machine_id": "A174",
+          "machine_name": "Máy cắt laser Trotec Speedy 600",
+          "ns": 396.0,
+          "cl": 372.23999999999995,
+          "cost": 276870.0
+        }
+      ],
+      "cost": 1050445.0
+    },
+    "OP017": {
+      "kpi": {
+        "C31": 1147.2999999999997,
+        "C32": 1116.7254999999998
+      },
+      "done": true,
+      "history": [
+        {
+          "date": "2025-04-03",
+          "shift": 3,
+          "worker_id": "W0217",
+          "worker_name": "Đặng Thị Kim Ngân",
+          "machine_id": "A011",
+          "machine_name": "Máy may công nghiệp Juki DDL-8700",
+          "ns": 229.89999999999998,
+          "cl": 223.003,
+          "cost": 385440.0
+        },
+        {
+          "date": "2025-04-03",
+          "shift": 3,
+          "worker_id": "W0216",
+          "worker_name": "Hồ Văn Duy",
+          "machine_id": "A122",
+          "machine_name": "Máy may công nghiệp Singer 191DA",
+          "ns": 219.45,
+          "cl": 217.25549999999998,
+          "cost": 374440.0
+        },
+        {
+          "date": "2025-04-03",
+          "shift": 3,
+          "worker_id": "W0215",
+          "worker_name": "Đinh Gia Bảo",
+          "machine_id": "A014",
+          "machine_name": "Máy may công nghiệp Pegasus W600",
+          "ns": 206.79999999999995,
+          "cl": 202.66399999999996,
+          "cost": 368995.0
+        },
+        {
+          "date": "2025-04-03",
+          "shift": 4,
+          "worker_id": "W0219",
+          "worker_name": "Phan Thị Thanh",
+          "machine_id": "A011",
+          "machine_name": "Máy may công nghiệp Juki DDL-8700",
+          "ns": 250.79999999999995,
+          "cl": 238.25999999999993,
+          "cost": 412940.0
+        },
+        {
+          "date": "2025-04-03",
+          "shift": 4,
+          "worker_id": "W0218",
+          "worker_name": "Vũ Anh Duy",
+          "machine_id": "A122",
+          "machine_name": "Máy may công nghiệp Singer 191DA",
+          "ns": 240.34999999999997,
+          "cl": 235.54299999999995,
+          "cost": 396440.0
+        }
+      ],
+      "cost": 1938255.0
+    },
+    "OP018": {
+      "kpi": {
+        "C41": 1258.3999999999999,
+        "C42": 1230.2312
+      },
+      "done": true,
+      "history": [
+        {
+          "date": "2025-04-04",
+          "shift": 1,
+          "worker_id": "W0405",
+          "worker_name": "Trần Đăng Minh",
+          "machine_id": "A022",
+          "machine_name": "Máy giặt công nghiệp Girbau HS-60",
+          "ns": 232.32000000000002,
+          "cl": 223.02720000000002,
+          "cost": 264990.0
+        },
+        {
+          "date": "2025-04-04",
+          "shift": 2,
+          "worker_id": "W0410",
+          "worker_name": "Trần Đức Huy",
+          "machine_id": "A022",
+          "machine_name": "Máy giặt công nghiệp Girbau HS-60",
+          "ns": 280.71999999999997,
+          "cl": 280.71999999999997,
+          "cost": 330990.0
+        },
+        {
+          "date": "2025-04-04",
+          "shift": 2,
+          "worker_id": "W0407",
+          "worker_name": "Nguyễn Hoàng An",
+          "machine_id": "A143",
+          "machine_name": "Máy giặt công nghiệp Girbau HS-90",
+          "ns": 251.67999999999998,
+          "cl": 246.64639999999997,
+          "cost": 287045.0
+        },
+        {
+          "date": "2025-04-04",
+          "shift": 2,
+          "worker_id": "W0404",
+          "worker_name": "Ngô Thị Thanh Loan",
+          "machine_id": "A148",
+          "machine_name": "Máy giặt công nghiệp Girbau HS-70",
+          "ns": 222.64,
+          "cl": 211.50799999999998,
+          "cost": 253990.0
+        },
+        {
+          "date": "2025-04-04",
+          "shift": 3,
+          "worker_id": "W0409",
+          "worker_name": "Dương Văn Tuấn",
+          "machine_id": "A022",
+          "machine_name": "Máy giặt công nghiệp Girbau HS-60",
+          "ns": 271.04,
+          "cl": 268.3296,
+          "cost": 319990.0
+        }
+      ],
+      "cost": 1457005.0
+    },
+    "OP019": {
+      "kpi": {
+        "C51": 1216.875,
+        "C52": 1107.72695
+      },
+      "done": true,
+      "history": [
+        {
+          "date": "2025-04-06",
+          "shift": 3,
+          "worker_id": "W0090",
+          "worker_name": "Đỗ Thị Hồng",
+          "machine_id": "A040",
+          "machine_name": "Máy là hơi công nghiệp Veit 8003LP",
+          "ns": 165.44,
+          "cl": 147.2416,
+          "cost": 330605.0
+        },
+        {
+          "date": "2025-04-06",
+          "shift": 3,
+          "worker_id": "W0089",
+          "worker_name": "Lê Minh Đạt",
+          "machine_id": "A194",
+          "machine_name": "Máy là hơi công nghiệp Veit 8004LP",
+          "ns": 155.1,
+          "cl": 139.59,
+          "cost": 330687.5
+        },
+        {
+          "date": "2025-04-06",
+          "shift": 3,
+          "worker_id": "W0086",
+          "worker_name": "Trịnh Bảo Trâm",
+          "machine_id": "A043",
+          "machine_name": "Máy là hơi công nghiệp Oshima OS-7000",
+          "ns": 112.53,
+          "cl": 104.6529,
+          "cost": 275715.0
+        },
+        {
+          "date": "2025-04-06",
+          "shift": 3,
+          "worker_id": "W0084",
+          "worker_name": "Lưu Thị Ánh",
+          "machine_id": "A192",
+          "machine_name": "Máy là hơi công nghiệp Hoffman M-2000",
+          "ns": 86.955,
+          "cl": 82.60725,
+          "cost": 248105.0
+        },
+        {
+          "date": "2025-04-06",
+          "shift": 4,
+          "worker_id": "W0088",
+          "worker_name": "Tô Quốc Hưng",
+          "machine_id": "A040",
+          "machine_name": "Máy là hơi công nghiệp Veit 8003LP",
+          "ns": 144.76,
+          "cl": 131.7316,
+          "cost": 303105.0
+        },
+        {
+          "date": "2025-04-06",
+          "shift": 4,
+          "worker_id": "W0087",
+          "worker_name": "Nguyễn Văn Sơn",
+          "machine_id": "A194",
+          "machine_name": "Máy là hơi công nghiệp Veit 8004LP",
+          "ns": 129.25,
+          "cl": 118.91000000000001,
+          "cost": 303187.5
+        },
+        {
+          "date": "2025-04-06",
+          "shift": 4,
+          "worker_id": "W0085",
+          "worker_name": "Dương Trọng Nghĩa",
+          "machine_id": "A043",
+          "machine_name": "Máy là hơi công nghiệp Oshima OS-7000",
+          "ns": 102.30000000000001,
+          "cl": 96.162,
+          "cost": 275715.0
+        },
+        {
+          "date": "2025-04-07",
+          "shift": 1,
+          "worker_id": "W0089",
+          "worker_name": "Lê Minh Đạt",
+          "machine_id": "A040",
+          "machine_name": "Máy là hơi công nghiệp Veit 8003LP",
+          "ns": 155.1,
+          "cl": 139.59,
+          "cost": 330605.0
+        },
+        {
+          "date": "2025-04-07",
+          "shift": 2,
+          "worker_id": "W0090",
+          "worker_name": "Đỗ Thị Hồng",
+          "machine_id": "A040",
+          "machine_name": "Máy là hơi công nghiệp Veit 8003LP",
+          "ns": 165.44,
+          "cl": 147.2416,
+          "cost": 330605.0
+        }
+      ],
+      "cost": 2728330.0
+    },
+    "OP020": {
+      "kpi": {
+        "C61": 1092.3000000000002,
+        "C62": 1010.9440000000002
+      },
+      "done": true,
+      "history": [
+        {
+          "date": "2025-04-07",
+          "shift": 3,
+          "worker_id": "W0038",
+          "worker_name": "Phan Thị Thuý Nga",
+          "machine_id": "A027",
+          "machine_name": "Máy đóng gói tự động Bosch Sigpack HML",
+          "ns": 409.20000000000005,
+          "cl": 372.37200000000007,
+          "cost": 358160.0
+        },
+        {
+          "date": "2025-04-07",
+          "shift": 3,
+          "worker_id": "W0036",
+          "worker_name": "Ngô Văn Phước",
+          "machine_id": "A163",
+          "machine_name": "Máy đóng gói tự động Matrix 600",
+          "ns": 354.20000000000005,
+          "cl": 329.40600000000006,
+          "cost": 303105.0
+        },
+        {
+          "date": "2025-04-07",
+          "shift": 3,
+          "worker_id": "W0035",
+          "worker_name": "Trần Thị Diệu Linh",
+          "machine_id": "A168",
+          "machine_name": "Máy đóng gói tự động Matrix 700",
+          "ns": 328.90000000000003,
+          "cl": 309.166,
+          "cost": 275605.0
+        }
+      ],
+      "cost": 936870.0
+    },
+    "OP021": {
+      "kpi": {
+        "C71": 934.9999999999999,
+        "C72": 887.8946999999998
+      },
+      "done": true,
+      "history": [
+        {
+          "date": "2025-04-03",
+          "shift": 1,
+          "worker_id": "W0504",
+          "worker_name": "Phạm Minh Hải",
+          "machine_id": "A056",
+          "machine_name": "Máy phủ PU tự động Sames Kremlin Airmix",
+          "ns": 74.8,
+          "cl": 69.938,
+          "cost": 216480.0
+        },
+        {
+          "date": "2025-04-03",
+          "shift": 2,
+          "worker_id": "W0509",
+          "worker_name": "Lưu Gia Linh",
+          "machine_id": "A056",
+          "machine_name": "Máy phủ PU tự động Sames Kremlin Airmix",
+          "ns": 121.54999999999998,
+          "cl": 116.08024999999998,
+          "cost": 276980.0
+        },
+        {
+          "date": "2025-04-03",
+          "shift": 2,
+          "worker_id": "W0507",
+          "worker_name": "Bùi Thị Kim Cúc",
+          "machine_id": "A232",
+          "machine_name": "Máy phủ PU tự động Sames Kremlin Airmix 2.0",
+          "ns": 102.85,
+          "cl": 97.7075,
+          "cost": 243980.0
+        },
+        {
+          "date": "2025-04-03",
+          "shift": 3,
+          "worker_id": "W0508",
+          "worker_name": "Vũ Anh Tuấn",
+          "machine_id": "A056",
+          "machine_name": "Máy phủ PU tự động Sames Kremlin Airmix",
+          "ns": 112.19999999999999,
+          "cl": 106.81439999999998,
+          "cost": 254980.0
+        },
+        {
+          "date": "2025-04-03",
+          "shift": 3,
+          "worker_id": "W0504",
+          "worker_name": "Phạm Minh Hải",
+          "machine_id": "A232",
+          "machine_name": "Máy phủ PU tự động Sames Kremlin Airmix 2.0",
+          "ns": 74.8,
+          "cl": 69.938,
+          "cost": 216480.0
+        },
+        {
+          "date": "2025-04-03",
+          "shift": 4,
+          "worker_id": "W0509",
+          "worker_name": "Lưu Gia Linh",
+          "machine_id": "A056",
+          "machine_name": "Máy phủ PU tự động Sames Kremlin Airmix",
+          "ns": 121.54999999999998,
+          "cl": 116.08024999999998,
+          "cost": 276980.0
+        },
+        {
+          "date": "2025-04-03",
+          "shift": 4,
+          "worker_id": "W0507",
+          "worker_name": "Bùi Thị Kim Cúc",
+          "machine_id": "A232",
+          "machine_name": "Máy phủ PU tự động Sames Kremlin Airmix 2.0",
+          "ns": 102.85,
+          "cl": 97.7075,
+          "cost": 243980.0
+        },
+        {
+          "date": "2025-04-04",
+          "shift": 1,
+          "worker_id": "W0510",
+          "worker_name": "Hồ Văn Đạt",
+          "machine_id": "A056",
+          "machine_name": "Máy phủ PU tự động Sames Kremlin Airmix",
+          "ns": 130.9,
+          "cl": 125.2713,
+          "cost": 287980.0
+        },
+        {
+          "date": "2025-04-04",
+          "shift": 1,
+          "worker_id": "W0506",
+          "worker_name": "Đặng Đức Trung",
+          "machine_id": "A232",
+          "machine_name": "Máy phủ PU tự động Sames Kremlin Airmix 2.0",
+          "ns": 93.5,
+          "cl": 88.3575,
+          "cost": 232980.0
+        }
+      ],
+      "cost": 2250820.0
+    },
+    "OP022": {
+      "kpi": {
+        "D11": 940.5,
+        "D12": 853.875
+      },
+      "done": true,
+      "history": [
+        {
+          "date": "2025-04-04",
+          "shift": 2,
+          "worker_id": "W0030",
+          "worker_name": "Trần Quốc Cường",
+          "machine_id": "A033",
+          "machine_name": "Máy cắt laser Epilog Fusion Pro",
+          "ns": 519.75,
+          "cl": 462.5775,
+          "cost": 414260.0
+        },
+        {
+          "date": "2025-04-04",
+          "shift": 2,
+          "worker_id": "W0026",
+          "worker_name": "Dương Thị Lệ Quyên",
+          "machine_id": "A170",
+          "machine_name": "Máy cắt laser Trotec Speedy 500",
+          "ns": 420.75,
+          "cl": 391.2975,
+          "cost": 304315.0
+        }
+      ],
+      "cost": 718575.0
+    },
+    "OP023": {
+      "kpi": {
+        "D21": 929.94,
+        "D22": 842.2226999999999
+      },
+      "done": true,
+      "history": [
+        {
+          "date": "2025-04-04",
+          "shift": 3,
+          "worker_id": "W0096",
+          "worker_name": "Đặng Quang Huy",
+          "machine_id": "A130",
+          "machine_name": "Máy may chuyên dụng Juki MO-6714S (vắt sổ)",
+          "ns": 59.400000000000006,
+          "cl": 55.24200000000001,
+          "cost": 275550.0
+        },
+        {
+          "date": "2025-04-05",
+          "shift": 1,
+          "worker_id": "W0097",
+          "worker_name": "Phan Nhật Hào",
+          "machine_id": "A016",
+          "machine_name": "Máy may chuyên dụng Juki MO-6714S (vắt sổ)",
+          "ns": 69.3,
+          "cl": 63.756,
+          "cost": 303050.0
+        },
+        {
+          "date": "2025-04-05",
+          "shift": 1,
+          "worker_id": "W0110",
+          "worker_name": "Hồ Bảo Anh",
+          "machine_id": "A130",
+          "machine_name": "Máy may chuyên dụng Juki MO-6714S (vắt sổ)",
+          "ns": 69.3,
+          "cl": 61.677,
+          "cost": 303050.0
+        },
+        {
+          "date": "2025-04-05",
+          "shift": 1,
+          "worker_id": "W0096",
+          "worker_name": "Đặng Quang Huy",
+          "machine_id": "A133",
+          "machine_name": "Máy may chuyên dụng Juki MO-1000S (vắt sổ)",
+          "ns": 58.739999999999995,
+          "cl": 54.6282,
+          "cost": 275605.0
+        },
+        {
+          "date": "2025-04-05",
+          "shift": 2,
+          "worker_id": "W0100",
+          "worker_name": "Võ Thanh Tùng",
+          "machine_id": "A016",
+          "machine_name": "Máy may chuyên dụng Juki MO-6714S (vắt sổ)",
+          "ns": 89.1,
+          "cl": 79.29899999999999,
+          "cost": 330550.0
+        },
+        {
+          "date": "2025-04-05",
+          "shift": 2,
+          "worker_id": "W0109",
+          "worker_name": "Nguyễn Quốc Cường",
+          "machine_id": "A130",
+          "machine_name": "Máy may chuyên dụng Juki MO-6714S (vắt sổ)",
+          "ns": 64.35000000000001,
+          "cl": 57.915000000000006,
+          "cost": 303050.0
+        },
+        {
+          "date": "2025-04-05",
+          "shift": 3,
+          "worker_id": "W0097",
+          "worker_name": "Phan Nhật Hào",
+          "machine_id": "A016",
+          "machine_name": "Máy may chuyên dụng Juki MO-6714S (vắt sổ)",
+          "ns": 69.3,
+          "cl": 63.756,
+          "cost": 303050.0
+        },
+        {
+          "date": "2025-04-05",
+          "shift": 3,
+          "worker_id": "W0110",
+          "worker_name": "Hồ Bảo Anh",
+          "machine_id": "A130",
+          "machine_name": "Máy may chuyên dụng Juki MO-6714S (vắt sổ)",
+          "ns": 69.3,
+          "cl": 61.677,
+          "cost": 303050.0
+        },
+        {
+          "date": "2025-04-05",
+          "shift": 4,
+          "worker_id": "W0099",
+          "worker_name": "Trương Minh Trí",
+          "machine_id": "A016",
+          "machine_name": "Máy may chuyên dụng Juki MO-6714S (vắt sổ)",
+          "ns": 84.15,
+          "cl": 75.73500000000001,
+          "cost": 330550.0
+        },
+        {
+          "date": "2025-04-05",
+          "shift": 4,
+          "worker_id": "W0109",
+          "worker_name": "Nguyễn Quốc Cường",
+          "machine_id": "A130",
+          "machine_name": "Máy may chuyên dụng Juki MO-6714S (vắt sổ)",
+          "ns": 64.35000000000001,
+          "cl": 57.915000000000006,
+          "cost": 303050.0
+        },
+        {
+          "date": "2025-04-06",
+          "shift": 1,
+          "worker_id": "W0098",
+          "worker_name": "Lý Thị Thu Hà",
+          "machine_id": "A016",
+          "machine_name": "Máy may chuyên dụng Juki MO-6714S (vắt sổ)",
+          "ns": 74.25,
+          "cl": 67.5675,
+          "cost": 303050.0
+        },
+        {
+          "date": "2025-04-06",
+          "shift": 1,
+          "worker_id": "W0097",
+          "worker_name": "Phan Nhật Hào",
+          "machine_id": "A130",
+          "machine_name": "Máy may chuyên dụng Juki MO-6714S (vắt sổ)",
+          "ns": 69.3,
+          "cl": 63.756,
+          "cost": 303050.0
+        },
+        {
+          "date": "2025-04-06",
+          "shift": 2,
+          "worker_id": "W0100",
+          "worker_name": "Võ Thanh Tùng",
+          "machine_id": "A016",
+          "machine_name": "Máy may chuyên dụng Juki MO-6714S (vắt sổ)",
+          "ns": 89.1,
+          "cl": 79.29899999999999,
+          "cost": 330550.0
+        }
+      ],
+      "cost": 3967205.0
+    },
+    "OP024": {
+      "kpi": {
+        "D31": 883.9599999999998,
+        "D32": 854.4931999999999
+      },
+      "done": true,
+      "history": [
+        {
+          "date": "2025-04-06",
+          "shift": 3,
+          "worker_id": "W0219",
+          "worker_name": "Phan Thị Thanh",
+          "machine_id": "A011",
+          "machine_name": "Máy may công nghiệp Juki DDL-8700",
+          "ns": 250.79999999999995,
+          "cl": 238.25999999999993,
+          "cost": 412940.0
+        },
+        {
+          "date": "2025-04-06",
+          "shift": 3,
+          "worker_id": "W0217",
+          "worker_name": "Đặng Thị Kim Ngân",
+          "machine_id": "A122",
+          "machine_name": "Máy may công nghiệp Singer 191DA",
+          "ns": 229.89999999999998,
+          "cl": 223.003,
+          "cost": 385440.0
+        },
+        {
+          "date": "2025-04-06",
+          "shift": 3,
+          "worker_id": "W0215",
+          "worker_name": "Đinh Gia Bảo",
+          "machine_id": "A014",
+          "machine_name": "Máy may công nghiệp Pegasus W600",
+          "ns": 206.79999999999995,
+          "cl": 202.66399999999996,
+          "cost": 368995.0
+        },
+        {
+          "date": "2025-04-06",
+          "shift": 3,
+          "worker_id": "W0214",
+          "worker_name": "Trần Hoài Phong",
+          "machine_id": "A120",
+          "machine_name": "Máy may công nghiệp Juki DDL-9000",
+          "ns": 196.45999999999998,
+          "cl": 190.56619999999998,
+          "cost": 363467.5
+        }
+      ],
+      "cost": 1530842.5
+    },
+    "OP025": {
+      "kpi": {
+        "D41": 970.09,
+        "D42": 892.8403
+      },
+      "done": true,
+      "history": [
+        {
+          "date": "2025-04-07",
+          "shift": 2,
+          "worker_id": "W0087",
+          "worker_name": "Nguyễn Văn Sơn",
+          "machine_id": "A194",
+          "machine_name": "Máy là hơi công nghiệp Veit 8004LP",
+          "ns": 129.25,
+          "cl": 118.91000000000001,
+          "cost": 303187.5
+        },
+        {
+          "date": "2025-04-07",
+          "shift": 2,
+          "worker_id": "W0084",
+          "worker_name": "Lưu Thị Ánh",
+          "machine_id": "A043",
+          "machine_name": "Máy là hơi công nghiệp Oshima OS-7000",
+          "ns": 86.955,
+          "cl": 82.60725,
+          "cost": 248215.0
+        },
+        {
+          "date": "2025-04-07",
+          "shift": 3,
+          "worker_id": "W0086",
+          "worker_name": "Trịnh Bảo Trâm",
+          "machine_id": "A040",
+          "machine_name": "Máy là hơi công nghiệp Veit 8003LP",
+          "ns": 113.74,
+          "cl": 105.7782,
+          "cost": 275605.0
+        },
+        {
+          "date": "2025-04-07",
+          "shift": 3,
+          "worker_id": "W0085",
+          "worker_name": "Dương Trọng Nghĩa",
+          "machine_id": "A194",
+          "machine_name": "Máy là hơi công nghiệp Veit 8004LP",
+          "ns": 103.39999999999998,
+          "cl": 97.19599999999997,
+          "cost": 275687.5
+        },
+        {
+          "date": "2025-04-07",
+          "shift": 4,
+          "worker_id": "W0090",
+          "worker_name": "Đỗ Thị Hồng",
+          "machine_id": "A040",
+          "machine_name": "Máy là hơi công nghiệp Veit 8003LP",
+          "ns": 165.44,
+          "cl": 147.2416,
+          "cost": 330605.0
+        },
+        {
+          "date": "2025-04-07",
+          "shift": 4,
+          "worker_id": "W0087",
+          "worker_name": "Nguyễn Văn Sơn",
+          "machine_id": "A194",
+          "machine_name": "Máy là hơi công nghiệp Veit 8004LP",
+          "ns": 129.25,
+          "cl": 118.91000000000001,
+          "cost": 303187.5
+        },
+        {
+          "date": "2025-04-07",
+          "shift": 4,
+          "worker_id": "W0084",
+          "worker_name": "Lưu Thị Ánh",
+          "machine_id": "A043",
+          "machine_name": "Máy là hơi công nghiệp Oshima OS-7000",
+          "ns": 86.955,
+          "cl": 82.60725,
+          "cost": 248215.0
+        },
+        {
+          "date": "2025-04-08",
+          "shift": 1,
+          "worker_id": "W0089",
+          "worker_name": "Lê Minh Đạt",
+          "machine_id": "A040",
+          "machine_name": "Máy là hơi công nghiệp Veit 8003LP",
+          "ns": 155.1,
+          "cl": 139.59,
+          "cost": 330605.0
+        }
+      ],
+      "cost": 2315307.5
+    },
+    "OP026": {
+      "kpi": {
+        "D51": 890.56,
+        "D52": 814.4752000000001
+      },
+      "done": true,
+      "history": [
+        {
+          "date": "2025-04-08",
+          "shift": 2,
+          "worker_id": "W0020",
+          "worker_name": "Lý Thị Cẩm Nhung",
+          "machine_id": "A058",
+          "machine_name": "Máy thổi khí áp suất Kaeser SK Series",
+          "ns": 154.88,
+          "cl": 137.8432,
+          "cost": 441045.0
+        },
+        {
+          "date": "2025-04-08",
+          "shift": 2,
+          "worker_id": "W0019",
+          "worker_name": "Phạm Trọng Khoa",
+          "machine_id": "A241",
+          "machine_name": "Máy thổi khí áp suất Kaeser SK Series 2.0",
+          "ns": 145.2,
+          "cl": 130.68,
+          "cost": 413545.0
+        },
+        {
+          "date": "2025-04-08",
+          "shift": 2,
+          "worker_id": "W0018",
+          "worker_name": "Đoàn Thị Mộng Như",
+          "machine_id": "A244",
+          "machine_name": "Máy thổi khí áp suất Kaeser SK Series 3.0",
+          "ns": 135.52,
+          "cl": 123.32320000000001,
+          "cost": 386072.5
+        },
+        {
+          "date": "2025-04-08",
+          "shift": 2,
+          "worker_id": "W0014",
+          "worker_name": "Bùi Thị Kiều Oanh",
+          "machine_id": "A247",
+          "machine_name": "Máy thổi khí áp suất Kaeser SK Series 4.0",
+          "ns": 96.80000000000001,
+          "cl": 91.96000000000001,
+          "cost": 276100.0
+        },
+        {
+          "date": "2025-04-08",
+          "shift": 3,
+          "worker_id": "W0016",
+          "worker_name": "Tô Thị Diệp",
+          "machine_id": "A058",
+          "machine_name": "Máy thổi khí áp suất Kaeser SK Series",
+          "ns": 116.16000000000001,
+          "cl": 108.02880000000002,
+          "cost": 331045.0
+        },
+        {
+          "date": "2025-04-08",
+          "shift": 4,
+          "worker_id": "W0019",
+          "worker_name": "Phạm Trọng Khoa",
+          "machine_id": "A058",
+          "machine_name": "Máy thổi khí áp suất Kaeser SK Series",
+          "ns": 145.2,
+          "cl": 130.68,
+          "cost": 413545.0
+        },
+        {
+          "date": "2025-04-08",
+          "shift": 4,
+          "worker_id": "W0014",
+          "worker_name": "Bùi Thị Kiều Oanh",
+          "machine_id": "A241",
+          "machine_name": "Máy thổi khí áp suất Kaeser SK Series 2.0",
+          "ns": 96.80000000000001,
+          "cl": 91.96000000000001,
+          "cost": 276045.0
+        }
+      ],
+      "cost": 2537397.5
+    },
+    "OP027": {
+      "kpi": {
+        "D61": 1142.9,
+        "D62": 1050.9180000000001
+      },
+      "done": true,
+      "history": [
+        {
+          "date": "2025-04-09",
+          "shift": 1,
+          "worker_id": "W0038",
+          "worker_name": "Phan Thị Thuý Nga",
+          "machine_id": "A027",
+          "machine_name": "Máy đóng gói tự động Bosch Sigpack HML",
+          "ns": 409.20000000000005,
+          "cl": 372.37200000000007,
+          "cost": 358160.0
+        },
+        {
+          "date": "2025-04-09",
+          "shift": 1,
+          "worker_id": "W0037",
+          "worker_name": "Vũ Thị Thanh Thảo",
+          "machine_id": "A163",
+          "machine_name": "Máy đóng gói tự động Matrix 600",
+          "ns": 379.5,
+          "cl": 349.14000000000004,
+          "cost": 330605.0
+        },
+        {
+          "date": "2025-04-09",
+          "shift": 1,
+          "worker_id": "W0036",
+          "worker_name": "Ngô Văn Phước",
+          "machine_id": "A168",
+          "machine_name": "Máy đóng gói tự động Matrix 700",
+          "ns": 354.20000000000005,
+          "cl": 329.40600000000006,
+          "cost": 303105.0
+        }
+      ],
+      "cost": 991870.0
+    }
+  }
+}
