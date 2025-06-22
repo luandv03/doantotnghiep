@@ -1,0 +1,297 @@
+[
+  {
+    "workerTypeName": "Nhân viên may chi tiết",
+    "total_time_operations": 32,
+    "total_workers": 20,
+    "total_shifts": 199,
+    "max_shift_worker": "W0108",
+    "workers": {
+      "W0100": 8,
+      "W0097": 12,
+      "W0096": 9,
+      "W0108": 13,
+      "W0095": 10,
+      "W0110": 8,
+      "W0109": 9,
+      "W0105": 12,
+      "W0094": 10,
+      "W0104": 11,
+      "W0093": 12,
+      "W0103": 10,
+      "W0102": 9,
+      "W0099": 8,
+      "W0098": 10,
+      "W0107": 10,
+      "W0106": 9,
+      "W0092": 12,
+      "W0091": 8,
+      "W0101": 9
+    },
+    "idleWorkers": 0
+  },
+  {
+    "workerTypeName": "Nhân viên QA/QC",
+    "total_time_operations": 26,
+    "total_workers": 10,
+    "total_shifts": 91,
+    "max_shift_worker": "W0014",
+    "workers": {
+      "W0017": 10,
+      "W0016": 8,
+      "W0014": 11,
+      "W0013": 9,
+      "W0012": 7,
+      "W0011": 8,
+      "W0018": 10,
+      "W0015": 10,
+      "W0020": 8,
+      "W0019": 10
+    },
+    "idleWorkers": 0
+  },
+  {
+    "workerTypeName": "Nhân viên là ép",
+    "total_time_operations": 27,
+    "total_workers": 10,
+    "total_shifts": 81,
+    "max_shift_worker": "W0090",
+    "workers": {
+      "W0090": 11,
+      "W0088": 6,
+      "W0087": 11,
+      "W0085": 8,
+      "W0084": 8,
+      "W0083": 7,
+      "W0082": 8,
+      "W0089": 9,
+      "W0081": 7,
+      "W0086": 6
+    },
+    "idleWorkers": 0
+  },
+  {
+    "workerTypeName": "Nhân viên xử lý vải",
+    "total_time_operations": 21,
+    "total_workers": 10,
+    "total_shifts": 69,
+    "max_shift_worker": "W0509",
+    "workers": {
+      "W0509": 9,
+      "W0506": 7,
+      "W0505": 8,
+      "W0501": 7,
+      "W0510": 5,
+      "W0507": 8,
+      "W0503": 5,
+      "W0508": 7,
+      "W0502": 6,
+      "W0504": 7
+    },
+    "idleWorkers": 0
+  },
+  {
+    "workerTypeName": "Nhân viên may ráp",
+    "total_time_operations": 11,
+    "total_workers": 19,
+    "total_shifts": 56,
+    "max_shift_worker": "W0219",
+    "workers": {
+      "W0219": 5,
+      "W0217": 5,
+      "W0213": 5,
+      "W0212": 4,
+      "W0208": 2,
+      "W0207": 3,
+      "W0220": 3,
+      "W0216": 3,
+      "W0209": 2,
+      "W0215": 4,
+      "W0218": 3,
+      "W0214": 2,
+      "W0210": 4,
+      "W0206": 2,
+      "W0205": 1,
+      "W0203": 3,
+      "W0202": 2,
+      "W0201": 2,
+      "W0204": 1
+    },
+    "idleWorkers": 0
+  },
+  {
+    "workerTypeName": "Nhân viên đóng gói",
+    "total_time_operations": 12,
+    "total_workers": 10,
+    "total_shifts": 40,
+    "max_shift_worker": "W0040",
+    "workers": {
+      "W0040": 6,
+      "W0039": 4,
+      "W0038": 4,
+      "W0037": 5,
+      "W0031": 2,
+      "W0034": 3,
+      "W0036": 6,
+      "W0032": 3,
+      "W0033": 3,
+      "W0035": 4
+    },
+    "idleWorkers": 0
+  },
+  {
+    "workerTypeName": "Nhân viên cắt vải",
+    "total_time_operations": 9,
+    "total_workers": 10,
+    "total_shifts": 29,
+    "max_shift_worker": "W0027",
+    "workers": {
+      "W0029": 3,
+      "W0028": 3,
+      "W0027": 4,
+      "W0026": 4,
+      "W0025": 3,
+      "W0021": 2,
+      "W0022": 4,
+      "W0024": 1,
+      "W0030": 2,
+      "W0023": 3
+    },
+    "idleWorkers": 0
+  },
+  {
+    "workerTypeName": "Nhân viên may công nghiệp",
+    "total_time_operations": 6,
+    "total_workers": 18,
+    "total_shifts": 28,
+    "max_shift_worker": "W0123",
+    "workers": {
+      "W0130": 2,
+      "W0129": 2,
+      "W0123": 3,
+      "W0120": 1,
+      "W0118": 3,
+      "W0111": 1,
+      "W0127": 2,
+      "W0126": 2,
+      "W0122": 1,
+      "W0119": 1,
+      "W0116": 1,
+      "W0115": 2,
+      "W0128": 2,
+      "W0125": 1,
+      "W0124": 1,
+      "W0121": 1,
+      "W0117": 1,
+      "W0113": 1
+    },
+    "idleWorkers": 0
+  },
+  {
+    "workerTypeName": "Nhân viên gắn nhãn",
+    "total_time_operations": 4,
+    "total_workers": 9,
+    "total_shifts": 13,
+    "max_shift_worker": "W0070",
+    "workers": {
+      "W0070": 2,
+      "W0068": 2,
+      "W0065": 2,
+      "W0066": 1,
+      "W0064": 1,
+      "W0063": 1,
+      "W0061": 1,
+      "W0069": 2,
+      "W0067": 1
+    },
+    "idleWorkers": 0
+  },
+  {
+    "workerTypeName": "Nhân viên thiết kế thời trang",
+    "total_time_operations": 4,
+    "total_workers": 8,
+    "total_shifts": 10,
+    "max_shift_worker": "W0301",
+    "workers": {
+      "W0306": 1,
+      "W0303": 1,
+      "W0301": 2,
+      "W0308": 2,
+      "W0304": 1,
+      "W0307": 1,
+      "W0309": 1,
+      "W0302": 1
+    },
+    "idleWorkers": 0
+  },
+  {
+    "workerTypeName": "Nhân viên vận hành máy giặt",
+    "total_time_operations": 3,
+    "total_workers": 8,
+    "total_shifts": 9,
+    "max_shift_worker": "W0410",
+    "workers": {
+      "W0410": 2,
+      "W0408": 1,
+      "W0406": 1,
+      "W0405": 1,
+      "W0402": 1,
+      "W0409": 1,
+      "W0407": 1,
+      "W0404": 1
+    },
+    "idleWorkers": 0
+  },
+  {
+    "workerTypeName": "Nhân viên AQL",
+    "total_time_operations": 3,
+    "total_workers": 8,
+    "total_shifts": 9,
+    "max_shift_worker": "W0004",
+    "workers": {
+      "W0010": 1,
+      "W0009": 1,
+      "W0004": 2,
+      "W0003": 1,
+      "W0007": 1,
+      "W0006": 1,
+      "W0001": 1,
+      "W0005": 1
+    },
+    "idleWorkers": 0
+  },
+  {
+    "workerTypeName": "Nhân viên đính khuy",
+    "total_time_operations": 1,
+    "total_workers": 8,
+    "total_shifts": 8,
+    "max_shift_worker": "W0050",
+    "workers": {
+      "W0050": 1,
+      "W0060": 1,
+      "W0048": 1,
+      "W0058": 1,
+      "W0047": 1,
+      "W0055": 1,
+      "W0044": 1,
+      "W0054": 1
+    },
+    "idleWorkers": 0
+  },
+  {
+    "workerTypeName": "Nhân viên in",
+    "total_time_operations": 3,
+    "total_workers": 7,
+    "total_shifts": 8,
+    "max_shift_worker": "W0078",
+    "workers": {
+      "W0078": 2,
+      "W0076": 1,
+      "W0073": 1,
+      "W0072": 1,
+      "W0071": 1,
+      "W0079": 1,
+      "W0077": 1
+    },
+    "idleWorkers": 0
+  }
+]

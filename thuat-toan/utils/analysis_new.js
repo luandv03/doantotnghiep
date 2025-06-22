@@ -1,12 +1,12 @@
 const fs = require("fs");
 const path = require("path");
 
-const scheduleData = require("../out/out2/input9_2/schedule.json");
+const scheduleData = require("../out/out3/input9_2/schedule.json");
 const assetsData = require("../data-2/input9_2.json");
 const workersData = require("../data-2/input9_2.json");
 
-const outputData1 = "thuat-toan/out/out2/input9_2/maymocthongke.json";
-const outputData2 = "thuat-toan/out/out2/input9_2/nhanvienthongke.json";
+const outputData1 = "thuat-toan/out/out3/input9_2/maymocthongke.json";
+const outputData2 = "thuat-toan/out/out3/input9_2/nhanvienthongke.json";
 
 /**
  * Đếm số ca làm việc của một máy cụ thể.
