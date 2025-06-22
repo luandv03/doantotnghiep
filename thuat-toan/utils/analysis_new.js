@@ -1,9 +1,12 @@
-const scheduleData = require("./out/out2/input3/schedule.json");
-const assetsData = require("./data-2/input3.json");
-const workersData = require("./data-2/input3.json");
+const fs = require("fs");
+const path = require("path");
 
-const outputData1 = "./out/maymocthongke.json";
-const outputData2 = "./out/nhanvienthongke.json";
+const scheduleData = require("../out/out2/input18/schedule.json");
+const assetsData = require("../data-2/input18.json");
+const workersData = require("../data-2/input18.json");
+
+const outputData1 = "thuat-toan/out/out2/input18/maymocthongke.json";
+const outputData2 = "thuat-toan/out/out2/input18/nhanvienthongke.json";
 
 /**
  * Đếm số ca làm việc của một máy cụ thể.
@@ -796,11 +799,7 @@ if (require.main === module) {
     );
 
     // Lưu vào file JSON với định dạng mới
-    fs.writeFileSync(
-        outputData1,
-        JSON.stringify(formattedOutput, null, 2),
-        "utf-8"
-    );
+    fs.writeFileSync(outputData1, JSON.stringify(assets, null, 2), "utf-8");
 
     console.log("=== THỐNG KÊ THEO LOẠI MÁY ===");
     console.log(assets);
@@ -814,11 +813,7 @@ if (require.main === module) {
     );
 
     // Lưu vào file JSON với định dạng mới
-    fs.writeFileSync(
-        outputData2,
-        JSON.stringify(formattedOutput, null, 2),
-        "utf-8"
-    );
+    fs.writeFileSync(outputData2, JSON.stringify(workers, null, 2), "utf-8");
 
     console.log("=== THỐNG KÊ THEO LOẠI NHÂN VIÊN ===");
     console.log(workers);

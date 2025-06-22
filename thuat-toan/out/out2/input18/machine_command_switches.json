@@ -1,0 +1,6345 @@
+{
+  "summary": {
+    "total_machines": 100,
+    "generated_at": "2025-06-21T23:23:23.360Z"
+  },
+  "machines": {
+    "A004": {
+      "asset_id": "A004",
+      "total_commands_participated": 2,
+      "commands": [
+        "LSX0008",
+        "LSX1008"
+      ],
+      "command_switches": 1,
+      "activities": [
+        {
+          "day": "2025-04-28",
+          "shift": 1,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-28",
+          "shift": 2,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-28",
+          "shift": 4,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-05-01",
+          "shift": 3,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-05-02",
+          "shift": 2,
+          "command_id": "LSX1008"
+        }
+      ]
+    },
+    "A005": {
+      "asset_id": "A005",
+      "total_commands_participated": 4,
+      "commands": [
+        "LSX0001",
+        "LSX1001",
+        "LSX0008",
+        "LSX1008"
+      ],
+      "command_switches": 3,
+      "activities": [
+        {
+          "day": "2025-04-01",
+          "shift": 1,
+          "command_id": "LSX0001"
+        },
+        {
+          "day": "2025-04-01",
+          "shift": 2,
+          "command_id": "LSX0001"
+        },
+        {
+          "day": "2025-04-01",
+          "shift": 3,
+          "command_id": "LSX1001"
+        },
+        {
+          "day": "2025-04-02",
+          "shift": 3,
+          "command_id": "LSX1001"
+        },
+        {
+          "day": "2025-04-28",
+          "shift": 1,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-28",
+          "shift": 2,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-28",
+          "shift": 3,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-28",
+          "shift": 4,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-29",
+          "shift": 1,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-29",
+          "shift": 2,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-29",
+          "shift": 3,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-29",
+          "shift": 4,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-30",
+          "shift": 1,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-30",
+          "shift": 2,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-05-01",
+          "shift": 3,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-05-01",
+          "shift": 4,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-05-02",
+          "shift": 1,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-05-02",
+          "shift": 2,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-05-02",
+          "shift": 3,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-05-02",
+          "shift": 4,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-05-03",
+          "shift": 1,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-05-03",
+          "shift": 2,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-05-03",
+          "shift": 3,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-05-03",
+          "shift": 4,
+          "command_id": "LSX1008"
+        }
+      ]
+    },
+    "A008": {
+      "asset_id": "A008",
+      "total_commands_participated": 2,
+      "commands": [
+        "LSX0001",
+        "LSX1001"
+      ],
+      "command_switches": 1,
+      "activities": [
+        {
+          "day": "2025-04-01",
+          "shift": 4,
+          "command_id": "LSX0001"
+        },
+        {
+          "day": "2025-04-02",
+          "shift": 2,
+          "command_id": "LSX0001"
+        },
+        {
+          "day": "2025-04-03",
+          "shift": 2,
+          "command_id": "LSX0001"
+        },
+        {
+          "day": "2025-04-03",
+          "shift": 4,
+          "command_id": "LSX1001"
+        },
+        {
+          "day": "2025-04-07",
+          "shift": 3,
+          "command_id": "LSX1001"
+        },
+        {
+          "day": "2025-04-11",
+          "shift": 2,
+          "command_id": "LSX1001"
+        }
+      ]
+    },
+    "A011": {
+      "asset_id": "A011",
+      "total_commands_participated": 13,
+      "commands": [
+        "LSX0002",
+        "LSX0005",
+        "LSX0006",
+        "LSX1006",
+        "LSX0009",
+        "LSX0003",
+        "LSX1009",
+        "LSX0008",
+        "LSX1002",
+        "LSX1008",
+        "LSX0007",
+        "LSX1007",
+        "LSX0004"
+      ],
+      "command_switches": 26,
+      "activities": [
+        {
+          "day": "2025-04-01",
+          "shift": 2,
+          "command_id": "LSX0002"
+        },
+        {
+          "day": "2025-04-01",
+          "shift": 3,
+          "command_id": "LSX0002"
+        },
+        {
+          "day": "2025-04-01",
+          "shift": 4,
+          "command_id": "LSX0002"
+        },
+        {
+          "day": "2025-04-02",
+          "shift": 1,
+          "command_id": "LSX0002"
+        },
+        {
+          "day": "2025-04-02",
+          "shift": 2,
+          "command_id": "LSX0002"
+        },
+        {
+          "day": "2025-04-02",
+          "shift": 3,
+          "command_id": "LSX0002"
+        },
+        {
+          "day": "2025-04-02",
+          "shift": 4,
+          "command_id": "LSX0002"
+        },
+        {
+          "day": "2025-04-03",
+          "shift": 1,
+          "command_id": "LSX0002"
+        },
+        {
+          "day": "2025-04-03",
+          "shift": 2,
+          "command_id": "LSX0002"
+        },
+        {
+          "day": "2025-04-04",
+          "shift": 1,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-04-04",
+          "shift": 2,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-04-04",
+          "shift": 3,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-04-04",
+          "shift": 4,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-04-05",
+          "shift": 1,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-04-05",
+          "shift": 2,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-04-05",
+          "shift": 4,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-06",
+          "shift": 1,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-06",
+          "shift": 2,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-06",
+          "shift": 3,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-06",
+          "shift": 4,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-08",
+          "shift": 2,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-04-08",
+          "shift": 3,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-08",
+          "shift": 4,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-04-09",
+          "shift": 1,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-09",
+          "shift": 2,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-04-09",
+          "shift": 3,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-09",
+          "shift": 4,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-04-10",
+          "shift": 1,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-10",
+          "shift": 2,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-12",
+          "shift": 2,
+          "command_id": "LSX0003"
+        },
+        {
+          "day": "2025-04-12",
+          "shift": 3,
+          "command_id": "LSX0003"
+        },
+        {
+          "day": "2025-04-12",
+          "shift": 4,
+          "command_id": "LSX0003"
+        },
+        {
+          "day": "2025-04-13",
+          "shift": 1,
+          "command_id": "LSX0003"
+        },
+        {
+          "day": "2025-04-14",
+          "shift": 1,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-14",
+          "shift": 3,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-14",
+          "shift": 4,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-15",
+          "shift": 1,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-15",
+          "shift": 2,
+          "command_id": "LSX1002"
+        },
+        {
+          "day": "2025-04-15",
+          "shift": 3,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-15",
+          "shift": 4,
+          "command_id": "LSX1002"
+        },
+        {
+          "day": "2025-04-16",
+          "shift": 1,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-16",
+          "shift": 2,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-16",
+          "shift": 3,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-16",
+          "shift": 4,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-17",
+          "shift": 1,
+          "command_id": "LSX1002"
+        },
+        {
+          "day": "2025-04-17",
+          "shift": 2,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-17",
+          "shift": 3,
+          "command_id": "LSX1002"
+        },
+        {
+          "day": "2025-04-17",
+          "shift": 4,
+          "command_id": "LSX1002"
+        },
+        {
+          "day": "2025-04-18",
+          "shift": 1,
+          "command_id": "LSX1002"
+        },
+        {
+          "day": "2025-04-18",
+          "shift": 2,
+          "command_id": "LSX1002"
+        },
+        {
+          "day": "2025-04-18",
+          "shift": 3,
+          "command_id": "LSX1002"
+        },
+        {
+          "day": "2025-04-18",
+          "shift": 4,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-19",
+          "shift": 2,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-19",
+          "shift": 4,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-20",
+          "shift": 2,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-21",
+          "shift": 1,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-21",
+          "shift": 3,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-22",
+          "shift": 1,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-23",
+          "shift": 1,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-23",
+          "shift": 2,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-23",
+          "shift": 3,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-04-23",
+          "shift": 4,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-04-24",
+          "shift": 1,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-04-24",
+          "shift": 2,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-04-24",
+          "shift": 3,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-04-24",
+          "shift": 4,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-04-25",
+          "shift": 1,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-04-25",
+          "shift": 2,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-04-25",
+          "shift": 3,
+          "command_id": "LSX1007"
+        },
+        {
+          "day": "2025-04-25",
+          "shift": 4,
+          "command_id": "LSX1007"
+        },
+        {
+          "day": "2025-04-26",
+          "shift": 1,
+          "command_id": "LSX1007"
+        },
+        {
+          "day": "2025-05-09",
+          "shift": 3,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-05-09",
+          "shift": 4,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-05-10",
+          "shift": 1,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-05-10",
+          "shift": 2,
+          "command_id": "LSX0004"
+        }
+      ]
+    },
+    "A014": {
+      "asset_id": "A014",
+      "total_commands_participated": 3,
+      "commands": [
+        "LSX0001",
+        "LSX1009",
+        "LSX1003"
+      ],
+      "command_switches": 7,
+      "activities": [
+        {
+          "day": "2025-04-03",
+          "shift": 3,
+          "command_id": "LSX0001"
+        },
+        {
+          "day": "2025-04-03",
+          "shift": 4,
+          "command_id": "LSX0001"
+        },
+        {
+          "day": "2025-04-13",
+          "shift": 1,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-14",
+          "shift": 1,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-14",
+          "shift": 2,
+          "command_id": "LSX1003"
+        },
+        {
+          "day": "2025-04-14",
+          "shift": 4,
+          "command_id": "LSX1003"
+        },
+        {
+          "day": "2025-04-15",
+          "shift": 1,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-15",
+          "shift": 2,
+          "command_id": "LSX1003"
+        },
+        {
+          "day": "2025-04-15",
+          "shift": 3,
+          "command_id": "LSX1003"
+        },
+        {
+          "day": "2025-04-16",
+          "shift": 1,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-16",
+          "shift": 2,
+          "command_id": "LSX1003"
+        },
+        {
+          "day": "2025-04-16",
+          "shift": 3,
+          "command_id": "LSX1009"
+        }
+      ]
+    },
+    "A016": {
+      "asset_id": "A016",
+      "total_commands_participated": 9,
+      "commands": [
+        "LSX0006",
+        "LSX0007",
+        "LSX1007",
+        "LSX0008",
+        "LSX1008",
+        "LSX1001",
+        "LSX1006",
+        "LSX0004",
+        "LSX1004"
+      ],
+      "command_switches": 14,
+      "activities": [
+        {
+          "day": "2025-04-12",
+          "shift": 2,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-12",
+          "shift": 3,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-12",
+          "shift": 4,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-13",
+          "shift": 1,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-13",
+          "shift": 2,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-04-13",
+          "shift": 3,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-04-13",
+          "shift": 4,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-17",
+          "shift": 2,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-04-18",
+          "shift": 1,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-04-18",
+          "shift": 3,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-04-18",
+          "shift": 4,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-04-19",
+          "shift": 1,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-04-19",
+          "shift": 2,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-04-19",
+          "shift": 3,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-04-19",
+          "shift": 4,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-04-20",
+          "shift": 1,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-04-20",
+          "shift": 2,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-04-20",
+          "shift": 3,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-04-20",
+          "shift": 4,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-04-21",
+          "shift": 1,
+          "command_id": "LSX1007"
+        },
+        {
+          "day": "2025-04-21",
+          "shift": 2,
+          "command_id": "LSX1007"
+        },
+        {
+          "day": "2025-04-21",
+          "shift": 3,
+          "command_id": "LSX1007"
+        },
+        {
+          "day": "2025-04-21",
+          "shift": 4,
+          "command_id": "LSX1007"
+        },
+        {
+          "day": "2025-04-22",
+          "shift": 2,
+          "command_id": "LSX1007"
+        },
+        {
+          "day": "2025-04-22",
+          "shift": 3,
+          "command_id": "LSX1007"
+        },
+        {
+          "day": "2025-04-22",
+          "shift": 4,
+          "command_id": "LSX1007"
+        },
+        {
+          "day": "2025-04-23",
+          "shift": 1,
+          "command_id": "LSX1007"
+        },
+        {
+          "day": "2025-04-23",
+          "shift": 2,
+          "command_id": "LSX1007"
+        },
+        {
+          "day": "2025-04-23",
+          "shift": 3,
+          "command_id": "LSX1007"
+        },
+        {
+          "day": "2025-04-23",
+          "shift": 4,
+          "command_id": "LSX1007"
+        },
+        {
+          "day": "2025-04-24",
+          "shift": 1,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-24",
+          "shift": 2,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-24",
+          "shift": 3,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-24",
+          "shift": 4,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-25",
+          "shift": 1,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-25",
+          "shift": 2,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-25",
+          "shift": 3,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-25",
+          "shift": 4,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-26",
+          "shift": 1,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-26",
+          "shift": 2,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-26",
+          "shift": 3,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-26",
+          "shift": 4,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-27",
+          "shift": 1,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-27",
+          "shift": 2,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-04-27",
+          "shift": 3,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-04-27",
+          "shift": 4,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-04-28",
+          "shift": 1,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-04-28",
+          "shift": 2,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-04-28",
+          "shift": 4,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-04-29",
+          "shift": 1,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-04-29",
+          "shift": 2,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-04-29",
+          "shift": 3,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-04-29",
+          "shift": 4,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-04-30",
+          "shift": 1,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-04-30",
+          "shift": 2,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-04-30",
+          "shift": 3,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-04-30",
+          "shift": 4,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-05-03",
+          "shift": 4,
+          "command_id": "LSX1001"
+        },
+        {
+          "day": "2025-05-04",
+          "shift": 1,
+          "command_id": "LSX1001"
+        },
+        {
+          "day": "2025-05-04",
+          "shift": 2,
+          "command_id": "LSX1001"
+        },
+        {
+          "day": "2025-05-04",
+          "shift": 4,
+          "command_id": "LSX1001"
+        },
+        {
+          "day": "2025-05-05",
+          "shift": 1,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-05-05",
+          "shift": 2,
+          "command_id": "LSX1001"
+        },
+        {
+          "day": "2025-05-05",
+          "shift": 3,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-05-05",
+          "shift": 4,
+          "command_id": "LSX1001"
+        },
+        {
+          "day": "2025-05-06",
+          "shift": 1,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-05-06",
+          "shift": 2,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-05-06",
+          "shift": 3,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-05-06",
+          "shift": 4,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-05-07",
+          "shift": 1,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-05-07",
+          "shift": 2,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-05-07",
+          "shift": 3,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-05-07",
+          "shift": 4,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-05-08",
+          "shift": 1,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-05-08",
+          "shift": 2,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-05-08",
+          "shift": 3,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-05-08",
+          "shift": 4,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-05-09",
+          "shift": 1,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-05-09",
+          "shift": 2,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-05-09",
+          "shift": 3,
+          "command_id": "LSX1004"
+        },
+        {
+          "day": "2025-05-09",
+          "shift": 4,
+          "command_id": "LSX1004"
+        },
+        {
+          "day": "2025-05-10",
+          "shift": 1,
+          "command_id": "LSX1004"
+        },
+        {
+          "day": "2025-05-10",
+          "shift": 3,
+          "command_id": "LSX1004"
+        },
+        {
+          "day": "2025-05-10",
+          "shift": 4,
+          "command_id": "LSX1004"
+        },
+        {
+          "day": "2025-05-11",
+          "shift": 1,
+          "command_id": "LSX1004"
+        },
+        {
+          "day": "2025-05-11",
+          "shift": 2,
+          "command_id": "LSX1004"
+        }
+      ]
+    },
+    "A022": {
+      "asset_id": "A022",
+      "total_commands_participated": 4,
+      "commands": [
+        "LSX0001",
+        "LSX0003",
+        "LSX1003",
+        "LSX1001"
+      ],
+      "command_switches": 3,
+      "activities": [
+        {
+          "day": "2025-04-08",
+          "shift": 3,
+          "command_id": "LSX0001"
+        },
+        {
+          "day": "2025-04-08",
+          "shift": 4,
+          "command_id": "LSX0001"
+        },
+        {
+          "day": "2025-04-13",
+          "shift": 2,
+          "command_id": "LSX0003"
+        },
+        {
+          "day": "2025-04-13",
+          "shift": 3,
+          "command_id": "LSX0003"
+        },
+        {
+          "day": "2025-04-13",
+          "shift": 4,
+          "command_id": "LSX0003"
+        },
+        {
+          "day": "2025-04-16",
+          "shift": 3,
+          "command_id": "LSX1003"
+        },
+        {
+          "day": "2025-04-16",
+          "shift": 4,
+          "command_id": "LSX1003"
+        },
+        {
+          "day": "2025-04-17",
+          "shift": 1,
+          "command_id": "LSX1003"
+        },
+        {
+          "day": "2025-05-06",
+          "shift": 1,
+          "command_id": "LSX1001"
+        }
+      ]
+    },
+    "A024": {
+      "asset_id": "A024",
+      "total_commands_participated": 2,
+      "commands": [
+        "LSX0001",
+        "LSX1001"
+      ],
+      "command_switches": 1,
+      "activities": [
+        {
+          "day": "2025-04-09",
+          "shift": 1,
+          "command_id": "LSX0001"
+        },
+        {
+          "day": "2025-04-09",
+          "shift": 2,
+          "command_id": "LSX0001"
+        },
+        {
+          "day": "2025-04-09",
+          "shift": 3,
+          "command_id": "LSX0001"
+        },
+        {
+          "day": "2025-04-09",
+          "shift": 4,
+          "command_id": "LSX0001"
+        },
+        {
+          "day": "2025-05-07",
+          "shift": 1,
+          "command_id": "LSX1001"
+        },
+        {
+          "day": "2025-05-07",
+          "shift": 2,
+          "command_id": "LSX1001"
+        }
+      ]
+    },
+    "A027": {
+      "asset_id": "A027",
+      "total_commands_participated": 10,
+      "commands": [
+        "LSX0003",
+        "LSX1003",
+        "LSX1002",
+        "LSX0008",
+        "LSX0007",
+        "LSX1008",
+        "LSX1007",
+        "LSX1001",
+        "LSX0004",
+        "LSX1004"
+      ],
+      "command_switches": 9,
+      "activities": [
+        {
+          "day": "2025-04-19",
+          "shift": 1,
+          "command_id": "LSX0003"
+        },
+        {
+          "day": "2025-04-20",
+          "shift": 3,
+          "command_id": "LSX1003"
+        },
+        {
+          "day": "2025-04-25",
+          "shift": 2,
+          "command_id": "LSX1002"
+        },
+        {
+          "day": "2025-04-30",
+          "shift": 3,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-30",
+          "shift": 4,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-05-01",
+          "shift": 1,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-05-01",
+          "shift": 2,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-05-01",
+          "shift": 3,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-05-01",
+          "shift": 4,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-05-02",
+          "shift": 1,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-05-04",
+          "shift": 1,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-05-04",
+          "shift": 2,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-05-04",
+          "shift": 3,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-05-04",
+          "shift": 4,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-05-05",
+          "shift": 1,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-05-06",
+          "shift": 4,
+          "command_id": "LSX1007"
+        },
+        {
+          "day": "2025-05-07",
+          "shift": 1,
+          "command_id": "LSX1007"
+        },
+        {
+          "day": "2025-05-08",
+          "shift": 1,
+          "command_id": "LSX1001"
+        },
+        {
+          "day": "2025-05-08",
+          "shift": 2,
+          "command_id": "LSX1001"
+        },
+        {
+          "day": "2025-05-08",
+          "shift": 3,
+          "command_id": "LSX1001"
+        },
+        {
+          "day": "2025-05-16",
+          "shift": 4,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-05-17",
+          "shift": 1,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-05-20",
+          "shift": 2,
+          "command_id": "LSX1004"
+        },
+        {
+          "day": "2025-05-20",
+          "shift": 3,
+          "command_id": "LSX1004"
+        }
+      ]
+    },
+    "A030": {
+      "asset_id": "A030",
+      "total_commands_participated": 2,
+      "commands": [
+        "LSX0002",
+        "LSX0001"
+      ],
+      "command_switches": 1,
+      "activities": [
+        {
+          "day": "2025-04-09",
+          "shift": 2,
+          "command_id": "LSX0002"
+        },
+        {
+          "day": "2025-04-10",
+          "shift": 1,
+          "command_id": "LSX0001"
+        }
+      ]
+    },
+    "A032": {
+      "asset_id": "A032",
+      "total_commands_participated": 1,
+      "commands": [
+        "LSX1006"
+      ],
+      "command_switches": 0,
+      "activities": [
+        {
+          "day": "2025-04-06",
+          "shift": 1,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-04-07",
+          "shift": 1,
+          "command_id": "LSX1006"
+        }
+      ]
+    },
+    "A033": {
+      "asset_id": "A033",
+      "total_commands_participated": 13,
+      "commands": [
+        "LSX0009",
+        "LSX0005",
+        "LSX1009",
+        "LSX0006",
+        "LSX0003",
+        "LSX1006",
+        "LSX0004",
+        "LSX1004",
+        "LSX1005",
+        "LSX1003",
+        "LSX0008",
+        "LSX1008",
+        "LSX1002"
+      ],
+      "command_switches": 24,
+      "activities": [
+        {
+          "day": "2025-04-01",
+          "shift": 1,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-01",
+          "shift": 3,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-01",
+          "shift": 4,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-04-02",
+          "shift": 1,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-02",
+          "shift": 2,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-02",
+          "shift": 3,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-04-02",
+          "shift": 4,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-03",
+          "shift": 1,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-03",
+          "shift": 2,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-03",
+          "shift": 3,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-03",
+          "shift": 4,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-04",
+          "shift": 1,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-04",
+          "shift": 2,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-04",
+          "shift": 3,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-04",
+          "shift": 4,
+          "command_id": "LSX0003"
+        },
+        {
+          "day": "2025-04-05",
+          "shift": 1,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-05",
+          "shift": 2,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-05",
+          "shift": 3,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-05",
+          "shift": 4,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-04-06",
+          "shift": 1,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-04-06",
+          "shift": 2,
+          "command_id": "LSX0003"
+        },
+        {
+          "day": "2025-04-06",
+          "shift": 3,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-04-06",
+          "shift": 4,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-04-07",
+          "shift": 1,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-04-07",
+          "shift": 2,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-04-07",
+          "shift": 3,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-04-07",
+          "shift": 4,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-04-08",
+          "shift": 1,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-04-08",
+          "shift": 2,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-04-08",
+          "shift": 3,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-04-08",
+          "shift": 4,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-04-09",
+          "shift": 1,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-04-09",
+          "shift": 2,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-04-09",
+          "shift": 3,
+          "command_id": "LSX1004"
+        },
+        {
+          "day": "2025-04-09",
+          "shift": 4,
+          "command_id": "LSX1004"
+        },
+        {
+          "day": "2025-04-10",
+          "shift": 1,
+          "command_id": "LSX1005"
+        },
+        {
+          "day": "2025-04-10",
+          "shift": 2,
+          "command_id": "LSX1004"
+        },
+        {
+          "day": "2025-04-10",
+          "shift": 3,
+          "command_id": "LSX1005"
+        },
+        {
+          "day": "2025-04-10",
+          "shift": 4,
+          "command_id": "LSX0003"
+        },
+        {
+          "day": "2025-04-11",
+          "shift": 1,
+          "command_id": "LSX1004"
+        },
+        {
+          "day": "2025-04-11",
+          "shift": 2,
+          "command_id": "LSX1005"
+        },
+        {
+          "day": "2025-04-11",
+          "shift": 3,
+          "command_id": "LSX1005"
+        },
+        {
+          "day": "2025-04-11",
+          "shift": 4,
+          "command_id": "LSX1005"
+        },
+        {
+          "day": "2025-04-12",
+          "shift": 1,
+          "command_id": "LSX1005"
+        },
+        {
+          "day": "2025-04-12",
+          "shift": 2,
+          "command_id": "LSX1005"
+        },
+        {
+          "day": "2025-04-12",
+          "shift": 3,
+          "command_id": "LSX1005"
+        },
+        {
+          "day": "2025-04-12",
+          "shift": 4,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-13",
+          "shift": 4,
+          "command_id": "LSX1003"
+        },
+        {
+          "day": "2025-04-14",
+          "shift": 1,
+          "command_id": "LSX1003"
+        },
+        {
+          "day": "2025-04-14",
+          "shift": 2,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-14",
+          "shift": 3,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-04-14",
+          "shift": 4,
+          "command_id": "LSX1002"
+        }
+      ]
+    },
+    "A036": {
+      "asset_id": "A036",
+      "total_commands_participated": 1,
+      "commands": [
+        "LSX0002"
+      ],
+      "command_switches": 0,
+      "activities": [
+        {
+          "day": "2025-04-04",
+          "shift": 4,
+          "command_id": "LSX0002"
+        }
+      ]
+    },
+    "A039": {
+      "asset_id": "A039",
+      "total_commands_participated": 1,
+      "commands": [
+        "LSX1002"
+      ],
+      "command_switches": 0,
+      "activities": [
+        {
+          "day": "2025-04-18",
+          "shift": 4,
+          "command_id": "LSX1002"
+        },
+        {
+          "day": "2025-04-19",
+          "shift": 1,
+          "command_id": "LSX1002"
+        },
+        {
+          "day": "2025-04-19",
+          "shift": 2,
+          "command_id": "LSX1002"
+        }
+      ]
+    },
+    "A040": {
+      "asset_id": "A040",
+      "total_commands_participated": 10,
+      "commands": [
+        "LSX0002",
+        "LSX0006",
+        "LSX1003",
+        "LSX1002",
+        "LSX1009",
+        "LSX0007",
+        "LSX1007",
+        "LSX1006",
+        "LSX0004",
+        "LSX1004"
+      ],
+      "command_switches": 17,
+      "activities": [
+        {
+          "day": "2025-04-05",
+          "shift": 1,
+          "command_id": "LSX0002"
+        },
+        {
+          "day": "2025-04-05",
+          "shift": 2,
+          "command_id": "LSX0002"
+        },
+        {
+          "day": "2025-04-05",
+          "shift": 3,
+          "command_id": "LSX0002"
+        },
+        {
+          "day": "2025-04-06",
+          "shift": 1,
+          "command_id": "LSX0002"
+        },
+        {
+          "day": "2025-04-06",
+          "shift": 2,
+          "command_id": "LSX0002"
+        },
+        {
+          "day": "2025-04-06",
+          "shift": 3,
+          "command_id": "LSX0002"
+        },
+        {
+          "day": "2025-04-06",
+          "shift": 4,
+          "command_id": "LSX0002"
+        },
+        {
+          "day": "2025-04-07",
+          "shift": 1,
+          "command_id": "LSX0002"
+        },
+        {
+          "day": "2025-04-15",
+          "shift": 3,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-15",
+          "shift": 4,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-16",
+          "shift": 1,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-16",
+          "shift": 2,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-16",
+          "shift": 3,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-17",
+          "shift": 1,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-17",
+          "shift": 2,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-17",
+          "shift": 3,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-17",
+          "shift": 4,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-18",
+          "shift": 1,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-18",
+          "shift": 3,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-18",
+          "shift": 4,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-19",
+          "shift": 1,
+          "command_id": "LSX1003"
+        },
+        {
+          "day": "2025-04-19",
+          "shift": 2,
+          "command_id": "LSX1003"
+        },
+        {
+          "day": "2025-04-19",
+          "shift": 4,
+          "command_id": "LSX1002"
+        },
+        {
+          "day": "2025-04-20",
+          "shift": 1,
+          "command_id": "LSX1003"
+        },
+        {
+          "day": "2025-04-20",
+          "shift": 2,
+          "command_id": "LSX1003"
+        },
+        {
+          "day": "2025-04-20",
+          "shift": 3,
+          "command_id": "LSX1002"
+        },
+        {
+          "day": "2025-04-20",
+          "shift": 4,
+          "command_id": "LSX1002"
+        },
+        {
+          "day": "2025-04-21",
+          "shift": 1,
+          "command_id": "LSX1002"
+        },
+        {
+          "day": "2025-04-21",
+          "shift": 2,
+          "command_id": "LSX1002"
+        },
+        {
+          "day": "2025-04-21",
+          "shift": 3,
+          "command_id": "LSX1002"
+        },
+        {
+          "day": "2025-04-21",
+          "shift": 4,
+          "command_id": "LSX1002"
+        },
+        {
+          "day": "2025-04-22",
+          "shift": 1,
+          "command_id": "LSX1002"
+        },
+        {
+          "day": "2025-04-22",
+          "shift": 2,
+          "command_id": "LSX1002"
+        },
+        {
+          "day": "2025-04-22",
+          "shift": 3,
+          "command_id": "LSX1002"
+        },
+        {
+          "day": "2025-04-23",
+          "shift": 2,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-23",
+          "shift": 3,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-23",
+          "shift": 4,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-24",
+          "shift": 1,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-24",
+          "shift": 2,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-24",
+          "shift": 3,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-24",
+          "shift": 4,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-25",
+          "shift": 1,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-25",
+          "shift": 2,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-25",
+          "shift": 3,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-25",
+          "shift": 4,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-04-26",
+          "shift": 1,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-04-26",
+          "shift": 2,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-04-26",
+          "shift": 3,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-04-26",
+          "shift": 4,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-04-27",
+          "shift": 1,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-04-27",
+          "shift": 2,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-04-27",
+          "shift": 3,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-04-27",
+          "shift": 4,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-04-28",
+          "shift": 1,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-04-28",
+          "shift": 2,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-04-28",
+          "shift": 3,
+          "command_id": "LSX1007"
+        },
+        {
+          "day": "2025-04-28",
+          "shift": 4,
+          "command_id": "LSX1007"
+        },
+        {
+          "day": "2025-04-29",
+          "shift": 1,
+          "command_id": "LSX1007"
+        },
+        {
+          "day": "2025-04-29",
+          "shift": 2,
+          "command_id": "LSX1007"
+        },
+        {
+          "day": "2025-04-29",
+          "shift": 3,
+          "command_id": "LSX1007"
+        },
+        {
+          "day": "2025-04-29",
+          "shift": 4,
+          "command_id": "LSX1007"
+        },
+        {
+          "day": "2025-04-30",
+          "shift": 1,
+          "command_id": "LSX1007"
+        },
+        {
+          "day": "2025-04-30",
+          "shift": 2,
+          "command_id": "LSX1007"
+        },
+        {
+          "day": "2025-04-30",
+          "shift": 3,
+          "command_id": "LSX1007"
+        },
+        {
+          "day": "2025-04-30",
+          "shift": 4,
+          "command_id": "LSX1007"
+        },
+        {
+          "day": "2025-05-09",
+          "shift": 3,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-05-09",
+          "shift": 4,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-05-10",
+          "shift": 1,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-05-10",
+          "shift": 2,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-05-10",
+          "shift": 3,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-05-10",
+          "shift": 4,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-05-11",
+          "shift": 1,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-05-11",
+          "shift": 2,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-05-11",
+          "shift": 3,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-05-11",
+          "shift": 4,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-05-12",
+          "shift": 1,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-05-12",
+          "shift": 2,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-05-12",
+          "shift": 3,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-05-12",
+          "shift": 4,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-05-13",
+          "shift": 1,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-05-13",
+          "shift": 2,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-05-13",
+          "shift": 3,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-05-13",
+          "shift": 4,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-05-14",
+          "shift": 1,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-05-14",
+          "shift": 2,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-05-14",
+          "shift": 4,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-05-15",
+          "shift": 1,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-05-15",
+          "shift": 2,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-05-15",
+          "shift": 3,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-05-15",
+          "shift": 4,
+          "command_id": "LSX1004"
+        },
+        {
+          "day": "2025-05-16",
+          "shift": 1,
+          "command_id": "LSX1004"
+        },
+        {
+          "day": "2025-05-16",
+          "shift": 2,
+          "command_id": "LSX1004"
+        },
+        {
+          "day": "2025-05-16",
+          "shift": 3,
+          "command_id": "LSX1004"
+        },
+        {
+          "day": "2025-05-16",
+          "shift": 4,
+          "command_id": "LSX1004"
+        },
+        {
+          "day": "2025-05-17",
+          "shift": 1,
+          "command_id": "LSX1004"
+        },
+        {
+          "day": "2025-05-17",
+          "shift": 2,
+          "command_id": "LSX1004"
+        },
+        {
+          "day": "2025-05-17",
+          "shift": 3,
+          "command_id": "LSX1004"
+        },
+        {
+          "day": "2025-05-17",
+          "shift": 4,
+          "command_id": "LSX1004"
+        },
+        {
+          "day": "2025-05-18",
+          "shift": 1,
+          "command_id": "LSX1004"
+        },
+        {
+          "day": "2025-05-18",
+          "shift": 2,
+          "command_id": "LSX1004"
+        },
+        {
+          "day": "2025-05-18",
+          "shift": 3,
+          "command_id": "LSX1004"
+        },
+        {
+          "day": "2025-05-18",
+          "shift": 4,
+          "command_id": "LSX1004"
+        },
+        {
+          "day": "2025-05-19",
+          "shift": 1,
+          "command_id": "LSX1004"
+        }
+      ]
+    },
+    "A043": {
+      "asset_id": "A043",
+      "total_commands_participated": 3,
+      "commands": [
+        "LSX0002",
+        "LSX0009",
+        "LSX0007"
+      ],
+      "command_switches": 2,
+      "activities": [
+        {
+          "day": "2025-04-05",
+          "shift": 1,
+          "command_id": "LSX0002"
+        },
+        {
+          "day": "2025-04-12",
+          "shift": 2,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-12",
+          "shift": 3,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-13",
+          "shift": 1,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-13",
+          "shift": 2,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-14",
+          "shift": 1,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-14",
+          "shift": 3,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-26",
+          "shift": 1,
+          "command_id": "LSX0007"
+        }
+      ]
+    },
+    "A045": {
+      "asset_id": "A045",
+      "total_commands_participated": 1,
+      "commands": [
+        "LSX0002"
+      ],
+      "command_switches": 0,
+      "activities": [
+        {
+          "day": "2025-04-07",
+          "shift": 2,
+          "command_id": "LSX0002"
+        }
+      ]
+    },
+    "A046": {
+      "asset_id": "A046",
+      "total_commands_participated": 2,
+      "commands": [
+        "LSX0002",
+        "LSX1002"
+      ],
+      "command_switches": 1,
+      "activities": [
+        {
+          "day": "2025-04-07",
+          "shift": 2,
+          "command_id": "LSX0002"
+        },
+        {
+          "day": "2025-04-07",
+          "shift": 3,
+          "command_id": "LSX0002"
+        },
+        {
+          "day": "2025-04-22",
+          "shift": 4,
+          "command_id": "LSX1002"
+        },
+        {
+          "day": "2025-04-23",
+          "shift": 1,
+          "command_id": "LSX1002"
+        },
+        {
+          "day": "2025-04-23",
+          "shift": 2,
+          "command_id": "LSX1002"
+        },
+        {
+          "day": "2025-04-23",
+          "shift": 3,
+          "command_id": "LSX1002"
+        },
+        {
+          "day": "2025-04-23",
+          "shift": 4,
+          "command_id": "LSX1002"
+        }
+      ]
+    },
+    "A047": {
+      "asset_id": "A047",
+      "total_commands_participated": 2,
+      "commands": [
+        "LSX0002",
+        "LSX1002"
+      ],
+      "command_switches": 1,
+      "activities": [
+        {
+          "day": "2025-04-08",
+          "shift": 2,
+          "command_id": "LSX0002"
+        },
+        {
+          "day": "2025-04-08",
+          "shift": 4,
+          "command_id": "LSX0002"
+        },
+        {
+          "day": "2025-04-24",
+          "shift": 1,
+          "command_id": "LSX1002"
+        },
+        {
+          "day": "2025-04-24",
+          "shift": 2,
+          "command_id": "LSX1002"
+        },
+        {
+          "day": "2025-04-24",
+          "shift": 3,
+          "command_id": "LSX1002"
+        },
+        {
+          "day": "2025-04-24",
+          "shift": 4,
+          "command_id": "LSX1002"
+        },
+        {
+          "day": "2025-04-25",
+          "shift": 1,
+          "command_id": "LSX1002"
+        }
+      ]
+    },
+    "A050": {
+      "asset_id": "A050",
+      "total_commands_participated": 1,
+      "commands": [
+        "LSX1002"
+      ],
+      "command_switches": 0,
+      "activities": [
+        {
+          "day": "2025-04-24",
+          "shift": 1,
+          "command_id": "LSX1002"
+        }
+      ]
+    },
+    "A051": {
+      "asset_id": "A051",
+      "total_commands_participated": 1,
+      "commands": [
+        "LSX1003"
+      ],
+      "command_switches": 0,
+      "activities": [
+        {
+          "day": "2025-04-02",
+          "shift": 2,
+          "command_id": "LSX1003"
+        },
+        {
+          "day": "2025-04-03",
+          "shift": 1,
+          "command_id": "LSX1003"
+        }
+      ]
+    },
+    "A056": {
+      "asset_id": "A056",
+      "total_commands_participated": 2,
+      "commands": [
+        "LSX0004",
+        "LSX1004"
+      ],
+      "command_switches": 1,
+      "activities": [
+        {
+          "day": "2025-04-01",
+          "shift": 1,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-04-01",
+          "shift": 2,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-04-01",
+          "shift": 3,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-04-01",
+          "shift": 4,
+          "command_id": "LSX1004"
+        }
+      ]
+    },
+    "A058": {
+      "asset_id": "A058",
+      "total_commands_participated": 1,
+      "commands": [
+        "LSX1004"
+      ],
+      "command_switches": 0,
+      "activities": [
+        {
+          "day": "2025-05-19",
+          "shift": 2,
+          "command_id": "LSX1004"
+        },
+        {
+          "day": "2025-05-19",
+          "shift": 3,
+          "command_id": "LSX1004"
+        },
+        {
+          "day": "2025-05-19",
+          "shift": 4,
+          "command_id": "LSX1004"
+        },
+        {
+          "day": "2025-05-20",
+          "shift": 1,
+          "command_id": "LSX1004"
+        }
+      ]
+    },
+    "A060": {
+      "asset_id": "A060",
+      "total_commands_participated": 1,
+      "commands": [
+        "LSX0005"
+      ],
+      "command_switches": 0,
+      "activities": [
+        {
+          "day": "2025-04-03",
+          "shift": 2,
+          "command_id": "LSX0005"
+        }
+      ]
+    },
+    "A062": {
+      "asset_id": "A062",
+      "total_commands_participated": 2,
+      "commands": [
+        "LSX0005",
+        "LSX1005"
+      ],
+      "command_switches": 1,
+      "activities": [
+        {
+          "day": "2025-04-03",
+          "shift": 2,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-04-13",
+          "shift": 2,
+          "command_id": "LSX1005"
+        }
+      ]
+    },
+    "A063": {
+      "asset_id": "A063",
+      "total_commands_participated": 2,
+      "commands": [
+        "LSX0005",
+        "LSX1005"
+      ],
+      "command_switches": 1,
+      "activities": [
+        {
+          "day": "2025-04-10",
+          "shift": 4,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-04-11",
+          "shift": 4,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-05-01",
+          "shift": 1,
+          "command_id": "LSX1005"
+        },
+        {
+          "day": "2025-05-01",
+          "shift": 2,
+          "command_id": "LSX1005"
+        },
+        {
+          "day": "2025-05-01",
+          "shift": 3,
+          "command_id": "LSX1005"
+        },
+        {
+          "day": "2025-05-01",
+          "shift": 4,
+          "command_id": "LSX1005"
+        },
+        {
+          "day": "2025-05-02",
+          "shift": 1,
+          "command_id": "LSX1005"
+        },
+        {
+          "day": "2025-05-02",
+          "shift": 2,
+          "command_id": "LSX1005"
+        },
+        {
+          "day": "2025-05-02",
+          "shift": 3,
+          "command_id": "LSX1005"
+        },
+        {
+          "day": "2025-05-02",
+          "shift": 4,
+          "command_id": "LSX1005"
+        },
+        {
+          "day": "2025-05-03",
+          "shift": 1,
+          "command_id": "LSX1005"
+        },
+        {
+          "day": "2025-05-03",
+          "shift": 3,
+          "command_id": "LSX1005"
+        }
+      ]
+    },
+    "A068": {
+      "asset_id": "A068",
+      "total_commands_participated": 1,
+      "commands": [
+        "LSX1005"
+      ],
+      "command_switches": 0,
+      "activities": [
+        {
+          "day": "2025-05-04",
+          "shift": 1,
+          "command_id": "LSX1005"
+        },
+        {
+          "day": "2025-05-04",
+          "shift": 2,
+          "command_id": "LSX1005"
+        },
+        {
+          "day": "2025-05-04",
+          "shift": 3,
+          "command_id": "LSX1005"
+        },
+        {
+          "day": "2025-05-05",
+          "shift": 1,
+          "command_id": "LSX1005"
+        },
+        {
+          "day": "2025-05-05",
+          "shift": 2,
+          "command_id": "LSX1005"
+        },
+        {
+          "day": "2025-05-05",
+          "shift": 3,
+          "command_id": "LSX1005"
+        }
+      ]
+    },
+    "A070": {
+      "asset_id": "A070",
+      "total_commands_participated": 1,
+      "commands": [
+        "LSX0005"
+      ],
+      "command_switches": 0,
+      "activities": [
+        {
+          "day": "2025-04-14",
+          "shift": 2,
+          "command_id": "LSX0005"
+        }
+      ]
+    },
+    "A073": {
+      "asset_id": "A073",
+      "total_commands_participated": 2,
+      "commands": [
+        "LSX0006",
+        "LSX1006"
+      ],
+      "command_switches": 1,
+      "activities": [
+        {
+          "day": "2025-04-01",
+          "shift": 1,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-01",
+          "shift": 2,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-01",
+          "shift": 3,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-01",
+          "shift": 4,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-04-02",
+          "shift": 1,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-04-02",
+          "shift": 2,
+          "command_id": "LSX1006"
+        }
+      ]
+    },
+    "A077": {
+      "asset_id": "A077",
+      "total_commands_participated": 2,
+      "commands": [
+        "LSX0006",
+        "LSX1006"
+      ],
+      "command_switches": 1,
+      "activities": [
+        {
+          "day": "2025-04-14",
+          "shift": 1,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-14",
+          "shift": 3,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-05-08",
+          "shift": 1,
+          "command_id": "LSX1006"
+        }
+      ]
+    },
+    "A080": {
+      "asset_id": "A080",
+      "total_commands_participated": 1,
+      "commands": [
+        "LSX1006"
+      ],
+      "command_switches": 0,
+      "activities": [
+        {
+          "day": "2025-05-12",
+          "shift": 3,
+          "command_id": "LSX1006"
+        }
+      ]
+    },
+    "A082": {
+      "asset_id": "A082",
+      "total_commands_participated": 1,
+      "commands": [
+        "LSX0006"
+      ],
+      "command_switches": 0,
+      "activities": [
+        {
+          "day": "2025-04-20",
+          "shift": 2,
+          "command_id": "LSX0006"
+        }
+      ]
+    },
+    "A086": {
+      "asset_id": "A086",
+      "total_commands_participated": 2,
+      "commands": [
+        "LSX0007",
+        "LSX1007"
+      ],
+      "command_switches": 1,
+      "activities": [
+        {
+          "day": "2025-04-12",
+          "shift": 4,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-04-13",
+          "shift": 2,
+          "command_id": "LSX1007"
+        }
+      ]
+    },
+    "A088": {
+      "asset_id": "A088",
+      "total_commands_participated": 2,
+      "commands": [
+        "LSX0007",
+        "LSX1007"
+      ],
+      "command_switches": 1,
+      "activities": [
+        {
+          "day": "2025-04-30",
+          "shift": 3,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-04-30",
+          "shift": 4,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-05-01",
+          "shift": 1,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-05-01",
+          "shift": 2,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-05-06",
+          "shift": 1,
+          "command_id": "LSX1007"
+        }
+      ]
+    },
+    "A091": {
+      "asset_id": "A091",
+      "total_commands_participated": 1,
+      "commands": [
+        "LSX0009"
+      ],
+      "command_switches": 0,
+      "activities": [
+        {
+          "day": "2025-04-11",
+          "shift": 2,
+          "command_id": "LSX0009"
+        }
+      ]
+    },
+    "A096": {
+      "asset_id": "A096",
+      "total_commands_participated": 2,
+      "commands": [
+        "LSX0009",
+        "LSX1009"
+      ],
+      "command_switches": 1,
+      "activities": [
+        {
+          "day": "2025-04-15",
+          "shift": 3,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-15",
+          "shift": 4,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-16",
+          "shift": 1,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-16",
+          "shift": 2,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-16",
+          "shift": 3,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-16",
+          "shift": 4,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-17",
+          "shift": 1,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-17",
+          "shift": 3,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-17",
+          "shift": 4,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-18",
+          "shift": 1,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-25",
+          "shift": 4,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-26",
+          "shift": 3,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-27",
+          "shift": 1,
+          "command_id": "LSX1009"
+        }
+      ]
+    },
+    "A098": {
+      "asset_id": "A098",
+      "total_commands_participated": 1,
+      "commands": [
+        "LSX0009"
+      ],
+      "command_switches": 0,
+      "activities": [
+        {
+          "day": "2025-04-18",
+          "shift": 3,
+          "command_id": "LSX0009"
+        }
+      ]
+    },
+    "A120": {
+      "asset_id": "A120",
+      "total_commands_participated": 2,
+      "commands": [
+        "LSX0009",
+        "LSX1009"
+      ],
+      "command_switches": 1,
+      "activities": [
+        {
+          "day": "2025-04-09",
+          "shift": 3,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-14",
+          "shift": 1,
+          "command_id": "LSX1009"
+        }
+      ]
+    },
+    "A122": {
+      "asset_id": "A122",
+      "total_commands_participated": 7,
+      "commands": [
+        "LSX0009",
+        "LSX0003",
+        "LSX1009",
+        "LSX1005",
+        "LSX1002",
+        "LSX1008",
+        "LSX1004"
+      ],
+      "command_switches": 11,
+      "activities": [
+        {
+          "day": "2025-04-02",
+          "shift": 2,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-02",
+          "shift": 3,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-02",
+          "shift": 4,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-03",
+          "shift": 2,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-03",
+          "shift": 3,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-04",
+          "shift": 1,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-04",
+          "shift": 2,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-05",
+          "shift": 1,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-05",
+          "shift": 2,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-05",
+          "shift": 3,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-05",
+          "shift": 4,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-06",
+          "shift": 1,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-06",
+          "shift": 2,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-06",
+          "shift": 3,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-06",
+          "shift": 4,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-07",
+          "shift": 2,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-07",
+          "shift": 4,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-08",
+          "shift": 1,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-08",
+          "shift": 2,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-08",
+          "shift": 3,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-09",
+          "shift": 1,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-09",
+          "shift": 2,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-09",
+          "shift": 3,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-10",
+          "shift": 1,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-10",
+          "shift": 2,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-10",
+          "shift": 3,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-12",
+          "shift": 2,
+          "command_id": "LSX0003"
+        },
+        {
+          "day": "2025-04-13",
+          "shift": 4,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-14",
+          "shift": 1,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-14",
+          "shift": 2,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-14",
+          "shift": 3,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-14",
+          "shift": 4,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-15",
+          "shift": 1,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-15",
+          "shift": 2,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-15",
+          "shift": 3,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-15",
+          "shift": 4,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-16",
+          "shift": 1,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-16",
+          "shift": 2,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-16",
+          "shift": 3,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-16",
+          "shift": 4,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-17",
+          "shift": 1,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-17",
+          "shift": 2,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-17",
+          "shift": 3,
+          "command_id": "LSX1005"
+        },
+        {
+          "day": "2025-04-17",
+          "shift": 4,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-18",
+          "shift": 1,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-18",
+          "shift": 2,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-18",
+          "shift": 3,
+          "command_id": "LSX1002"
+        },
+        {
+          "day": "2025-04-18",
+          "shift": 4,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-04-19",
+          "shift": 1,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-04-19",
+          "shift": 2,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-04-19",
+          "shift": 3,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-04-19",
+          "shift": 4,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-04-20",
+          "shift": 1,
+          "command_id": "LSX1005"
+        },
+        {
+          "day": "2025-04-20",
+          "shift": 2,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-04-20",
+          "shift": 3,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-04-20",
+          "shift": 4,
+          "command_id": "LSX1005"
+        },
+        {
+          "day": "2025-04-21",
+          "shift": 1,
+          "command_id": "LSX1005"
+        },
+        {
+          "day": "2025-04-21",
+          "shift": 2,
+          "command_id": "LSX1005"
+        },
+        {
+          "day": "2025-04-21",
+          "shift": 3,
+          "command_id": "LSX1005"
+        },
+        {
+          "day": "2025-04-21",
+          "shift": 4,
+          "command_id": "LSX1005"
+        },
+        {
+          "day": "2025-04-23",
+          "shift": 3,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-04-23",
+          "shift": 4,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-04-24",
+          "shift": 1,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-05-11",
+          "shift": 3,
+          "command_id": "LSX1004"
+        },
+        {
+          "day": "2025-05-11",
+          "shift": 4,
+          "command_id": "LSX1004"
+        },
+        {
+          "day": "2025-05-12",
+          "shift": 1,
+          "command_id": "LSX1004"
+        },
+        {
+          "day": "2025-05-12",
+          "shift": 2,
+          "command_id": "LSX1004"
+        }
+      ]
+    },
+    "A125": {
+      "asset_id": "A125",
+      "total_commands_participated": 5,
+      "commands": [
+        "LSX0001",
+        "LSX0009",
+        "LSX1001",
+        "LSX0008",
+        "LSX1008"
+      ],
+      "command_switches": 4,
+      "activities": [
+        {
+          "day": "2025-04-03",
+          "shift": 3,
+          "command_id": "LSX0001"
+        },
+        {
+          "day": "2025-04-03",
+          "shift": 4,
+          "command_id": "LSX0001"
+        },
+        {
+          "day": "2025-04-04",
+          "shift": 1,
+          "command_id": "LSX0001"
+        },
+        {
+          "day": "2025-04-08",
+          "shift": 3,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-09",
+          "shift": 1,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-09",
+          "shift": 3,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-12",
+          "shift": 3,
+          "command_id": "LSX1001"
+        },
+        {
+          "day": "2025-04-13",
+          "shift": 1,
+          "command_id": "LSX1001"
+        },
+        {
+          "day": "2025-04-13",
+          "shift": 2,
+          "command_id": "LSX1001"
+        },
+        {
+          "day": "2025-04-13",
+          "shift": 3,
+          "command_id": "LSX1001"
+        },
+        {
+          "day": "2025-04-13",
+          "shift": 4,
+          "command_id": "LSX1001"
+        },
+        {
+          "day": "2025-04-15",
+          "shift": 1,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-15",
+          "shift": 2,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-15",
+          "shift": 3,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-15",
+          "shift": 4,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-16",
+          "shift": 1,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-16",
+          "shift": 3,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-18",
+          "shift": 4,
+          "command_id": "LSX1008"
+        }
+      ]
+    },
+    "A130": {
+      "asset_id": "A130",
+      "total_commands_participated": 10,
+      "commands": [
+        "LSX0001",
+        "LSX0006",
+        "LSX0007",
+        "LSX1007",
+        "LSX0008",
+        "LSX1008",
+        "LSX1001",
+        "LSX1006",
+        "LSX0004",
+        "LSX1004"
+      ],
+      "command_switches": 9,
+      "activities": [
+        {
+          "day": "2025-04-04",
+          "shift": 2,
+          "command_id": "LSX0001"
+        },
+        {
+          "day": "2025-04-04",
+          "shift": 3,
+          "command_id": "LSX0001"
+        },
+        {
+          "day": "2025-04-05",
+          "shift": 1,
+          "command_id": "LSX0001"
+        },
+        {
+          "day": "2025-04-05",
+          "shift": 3,
+          "command_id": "LSX0001"
+        },
+        {
+          "day": "2025-04-05",
+          "shift": 4,
+          "command_id": "LSX0001"
+        },
+        {
+          "day": "2025-04-06",
+          "shift": 1,
+          "command_id": "LSX0001"
+        },
+        {
+          "day": "2025-04-06",
+          "shift": 3,
+          "command_id": "LSX0001"
+        },
+        {
+          "day": "2025-04-06",
+          "shift": 4,
+          "command_id": "LSX0001"
+        },
+        {
+          "day": "2025-04-07",
+          "shift": 1,
+          "command_id": "LSX0001"
+        },
+        {
+          "day": "2025-04-07",
+          "shift": 2,
+          "command_id": "LSX0001"
+        },
+        {
+          "day": "2025-04-07",
+          "shift": 4,
+          "command_id": "LSX0001"
+        },
+        {
+          "day": "2025-04-08",
+          "shift": 2,
+          "command_id": "LSX0001"
+        },
+        {
+          "day": "2025-04-12",
+          "shift": 3,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-12",
+          "shift": 4,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-13",
+          "shift": 1,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-13",
+          "shift": 2,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-13",
+          "shift": 3,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-18",
+          "shift": 1,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-04-18",
+          "shift": 3,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-04-18",
+          "shift": 4,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-04-19",
+          "shift": 1,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-04-19",
+          "shift": 2,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-04-19",
+          "shift": 4,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-04-20",
+          "shift": 2,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-04-21",
+          "shift": 1,
+          "command_id": "LSX1007"
+        },
+        {
+          "day": "2025-04-21",
+          "shift": 2,
+          "command_id": "LSX1007"
+        },
+        {
+          "day": "2025-04-21",
+          "shift": 3,
+          "command_id": "LSX1007"
+        },
+        {
+          "day": "2025-04-21",
+          "shift": 4,
+          "command_id": "LSX1007"
+        },
+        {
+          "day": "2025-04-22",
+          "shift": 2,
+          "command_id": "LSX1007"
+        },
+        {
+          "day": "2025-04-22",
+          "shift": 3,
+          "command_id": "LSX1007"
+        },
+        {
+          "day": "2025-04-22",
+          "shift": 4,
+          "command_id": "LSX1007"
+        },
+        {
+          "day": "2025-04-23",
+          "shift": 2,
+          "command_id": "LSX1007"
+        },
+        {
+          "day": "2025-04-24",
+          "shift": 1,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-24",
+          "shift": 2,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-24",
+          "shift": 4,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-25",
+          "shift": 1,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-25",
+          "shift": 2,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-26",
+          "shift": 1,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-27",
+          "shift": 1,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-27",
+          "shift": 2,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-04-27",
+          "shift": 4,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-04-28",
+          "shift": 2,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-04-28",
+          "shift": 4,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-04-29",
+          "shift": 2,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-04-29",
+          "shift": 3,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-04-29",
+          "shift": 4,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-05-03",
+          "shift": 4,
+          "command_id": "LSX1001"
+        },
+        {
+          "day": "2025-05-04",
+          "shift": 2,
+          "command_id": "LSX1001"
+        },
+        {
+          "day": "2025-05-05",
+          "shift": 1,
+          "command_id": "LSX1001"
+        },
+        {
+          "day": "2025-05-05",
+          "shift": 3,
+          "command_id": "LSX1001"
+        },
+        {
+          "day": "2025-05-06",
+          "shift": 1,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-05-06",
+          "shift": 3,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-05-06",
+          "shift": 4,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-05-08",
+          "shift": 1,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-05-08",
+          "shift": 3,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-05-09",
+          "shift": 1,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-05-09",
+          "shift": 3,
+          "command_id": "LSX1004"
+        },
+        {
+          "day": "2025-05-09",
+          "shift": 4,
+          "command_id": "LSX1004"
+        },
+        {
+          "day": "2025-05-10",
+          "shift": 1,
+          "command_id": "LSX1004"
+        }
+      ]
+    },
+    "A131": {
+      "asset_id": "A131",
+      "total_commands_participated": 3,
+      "commands": [
+        "LSX0006",
+        "LSX1007",
+        "LSX1001"
+      ],
+      "command_switches": 2,
+      "activities": [
+        {
+          "day": "2025-04-12",
+          "shift": 3,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-13",
+          "shift": 1,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-21",
+          "shift": 1,
+          "command_id": "LSX1007"
+        },
+        {
+          "day": "2025-04-21",
+          "shift": 3,
+          "command_id": "LSX1007"
+        },
+        {
+          "day": "2025-05-03",
+          "shift": 4,
+          "command_id": "LSX1001"
+        }
+      ]
+    },
+    "A133": {
+      "asset_id": "A133",
+      "total_commands_participated": 9,
+      "commands": [
+        "LSX0001",
+        "LSX0006",
+        "LSX0007",
+        "LSX1007",
+        "LSX0008",
+        "LSX1008",
+        "LSX1001",
+        "LSX0004",
+        "LSX1004"
+      ],
+      "command_switches": 8,
+      "activities": [
+        {
+          "day": "2025-04-06",
+          "shift": 4,
+          "command_id": "LSX0001"
+        },
+        {
+          "day": "2025-04-07",
+          "shift": 4,
+          "command_id": "LSX0001"
+        },
+        {
+          "day": "2025-04-12",
+          "shift": 3,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-13",
+          "shift": 1,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-18",
+          "shift": 4,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-04-19",
+          "shift": 1,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-04-19",
+          "shift": 4,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-04-20",
+          "shift": 2,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-04-21",
+          "shift": 1,
+          "command_id": "LSX1007"
+        },
+        {
+          "day": "2025-04-21",
+          "shift": 2,
+          "command_id": "LSX1007"
+        },
+        {
+          "day": "2025-04-21",
+          "shift": 3,
+          "command_id": "LSX1007"
+        },
+        {
+          "day": "2025-04-22",
+          "shift": 4,
+          "command_id": "LSX1007"
+        },
+        {
+          "day": "2025-04-24",
+          "shift": 1,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-24",
+          "shift": 4,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-25",
+          "shift": 1,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-25",
+          "shift": 3,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-26",
+          "shift": 1,
+          "command_id": "LSX0008"
+        },
+        {
+          "day": "2025-04-27",
+          "shift": 2,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-04-27",
+          "shift": 4,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-04-28",
+          "shift": 2,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-04-28",
+          "shift": 4,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-04-29",
+          "shift": 3,
+          "command_id": "LSX1008"
+        },
+        {
+          "day": "2025-05-03",
+          "shift": 4,
+          "command_id": "LSX1001"
+        },
+        {
+          "day": "2025-05-04",
+          "shift": 2,
+          "command_id": "LSX1001"
+        },
+        {
+          "day": "2025-05-05",
+          "shift": 1,
+          "command_id": "LSX1001"
+        },
+        {
+          "day": "2025-05-05",
+          "shift": 3,
+          "command_id": "LSX1001"
+        },
+        {
+          "day": "2025-05-08",
+          "shift": 1,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-05-08",
+          "shift": 2,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-05-09",
+          "shift": 3,
+          "command_id": "LSX1004"
+        }
+      ]
+    },
+    "A143": {
+      "asset_id": "A143",
+      "total_commands_participated": 1,
+      "commands": [
+        "LSX1001"
+      ],
+      "command_switches": 0,
+      "activities": [
+        {
+          "day": "2025-05-06",
+          "shift": 1,
+          "command_id": "LSX1001"
+        },
+        {
+          "day": "2025-05-06",
+          "shift": 2,
+          "command_id": "LSX1001"
+        },
+        {
+          "day": "2025-05-06",
+          "shift": 3,
+          "command_id": "LSX1001"
+        }
+      ]
+    },
+    "A148": {
+      "asset_id": "A148",
+      "total_commands_participated": 3,
+      "commands": [
+        "LSX0001",
+        "LSX0003",
+        "LSX1003"
+      ],
+      "command_switches": 2,
+      "activities": [
+        {
+          "day": "2025-04-08",
+          "shift": 3,
+          "command_id": "LSX0001"
+        },
+        {
+          "day": "2025-04-08",
+          "shift": 4,
+          "command_id": "LSX0001"
+        },
+        {
+          "day": "2025-04-13",
+          "shift": 3,
+          "command_id": "LSX0003"
+        },
+        {
+          "day": "2025-04-16",
+          "shift": 3,
+          "command_id": "LSX1003"
+        }
+      ]
+    },
+    "A152": {
+      "asset_id": "A152",
+      "total_commands_participated": 2,
+      "commands": [
+        "LSX0001",
+        "LSX1001"
+      ],
+      "command_switches": 1,
+      "activities": [
+        {
+          "day": "2025-04-09",
+          "shift": 1,
+          "command_id": "LSX0001"
+        },
+        {
+          "day": "2025-05-07",
+          "shift": 1,
+          "command_id": "LSX1001"
+        }
+      ]
+    },
+    "A153": {
+      "asset_id": "A153",
+      "total_commands_participated": 2,
+      "commands": [
+        "LSX0001",
+        "LSX1001"
+      ],
+      "command_switches": 1,
+      "activities": [
+        {
+          "day": "2025-04-09",
+          "shift": 1,
+          "command_id": "LSX0001"
+        },
+        {
+          "day": "2025-04-09",
+          "shift": 2,
+          "command_id": "LSX0001"
+        },
+        {
+          "day": "2025-04-09",
+          "shift": 4,
+          "command_id": "LSX0001"
+        },
+        {
+          "day": "2025-05-07",
+          "shift": 2,
+          "command_id": "LSX1001"
+        }
+      ]
+    },
+    "A159": {
+      "asset_id": "A159",
+      "total_commands_participated": 2,
+      "commands": [
+        "LSX0001",
+        "LSX1001"
+      ],
+      "command_switches": 1,
+      "activities": [
+        {
+          "day": "2025-04-09",
+          "shift": 1,
+          "command_id": "LSX0001"
+        },
+        {
+          "day": "2025-05-06",
+          "shift": 4,
+          "command_id": "LSX1001"
+        },
+        {
+          "day": "2025-05-07",
+          "shift": 1,
+          "command_id": "LSX1001"
+        },
+        {
+          "day": "2025-05-07",
+          "shift": 2,
+          "command_id": "LSX1001"
+        },
+        {
+          "day": "2025-05-07",
+          "shift": 3,
+          "command_id": "LSX1001"
+        },
+        {
+          "day": "2025-05-07",
+          "shift": 4,
+          "command_id": "LSX1001"
+        }
+      ]
+    },
+    "A163": {
+      "asset_id": "A163",
+      "total_commands_participated": 1,
+      "commands": [
+        "LSX0001"
+      ],
+      "command_switches": 0,
+      "activities": [
+        {
+          "day": "2025-04-10",
+          "shift": 1,
+          "command_id": "LSX0001"
+        },
+        {
+          "day": "2025-04-10",
+          "shift": 2,
+          "command_id": "LSX0001"
+        }
+      ]
+    },
+    "A170": {
+      "asset_id": "A170",
+      "total_commands_participated": 7,
+      "commands": [
+        "LSX0005",
+        "LSX0006",
+        "LSX1006",
+        "LSX0004",
+        "LSX1004",
+        "LSX1005",
+        "LSX1003"
+      ],
+      "command_switches": 6,
+      "activities": [
+        {
+          "day": "2025-04-01",
+          "shift": 2,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-04-01",
+          "shift": 3,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-04-01",
+          "shift": 4,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-04-02",
+          "shift": 2,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-04-02",
+          "shift": 3,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-04-03",
+          "shift": 1,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-04-03",
+          "shift": 2,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-03",
+          "shift": 3,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-04",
+          "shift": 1,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-04",
+          "shift": 3,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-05",
+          "shift": 3,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-06",
+          "shift": 3,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-04-06",
+          "shift": 4,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-04-07",
+          "shift": 2,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-04-08",
+          "shift": 1,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-04-08",
+          "shift": 2,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-04-08",
+          "shift": 4,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-04-09",
+          "shift": 1,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-04-09",
+          "shift": 2,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-04-09",
+          "shift": 4,
+          "command_id": "LSX1004"
+        },
+        {
+          "day": "2025-04-10",
+          "shift": 1,
+          "command_id": "LSX1004"
+        },
+        {
+          "day": "2025-04-10",
+          "shift": 3,
+          "command_id": "LSX1004"
+        },
+        {
+          "day": "2025-04-11",
+          "shift": 2,
+          "command_id": "LSX1004"
+        },
+        {
+          "day": "2025-04-11",
+          "shift": 3,
+          "command_id": "LSX1005"
+        },
+        {
+          "day": "2025-04-13",
+          "shift": 4,
+          "command_id": "LSX1003"
+        }
+      ]
+    },
+    "A172": {
+      "asset_id": "A172",
+      "total_commands_participated": 2,
+      "commands": [
+        "LSX0006",
+        "LSX1006"
+      ],
+      "command_switches": 1,
+      "activities": [
+        {
+          "day": "2025-04-03",
+          "shift": 4,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-06",
+          "shift": 1,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-04-07",
+          "shift": 1,
+          "command_id": "LSX1006"
+        }
+      ]
+    },
+    "A174": {
+      "asset_id": "A174",
+      "total_commands_participated": 4,
+      "commands": [
+        "LSX0002",
+        "LSX0005",
+        "LSX0006",
+        "LSX1004"
+      ],
+      "command_switches": 3,
+      "activities": [
+        {
+          "day": "2025-04-01",
+          "shift": 1,
+          "command_id": "LSX0002"
+        },
+        {
+          "day": "2025-04-01",
+          "shift": 4,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-04-02",
+          "shift": 3,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-04-05",
+          "shift": 3,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-10",
+          "shift": 1,
+          "command_id": "LSX1004"
+        },
+        {
+          "day": "2025-04-10",
+          "shift": 3,
+          "command_id": "LSX1004"
+        }
+      ]
+    },
+    "A182": {
+      "asset_id": "A182",
+      "total_commands_participated": 1,
+      "commands": [
+        "LSX1002"
+      ],
+      "command_switches": 0,
+      "activities": [
+        {
+          "day": "2025-04-18",
+          "shift": 4,
+          "command_id": "LSX1002"
+        },
+        {
+          "day": "2025-04-19",
+          "shift": 2,
+          "command_id": "LSX1002"
+        }
+      ]
+    },
+    "A183": {
+      "asset_id": "A183",
+      "total_commands_participated": 2,
+      "commands": [
+        "LSX0002",
+        "LSX1002"
+      ],
+      "command_switches": 1,
+      "activities": [
+        {
+          "day": "2025-04-03",
+          "shift": 3,
+          "command_id": "LSX0002"
+        },
+        {
+          "day": "2025-04-03",
+          "shift": 4,
+          "command_id": "LSX0002"
+        },
+        {
+          "day": "2025-04-04",
+          "shift": 1,
+          "command_id": "LSX0002"
+        },
+        {
+          "day": "2025-04-04",
+          "shift": 2,
+          "command_id": "LSX0002"
+        },
+        {
+          "day": "2025-04-04",
+          "shift": 4,
+          "command_id": "LSX0002"
+        },
+        {
+          "day": "2025-04-18",
+          "shift": 4,
+          "command_id": "LSX1002"
+        },
+        {
+          "day": "2025-04-19",
+          "shift": 2,
+          "command_id": "LSX1002"
+        }
+      ]
+    },
+    "A186": {
+      "asset_id": "A186",
+      "total_commands_participated": 1,
+      "commands": [
+        "LSX0002"
+      ],
+      "command_switches": 0,
+      "activities": [
+        {
+          "day": "2025-04-04",
+          "shift": 4,
+          "command_id": "LSX0002"
+        }
+      ]
+    },
+    "A192": {
+      "asset_id": "A192",
+      "total_commands_participated": 10,
+      "commands": [
+        "LSX0002",
+        "LSX0009",
+        "LSX0003",
+        "LSX0006",
+        "LSX1003",
+        "LSX1002",
+        "LSX1009",
+        "LSX0007",
+        "LSX1006",
+        "LSX1004"
+      ],
+      "command_switches": 12,
+      "activities": [
+        {
+          "day": "2025-04-06",
+          "shift": 3,
+          "command_id": "LSX0002"
+        },
+        {
+          "day": "2025-04-13",
+          "shift": 1,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-14",
+          "shift": 1,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-14",
+          "shift": 2,
+          "command_id": "LSX0003"
+        },
+        {
+          "day": "2025-04-15",
+          "shift": 1,
+          "command_id": "LSX0003"
+        },
+        {
+          "day": "2025-04-15",
+          "shift": 2,
+          "command_id": "LSX0003"
+        },
+        {
+          "day": "2025-04-15",
+          "shift": 3,
+          "command_id": "LSX0003"
+        },
+        {
+          "day": "2025-04-15",
+          "shift": 4,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-16",
+          "shift": 1,
+          "command_id": "LSX0003"
+        },
+        {
+          "day": "2025-04-16",
+          "shift": 2,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-16",
+          "shift": 3,
+          "command_id": "LSX0003"
+        },
+        {
+          "day": "2025-04-16",
+          "shift": 4,
+          "command_id": "LSX0003"
+        },
+        {
+          "day": "2025-04-17",
+          "shift": 1,
+          "command_id": "LSX0003"
+        },
+        {
+          "day": "2025-04-17",
+          "shift": 4,
+          "command_id": "LSX0003"
+        },
+        {
+          "day": "2025-04-18",
+          "shift": 1,
+          "command_id": "LSX0003"
+        },
+        {
+          "day": "2025-04-19",
+          "shift": 1,
+          "command_id": "LSX1003"
+        },
+        {
+          "day": "2025-04-21",
+          "shift": 1,
+          "command_id": "LSX1002"
+        },
+        {
+          "day": "2025-04-23",
+          "shift": 2,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-26",
+          "shift": 1,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-05-09",
+          "shift": 4,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-05-10",
+          "shift": 2,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-05-10",
+          "shift": 4,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-05-11",
+          "shift": 2,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-05-15",
+          "shift": 4,
+          "command_id": "LSX1004"
+        },
+        {
+          "day": "2025-05-16",
+          "shift": 4,
+          "command_id": "LSX1004"
+        }
+      ]
+    },
+    "A194": {
+      "asset_id": "A194",
+      "total_commands_participated": 11,
+      "commands": [
+        "LSX0002",
+        "LSX0009",
+        "LSX0006",
+        "LSX1003",
+        "LSX1002",
+        "LSX1009",
+        "LSX0007",
+        "LSX1007",
+        "LSX1006",
+        "LSX0004",
+        "LSX1004"
+      ],
+      "command_switches": 10,
+      "activities": [
+        {
+          "day": "2025-04-05",
+          "shift": 3,
+          "command_id": "LSX0002"
+        },
+        {
+          "day": "2025-04-06",
+          "shift": 1,
+          "command_id": "LSX0002"
+        },
+        {
+          "day": "2025-04-06",
+          "shift": 3,
+          "command_id": "LSX0002"
+        },
+        {
+          "day": "2025-04-06",
+          "shift": 4,
+          "command_id": "LSX0002"
+        },
+        {
+          "day": "2025-04-12",
+          "shift": 2,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-12",
+          "shift": 3,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-13",
+          "shift": 1,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-13",
+          "shift": 2,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-13",
+          "shift": 3,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-13",
+          "shift": 4,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-14",
+          "shift": 1,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-14",
+          "shift": 3,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-14",
+          "shift": 4,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-15",
+          "shift": 1,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-15",
+          "shift": 2,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-15",
+          "shift": 3,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-15",
+          "shift": 4,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-16",
+          "shift": 1,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-16",
+          "shift": 2,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-17",
+          "shift": 1,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-17",
+          "shift": 2,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-17",
+          "shift": 3,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-18",
+          "shift": 1,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-19",
+          "shift": 1,
+          "command_id": "LSX1003"
+        },
+        {
+          "day": "2025-04-19",
+          "shift": 4,
+          "command_id": "LSX1003"
+        },
+        {
+          "day": "2025-04-20",
+          "shift": 1,
+          "command_id": "LSX1003"
+        },
+        {
+          "day": "2025-04-20",
+          "shift": 3,
+          "command_id": "LSX1002"
+        },
+        {
+          "day": "2025-04-21",
+          "shift": 1,
+          "command_id": "LSX1002"
+        },
+        {
+          "day": "2025-04-21",
+          "shift": 2,
+          "command_id": "LSX1002"
+        },
+        {
+          "day": "2025-04-21",
+          "shift": 4,
+          "command_id": "LSX1002"
+        },
+        {
+          "day": "2025-04-23",
+          "shift": 2,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-23",
+          "shift": 3,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-23",
+          "shift": 4,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-24",
+          "shift": 1,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-24",
+          "shift": 2,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-24",
+          "shift": 3,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-24",
+          "shift": 4,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-25",
+          "shift": 4,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-04-26",
+          "shift": 1,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-04-26",
+          "shift": 2,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-04-27",
+          "shift": 1,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-04-27",
+          "shift": 2,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-04-28",
+          "shift": 3,
+          "command_id": "LSX1007"
+        },
+        {
+          "day": "2025-04-28",
+          "shift": 4,
+          "command_id": "LSX1007"
+        },
+        {
+          "day": "2025-04-29",
+          "shift": 1,
+          "command_id": "LSX1007"
+        },
+        {
+          "day": "2025-04-29",
+          "shift": 2,
+          "command_id": "LSX1007"
+        },
+        {
+          "day": "2025-04-29",
+          "shift": 3,
+          "command_id": "LSX1007"
+        },
+        {
+          "day": "2025-04-29",
+          "shift": 4,
+          "command_id": "LSX1007"
+        },
+        {
+          "day": "2025-04-30",
+          "shift": 1,
+          "command_id": "LSX1007"
+        },
+        {
+          "day": "2025-04-30",
+          "shift": 2,
+          "command_id": "LSX1007"
+        },
+        {
+          "day": "2025-05-09",
+          "shift": 3,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-05-09",
+          "shift": 4,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-05-10",
+          "shift": 1,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-05-10",
+          "shift": 2,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-05-10",
+          "shift": 3,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-05-10",
+          "shift": 4,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-05-11",
+          "shift": 2,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-05-11",
+          "shift": 3,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-05-11",
+          "shift": 4,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-05-12",
+          "shift": 1,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-05-12",
+          "shift": 2,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-05-12",
+          "shift": 3,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-05-13",
+          "shift": 1,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-05-13",
+          "shift": 3,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-05-13",
+          "shift": 4,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-05-14",
+          "shift": 1,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-05-14",
+          "shift": 2,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-05-14",
+          "shift": 4,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-05-15",
+          "shift": 4,
+          "command_id": "LSX1004"
+        },
+        {
+          "day": "2025-05-16",
+          "shift": 1,
+          "command_id": "LSX1004"
+        },
+        {
+          "day": "2025-05-16",
+          "shift": 2,
+          "command_id": "LSX1004"
+        },
+        {
+          "day": "2025-05-16",
+          "shift": 4,
+          "command_id": "LSX1004"
+        },
+        {
+          "day": "2025-05-17",
+          "shift": 1,
+          "command_id": "LSX1004"
+        },
+        {
+          "day": "2025-05-17",
+          "shift": 3,
+          "command_id": "LSX1004"
+        },
+        {
+          "day": "2025-05-17",
+          "shift": 4,
+          "command_id": "LSX1004"
+        },
+        {
+          "day": "2025-05-18",
+          "shift": 2,
+          "command_id": "LSX1004"
+        }
+      ]
+    },
+    "A197": {
+      "asset_id": "A197",
+      "total_commands_participated": 1,
+      "commands": [
+        "LSX0002"
+      ],
+      "command_switches": 0,
+      "activities": [
+        {
+          "day": "2025-04-05",
+          "shift": 1,
+          "command_id": "LSX0002"
+        }
+      ]
+    },
+    "A202": {
+      "asset_id": "A202",
+      "total_commands_participated": 2,
+      "commands": [
+        "LSX0002",
+        "LSX1002"
+      ],
+      "command_switches": 1,
+      "activities": [
+        {
+          "day": "2025-04-07",
+          "shift": 2,
+          "command_id": "LSX0002"
+        },
+        {
+          "day": "2025-04-07",
+          "shift": 3,
+          "command_id": "LSX0002"
+        },
+        {
+          "day": "2025-04-07",
+          "shift": 4,
+          "command_id": "LSX0002"
+        },
+        {
+          "day": "2025-04-08",
+          "shift": 1,
+          "command_id": "LSX0002"
+        },
+        {
+          "day": "2025-04-23",
+          "shift": 1,
+          "command_id": "LSX1002"
+        }
+      ]
+    },
+    "A207": {
+      "asset_id": "A207",
+      "total_commands_participated": 1,
+      "commands": [
+        "LSX1002"
+      ],
+      "command_switches": 0,
+      "activities": [
+        {
+          "day": "2025-04-22",
+          "shift": 4,
+          "command_id": "LSX1002"
+        }
+      ]
+    },
+    "A210": {
+      "asset_id": "A210",
+      "total_commands_participated": 1,
+      "commands": [
+        "LSX0002"
+      ],
+      "command_switches": 0,
+      "activities": [
+        {
+          "day": "2025-04-08",
+          "shift": 2,
+          "command_id": "LSX0002"
+        }
+      ]
+    },
+    "A214": {
+      "asset_id": "A214",
+      "total_commands_participated": 2,
+      "commands": [
+        "LSX0002",
+        "LSX1002"
+      ],
+      "command_switches": 1,
+      "activities": [
+        {
+          "day": "2025-04-08",
+          "shift": 2,
+          "command_id": "LSX0002"
+        },
+        {
+          "day": "2025-04-08",
+          "shift": 3,
+          "command_id": "LSX0002"
+        },
+        {
+          "day": "2025-04-08",
+          "shift": 4,
+          "command_id": "LSX0002"
+        },
+        {
+          "day": "2025-04-24",
+          "shift": 2,
+          "command_id": "LSX1002"
+        }
+      ]
+    },
+    "A217": {
+      "asset_id": "A217",
+      "total_commands_participated": 1,
+      "commands": [
+        "LSX0002"
+      ],
+      "command_switches": 0,
+      "activities": [
+        {
+          "day": "2025-04-08",
+          "shift": 2,
+          "command_id": "LSX0002"
+        }
+      ]
+    },
+    "A220": {
+      "asset_id": "A220",
+      "total_commands_participated": 1,
+      "commands": [
+        "LSX0003"
+      ],
+      "command_switches": 0,
+      "activities": [
+        {
+          "day": "2025-04-02",
+          "shift": 2,
+          "command_id": "LSX0003"
+        },
+        {
+          "day": "2025-04-02",
+          "shift": 3,
+          "command_id": "LSX0003"
+        }
+      ]
+    },
+    "A235": {
+      "asset_id": "A235",
+      "total_commands_participated": 1,
+      "commands": [
+        "LSX1004"
+      ],
+      "command_switches": 0,
+      "activities": [
+        {
+          "day": "2025-04-01",
+          "shift": 4,
+          "command_id": "LSX1004"
+        },
+        {
+          "day": "2025-04-02",
+          "shift": 1,
+          "command_id": "LSX1004"
+        }
+      ]
+    },
+    "A241": {
+      "asset_id": "A241",
+      "total_commands_participated": 2,
+      "commands": [
+        "LSX0004",
+        "LSX1004"
+      ],
+      "command_switches": 1,
+      "activities": [
+        {
+          "day": "2025-05-15",
+          "shift": 4,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-05-16",
+          "shift": 1,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-05-16",
+          "shift": 2,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-05-16",
+          "shift": 3,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-05-19",
+          "shift": 2,
+          "command_id": "LSX1004"
+        },
+        {
+          "day": "2025-05-20",
+          "shift": 1,
+          "command_id": "LSX1004"
+        }
+      ]
+    },
+    "A244": {
+      "asset_id": "A244",
+      "total_commands_participated": 2,
+      "commands": [
+        "LSX0004",
+        "LSX1004"
+      ],
+      "command_switches": 1,
+      "activities": [
+        {
+          "day": "2025-05-16",
+          "shift": 1,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-05-19",
+          "shift": 2,
+          "command_id": "LSX1004"
+        }
+      ]
+    },
+    "A247": {
+      "asset_id": "A247",
+      "total_commands_participated": 1,
+      "commands": [
+        "LSX0004"
+      ],
+      "command_switches": 0,
+      "activities": [
+        {
+          "day": "2025-05-16",
+          "shift": 1,
+          "command_id": "LSX0004"
+        },
+        {
+          "day": "2025-05-16",
+          "shift": 2,
+          "command_id": "LSX0004"
+        }
+      ]
+    },
+    "A252": {
+      "asset_id": "A252",
+      "total_commands_participated": 1,
+      "commands": [
+        "LSX1005"
+      ],
+      "command_switches": 0,
+      "activities": [
+        {
+          "day": "2025-04-13",
+          "shift": 1,
+          "command_id": "LSX1005"
+        }
+      ]
+    },
+    "A255": {
+      "asset_id": "A255",
+      "total_commands_participated": 1,
+      "commands": [
+        "LSX0005"
+      ],
+      "command_switches": 0,
+      "activities": [
+        {
+          "day": "2025-04-03",
+          "shift": 2,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-04-03",
+          "shift": 3,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-04-03",
+          "shift": 4,
+          "command_id": "LSX0005"
+        }
+      ]
+    },
+    "A258": {
+      "asset_id": "A258",
+      "total_commands_participated": 2,
+      "commands": [
+        "LSX0005",
+        "LSX1005"
+      ],
+      "command_switches": 1,
+      "activities": [
+        {
+          "day": "2025-04-03",
+          "shift": 2,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-04-12",
+          "shift": 4,
+          "command_id": "LSX1005"
+        },
+        {
+          "day": "2025-04-13",
+          "shift": 1,
+          "command_id": "LSX1005"
+        },
+        {
+          "day": "2025-04-13",
+          "shift": 2,
+          "command_id": "LSX1005"
+        },
+        {
+          "day": "2025-04-13",
+          "shift": 3,
+          "command_id": "LSX1005"
+        }
+      ]
+    },
+    "A260": {
+      "asset_id": "A260",
+      "total_commands_participated": 2,
+      "commands": [
+        "LSX0005",
+        "LSX1005"
+      ],
+      "command_switches": 1,
+      "activities": [
+        {
+          "day": "2025-04-06",
+          "shift": 2,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-04-07",
+          "shift": 2,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-04-08",
+          "shift": 1,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-04-09",
+          "shift": 4,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-04-10",
+          "shift": 3,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-04-10",
+          "shift": 4,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-04-11",
+          "shift": 1,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-04-11",
+          "shift": 2,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-04-11",
+          "shift": 3,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-04-11",
+          "shift": 4,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-04-12",
+          "shift": 1,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-05-01",
+          "shift": 2,
+          "command_id": "LSX1005"
+        },
+        {
+          "day": "2025-05-01",
+          "shift": 3,
+          "command_id": "LSX1005"
+        },
+        {
+          "day": "2025-05-02",
+          "shift": 2,
+          "command_id": "LSX1005"
+        }
+      ]
+    },
+    "A263": {
+      "asset_id": "A263",
+      "total_commands_participated": 2,
+      "commands": [
+        "LSX0005",
+        "LSX1005"
+      ],
+      "command_switches": 1,
+      "activities": [
+        {
+          "day": "2025-04-11",
+          "shift": 2,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-05-01",
+          "shift": 2,
+          "command_id": "LSX1005"
+        },
+        {
+          "day": "2025-05-02",
+          "shift": 1,
+          "command_id": "LSX1005"
+        },
+        {
+          "day": "2025-05-03",
+          "shift": 1,
+          "command_id": "LSX1005"
+        }
+      ]
+    },
+    "A266": {
+      "asset_id": "A266",
+      "total_commands_participated": 2,
+      "commands": [
+        "LSX0005",
+        "LSX1005"
+      ],
+      "command_switches": 1,
+      "activities": [
+        {
+          "day": "2025-04-10",
+          "shift": 3,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-04-11",
+          "shift": 2,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-04-11",
+          "shift": 3,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-04-12",
+          "shift": 1,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-05-01",
+          "shift": 2,
+          "command_id": "LSX1005"
+        }
+      ]
+    },
+    "A269": {
+      "asset_id": "A269",
+      "total_commands_participated": 2,
+      "commands": [
+        "LSX0005",
+        "LSX1005"
+      ],
+      "command_switches": 1,
+      "activities": [
+        {
+          "day": "2025-04-11",
+          "shift": 1,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-04-11",
+          "shift": 4,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-05-01",
+          "shift": 2,
+          "command_id": "LSX1005"
+        },
+        {
+          "day": "2025-05-01",
+          "shift": 4,
+          "command_id": "LSX1005"
+        },
+        {
+          "day": "2025-05-02",
+          "shift": 2,
+          "command_id": "LSX1005"
+        },
+        {
+          "day": "2025-05-02",
+          "shift": 4,
+          "command_id": "LSX1005"
+        }
+      ]
+    },
+    "A272": {
+      "asset_id": "A272",
+      "total_commands_participated": 2,
+      "commands": [
+        "LSX0005",
+        "LSX1005"
+      ],
+      "command_switches": 1,
+      "activities": [
+        {
+          "day": "2025-04-12",
+          "shift": 2,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-04-12",
+          "shift": 3,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-04-12",
+          "shift": 4,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-04-13",
+          "shift": 1,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-04-13",
+          "shift": 2,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-04-13",
+          "shift": 3,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-04-13",
+          "shift": 4,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-05-04",
+          "shift": 1,
+          "command_id": "LSX1005"
+        },
+        {
+          "day": "2025-05-04",
+          "shift": 2,
+          "command_id": "LSX1005"
+        },
+        {
+          "day": "2025-05-04",
+          "shift": 3,
+          "command_id": "LSX1005"
+        },
+        {
+          "day": "2025-05-05",
+          "shift": 2,
+          "command_id": "LSX1005"
+        }
+      ]
+    },
+    "A278": {
+      "asset_id": "A278",
+      "total_commands_participated": 2,
+      "commands": [
+        "LSX0005",
+        "LSX1005"
+      ],
+      "command_switches": 1,
+      "activities": [
+        {
+          "day": "2025-04-12",
+          "shift": 2,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-04-12",
+          "shift": 3,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-04-12",
+          "shift": 4,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-04-13",
+          "shift": 1,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-04-13",
+          "shift": 2,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-05-04",
+          "shift": 1,
+          "command_id": "LSX1005"
+        },
+        {
+          "day": "2025-05-04",
+          "shift": 2,
+          "command_id": "LSX1005"
+        }
+      ]
+    },
+    "A281": {
+      "asset_id": "A281",
+      "total_commands_participated": 1,
+      "commands": [
+        "LSX1005"
+      ],
+      "command_switches": 0,
+      "activities": [
+        {
+          "day": "2025-05-05",
+          "shift": 4,
+          "command_id": "LSX1005"
+        },
+        {
+          "day": "2025-05-06",
+          "shift": 1,
+          "command_id": "LSX1005"
+        },
+        {
+          "day": "2025-05-06",
+          "shift": 2,
+          "command_id": "LSX1005"
+        },
+        {
+          "day": "2025-05-06",
+          "shift": 3,
+          "command_id": "LSX1005"
+        }
+      ]
+    },
+    "A284": {
+      "asset_id": "A284",
+      "total_commands_participated": 1,
+      "commands": [
+        "LSX0005"
+      ],
+      "command_switches": 0,
+      "activities": [
+        {
+          "day": "2025-04-14",
+          "shift": 1,
+          "command_id": "LSX0005"
+        }
+      ]
+    },
+    "A287": {
+      "asset_id": "A287",
+      "total_commands_participated": 1,
+      "commands": [
+        "LSX0005"
+      ],
+      "command_switches": 0,
+      "activities": [
+        {
+          "day": "2025-04-14",
+          "shift": 1,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-04-14",
+          "shift": 2,
+          "command_id": "LSX0005"
+        },
+        {
+          "day": "2025-04-14",
+          "shift": 3,
+          "command_id": "LSX0005"
+        }
+      ]
+    },
+    "A302": {
+      "asset_id": "A302",
+      "total_commands_participated": 2,
+      "commands": [
+        "LSX0006",
+        "LSX1006"
+      ],
+      "command_switches": 1,
+      "activities": [
+        {
+          "day": "2025-04-14",
+          "shift": 1,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-14",
+          "shift": 2,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-14",
+          "shift": 3,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-05-08",
+          "shift": 1,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-05-08",
+          "shift": 2,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-05-08",
+          "shift": 3,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-05-08",
+          "shift": 4,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-05-09",
+          "shift": 1,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-05-09",
+          "shift": 2,
+          "command_id": "LSX1006"
+        }
+      ]
+    },
+    "A305": {
+      "asset_id": "A305",
+      "total_commands_participated": 2,
+      "commands": [
+        "LSX0006",
+        "LSX1006"
+      ],
+      "command_switches": 1,
+      "activities": [
+        {
+          "day": "2025-04-14",
+          "shift": 1,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-05-08",
+          "shift": 3,
+          "command_id": "LSX1006"
+        }
+      ]
+    },
+    "A308": {
+      "asset_id": "A308",
+      "total_commands_participated": 1,
+      "commands": [
+        "LSX0006"
+      ],
+      "command_switches": 0,
+      "activities": [
+        {
+          "day": "2025-04-14",
+          "shift": 2,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-14",
+          "shift": 3,
+          "command_id": "LSX0006"
+        }
+      ]
+    },
+    "A312": {
+      "asset_id": "A312",
+      "total_commands_participated": 2,
+      "commands": [
+        "LSX0006",
+        "LSX1006"
+      ],
+      "command_switches": 1,
+      "activities": [
+        {
+          "day": "2025-04-19",
+          "shift": 1,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-19",
+          "shift": 2,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-19",
+          "shift": 3,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-19",
+          "shift": 4,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-05-12",
+          "shift": 3,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-05-12",
+          "shift": 4,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-05-13",
+          "shift": 1,
+          "command_id": "LSX1006"
+        }
+      ]
+    },
+    "A324": {
+      "asset_id": "A324",
+      "total_commands_participated": 2,
+      "commands": [
+        "LSX0006",
+        "LSX1006"
+      ],
+      "command_switches": 1,
+      "activities": [
+        {
+          "day": "2025-04-20",
+          "shift": 1,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-04-20",
+          "shift": 2,
+          "command_id": "LSX0006"
+        },
+        {
+          "day": "2025-05-13",
+          "shift": 2,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-05-13",
+          "shift": 3,
+          "command_id": "LSX1006"
+        },
+        {
+          "day": "2025-05-13",
+          "shift": 4,
+          "command_id": "LSX1006"
+        }
+      ]
+    },
+    "A331": {
+      "asset_id": "A331",
+      "total_commands_participated": 2,
+      "commands": [
+        "LSX0007",
+        "LSX1007"
+      ],
+      "command_switches": 1,
+      "activities": [
+        {
+          "day": "2025-04-04",
+          "shift": 1,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-04-04",
+          "shift": 3,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-04-05",
+          "shift": 1,
+          "command_id": "LSX1007"
+        },
+        {
+          "day": "2025-04-07",
+          "shift": 1,
+          "command_id": "LSX1007"
+        }
+      ]
+    },
+    "A341": {
+      "asset_id": "A341",
+      "total_commands_participated": 1,
+      "commands": [
+        "LSX0007"
+      ],
+      "command_switches": 0,
+      "activities": [
+        {
+          "day": "2025-04-12",
+          "shift": 4,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-04-13",
+          "shift": 1,
+          "command_id": "LSX0007"
+        }
+      ]
+    },
+    "A344": {
+      "asset_id": "A344",
+      "total_commands_participated": 1,
+      "commands": [
+        "LSX1007"
+      ],
+      "command_switches": 0,
+      "activities": [
+        {
+          "day": "2025-04-13",
+          "shift": 2,
+          "command_id": "LSX1007"
+        },
+        {
+          "day": "2025-04-13",
+          "shift": 3,
+          "command_id": "LSX1007"
+        }
+      ]
+    },
+    "A352": {
+      "asset_id": "A352",
+      "total_commands_participated": 2,
+      "commands": [
+        "LSX0007",
+        "LSX1007"
+      ],
+      "command_switches": 1,
+      "activities": [
+        {
+          "day": "2025-05-01",
+          "shift": 1,
+          "command_id": "LSX0007"
+        },
+        {
+          "day": "2025-05-05",
+          "shift": 4,
+          "command_id": "LSX1007"
+        },
+        {
+          "day": "2025-05-06",
+          "shift": 1,
+          "command_id": "LSX1007"
+        },
+        {
+          "day": "2025-05-06",
+          "shift": 2,
+          "command_id": "LSX1007"
+        }
+      ]
+    },
+    "A358": {
+      "asset_id": "A358",
+      "total_commands_participated": 1,
+      "commands": [
+        "LSX1007"
+      ],
+      "command_switches": 0,
+      "activities": [
+        {
+          "day": "2025-05-06",
+          "shift": 1,
+          "command_id": "LSX1007"
+        }
+      ]
+    },
+    "A360": {
+      "asset_id": "A360",
+      "total_commands_participated": 1,
+      "commands": [
+        "LSX0009"
+      ],
+      "command_switches": 0,
+      "activities": [
+        {
+          "day": "2025-04-10",
+          "shift": 4,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-11",
+          "shift": 1,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-11",
+          "shift": 2,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-11",
+          "shift": 3,
+          "command_id": "LSX0009"
+        }
+      ]
+    },
+    "A363": {
+      "asset_id": "A363",
+      "total_commands_participated": 1,
+      "commands": [
+        "LSX1009"
+      ],
+      "command_switches": 0,
+      "activities": [
+        {
+          "day": "2025-04-22",
+          "shift": 1,
+          "command_id": "LSX1009"
+        }
+      ]
+    },
+    "A366": {
+      "asset_id": "A366",
+      "total_commands_participated": 2,
+      "commands": [
+        "LSX0009",
+        "LSX1009"
+      ],
+      "command_switches": 1,
+      "activities": [
+        {
+          "day": "2025-04-11",
+          "shift": 3,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-18",
+          "shift": 4,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-19",
+          "shift": 2,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-20",
+          "shift": 3,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-21",
+          "shift": 1,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-21",
+          "shift": 4,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-22",
+          "shift": 1,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-22",
+          "shift": 2,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-22",
+          "shift": 3,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-22",
+          "shift": 4,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-23",
+          "shift": 1,
+          "command_id": "LSX1009"
+        }
+      ]
+    },
+    "A369": {
+      "asset_id": "A369",
+      "total_commands_participated": 1,
+      "commands": [
+        "LSX0009"
+      ],
+      "command_switches": 0,
+      "activities": [
+        {
+          "day": "2025-04-10",
+          "shift": 4,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-11",
+          "shift": 1,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-11",
+          "shift": 2,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-11",
+          "shift": 3,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-11",
+          "shift": 4,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-12",
+          "shift": 1,
+          "command_id": "LSX0009"
+        }
+      ]
+    },
+    "A372": {
+      "asset_id": "A372",
+      "total_commands_participated": 2,
+      "commands": [
+        "LSX0009",
+        "LSX1009"
+      ],
+      "command_switches": 1,
+      "activities": [
+        {
+          "day": "2025-04-15",
+          "shift": 3,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-16",
+          "shift": 1,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-16",
+          "shift": 3,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-17",
+          "shift": 1,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-17",
+          "shift": 3,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-18",
+          "shift": 1,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-25",
+          "shift": 4,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-26",
+          "shift": 1,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-26",
+          "shift": 2,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-26",
+          "shift": 3,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-26",
+          "shift": 4,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-27",
+          "shift": 1,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-27",
+          "shift": 2,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-27",
+          "shift": 4,
+          "command_id": "LSX1009"
+        }
+      ]
+    },
+    "A375": {
+      "asset_id": "A375",
+      "total_commands_participated": 2,
+      "commands": [
+        "LSX0009",
+        "LSX1009"
+      ],
+      "command_switches": 1,
+      "activities": [
+        {
+          "day": "2025-04-15",
+          "shift": 3,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-15",
+          "shift": 4,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-16",
+          "shift": 4,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-25",
+          "shift": 4,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-26",
+          "shift": 3,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-26",
+          "shift": 4,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-27",
+          "shift": 1,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-27",
+          "shift": 2,
+          "command_id": "LSX1009"
+        }
+      ]
+    },
+    "A378": {
+      "asset_id": "A378",
+      "total_commands_participated": 2,
+      "commands": [
+        "LSX0009",
+        "LSX1009"
+      ],
+      "command_switches": 1,
+      "activities": [
+        {
+          "day": "2025-04-15",
+          "shift": 3,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-25",
+          "shift": 4,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-26",
+          "shift": 1,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-26",
+          "shift": 3,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-26",
+          "shift": 4,
+          "command_id": "LSX1009"
+        }
+      ]
+    },
+    "A381": {
+      "asset_id": "A381",
+      "total_commands_participated": 2,
+      "commands": [
+        "LSX0009",
+        "LSX1009"
+      ],
+      "command_switches": 1,
+      "activities": [
+        {
+          "day": "2025-04-18",
+          "shift": 2,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-28",
+          "shift": 1,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-28",
+          "shift": 2,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-28",
+          "shift": 3,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-28",
+          "shift": 4,
+          "command_id": "LSX1009"
+        },
+        {
+          "day": "2025-04-29",
+          "shift": 1,
+          "command_id": "LSX1009"
+        }
+      ]
+    },
+    "A384": {
+      "asset_id": "A384",
+      "total_commands_participated": 2,
+      "commands": [
+        "LSX0009",
+        "LSX1009"
+      ],
+      "command_switches": 1,
+      "activities": [
+        {
+          "day": "2025-04-18",
+          "shift": 2,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-18",
+          "shift": 3,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-19",
+          "shift": 1,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-28",
+          "shift": 1,
+          "command_id": "LSX1009"
+        }
+      ]
+    },
+    "A387": {
+      "asset_id": "A387",
+      "total_commands_participated": 1,
+      "commands": [
+        "LSX0009"
+      ],
+      "command_switches": 0,
+      "activities": [
+        {
+          "day": "2025-04-18",
+          "shift": 2,
+          "command_id": "LSX0009"
+        },
+        {
+          "day": "2025-04-19",
+          "shift": 1,
+          "command_id": "LSX0009"
+        }
+      ]
+    }
+  }
+}

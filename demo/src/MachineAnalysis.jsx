@@ -12,8 +12,8 @@ import {
     Pie,
     Cell,
 } from "recharts";
-import maymocthongkeData from "../../thuat-toan/out/maymocthongke.json";
-import machineCommandSwitchesData from "../../thuat-toan/out/machine_command_switches.json";
+import maymocthongkeData from "../../thuat-toan/out/out3/input18/maymocthongke.json";
+import machineCommandSwitchesData from "../../thuat-toan/out/out3/input18/machine_command_switches.json";
 
 const MachineAnalysis = () => {
     // State để lưu loại máy được chọn

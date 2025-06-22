@@ -1,7 +1,10 @@
-// Dữ liệu mẫu
-const schedule = require("./out/out2/input3/schedule.json");
+const fs = require("fs");
+const path = require("path");
 
-const outputData = "./out/out2/input3/machine_command_switches.json";
+// Dữ liệu mẫu
+const schedule = require("../out/out2/input18/schedule.json");
+
+const outputData = "thuat-toan/out/out2/input18/machine_command_switches.json";
 
 function calculateMachineCommandSwitches(schedule) {
     // Tạo một mảng chứa tất cả các hoạt động của máy móc theo thời gian

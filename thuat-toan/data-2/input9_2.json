@@ -1,0 +1,5486 @@
+{
+    "productionOrders": [
+        {
+            "id": "LSX0001",
+            "name": "Lệnh sản xuất áo sơ mi T4/2025",
+            "quantity": 1000,
+            "startDate": "2025-04-01",
+            "endDate": "2025-04-27"
+        },
+        {
+            "id": "LSX0002",
+            "name": "Lệnh sản xuất áo thun T4/2025",
+            "quantity": 2000,
+            "startDate": "2025-04-01",
+            "endDate": "2025-04-27"
+        },
+        {
+            "id": "LSX0003",
+            "name": "Lệnh sản xuất quần jean T4/2025",
+            "quantity": 1000,
+            "startDate": "2025-04-01",
+            "endDate": "2025-04-27"
+        },
+        {
+            "id": "LSX0004",
+            "name": "Lệnh sản xuất áo khoác gió T4/2025",
+            "quantity": 800,
+            "startDate": "2025-04-01",
+            "endDate": "2025-04-27"
+        },
+        {
+            "id": "LSX0005",
+            "name": "Lệnh sản xuất nón kết T4/2025",
+            "quantity": 1500,
+            "startDate": "2025-04-01",
+            "endDate": "2025-04-27"
+        },
+        {
+            "id": "LSX0006",
+            "name": "Lệnh sản xuất váy nữ T4/2025",
+            "quantity": 1000,
+            "startDate": "2025-04-01",
+            "endDate": "2025-04-26"
+        },
+        {
+            "id": "LSX0007",
+            "name": "Lệnh sản xuất áo blazer nữ T4/2025",
+            "quantity": 600,
+            "startDate": "2025-04-01",
+            "endDate": "2025-04-27"
+        },
+        {
+            "id": "LSX0008",
+            "name": "Lệnh sản xuất quần short thể thao T4/2025",
+            "quantity": 1800,
+            "startDate": "2025-04-01",
+            "endDate": "2025-04-27"
+        },
+        {
+            "id": "LSX0009",
+            "name": "Lệnh sản xuất găng tay vải T4/2025",
+            "quantity": 2500,
+            "startDate": "2025-04-01",
+            "endDate": "2025-04-30"
+        }
+    ],
+    "operations": [
+        {
+            "id": "OP001",
+            "productionOrderId": "LSX0001",
+            "name": "Chuẩn bị vải (kiểm tra độ co giãn, độ đều màu)",
+            "requiredMachineType": "Máy đo độ co giãn",
+            "requiredPosition": "Nhân viên xử lý vải",
+            "prevOperation": [],
+            "kpis": [
+                {
+                    "id": "A01",
+                    "name": "Số lượng vải kiểm tra đạt tiêu chuẩn",
+                    "weight": 0.1,
+                    "value": 1000
+                },
+                {
+                    "id": "A02",
+                    "name": "Tỷ lệ vải đạt tiêu chuẩn sau kiểm tra",
+                    "weight": 0.1,
+                    "value": 1000
+                }
+            ]
+        },
+        {
+            "id": "OP002",
+            "productionOrderId": "LSX0001",
+            "name": "Cắt vải theo rập",
+            "requiredMachineType": "Máy cắt vải tự động",
+            "requiredPosition": "Nhân viên cắt vải",
+            "prevOperation": ["OP001"],
+            "kpis": [
+                {
+                    "id": "A11",
+                    "name": "Số mảnh vải cắt đúng theo kế hoạch",
+                    "weight": 0.15,
+                    "value": 1000
+                },
+                {
+                    "id": "A12",
+                    "name": "Tỷ lệ cắt vải chính xác",
+                    "weight": 0.15,
+                    "value": 1000
+                }
+            ]
+        },
+        {
+            "id": "OP003",
+            "productionOrderId": "LSX0001",
+            "name": "May ráp từng phần (thân, tay, cổ)",
+            "requiredMachineType": "Máy may công nghiệp",
+            "requiredPosition": "Nhân viên may ráp",
+            "prevOperation": ["OP002"],
+            "kpis": [
+                {
+                    "id": "A21",
+                    "name": "Số phần áo ráp đúng kế hoạch",
+                    "weight": 0.2,
+                    "value": 1000
+                },
+                {
+                    "id": "A22",
+                    "name": "Tỷ lệ lỗi trong ráp phần",
+                    "weight": 0.2,
+                    "value": 1000
+                }
+            ]
+        },
+        {
+            "id": "OP004",
+            "productionOrderId": "LSX0001",
+            "name": "May hoàn thiện (gắn nhãn, vắt sổ, may lai)",
+            "requiredMachineType": "Máy may chuyên dụng",
+            "requiredPosition": "Nhân viên may chi tiết",
+            "prevOperation": ["OP003"],
+            "kpis": [
+                {
+                    "id": "A31",
+                    "name": "Số áo hoàn thiện đúng kế hoạch",
+                    "weight": 0.25,
+                    "value": 1000
+                },
+                {
+                    "id": "A32",
+                    "name": "Tỷ lệ áo đạt chuẩn sau hoàn thiện",
+                    "weight": 0.25,
+                    "value": 1000
+                }
+            ]
+        },
+        {
+            "id": "OP005",
+            "productionOrderId": "LSX0001",
+            "name": "Giặt công nghiệp",
+            "requiredMachineType": "Máy giặt công nghiệp",
+            "requiredPosition": "Nhân viên vận hành máy giặt",
+            "prevOperation": ["OP004"],
+            "kpis": [
+                {
+                    "id": "A41",
+                    "name": "Số mẻ giặt hoàn thành đúng lịch",
+                    "weight": 0.05,
+                    "value": 1000
+                },
+                {
+                    "id": "A42",
+                    "name": "Tỷ lệ sản phẩm đạt yêu cầu sau giặt",
+                    "weight": 0.05,
+                    "value": 1000
+                }
+            ]
+        },
+        {
+            "id": "OP006",
+            "productionOrderId": "LSX0001",
+            "name": "Kiểm tra QC",
+            "requiredMachineType": "Máy kiểm tra độ bền",
+            "requiredPosition": "Nhân viên QA/QC",
+            "prevOperation": ["OP005"],
+            "kpis": [
+                {
+                    "id": "A51",
+                    "name": "Số sản phẩm được kiểm tra",
+                    "weight": 0.15,
+                    "value": 1000
+                },
+                {
+                    "id": "A52",
+                    "name": "Tỷ lệ sản phẩm đạt chuẩn sau kiểm",
+                    "weight": 0.15,
+                    "value": 1000
+                }
+            ]
+        },
+        {
+            "id": "OP007",
+            "productionOrderId": "LSX0001",
+            "name": "Đóng gói",
+            "requiredMachineType": "Máy đóng gói tự động",
+            "requiredPosition": "Nhân viên đóng gói",
+            "prevOperation": ["OP006"],
+            "kpis": [
+                {
+                    "id": "A61",
+                    "name": "Sản phẩm đóng gói đúng kế hoạch",
+                    "weight": 0.1,
+                    "value": 1000
+                },
+                {
+                    "id": "A62",
+                    "name": "Tỷ lệ sản phẩm đóng gói đạt chuẩn",
+                    "weight": 0.1,
+                    "value": 1000
+                }
+            ]
+        },
+        {
+            "id": "OP008",
+            "productionOrderId": "LSX0002",
+            "name": "Giác sơ đồ & cắt vải",
+            "requiredMachineType": "Máy cắt laser",
+            "requiredPosition": "Nhân viên cắt vải",
+            "prevOperation": [],
+            "kpis": [
+                {
+                    "id": "B11",
+                    "name": "Số sơ đồ cắt hoàn thành",
+                    "weight": 0.2,
+                    "value": 2000
+                },
+                {
+                    "id": "B12",
+                    "name": "Tỷ lệ sai lệch khi cắt vải",
+                    "weight": 0.2,
+                    "value": 2000
+                }
+            ]
+        },
+        {
+            "id": "OP009",
+            "productionOrderId": "LSX0002",
+            "name": "May công nghiệp theo dây chuyền",
+            "requiredMachineType": "Máy may công nghiệp",
+            "requiredPosition": "Nhân viên may công nghiệp",
+            "prevOperation": ["OP008"],
+            "kpis": [
+                {
+                    "id": "B21",
+                    "name": "Số lượng sản phẩm may hoàn thành",
+                    "weight": 0.25,
+                    "value": 2000
+                },
+                {
+                    "id": "B22",
+                    "name": "Tỷ lệ lỗi trong dây chuyền may",
+                    "weight": 0.25,
+                    "value": 2000
+                }
+            ]
+        },
+        {
+            "id": "OP010",
+            "productionOrderId": "LSX0002",
+            "name": "Đính khuy & làm khuyết",
+            "requiredMachineType": "Máy đính khuy tự động",
+            "requiredPosition": "Nhân viên đính khuy",
+            "prevOperation": ["OP009"],
+            "kpis": [
+                {
+                    "id": "B31",
+                    "name": "Số lượng áo đính khuy đúng kế hoạch",
+                    "weight": 0.15,
+                    "value": 2000
+                },
+                {
+                    "id": "B32",
+                    "name": "Tỷ lệ khuy bị lỗi",
+                    "weight": 0.15,
+                    "value": 2000
+                }
+            ]
+        },
+        {
+            "id": "OP011",
+            "productionOrderId": "LSX0002",
+            "name": "Là ép định hình",
+            "requiredMachineType": "Máy là hơi công nghiệp",
+            "requiredPosition": "Nhân viên là ép",
+            "prevOperation": ["OP010"],
+            "kpis": [
+                {
+                    "id": "B41",
+                    "name": "Số lượng sản phẩm là ép đúng tiến độ",
+                    "weight": 0.1,
+                    "value": 2000
+                },
+                {
+                    "id": "B42",
+                    "name": "Tỷ lệ lỗi nhăn, cháy vải sau là ép",
+                    "weight": 0.1,
+                    "value": 2000
+                }
+            ]
+        },
+        {
+            "id": "OP012",
+            "productionOrderId": "LSX0002",
+            "name": "Kiểm hàng (AQL)",
+            "requiredMachineType": "Thiết bị kiểm tra mẫu",
+            "requiredPosition": "Nhân viên AQL",
+            "prevOperation": ["OP011"],
+            "kpis": [
+                {
+                    "id": "B51",
+                    "name": "Số lượng sản phẩm được kiểm",
+                    "weight": 0.075,
+                    "value": 2000
+                },
+                {
+                    "id": "B52",
+                    "name": "Tỷ lệ đạt chuẩn theo AQL",
+                    "weight": 0.075,
+                    "value": 2000
+                }
+            ]
+        },
+        {
+            "id": "OP013",
+            "productionOrderId": "LSX0002",
+            "name": "Gắn nhãn mác",
+            "requiredMachineType": "Máy in nhãn",
+            "requiredPosition": "Nhân viên gắn nhãn",
+            "prevOperation": ["OP012"],
+            "kpis": [
+                {
+                    "id": "B61",
+                    "name": "Sản phẩm gắn nhãn đúng quy định",
+                    "weight": 0.05,
+                    "value": 2000
+                },
+                {
+                    "id": "B62",
+                    "name": "Tỷ lệ nhãn mác sai, lệch",
+                    "weight": 0.05,
+                    "value": 2000
+                }
+            ]
+        },
+        {
+            "id": "OP014",
+            "productionOrderId": "LSX0002",
+            "name": "Đóng thùng, gói PE",
+            "requiredMachineType": "Máy đóng gói tự động",
+            "requiredPosition": "Nhân viên đóng gói",
+            "prevOperation": ["OP013"],
+            "kpis": [
+                {
+                    "id": "B71",
+                    "name": "Số thùng đóng hoàn chỉnh",
+                    "weight": 0.05,
+                    "value": 2000
+                },
+                {
+                    "id": "B72",
+                    "name": "Tỷ lệ đóng thùng đúng quy cách",
+                    "weight": 0.05,
+                    "value": 2000
+                }
+            ]
+        },
+        {
+            "id": "OP015",
+            "productionOrderId": "LSX0003",
+            "name": "Chuẩn bị denim (kiểm định, xử lý sanforizing)",
+            "requiredMachineType": "Máy sanforizing",
+            "requiredPosition": "Nhân viên xử lý vải",
+            "prevOperation": [],
+            "kpis": [
+                {
+                    "id": "C11",
+                    "name": "Số lượng denim xử lý đạt chuẩn",
+                    "weight": 0.1,
+                    "value": 1000
+                },
+                {
+                    "id": "C12",
+                    "name": "Tỷ lệ denim đạt tiêu chuẩn giãn nở",
+                    "weight": 0.1,
+                    "value": 1000
+                }
+            ]
+        },
+        {
+            "id": "OP016",
+            "productionOrderId": "LSX0003",
+            "name": "Cắt theo size chart",
+            "requiredMachineType": "Máy cắt laser",
+            "requiredPosition": "Nhân viên cắt vải",
+            "prevOperation": ["OP015"],
+            "kpis": [
+                {
+                    "id": "C21",
+                    "name": "Số lượng sản phẩm cắt theo đúng size",
+                    "weight": 0.15,
+                    "value": 1000
+                },
+                {
+                    "id": "C22",
+                    "name": "Tỷ lệ sai lệch size khi cắt",
+                    "weight": 0.15,
+                    "value": 1000
+                }
+            ]
+        },
+        {
+            "id": "OP017",
+            "productionOrderId": "LSX0003",
+            "name": "May ráp thân, túi, khóa kéo, cạp",
+            "requiredMachineType": "Máy may công nghiệp",
+            "requiredPosition": "Nhân viên may ráp",
+            "prevOperation": ["OP016"],
+            "kpis": [
+                {
+                    "id": "C31",
+                    "name": "Số lượng sản phẩm may đạt tiến độ",
+                    "weight": 0.25,
+                    "value": 1000
+                },
+                {
+                    "id": "C32",
+                    "name": "Tỷ lệ lỗi đường may, lệch túi, khóa",
+                    "weight": 0.25,
+                    "value": 1000
+                }
+            ]
+        },
+        {
+            "id": "OP018",
+            "productionOrderId": "LSX0003",
+            "name": "Giặt enzyme, wash vintage, laser burn",
+            "requiredMachineType": "Máy giặt công nghiệp",
+            "requiredPosition": "Nhân viên vận hành máy giặt",
+            "prevOperation": ["OP017"],
+            "kpis": [
+                {
+                    "id": "C41",
+                    "name": "Số lượng sản phẩm hoàn tất xử lý",
+                    "weight": 0.15,
+                    "value": 1000
+                },
+                {
+                    "id": "C42",
+                    "name": "Tỷ lệ màu không đồng đều / cháy vải",
+                    "weight": 0.15,
+                    "value": 1000
+                }
+            ]
+        },
+        {
+            "id": "OP019",
+            "productionOrderId": "LSX0003",
+            "name": "Là ép",
+            "requiredMachineType": "Máy là hơi công nghiệp",
+            "requiredPosition": "Nhân viên là ép",
+            "prevOperation": ["OP018"],
+            "kpis": [
+                {
+                    "id": "C51",
+                    "name": "Số lượng sản phẩm là ép đúng kế hoạch",
+                    "weight": 0.075,
+                    "value": 1000
+                },
+                {
+                    "id": "C52",
+                    "name": "Tỷ lệ nhăn / cháy sau là",
+                    "weight": 0.075,
+                    "value": 1000
+                }
+            ]
+        },
+        {
+            "id": "OP020",
+            "productionOrderId": "LSX0003",
+            "name": "Đóng gói theo size/bundle",
+            "requiredMachineType": "Máy đóng gói tự động",
+            "requiredPosition": "Nhân viên đóng gói",
+            "prevOperation": ["OP019"],
+            "kpis": [
+                {
+                    "id": "C61",
+                    "name": "Số bundle đóng đúng phân loại",
+                    "weight": 0.075,
+                    "value": 1000
+                },
+                {
+                    "id": "C62",
+                    "name": "Tỷ lệ sai size khi phân loại",
+                    "weight": 0.075,
+                    "value": 1000
+                }
+            ]
+        },
+        {
+            "id": "OP021",
+            "productionOrderId": "LSX0004",
+            "name": "Chuẩn bị vải phủ chống nước",
+            "requiredMachineType": "Máy phủ PU tự động",
+            "requiredPosition": "Nhân viên xử lý vải",
+            "prevOperation": [],
+            "kpis": [
+                {
+                    "id": "C71",
+                    "name": "Số lượng vải phủ được xử lý",
+                    "weight": 0.075,
+                    "value": 800
+                },
+                {
+                    "id": "C72",
+                    "name": "Tỷ lệ lớp phủ đạt chuẩn chống nước",
+                    "weight": 0.075,
+                    "value": 800
+                }
+            ]
+        },
+        {
+            "id": "OP022",
+            "productionOrderId": "LSX0004",
+            "name": "Cắt rập chống trượt",
+            "requiredMachineType": "Máy cắt laser",
+            "requiredPosition": "Nhân viên cắt vải",
+            "prevOperation": ["OP021"],
+            "kpis": [
+                {
+                    "id": "D11",
+                    "name": "Số lượng mảnh cắt chính xác",
+                    "weight": 0.15,
+                    "value": 800
+                },
+                {
+                    "id": "D12",
+                    "name": "Tỷ lệ lệch form/rập khi ráp",
+                    "weight": 0.15,
+                    "value": 800
+                }
+            ]
+        },
+        {
+            "id": "OP023",
+            "productionOrderId": "LSX0004",
+            "name": "May khóa kéo, túi ẩn, nẹp gió",
+            "requiredMachineType": "Máy may chuyên dụng",
+            "requiredPosition": "Nhân viên may chi tiết",
+            "prevOperation": ["OP022"],
+            "kpis": [
+                {
+                    "id": "D21",
+                    "name": "Số lượng sản phẩm hoàn tất may chi tiết",
+                    "weight": 0.2,
+                    "value": 800
+                },
+                {
+                    "id": "D22",
+                    "name": "Tỷ lệ lệch khóa / nhăn túi / sai nẹp",
+                    "weight": 0.2,
+                    "value": 800
+                }
+            ]
+        },
+        {
+            "id": "OP024",
+            "productionOrderId": "LSX0004",
+            "name": "May ráp thân, gắn lưới lót",
+            "requiredMachineType": "Máy may công nghiệp",
+            "requiredPosition": "Nhân viên may ráp",
+            "prevOperation": ["OP023"],
+            "kpis": [
+                {
+                    "id": "D31",
+                    "name": "Số lượng áo ráp đúng tiến độ",
+                    "weight": 0.2,
+                    "value": 800
+                },
+                {
+                    "id": "D32",
+                    "name": "Tỷ lệ hở mí, lệch lớp lót",
+                    "weight": 0.2,
+                    "value": 800
+                }
+            ]
+        },
+        {
+            "id": "OP025",
+            "productionOrderId": "LSX0004",
+            "name": "Ép nhiệt seam sealing tape (chống nước)",
+            "requiredMachineType": "Máy là hơi công nghiệp",
+            "requiredPosition": "Nhân viên là ép",
+            "prevOperation": ["OP024"],
+            "kpis": [
+                {
+                    "id": "D41",
+                    "name": "Số đường ép nhiệt hoàn tất",
+                    "weight": 0.1,
+                    "value": 800
+                },
+                {
+                    "id": "D42",
+                    "name": "Tỷ lệ bong, ép lệch, không kín nước",
+                    "weight": 0.1,
+                    "value": 800
+                }
+            ]
+        },
+        {
+            "id": "OP026",
+            "productionOrderId": "LSX0004",
+            "name": "QC – kiểm định lực kéo, độ chống thấm",
+            "requiredMachineType": "Máy thổi khí áp suất",
+            "requiredPosition": "Nhân viên QA/QC",
+            "prevOperation": ["OP025"],
+            "kpis": [
+                {
+                    "id": "D51",
+                    "name": "Số sản phẩm qua kiểm nghiệm",
+                    "weight": 0.05,
+                    "value": 800
+                },
+                {
+                    "id": "D52",
+                    "name": "Tỷ lệ lỗi lực kéo / thấm nước",
+                    "weight": 0.05,
+                    "value": 800
+                }
+            ]
+        },
+        {
+            "id": "OP027",
+            "productionOrderId": "LSX0004",
+            "name": "Đóng túi",
+            "requiredMachineType": "Máy đóng gói tự động",
+            "requiredPosition": "Nhân viên đóng gói",
+            "prevOperation": ["OP026"],
+            "kpis": [
+                {
+                    "id": "D61",
+                    "name": "Số lượng áo được đóng túi",
+                    "weight": 0.05,
+                    "value": 800
+                },
+                {
+                    "id": "D62",
+                    "name": "Tỷ lệ nhăn, rách túi",
+                    "weight": 0.05,
+                    "value": 800
+                }
+            ]
+        },
+        {
+            "id": "OP028",
+            "productionOrderId": "LSX0005",
+            "name": "Cắt vải theo từng mảnh",
+            "requiredMachineType": "Máy cắt laser",
+            "requiredPosition": "Nhân viên cắt vải",
+            "prevOperation": [],
+            "kpis": [
+                {
+                    "id": "D71",
+                    "name": "Số mảnh vải cắt đúng mẫu",
+                    "weight": 0.05,
+                    "value": 1500
+                },
+                {
+                    "id": "D72",
+                    "name": "Tỷ lệ sai lệch, rách biên",
+                    "weight": 0.05,
+                    "value": 1500
+                }
+            ]
+        },
+        {
+            "id": "OP029",
+            "productionOrderId": "LSX0005",
+            "name": "In logo",
+            "requiredMachineType": "Máy in công nghiệp",
+            "requiredPosition": "Nhân viên in",
+            "prevOperation": ["OP028"],
+            "kpis": [
+                {
+                    "id": "E11",
+                    "name": "Số mũ in logo đúng tiến độ",
+                    "weight": 0.2,
+                    "value": 1500
+                },
+                {
+                    "id": "E12",
+                    "name": "Tỷ lệ logo in sai vị trí/mờ màu",
+                    "weight": 0.2,
+                    "value": 1500
+                }
+            ]
+        },
+        {
+            "id": "OP030",
+            "productionOrderId": "LSX0005",
+            "name": "May ráp đỉnh mũ",
+            "requiredMachineType": "Máy may công nghiệp",
+            "requiredPosition": "Nhân viên may ráp",
+            "prevOperation": ["OP029"],
+            "kpis": [
+                {
+                    "id": "E21",
+                    "name": "Số mũ may ráp đỉnh đúng hạn",
+                    "weight": 0.175,
+                    "value": 1500
+                },
+                {
+                    "id": "E22",
+                    "name": "Tỷ lệ lệch form đỉnh / bung chỉ",
+                    "weight": 0.175,
+                    "value": 1500
+                }
+            ]
+        },
+        {
+            "id": "OP031",
+            "productionOrderId": "LSX0005",
+            "name": "Đóng nút đỉnh, viền mũ, khóa điều chỉnh",
+            "requiredMachineType": "Máy đóng nút tự động",
+            "requiredPosition": "Nhân viên may chi tiết",
+            "prevOperation": ["OP030"],
+            "kpis": [
+                {
+                    "id": "E31",
+                    "name": "Số mũ hoàn tất nút, khóa",
+                    "weight": 0.15,
+                    "value": 1500
+                },
+                {
+                    "id": "E32",
+                    "name": "Tỷ lệ lệch viền, hở nút, lỗi khóa",
+                    "weight": 0.15,
+                    "value": 1500
+                }
+            ]
+        },
+        {
+            "id": "OP032",
+            "productionOrderId": "LSX0005",
+            "name": "Kiểm QC: đường may, logo, form",
+            "requiredMachineType": "Máy đo form 3D",
+            "requiredPosition": "Nhân viên QA/QC",
+            "prevOperation": ["OP031"],
+            "kpis": [
+                {
+                    "id": "E41",
+                    "name": "Số mũ được kiểm đạt AQL",
+                    "weight": 0.15,
+                    "value": 1500
+                },
+                {
+                    "id": "E42",
+                    "name": "Tỷ lệ lỗi chỉ, form, logo sai",
+                    "weight": 0.15,
+                    "value": 1500
+                }
+            ]
+        },
+        {
+            "id": "OP033",
+            "productionOrderId": "LSX0005",
+            "name": "Đóng hộp lô lớn",
+            "requiredMachineType": "Máy đóng hộp tự động",
+            "requiredPosition": "Nhân viên đóng gói",
+            "prevOperation": ["OP032"],
+            "kpis": [
+                {
+                    "id": "E51",
+                    "name": "Số mũ được đóng thùng đúng cách",
+                    "weight": 0.05,
+                    "value": 1500
+                },
+                {
+                    "id": "E52",
+                    "name": "Tỷ lệ móp méo, đóng sai nhóm",
+                    "weight": 0.05,
+                    "value": 1500
+                }
+            ]
+        },
+        {
+            "id": "OP034",
+            "productionOrderId": "LSX0006",
+            "name": "Thiết kế và rập mẫu theo xu hướng",
+            "requiredMachineType": "Máy cắt rập CNC",
+            "requiredPosition": "Nhân viên thiết kế thời trang",
+            "prevOperation": [],
+            "kpis": [
+                {
+                    "id": "E61",
+                    "name": "Số mẫu rập hoàn thành đúng deadline",
+                    "weight": 0.05,
+                    "value": 1000
+                },
+                {
+                    "id": "E62",
+                    "name": "Mức độ hợp xu hướng/thị trường",
+                    "weight": 0.05,
+                    "value": 1000
+                }
+            ]
+        },
+        {
+            "id": "OP035",
+            "productionOrderId": "LSX0006",
+            "name": "Cắt vải theo layplan",
+            "requiredMachineType": "Máy cắt laser",
+            "requiredPosition": "Nhân viên cắt vải",
+            "prevOperation": ["OP034"],
+            "kpis": [
+                {
+                    "id": "E71",
+                    "name": "Số lượng miếng vải cắt đúng sơ đồ",
+                    "weight": 0.025,
+                    "value": 1000
+                },
+                {
+                    "id": "E72",
+                    "name": "Tỷ lệ lệch sơ đồ, hao hụt vải",
+                    "weight": 0.025,
+                    "value": 1000
+                }
+            ]
+        },
+        {
+            "id": "OP036",
+            "productionOrderId": "LSX0006",
+            "name": "May form mẫu (bodice, skirt, tay)",
+            "requiredMachineType": "Máy may công nghiệp",
+            "requiredPosition": "Nhân viên may công nghiệp",
+            "prevOperation": ["OP035"],
+            "kpis": [
+                {
+                    "id": "F11",
+                    "name": "Số bộ váy may đúng theo form thiết kế",
+                    "weight": 0.2,
+                    "value": 1000
+                },
+                {
+                    "id": "F12",
+                    "name": "Tỷ lệ lỗi đường may, nhăn, lệch vải",
+                    "weight": 0.2,
+                    "value": 1000
+                }
+            ]
+        },
+        {
+            "id": "OP037",
+            "productionOrderId": "LSX0006",
+            "name": "Gắn khóa kéo, may lót trong",
+            "requiredMachineType": "Máy may chuyên dụng",
+            "requiredPosition": "Nhân viên may chi tiết",
+            "prevOperation": ["OP036"],
+            "kpis": [
+                {
+                    "id": "F21",
+                    "name": "Số bộ váy hoàn thiện khóa & lót đúng hạn",
+                    "weight": 0.175,
+                    "value": 1000
+                },
+                {
+                    "id": "F22",
+                    "name": "Tỷ lệ lỗi bung khóa, lệch lót",
+                    "weight": 0.175,
+                    "value": 1000
+                }
+            ]
+        },
+        {
+            "id": "OP038",
+            "productionOrderId": "LSX0006",
+            "name": "Fit form và sửa lỗi",
+            "requiredMachineType": "Máy đo 3D",
+            "requiredPosition": "Nhân viên QA/QC",
+            "prevOperation": ["OP037"],
+            "kpis": [
+                {
+                    "id": "F31",
+                    "name": "Số bộ váy được fit và chỉnh sửa đạt yêu cầu",
+                    "weight": 0.15,
+                    "value": 1000
+                },
+                {
+                    "id": "F32",
+                    "name": "Tỷ lệ váy không vừa size, form lỗi",
+                    "weight": 0.15,
+                    "value": 1000
+                }
+            ]
+        },
+        {
+            "id": "OP039",
+            "productionOrderId": "LSX0006",
+            "name": "Là phẳng từng lớp",
+            "requiredMachineType": "Máy là hơi công nghiệp",
+            "requiredPosition": "Nhân viên là ép",
+            "prevOperation": ["OP038"],
+            "kpis": [
+                {
+                    "id": "F41",
+                    "name": "Số lớp vải được là đúng kỹ thuật",
+                    "weight": 0.1,
+                    "value": 1000
+                },
+                {
+                    "id": "F42",
+                    "name": "Tỷ lệ cháy vải, nếp gấp không đúng",
+                    "weight": 0.1,
+                    "value": 1000
+                }
+            ]
+        },
+        {
+            "id": "OP040",
+            "productionOrderId": "LSX0006",
+            "name": "Đính nhãn, tag size",
+            "requiredMachineType": "Máy in nhãn tự động",
+            "requiredPosition": "Nhân viên gắn nhãn",
+            "prevOperation": ["OP039"],
+            "kpis": [
+                {
+                    "id": "F51",
+                    "name": "Số bộ váy được gắn nhãn hoàn thiện",
+                    "weight": 0.05,
+                    "value": 1000
+                },
+                {
+                    "id": "F52",
+                    "name": "Tỷ lệ sai size, nhãn sai vị trí",
+                    "weight": 0.05,
+                    "value": 1000
+                }
+            ]
+        },
+        {
+            "id": "OP041",
+            "productionOrderId": "LSX0006",
+            "name": "Đóng gói theo bộ sưu tập",
+            "requiredMachineType": "Máy đóng gói chân không",
+            "requiredPosition": "Nhân viên đóng gói",
+            "prevOperation": ["OP040"],
+            "kpis": [
+                {
+                    "id": "F61",
+                    "name": "Số sản phẩm được đóng đúng nhóm BST",
+                    "weight": 0.05,
+                    "value": 1000
+                },
+                {
+                    "id": "F62",
+                    "name": "Tỷ lệ đóng nhầm bộ sưu tập, móp méo",
+                    "weight": 0.05,
+                    "value": 1000
+                }
+            ]
+        },
+        {
+            "id": "OP042",
+            "productionOrderId": "LSX0007",
+            "name": "Chuẩn bị vải chiffon, tơ nhân tạo",
+            "requiredMachineType": "Máy đo độ mỏng vải",
+            "requiredPosition": "Nhân viên xử lý vải",
+            "prevOperation": [],
+            "kpis": [
+                {
+                    "id": "F71",
+                    "name": "Số cuộn vải được kiểm & xử lý",
+                    "weight": 0.025,
+                    "value": 600
+                },
+                {
+                    "id": "F72",
+                    "name": "Tỷ lệ lệch màu, độ mỏng không đạt",
+                    "weight": 0.025,
+                    "value": 600
+                }
+            ]
+        },
+        {
+            "id": "OP043",
+            "productionOrderId": "LSX0007",
+            "name": "Cắt bằng máy dao tròn",
+            "requiredMachineType": "Máy cắt dao tròn",
+            "requiredPosition": "Nhân viên cắt vải",
+            "prevOperation": ["OP042"],
+            "kpis": [
+                {
+                    "id": "G11",
+                    "name": "Số lớp vải được cắt chính xác",
+                    "weight": 0.15,
+                    "value": 600
+                },
+                {
+                    "id": "G12",
+                    "name": "Tỷ lệ lệch rập, sờn mép",
+                    "weight": 0.15,
+                    "value": 600
+                }
+            ]
+        },
+        {
+            "id": "OP044",
+            "productionOrderId": "LSX0007",
+            "name": "May chi tiết mềm (nơ cổ, bèo, tay phồng)",
+            "requiredMachineType": "Máy may chuyên dụng",
+            "requiredPosition": "Nhân viên may chi tiết",
+            "prevOperation": ["OP043"],
+            "kpis": [
+                {
+                    "id": "G21",
+                    "name": "Số chi tiết mềm may hoàn chỉnh",
+                    "weight": 0.175,
+                    "value": 600
+                },
+                {
+                    "id": "G22",
+                    "name": "Tỷ lệ lỗi co rút, lệch form",
+                    "weight": 0.175,
+                    "value": 600
+                }
+            ]
+        },
+        {
+            "id": "OP045",
+            "productionOrderId": "LSX0007",
+            "name": "May ráp, nẹp nút",
+            "requiredMachineType": "Máy may công nghiệp",
+            "requiredPosition": "Nhân viên may ráp",
+            "prevOperation": ["OP044"],
+            "kpis": [
+                {
+                    "id": "G31",
+                    "name": "Số váy được may ráp hoàn chỉnh",
+                    "weight": 0.15,
+                    "value": 600
+                },
+                {
+                    "id": "G32",
+                    "name": "Tỷ lệ sai nẹp, lỗi may nối",
+                    "weight": 0.15,
+                    "value": 600
+                }
+            ]
+        },
+        {
+            "id": "OP046",
+            "productionOrderId": "LSX0007",
+            "name": "Là nhẹ",
+            "requiredMachineType": "Máy là hơi công nghiệp",
+            "requiredPosition": "Nhân viên là ép",
+            "prevOperation": ["OP045"],
+            "kpis": [
+                {
+                    "id": "G41",
+                    "name": "Số chi tiết là đúng quy trình",
+                    "weight": 0.1,
+                    "value": 600
+                },
+                {
+                    "id": "G42",
+                    "name": "Tỷ lệ cháy, bóng vải",
+                    "weight": 0.1,
+                    "value": 600
+                }
+            ]
+        },
+        {
+            "id": "OP047",
+            "productionOrderId": "LSX0007",
+            "name": "Kiểm tra đường may, độ trong suốt",
+            "requiredMachineType": "Máy soi đường may",
+            "requiredPosition": "Nhân viên QA/QC",
+            "prevOperation": ["OP046"],
+            "kpis": [
+                {
+                    "id": "G51",
+                    "name": "Số váy kiểm đạt chuẩn xuyên sáng & đường may",
+                    "weight": 0.125,
+                    "value": 600
+                },
+                {
+                    "id": "G52",
+                    "name": "Tỷ lệ sai hình, lỗi đường may ẩn",
+                    "weight": 0.125,
+                    "value": 600
+                }
+            ]
+        },
+        {
+            "id": "OP048",
+            "productionOrderId": "LSX0007",
+            "name": "Đóng gói thành phẩm",
+            "requiredMachineType": "Máy đóng gói tự động",
+            "requiredPosition": "Nhân viên đóng gói",
+            "prevOperation": ["OP047"],
+            "kpis": [
+                {
+                    "id": "G61",
+                    "name": "Số sản phẩm đóng đúng quy chuẩn",
+                    "weight": 0.075,
+                    "value": 600
+                },
+                {
+                    "id": "G62",
+                    "name": "Tỷ lệ móp, sai size, bao bì lỗi",
+                    "weight": 0.075,
+                    "value": 600
+                }
+            ]
+        },
+        {
+            "id": "OP049",
+            "productionOrderId": "LSX0008",
+            "name": "Cắt vải lưới / thun co giãn",
+            "requiredMachineType": "Máy cắt laser",
+            "requiredPosition": "Nhân viên cắt vải",
+            "prevOperation": [],
+            "kpis": [
+                {
+                    "id": "G71",
+                    "name": "Số cuộn vải co giãn được xử lý đúng",
+                    "weight": 0.05,
+                    "value": 1800
+                },
+                {
+                    "id": "G72",
+                    "name": "Tỷ lệ vải bị giãn, co rút lệch",
+                    "weight": 0.05,
+                    "value": 1800
+                }
+            ]
+        },
+        {
+            "id": "OP050",
+            "productionOrderId": "LSX0008",
+            "name": "May quần lót trong (inner)",
+            "requiredMachineType": "Máy may công nghiệp",
+            "requiredPosition": "Nhân viên may công nghiệp",
+            "prevOperation": ["OP049"],
+            "kpis": [
+                {
+                    "id": "I11",
+                    "name": "Số bộ quần lót hoàn chỉnh được may",
+                    "weight": 0.2,
+                    "value": 1800
+                },
+                {
+                    "id": "I12",
+                    "name": "Tỷ lệ may hỏng, lệch đường may",
+                    "weight": 0.2,
+                    "value": 1800
+                }
+            ]
+        },
+        {
+            "id": "OP051",
+            "productionOrderId": "LSX0008",
+            "name": "May thân trước – thân sau",
+            "requiredMachineType": "Máy may công nghiệp",
+            "requiredPosition": "Nhân viên may ráp",
+            "prevOperation": ["OP050"],
+            "kpis": [
+                {
+                    "id": "I21",
+                    "name": "Số bộ quần lót may hoàn chỉnh thân trước/sau",
+                    "weight": 0.2,
+                    "value": 1800
+                },
+                {
+                    "id": "I22",
+                    "name": "Tỷ lệ sai sót về kích thước, form dáng",
+                    "weight": 0.2,
+                    "value": 1800
+                }
+            ]
+        },
+        {
+            "id": "OP052",
+            "productionOrderId": "LSX0008",
+            "name": "May cạp chun + dây rút",
+            "requiredMachineType": "Máy may chuyên dụng",
+            "requiredPosition": "Nhân viên may chi tiết",
+            "prevOperation": ["OP051"],
+            "kpis": [
+                {
+                    "id": "I31",
+                    "name": "Số quần lót được may cạp chun và dây rút đúng quy trình",
+                    "weight": 0.2,
+                    "value": 1800
+                },
+                {
+                    "id": "I32",
+                    "name": "Tỷ lệ cạp chun bị giãn, co rút sai quy cách",
+                    "weight": 0.2,
+                    "value": 1800
+                }
+            ]
+        },
+        {
+            "id": "OP053",
+            "productionOrderId": "LSX0008",
+            "name": "Kiểm định độ co giãn, độ bền vải",
+            "requiredMachineType": "Máy đo độ co giãn",
+            "requiredPosition": "Nhân viên QA/QC",
+            "prevOperation": ["OP052"],
+            "kpis": [
+                {
+                    "id": "I41",
+                    "name": "Số quần lót qua kiểm định độ co giãn, độ bền vải",
+                    "weight": 0.175,
+                    "value": 1800
+                },
+                {
+                    "id": "I42",
+                    "name": "Tỷ lệ không đạt yêu cầu kiểm định",
+                    "weight": 0.175,
+                    "value": 1800
+                }
+            ]
+        },
+        {
+            "id": "OP054",
+            "productionOrderId": "LSX0008",
+            "name": "Gấp gọn, đóng gói túi PE",
+            "requiredMachineType": "Máy đóng gói tự động",
+            "requiredPosition": "Nhân viên đóng gói",
+            "prevOperation": ["OP053"],
+            "kpis": [
+                {
+                    "id": "I51",
+                    "name": "Số quần lót gấp gọn và đóng gói túi PE hoàn chỉnh",
+                    "weight": 0.15,
+                    "value": 1800
+                },
+                {
+                    "id": "I52",
+                    "name": "Tỷ lệ lỗi trong đóng gói (móp, méo, hỏng bao bì)",
+                    "weight": 0.15,
+                    "value": 1800
+                }
+            ]
+        },
+        {
+            "id": "OP055",
+            "productionOrderId": "LSX0009",
+            "name": "Cắt vải cotton/polyester chống trượt",
+            "requiredMachineType": "Máy cắt laser",
+            "requiredPosition": "Nhân viên xử lý vải",
+            "prevOperation": [],
+            "kpis": [
+                {
+                    "id": "G11",
+                    "name": "Số cuộn vải được cắt chính xác theo yêu cầu",
+                    "weight": 0.2,
+                    "value": 2500
+                },
+                {
+                    "id": "G12",
+                    "name": "Tỷ lệ cắt vải bị lỗi kích thước, sai vị trí",
+                    "weight": 0.2,
+                    "value": 2500
+                }
+            ]
+        },
+        {
+            "id": "OP056",
+            "productionOrderId": "LSX0009",
+            "name": "May lòng bàn tay với lớp đệm",
+            "requiredMachineType": "Máy may công nghiệp",
+            "requiredPosition": "Nhân viên may chi tiết",
+            "prevOperation": ["OP055"],
+            "kpis": [
+                {
+                    "id": "G21",
+                    "name": "Số găng tay hoàn chỉnh với lòng bàn tay đệm",
+                    "weight": 0.2,
+                    "value": 2500
+                },
+                {
+                    "id": "G22",
+                    "name": "Tỷ lệ lỗi trong may lòng bàn tay (lệch, vải không đều)",
+                    "weight": 0.2,
+                    "value": 2500
+                }
+            ]
+        },
+        {
+            "id": "OP057",
+            "productionOrderId": "LSX0009",
+            "name": "May bo cổ tay co giãn",
+            "requiredMachineType": "Máy may co giãn",
+            "requiredPosition": "Nhân viên may ráp",
+            "prevOperation": ["OP056"],
+            "kpis": [
+                {
+                    "id": "G31",
+                    "name": "Số găng tay hoàn chỉnh với bo cổ tay đúng yêu cầu",
+                    "weight": 0.175,
+                    "value": 2500
+                },
+                {
+                    "id": "G32",
+                    "name": "Tỷ lệ lỗi trong may bo cổ tay (không vừa, co giãn không tốt)",
+                    "weight": 0.175,
+                    "value": 2500
+                }
+            ]
+        },
+        {
+            "id": "OP058",
+            "productionOrderId": "LSX0009",
+            "name": "Là và kiểm độ vừa tay",
+            "requiredMachineType": "Máy là hơi công nghiệp",
+            "requiredPosition": "Nhân viên là ép",
+            "prevOperation": ["OP057"],
+            "kpis": [
+                {
+                    "id": "G41",
+                    "name": "Số găng tay kiểm tra và đạt độ vừa tay chuẩn",
+                    "weight": 0.15,
+                    "value": 2500
+                },
+                {
+                    "id": "G42",
+                    "name": "Tỷ lệ găng tay không đạt độ vừa tay chuẩn",
+                    "weight": 0.15,
+                    "value": 2500
+                }
+            ]
+        },
+        {
+            "id": "OP059",
+            "productionOrderId": "LSX0009",
+            "name": "Test độ trượt & ma sát",
+            "requiredMachineType": "Máy đo ma sát",
+            "requiredPosition": "Nhân viên QA/QC",
+            "prevOperation": ["OP058"],
+            "kpis": [
+                {
+                    "id": "G51",
+                    "name": "Số găng tay vượt qua kiểm tra độ trượt và ma sát",
+                    "weight": 0.1,
+                    "value": 2500
+                },
+                {
+                    "id": "G52",
+                    "name": "Tỷ lệ găng tay không đạt kiểm tra độ trượt & ma sát",
+                    "weight": 0.1,
+                    "value": 2500
+                }
+            ]
+        },
+        {
+            "id": "OP060",
+            "productionOrderId": "LSX0009",
+            "name": "Đóng cặp, dán size tag",
+            "requiredMachineType": "Máy dán nhãn tự động",
+            "requiredPosition": "Nhân viên đóng gói",
+            "prevOperation": ["OP059"],
+            "kpis": [
+                {
+                    "id": "G61",
+                    "name": "Số găng tay được đóng gói và dán size tag hoàn chỉnh",
+                    "weight": 0.1,
+                    "value": 2500
+                },
+                {
+                    "id": "G62",
+                    "name": "Tỷ lệ lỗi trong đóng gói (size tag dán sai, đóng gói hỏng)",
+                    "weight": 0.1,
+                    "value": 2500
+                }
+            ]
+        }
+    ],
+    "assets": [
+        {
+            "id": "A001",
+            "name": "Máy đo độ co giãn Instron 5969",
+            "machineType": "Máy đo độ co giãn",
+            "costPerHour": 150,
+            "productivity": 0.92
+        },
+        {
+            "id": "A002",
+            "name": "Máy đo độ co giãn ZwickRoell AllroundLine",
+            "machineType": "Máy đo độ co giãn",
+            "costPerHour": 170,
+            "productivity": 0.9
+        },
+        {
+            "id": "A003",
+            "name": "Máy đo độ co giãn MTS Criterion",
+            "machineType": "Máy đo độ co giãn",
+            "costPerHour": 160,
+            "productivity": 0.91
+        },
+        {
+            "id": "A004",
+            "name": "Máy đo độ co giãn Shimadzu AGS-X",
+            "machineType": "Máy đo độ co giãn",
+            "costPerHour": 180,
+            "productivity": 0.93
+        },
+        {
+            "id": "A005",
+            "name": "Máy đo độ co giãn Tinius Olsen H25KTI",
+            "machineType": "Máy đo độ co giãn",
+            "costPerHour": 200,
+            "productivity": 0.94
+        },
+        {
+            "id": "A006",
+            "name": "Máy cắt vải tự động Lectra Vector",
+            "machineType": "Máy cắt vải tự động",
+            "costPerHour": 250,
+            "productivity": 0.88
+        },
+        {
+            "id": "A007",
+            "name": "Máy cắt vải tự động Gerber Cutter",
+            "machineType": "Máy cắt vải tự động",
+            "costPerHour": 220,
+            "productivity": 0.85
+        },
+        {
+            "id": "A008",
+            "name": "Máy cắt vải tự động Zünd G3",
+            "machineType": "Máy cắt vải tự động",
+            "costPerHour": 280,
+            "productivity": 0.9
+        },
+        {
+            "id": "A009",
+            "name": "Máy cắt vải tự động Eastman VX2500",
+            "machineType": "Máy cắt vải tự động",
+            "costPerHour": 240,
+            "productivity": 0.87
+        },
+        {
+            "id": "A010",
+            "name": "Máy cắt vải tự động Bullmer PowerCut",
+            "machineType": "Máy cắt vải tự động",
+            "costPerHour": 260,
+            "productivity": 0.89
+        },
+        {
+            "id": "A011",
+            "name": "Máy may công nghiệp Juki DDL-8700",
+            "machineType": "Máy may công nghiệp",
+            "costPerHour": 80,
+            "productivity": 0.95
+        },
+        {
+            "id": "A012",
+            "name": "Máy may công nghiệp Brother B755",
+            "machineType": "Máy may công nghiệp",
+            "costPerHour": 85,
+            "productivity": 0.93
+        },
+        {
+            "id": "A013",
+            "name": "Máy may công nghiệp Singer 191D",
+            "machineType": "Máy may công nghiệp",
+            "costPerHour": 75,
+            "productivity": 0.92
+        },
+        {
+            "id": "A014",
+            "name": "Máy may công nghiệp Pegasus W600",
+            "machineType": "Máy may công nghiệp",
+            "costPerHour": 90,
+            "productivity": 0.94
+        },
+        {
+            "id": "A015",
+            "name": "Máy may công nghiệp Jack JK-9000B",
+            "machineType": "Máy may công nghiệp",
+            "costPerHour": 95,
+            "productivity": 0.91
+        },
+        {
+            "id": "A016",
+            "name": "Máy may chuyên dụng Juki MO-6714S (vắt sổ)",
+            "machineType": "Máy may chuyên dụng",
+            "costPerHour": 100,
+            "productivity": 0.9
+        },
+        {
+            "id": "A017",
+            "name": "Máy may chuyên dụng Brother BAS-326G (thêu)",
+            "machineType": "Máy may chuyên dụng",
+            "costPerHour": 120,
+            "productivity": 0.88
+        },
+        {
+            "id": "A018",
+            "name": "Máy may chuyên dụng Consew 206RB (may da)",
+            "machineType": "Máy may chuyên dụng",
+            "costPerHour": 130,
+            "productivity": 0.85
+        },
+        {
+            "id": "A019",
+            "name": "Máy giặt công nghiệp Primus C400",
+            "machineType": "Máy giặt công nghiệp",
+            "costPerHour": 200,
+            "productivity": 0.85
+        },
+        {
+            "id": "A020",
+            "name": "Máy giặt công nghiệp IPSO WN86",
+            "machineType": "Máy giặt công nghiệp",
+            "costPerHour": 190,
+            "productivity": 0.86
+        },
+        {
+            "id": "A021",
+            "name": "Máy giặt công nghiệp Electrolux W586H",
+            "machineType": "Máy giặt công nghiệp",
+            "costPerHour": 210,
+            "productivity": 0.84
+        },
+        {
+            "id": "A022",
+            "name": "Máy giặt công nghiệp Girbau HS-60",
+            "machineType": "Máy giặt công nghiệp",
+            "costPerHour": 180,
+            "productivity": 0.88
+        },
+        {
+            "id": "A023",
+            "name": "Máy giặt công nghiệp Speed Queen SR7",
+            "machineType": "Máy giặt công nghiệp",
+            "costPerHour": 220,
+            "productivity": 0.82
+        },
+        {
+            "id": "A024",
+            "name": "Máy kiểm tra độ bền Testometric M350-10CT",
+            "machineType": "Máy kiểm tra độ bền",
+            "costPerHour": 180,
+            "productivity": 0.87
+        },
+        {
+            "id": "A025",
+            "name": "Máy kiểm tra độ bền ADMET eXpert 7601",
+            "machineType": "Máy kiểm tra độ bền",
+            "costPerHour": 200,
+            "productivity": 0.85
+        },
+        {
+            "id": "A026",
+            "name": "Máy kiểm tra độ bền Hegewald & Peschke Inspekt 200 kN",
+            "machineType": "Máy kiểm tra độ bền",
+            "costPerHour": 220,
+            "productivity": 0.82
+        },
+        {
+            "id": "A027",
+            "name": "Máy đóng gói tự động Bosch Sigpack HML",
+            "machineType": "Máy đóng gói tự động",
+            "costPerHour": 120,
+            "productivity": 0.93
+        },
+        {
+            "id": "A028",
+            "name": "Máy đóng gói tự động Ishida CCW-R Series",
+            "machineType": "Máy đóng gói tự động",
+            "costPerHour": 130,
+            "productivity": 0.9
+        },
+        {
+            "id": "A029",
+            "name": "Máy đóng gói tự động ULMA HFFS",
+            "machineType": "Máy đóng gói tự động",
+            "costPerHour": 140,
+            "productivity": 0.88
+        },
+        {
+            "id": "A030",
+            "name": "Máy đóng gói tự động Matrix 450",
+            "machineType": "Máy đóng gói tự động",
+            "costPerHour": 110,
+            "productivity": 0.91
+        },
+        {
+            "id": "A031",
+            "name": "Máy đóng gói tự động Viking M Series",
+            "machineType": "Máy đóng gói tự động",
+            "costPerHour": 150,
+            "productivity": 0.89
+        },
+        {
+            "id": "A032",
+            "name": "Máy cắt laser Trotec Speedy 400",
+            "machineType": "Máy cắt laser",
+            "costPerHour": 300,
+            "productivity": 0.89
+        },
+        {
+            "id": "A033",
+            "name": "Máy cắt laser Epilog Fusion Pro",
+            "machineType": "Máy cắt laser",
+            "costPerHour": 320,
+            "productivity": 0.9
+        },
+        {
+            "id": "A034",
+            "name": "Máy cắt laser Universal Laser Systems VLS6.75",
+            "machineType": "Máy cắt laser",
+            "costPerHour": 310,
+            "productivity": 0.88
+        },
+        {
+            "id": "A035",
+            "name": "Máy cắt laser Boss Laser LS-2440",
+            "machineType": "Máy cắt laser",
+            "costPerHour": 290,
+            "productivity": 0.87
+        },
+        {
+            "id": "A036",
+            "name": "Máy đính khuy tự động Juki MB-377",
+            "machineType": "Máy đính khuy tự động",
+            "costPerHour": 90,
+            "productivity": 0.91
+        },
+        {
+            "id": "A037",
+            "name": "Máy đính khuy tự động Yamato AD-1300",
+            "machineType": "Máy đính khuy tự động",
+            "costPerHour": 95,
+            "productivity": 0.89
+        },
+        {
+            "id": "A038",
+            "name": "Máy đính khuy tự động Kansai Special MB-3730",
+            "machineType": "Máy đính khuy tự động",
+            "costPerHour": 100,
+            "productivity": 0.88
+        },
+        {
+            "id": "A039",
+            "name": "Máy đính khuy tự động Sunstar KX-500",
+            "machineType": "Máy đính khuy tự động",
+            "costPerHour": 85,
+            "productivity": 0.92
+        },
+        {
+            "id": "A040",
+            "name": "Máy là hơi công nghiệp Veit 8003LP",
+            "machineType": "Máy là hơi công nghiệp",
+            "costPerHour": 110,
+            "productivity": 0.94
+        },
+        {
+            "id": "A041",
+            "name": "Máy là hơi công nghiệp Macpi 449/16",
+            "machineType": "Máy là hơi công nghiệp",
+            "costPerHour": 120,
+            "productivity": 0.92
+        },
+        {
+            "id": "A042",
+            "name": "Máy là hơi công nghiệp Hoffman M-2000",
+            "machineType": "Máy là hơi công nghiệp",
+            "costPerHour": 115,
+            "productivity": 0.9
+        },
+        {
+            "id": "A043",
+            "name": "Máy là hơi công nghiệp Oshima OS-7000",
+            "machineType": "Máy là hơi công nghiệp",
+            "costPerHour": 130,
+            "productivity": 0.93
+        },
+        {
+            "id": "A044",
+            "name": "Thiết bị kiểm tra mẫu Q-Lab QUV",
+            "machineType": "Thiết bị kiểm tra mẫu",
+            "costPerHour": 150,
+            "productivity": 0.85
+        },
+        {
+            "id": "A045",
+            "name": "Thiết bị kiểm tra mẫu Atlas Xenotest Beta LM",
+            "machineType": "Thiết bị kiểm tra mẫu",
+            "costPerHour": 170,
+            "productivity": 0.87
+        },
+        {
+            "id": "A046",
+            "name": "Thiết bị kiểm tra mẫu SGS SART",
+            "machineType": "Thiết bị kiểm tra mẫu",
+            "costPerHour": 160,
+            "productivity": 0.88
+        },
+        {
+            "id": "A047",
+            "name": "Máy in nhãn Epson ColorWorks C7500",
+            "machineType": "Máy in nhãn",
+            "costPerHour": 70,
+            "productivity": 0.93
+        },
+        {
+            "id": "A048",
+            "name": "Máy in nhãn Zebra ZT410",
+            "machineType": "Máy in nhãn",
+            "costPerHour": 80,
+            "productivity": 0.91
+        },
+        {
+            "id": "A049",
+            "name": "Máy in nhãn Brady M210",
+            "machineType": "Máy in nhãn",
+            "costPerHour": 75,
+            "productivity": 0.89
+        },
+        {
+            "id": "A050",
+            "name": "Máy in nhãn Primera LX900",
+            "machineType": "Máy in nhãn",
+            "costPerHour": 90,
+            "productivity": 0.92
+        },
+        {
+            "id": "A051",
+            "name": "Máy sanforizing Monforts Sanfor",
+            "machineType": "Máy sanforizing",
+            "costPerHour": 400,
+            "productivity": 0.82
+        },
+        {
+            "id": "A052",
+            "name": "Máy sanforizing Bruckner Sanforizer",
+            "machineType": "Máy sanforizing",
+            "costPerHour": 420,
+            "productivity": 0.8
+        },
+        {
+            "id": "A053",
+            "name": "Máy sanforizing Sperotto Rimar Sanfor",
+            "machineType": "Máy sanforizing",
+            "costPerHour": 410,
+            "productivity": 0.81
+        },
+        {
+            "id": "A054",
+            "name": "Máy phủ PU tự động Nordson EFD Precision Coating",
+            "machineType": "Máy phủ PU tự động",
+            "costPerHour": 350,
+            "productivity": 0.84
+        },
+        {
+            "id": "A055",
+            "name": "Máy phủ PU tự động Graco Ultramax II",
+            "machineType": "Máy phủ PU tự động",
+            "costPerHour": 340,
+            "productivity": 0.83
+        },
+        {
+            "id": "A056",
+            "name": "Máy phủ PU tự động Sames Kremlin Airmix",
+            "machineType": "Máy phủ PU tự động",
+            "costPerHour": 360,
+            "productivity": 0.85
+        },
+        {
+            "id": "A057",
+            "name": "Máy thổi khí áp suất Festo Air Blower",
+            "machineType": "Máy thổi khí áp suất",
+            "costPerHour": 180,
+            "productivity": 0.86
+        },
+        {
+            "id": "A058",
+            "name": "Máy thổi khí áp suất Kaeser SK Series",
+            "machineType": "Máy thổi khí áp suất",
+            "costPerHour": 190,
+            "productivity": 0.88
+        },
+        {
+            "id": "A059",
+            "name": "Máy thổi khí áp suất Atlas Copco GA 37",
+            "machineType": "Máy thổi khí áp suất",
+            "costPerHour": 200,
+            "productivity": 0.85
+        },
+        {
+            "id": "A060",
+            "name": "Máy in công nghiệp Kornit Avalanche HD6",
+            "machineType": "Máy in công nghiệp",
+            "costPerHour": 280,
+            "productivity": 0.86
+        },
+        {
+            "id": "A061",
+            "name": "Máy in công nghiệp Mimaki TS55-1800",
+            "machineType": "Máy in công nghiệp",
+            "costPerHour": 270,
+            "productivity": 0.85
+        },
+        {
+            "id": "A062",
+            "name": "Máy in công nghiệp Roland DG Texart XT-640",
+            "machineType": "Máy in công nghiệp",
+            "costPerHour": 290,
+            "productivity": 0.87
+        },
+        {
+            "id": "A063",
+            "name": "Máy đóng nút tự động Juki AMS-210EN",
+            "machineType": "Máy đóng nút tự động",
+            "costPerHour": 95,
+            "productivity": 0.91
+        },
+        {
+            "id": "A064",
+            "name": "Máy đóng nút tự động Yamato AD-1250",
+            "machineType": "Máy đóng nút tự động",
+            "costPerHour": 100,
+            "productivity": 0.89
+        },
+        {
+            "id": "A065",
+            "name": "Máy đóng nút tự động Kansai Special MB-3720",
+            "machineType": "Máy đóng nút tự động",
+            "costPerHour": 105,
+            "productivity": 0.9
+        },
+        {
+            "id": "A066",
+            "name": "Máy đo form 3D Vitus 3D Body Scanner",
+            "machineType": "Máy đo form 3D",
+            "costPerHour": 220,
+            "productivity": 0.88
+        },
+        {
+            "id": "A067",
+            "name": "Máy đo form 3D TechMed 3D Measure",
+            "machineType": "Máy đo form 3D",
+            "costPerHour": 240,
+            "productivity": 0.86
+        },
+        {
+            "id": "A068",
+            "name": "Máy đo form 3D Artec Eva",
+            "machineType": "Máy đo form 3D",
+            "costPerHour": 260,
+            "productivity": 0.9
+        },
+        {
+            "id": "A069",
+            "name": "Máy đóng hộp tự động Bosch CP6",
+            "machineType": "Máy đóng hộp tự động",
+            "costPerHour": 180,
+            "productivity": 0.89
+        },
+        {
+            "id": "A070",
+            "name": "Máy đóng hộp tự động IMA Ilapak Delta 420",
+            "machineType": "Máy đóng hộp tự động",
+            "costPerHour": 200,
+            "productivity": 0.91
+        },
+        {
+            "id": "A071",
+            "name": "Máy đóng hộp tự động Omori Carton Sealer",
+            "machineType": "Máy đóng hộp tự động",
+            "costPerHour": 190,
+            "productivity": 0.87
+        },
+        {
+            "id": "A072",
+            "name": "Máy cắt rập CNC Lectra Versalis",
+            "machineType": "Máy cắt rập CNC",
+            "costPerHour": 320,
+            "productivity": 0.9
+        },
+        {
+            "id": "A073",
+            "name": "Máy cắt rập CNC Gerber Paragon",
+            "machineType": "Máy cắt rập CNC",
+            "costPerHour": 330,
+            "productivity": 0.92
+        },
+        {
+            "id": "A074",
+            "name": "Máy cắt rập CNC Tukatech TUKAcut",
+            "machineType": "Máy cắt rập CNC",
+            "costPerHour": 310,
+            "productivity": 0.88
+        },
+        {
+            "id": "A075",
+            "name": "Máy đo 3D Faro Arm ScanArm",
+            "machineType": "Máy đo 3D",
+            "costPerHour": 350,
+            "productivity": 0.85
+        },
+        {
+            "id": "A076",
+            "name": "Máy đo 3D Creaform HandySCAN 3D",
+            "machineType": "Máy đo 3D",
+            "costPerHour": 370,
+            "productivity": 0.87
+        },
+        {
+            "id": "A077",
+            "name": "Máy đo 3D Hexagon Absolute Arm",
+            "machineType": "Máy đo 3D",
+            "costPerHour": 380,
+            "productivity": 0.89
+        },
+        {
+            "id": "A078",
+            "name": "Máy in nhãn tự động SATO CL4NX",
+            "machineType": "Máy in nhãn tự động",
+            "costPerHour": 95,
+            "productivity": 0.93
+        },
+        {
+            "id": "A079",
+            "name": "Máy in nhãn tự động Honeywell PM45",
+            "machineType": "Máy in nhãn tự động",
+            "costPerHour": 100,
+            "productivity": 0.91
+        },
+        {
+            "id": "A080",
+            "name": "Máy in nhãn tự động Toshiba B-SX4T",
+            "machineType": "Máy in nhãn tự động",
+            "costPerHour": 90,
+            "productivity": 0.94
+        },
+        {
+            "id": "A081",
+            "name": "Máy đóng gói chân không Henkelman Boxer 52",
+            "machineType": "Máy đóng gói chân không",
+            "costPerHour": 280,
+            "productivity": 0.86
+        },
+        {
+            "id": "A082",
+            "name": "Máy đóng gói chân không Multivac C500",
+            "machineType": "Máy đóng gói chân không",
+            "costPerHour": 300,
+            "productivity": 0.88
+        },
+        {
+            "id": "A083",
+            "name": "Máy đóng gói chân không Ulma Packaging HFFS",
+            "machineType": "Máy đóng gói chân không",
+            "costPerHour": 290,
+            "productivity": 0.85
+        },
+        {
+            "id": "A084",
+            "name": "Máy đo độ mỏng vải Mitutoyo Thickness Gauge",
+            "machineType": "Máy đo độ mỏng vải",
+            "costPerHour": 120,
+            "productivity": 0.9
+        },
+        {
+            "id": "A085",
+            "name": "Máy cắt dao tròn Eastman Rotary Cutter",
+            "machineType": "Máy cắt dao tròn",
+            "costPerHour": 150,
+            "productivity": 0.88
+        },
+        {
+            "id": "A086",
+            "name": "Máy cắt dao tròn Olfa RTY-3DX",
+            "machineType": "Máy cắt dao tròn",
+            "costPerHour": 140,
+            "productivity": 0.9
+        },
+        {
+            "id": "A087",
+            "name": "Máy cắt dao tròn Martelli Rotary Cutter",
+            "machineType": "Máy cắt dao tròn",
+            "costPerHour": 160,
+            "productivity": 0.87
+        },
+        {
+            "id": "A088",
+            "name": "Máy soi đường may Veit Vision Sewing Analyzer",
+            "machineType": "Máy soi đường may",
+            "costPerHour": 180,
+            "productivity": 0.85
+        },
+        {
+            "id": "A089",
+            "name": "Máy soi đường may QIMA Inspection Camera",
+            "machineType": "Máy soi đường may",
+            "costPerHour": 200,
+            "productivity": 0.82
+        },
+        {
+            "id": "A090",
+            "name": "Máy soi đường may Testex Seam Inspection System",
+            "machineType": "Máy soi đường may",
+            "costPerHour": 190,
+            "productivity": 0.84
+        },
+        {
+            "id": "A091",
+            "name": "Máy may co giãn Juki MO-6700S",
+            "machineType": "Máy may co giãn",
+            "costPerHour": 110,
+            "productivity": 0.92
+        },
+        {
+            "id": "A092",
+            "name": "Máy may co giãn Brother BAS-325G",
+            "machineType": "Máy may co giãn",
+            "costPerHour": 105,
+            "productivity": 0.91
+        },
+        {
+            "id": "A093",
+            "name": "Máy may co giãn Pegasus W500",
+            "machineType": "Máy may co giãn",
+            "costPerHour": 115,
+            "productivity": 0.89
+        },
+        {
+            "id": "A094",
+            "name": "Máy đo ma sát Labthink FPT-F1",
+            "machineType": "Máy đo ma sát",
+            "costPerHour": 130,
+            "productivity": 0.86
+        },
+        {
+            "id": "A095",
+            "name": "Máy đo ma sát Trinity ISR-2000",
+            "machineType": "Máy đo ma sát",
+            "costPerHour": 140,
+            "productivity": 0.84
+        },
+        {
+            "id": "A096",
+            "name": "Máy đo ma sát Taber 5700",
+            "machineType": "Máy đo ma sát",
+            "costPerHour": 135,
+            "productivity": 0.88
+        },
+        {
+            "id": "A097",
+            "name": "Máy dán nhãn tự động Label-Aire 3000 Series",
+            "machineType": "Máy dán nhãn tự động",
+            "costPerHour": 95,
+            "productivity": 0.93
+        },
+        {
+            "id": "A098",
+            "name": "Máy dán nhãn tự động HERMA 500",
+            "machineType": "Máy dán nhãn tự động",
+            "costPerHour": 90,
+            "productivity": 0.94
+        },
+        {
+            "id": "A099",
+            "name": "Máy dán nhãn tự động Pack Leader L-200",
+            "machineType": "Máy dán nhãn tự động",
+            "costPerHour": 100,
+            "productivity": 0.91
+        },
+        {
+            "id": "A110",
+            "name": "Máy cắt vải tự động Bullmer PowerCut",
+            "machineType": "Máy cắt vải tự động",
+            "costPerHour": 260,
+            "productivity": 0.89
+        },
+        {
+            "id": "A111",
+            "name": "Máy cắt vải tự động Bullmer CutMaster",
+            "machineType": "Máy cắt vải tự động",
+            "costPerHour": 265,
+            "productivity": 0.88
+        },
+        {
+            "id": "A112",
+            "name": "Máy cắt vải tự động Zünd G3",
+            "machineType": "Máy cắt vải tự động",
+            "costPerHour": 270,
+            "productivity": 0.87
+        },
+        {
+            "id": "A113",
+            "name": "Máy cắt vải tự động Gerber Paragon",
+            "machineType": "Máy cắt vải tự động",
+            "costPerHour": 275,
+            "productivity": 0.86
+        },
+        {
+            "id": "A114",
+            "name": "Máy cắt vải tự động Lectra Cutter",
+            "machineType": "Máy cắt vải tự động",
+            "costPerHour": 280,
+            "productivity": 0.85
+        },
+        {
+            "id": "A115",
+            "name": "Máy cắt vải tự động Gerber Cutter XL",
+            "machineType": "Máy cắt vải tự động",
+            "costPerHour": 285,
+            "productivity": 0.84
+        },
+        {
+            "id": "A116",
+            "name": "Máy cắt vải tự động Eastman Supercut",
+            "machineType": "Máy cắt vải tự động",
+            "costPerHour": 290,
+            "productivity": 0.83
+        },
+        {
+            "id": "A117",
+            "name": "Máy cắt vải tự động Bullmer Cut 2000",
+            "machineType": "Máy cắt vải tự động",
+            "costPerHour": 295,
+            "productivity": 0.82
+        },
+        {
+            "id": "A118",
+            "name": "Máy cắt vải tự động Lectra iX",
+            "machineType": "Máy cắt vải tự động",
+            "costPerHour": 300,
+            "productivity": 0.81
+        },
+        {
+            "id": "A119",
+            "name": "Máy cắt vải tự động Zünd G5",
+            "machineType": "Máy cắt vải tự động",
+            "costPerHour": 310,
+            "productivity": 0.8
+        },
+        {
+            "id": "A120",
+            "name": "Máy may công nghiệp Juki DDL-9000",
+            "machineType": "Máy may công nghiệp",
+            "costPerHour": 85,
+            "productivity": 0.94
+        },
+        {
+            "id": "A121",
+            "name": "Máy may công nghiệp Brother B755A",
+            "machineType": "Máy may công nghiệp",
+            "costPerHour": 90,
+            "productivity": 0.92
+        },
+        {
+            "id": "A122",
+            "name": "Máy may công nghiệp Singer 191DA",
+            "machineType": "Máy may công nghiệp",
+            "costPerHour": 80,
+            "productivity": 0.95
+        },
+        {
+            "id": "A123",
+            "name": "Máy may công nghiệp Pegasus W600A",
+            "machineType": "Máy may công nghiệp",
+            "costPerHour": 95,
+            "productivity": 0.91
+        },
+        {
+            "id": "A124",
+            "name": "Máy may công nghiệp Jack JK-9000C",
+            "machineType": "Máy may công nghiệp",
+            "costPerHour": 92,
+            "productivity": 0.93
+        },
+        {
+            "id": "A125",
+            "name": "Máy may công nghiệp Juki DDL-8700A",
+            "machineType": "Máy may công nghiệp",
+            "costPerHour": 88,
+            "productivity": 0.94
+        },
+        {
+            "id": "A126",
+            "name": "Máy may công nghiệp Brother B700",
+            "machineType": "Máy may công nghiệp",
+            "costPerHour": 86,
+            "productivity": 0.91
+        },
+        {
+            "id": "A127",
+            "name": "Máy may công nghiệp Singer 192D",
+            "machineType": "Máy may công nghiệp",
+            "costPerHour": 75,
+            "productivity": 0.92
+        },
+        {
+            "id": "A128",
+            "name": "Máy may công nghiệp Pegasus W600B",
+            "machineType": "Máy may công nghiệp",
+            "costPerHour": 90,
+            "productivity": 0.94
+        },
+        {
+            "id": "A129",
+            "name": "Máy may công nghiệp Jack JK-9000D",
+            "machineType": "Máy may công nghiệp",
+            "costPerHour": 95,
+            "productivity": 0.93
+        },
+        {
+            "id": "A130",
+            "name": "Máy may chuyên dụng Juki MO-6714S (vắt sổ)",
+            "machineType": "Máy may chuyên dụng",
+            "costPerHour": 100,
+            "productivity": 0.9
+        },
+        {
+            "id": "A131",
+            "name": "Máy may chuyên dụng Brother BAS-326G (thêu)",
+            "machineType": "Máy may chuyên dụng",
+            "costPerHour": 120,
+            "productivity": 0.88
+        },
+        {
+            "id": "A132",
+            "name": "Máy may chuyên dụng Consew 206RB (may da)",
+            "machineType": "Máy may chuyên dụng",
+            "costPerHour": 130,
+            "productivity": 0.85
+        },
+        {
+            "id": "A133",
+            "name": "Máy may chuyên dụng Juki MO-1000S (vắt sổ)",
+            "machineType": "Máy may chuyên dụng",
+            "costPerHour": 110,
+            "productivity": 0.89
+        },
+        {
+            "id": "A134",
+            "name": "Máy may chuyên dụng Brother BAS-210G (thêu)",
+            "machineType": "Máy may chuyên dụng",
+            "costPerHour": 125,
+            "productivity": 0.87
+        },
+        {
+            "id": "A135",
+            "name": "Máy may chuyên dụng Consew 737-RB (may da)",
+            "machineType": "Máy may chuyên dụng",
+            "costPerHour": 135,
+            "productivity": 0.84
+        },
+        {
+            "id": "A136",
+            "name": "Máy may chuyên dụng Juki MO-6841S (vắt sổ)",
+            "machineType": "Máy may chuyên dụng",
+            "costPerHour": 115,
+            "productivity": 0.88
+        },
+        {
+            "id": "A137",
+            "name": "Máy may chuyên dụng Brother BAS-354G (thêu)",
+            "machineType": "Máy may chuyên dụng",
+            "costPerHour": 130,
+            "productivity": 0.86
+        },
+        {
+            "id": "A138",
+            "name": "Máy may chuyên dụng Consew 206RB-5 (may da)",
+            "machineType": "Máy may chuyên dụng",
+            "costPerHour": 140,
+            "productivity": 0.83
+        },
+        {
+            "id": "A139",
+            "name": "Máy may chuyên dụng Juki MO-7034S (vắt sổ)",
+            "machineType": "Máy may chuyên dụng",
+            "costPerHour": 120,
+            "productivity": 0.87
+        },
+        {
+            "id": "A140",
+            "name": "Máy giặt công nghiệp Primus C500",
+            "machineType": "Máy giặt công nghiệp",
+            "costPerHour": 210,
+            "productivity": 0.85
+        },
+        {
+            "id": "A141",
+            "name": "Máy giặt công nghiệp IPSO WN100",
+            "machineType": "Máy giặt công nghiệp",
+            "costPerHour": 200,
+            "productivity": 0.86
+        },
+        {
+            "id": "A142",
+            "name": "Máy giặt công nghiệp Electrolux W700",
+            "machineType": "Máy giặt công nghiệp",
+            "costPerHour": 220,
+            "productivity": 0.84
+        },
+        {
+            "id": "A143",
+            "name": "Máy giặt công nghiệp Girbau HS-90",
+            "machineType": "Máy giặt công nghiệp",
+            "costPerHour": 190,
+            "productivity": 0.88
+        },
+        {
+            "id": "A144",
+            "name": "Máy giặt công nghiệp Speed Queen SR9",
+            "machineType": "Máy giặt công nghiệp",
+            "costPerHour": 230,
+            "productivity": 0.83
+        },
+        {
+            "id": "A145",
+            "name": "Máy giặt công nghiệp Primus C450",
+            "machineType": "Máy giặt công nghiệp",
+            "costPerHour": 180,
+            "productivity": 0.87
+        },
+        {
+            "id": "A146",
+            "name": "Máy giặt công nghiệp IPSO WN150",
+            "machineType": "Máy giặt công nghiệp",
+            "costPerHour": 210,
+            "productivity": 0.85
+        },
+        {
+            "id": "A147",
+            "name": "Máy giặt công nghiệp Electrolux W800",
+            "machineType": "Máy giặt công nghiệp",
+            "costPerHour": 220,
+            "productivity": 0.82
+        },
+        {
+            "id": "A148",
+            "name": "Máy giặt công nghiệp Girbau HS-70",
+            "machineType": "Máy giặt công nghiệp",
+            "costPerHour": 180,
+            "productivity": 0.88
+        },
+        {
+            "id": "A149",
+            "name": "Máy giặt công nghiệp Speed Queen SR8",
+            "machineType": "Máy giặt công nghiệp",
+            "costPerHour": 200,
+            "productivity": 0.84
+        },
+        {
+            "id": "A150",
+            "name": "Máy kiểm tra độ bền Testometric M400-15CT",
+            "machineType": "Máy kiểm tra độ bền",
+            "costPerHour": 210,
+            "productivity": 0.85
+        },
+        {
+            "id": "A151",
+            "name": "Máy kiểm tra độ bền ADMET eXpert 7602",
+            "machineType": "Máy kiểm tra độ bền",
+            "costPerHour": 220,
+            "productivity": 0.83
+        },
+        {
+            "id": "A152",
+            "name": "Máy kiểm tra độ bền Hegewald & Peschke Inspekt 300 kN",
+            "machineType": "Máy kiểm tra độ bền",
+            "costPerHour": 200,
+            "productivity": 0.86
+        },
+        {
+            "id": "A153",
+            "name": "Máy kiểm tra độ bền Testometric M450-20CT",
+            "machineType": "Máy kiểm tra độ bền",
+            "costPerHour": 190,
+            "productivity": 0.87
+        },
+        {
+            "id": "A154",
+            "name": "Máy kiểm tra độ bền ADMET eXpert 7603",
+            "machineType": "Máy kiểm tra độ bền",
+            "costPerHour": 210,
+            "productivity": 0.84
+        },
+        {
+            "id": "A155",
+            "name": "Máy kiểm tra độ bền Hegewald & Peschke Inspekt 400 kN",
+            "machineType": "Máy kiểm tra độ bền",
+            "costPerHour": 230,
+            "productivity": 0.82
+        },
+        {
+            "id": "A156",
+            "name": "Máy kiểm tra độ bền Testometric M500-25CT",
+            "machineType": "Máy kiểm tra độ bền",
+            "costPerHour": 220,
+            "productivity": 0.83
+        },
+        {
+            "id": "A157",
+            "name": "Máy kiểm tra độ bền ADMET eXpert 7604",
+            "machineType": "Máy kiểm tra độ bền",
+            "costPerHour": 200,
+            "productivity": 0.85
+        },
+        {
+            "id": "A158",
+            "name": "Máy kiểm tra độ bền Hegewald & Peschke Inspekt 500 kN",
+            "machineType": "Máy kiểm tra độ bền",
+            "costPerHour": 210,
+            "productivity": 0.84
+        },
+        {
+            "id": "A159",
+            "name": "Máy kiểm tra độ bền Testometric M550-30CT",
+            "machineType": "Máy kiểm tra độ bền",
+            "costPerHour": 180,
+            "productivity": 0.87
+        },
+        {
+            "id": "A160",
+            "name": "Máy đóng gói tự động Bosch Sigpack 1000",
+            "machineType": "Máy đóng gói tự động",
+            "costPerHour": 140,
+            "productivity": 0.89
+        },
+        {
+            "id": "A161",
+            "name": "Máy đóng gói tự động Ishida CCW-R Plus",
+            "machineType": "Máy đóng gói tự động",
+            "costPerHour": 130,
+            "productivity": 0.9
+        },
+        {
+            "id": "A162",
+            "name": "Máy đóng gói tự động ULMA TFS",
+            "machineType": "Máy đóng gói tự động",
+            "costPerHour": 120,
+            "productivity": 0.91
+        },
+        {
+            "id": "A163",
+            "name": "Máy đóng gói tự động Matrix 600",
+            "machineType": "Máy đóng gói tự động",
+            "costPerHour": 110,
+            "productivity": 0.92
+        },
+        {
+            "id": "A164",
+            "name": "Máy đóng gói tự động Viking M300",
+            "machineType": "Máy đóng gói tự động",
+            "costPerHour": 150,
+            "productivity": 0.88
+        },
+        {
+            "id": "A165",
+            "name": "Máy đóng gói tự động Bosch Sigpack 2000",
+            "machineType": "Máy đóng gói tự động",
+            "costPerHour": 140,
+            "productivity": 0.89
+        },
+        {
+            "id": "A166",
+            "name": "Máy đóng gói tự động Ishida CCW-R Max",
+            "machineType": "Máy đóng gói tự động",
+            "costPerHour": 135,
+            "productivity": 0.87
+        },
+        {
+            "id": "A167",
+            "name": "Máy đóng gói tự động ULMA HFFS 1000",
+            "machineType": "Máy đóng gói tự động",
+            "costPerHour": 120,
+            "productivity": 0.91
+        },
+        {
+            "id": "A168",
+            "name": "Máy đóng gói tự động Matrix 700",
+            "machineType": "Máy đóng gói tự động",
+            "costPerHour": 110,
+            "productivity": 0.92
+        },
+        {
+            "id": "A169",
+            "name": "Máy đóng gói tự động Viking M400",
+            "machineType": "Máy đóng gói tự động",
+            "costPerHour": 145,
+            "productivity": 0.9
+        },
+        {
+            "id": "A170",
+            "name": "Máy cắt laser Trotec Speedy 500",
+            "machineType": "Máy cắt laser",
+            "costPerHour": 330,
+            "productivity": 0.9
+        },
+        {
+            "id": "A171",
+            "name": "Máy cắt laser Epilog Fusion Edge",
+            "machineType": "Máy cắt laser",
+            "costPerHour": 310,
+            "productivity": 0.88
+        },
+        {
+            "id": "A172",
+            "name": "Máy cắt laser Universal Laser Systems VLS8.75",
+            "machineType": "Máy cắt laser",
+            "costPerHour": 320,
+            "productivity": 0.89
+        },
+        {
+            "id": "A173",
+            "name": "Máy cắt laser Boss Laser LS-3655",
+            "machineType": "Máy cắt laser",
+            "costPerHour": 290,
+            "productivity": 0.87
+        },
+        {
+            "id": "A174",
+            "name": "Máy cắt laser Trotec Speedy 600",
+            "machineType": "Máy cắt laser",
+            "costPerHour": 340,
+            "productivity": 0.9
+        },
+        {
+            "id": "A175",
+            "name": "Máy cắt laser Epilog Mini 24",
+            "machineType": "Máy cắt laser",
+            "costPerHour": 300,
+            "productivity": 0.88
+        },
+        {
+            "id": "A176",
+            "name": "Máy cắt laser Universal Laser Systems VLS10.75",
+            "machineType": "Máy cắt laser",
+            "costPerHour": 310,
+            "productivity": 0.89
+        },
+        {
+            "id": "A177",
+            "name": "Máy cắt laser Boss Laser LS-1325",
+            "machineType": "Máy cắt laser",
+            "costPerHour": 280,
+            "productivity": 0.87
+        },
+        {
+            "id": "A178",
+            "name": "Máy cắt laser Trotec Speedy 300",
+            "machineType": "Máy cắt laser",
+            "costPerHour": 320,
+            "productivity": 0.89
+        },
+        {
+            "id": "A179",
+            "name": "Máy cắt laser Epilog Zing 16",
+            "machineType": "Máy cắt laser",
+            "costPerHour": 300,
+            "productivity": 0.88
+        },
+        {
+            "id": "A180",
+            "name": "Máy đính khuy tự động Juki MB-377",
+            "machineType": "Máy đính khuy tự động",
+            "costPerHour": 95,
+            "productivity": 0.9
+        },
+        {
+            "id": "A181",
+            "name": "Máy đính khuy tự động Yamato AD-1300",
+            "machineType": "Máy đính khuy tự động",
+            "costPerHour": 100,
+            "productivity": 0.88
+        },
+        {
+            "id": "A182",
+            "name": "Máy đính khuy tự động Kansai Special MB-3730",
+            "machineType": "Máy đính khuy tự động",
+            "costPerHour": 90,
+            "productivity": 0.91
+        },
+        {
+            "id": "A183",
+            "name": "Máy đính khuy tự động Sunstar KX-500",
+            "machineType": "Máy đính khuy tự động",
+            "costPerHour": 85,
+            "productivity": 0.92
+        },
+        {
+            "id": "A184",
+            "name": "Máy đính khuy tự động Juki MB-376",
+            "machineType": "Máy đính khuy tự động",
+            "costPerHour": 95,
+            "productivity": 0.89
+        },
+        {
+            "id": "A185",
+            "name": "Máy đính khuy tự động Yamato AD-1400",
+            "machineType": "Máy đính khuy tự động",
+            "costPerHour": 90,
+            "productivity": 0.9
+        },
+        {
+            "id": "A186",
+            "name": "Máy đính khuy tự động Kansai Special MB-3740",
+            "machineType": "Máy đính khuy tự động",
+            "costPerHour": 85,
+            "productivity": 0.91
+        },
+        {
+            "id": "A187",
+            "name": "Máy đính khuy tự động Sunstar KX-600",
+            "machineType": "Máy đính khuy tự động",
+            "costPerHour": 100,
+            "productivity": 0.88
+        },
+        {
+            "id": "A188",
+            "name": "Máy đính khuy tự động Juki MB-377A",
+            "machineType": "Máy đính khuy tự động",
+            "costPerHour": 95,
+            "productivity": 0.9
+        },
+        {
+            "id": "A189",
+            "name": "Máy đính khuy tự động Yamato AD-1500",
+            "machineType": "Máy đính khuy tự động",
+            "costPerHour": 90,
+            "productivity": 0.89
+        },
+        {
+            "id": "A190",
+            "name": "Máy là hơi công nghiệp Veit 8003LP",
+            "machineType": "Máy là hơi công nghiệp",
+            "costPerHour": 115,
+            "productivity": 0.92
+        },
+        {
+            "id": "A191",
+            "name": "Máy là hơi công nghiệp Macpi 449/16",
+            "machineType": "Máy là hơi công nghiệp",
+            "costPerHour": 120,
+            "productivity": 0.91
+        },
+        {
+            "id": "A192",
+            "name": "Máy là hơi công nghiệp Hoffman M-2000",
+            "machineType": "Máy là hơi công nghiệp",
+            "costPerHour": 110,
+            "productivity": 0.93
+        },
+        {
+            "id": "A193",
+            "name": "Máy là hơi công nghiệp Oshima OS-7000",
+            "machineType": "Máy là hơi công nghiệp",
+            "costPerHour": 130,
+            "productivity": 0.89
+        },
+        {
+            "id": "A194",
+            "name": "Máy là hơi công nghiệp Veit 8004LP",
+            "machineType": "Máy là hơi công nghiệp",
+            "costPerHour": 125,
+            "productivity": 0.94
+        },
+        {
+            "id": "A195",
+            "name": "Máy là hơi công nghiệp Macpi 450/16",
+            "machineType": "Máy là hơi công nghiệp",
+            "costPerHour": 120,
+            "productivity": 0.9
+        },
+        {
+            "id": "A196",
+            "name": "Máy là hơi công nghiệp Hoffman M-3000",
+            "machineType": "Máy là hơi công nghiệp",
+            "costPerHour": 115,
+            "productivity": 0.92
+        },
+        {
+            "id": "A197",
+            "name": "Máy là hơi công nghiệp Oshima OS-8000",
+            "machineType": "Máy là hơi công nghiệp",
+            "costPerHour": 130,
+            "productivity": 0.93
+        },
+        {
+            "id": "A198",
+            "name": "Máy là hơi công nghiệp Veit 9000LP",
+            "machineType": "Máy là hơi công nghiệp",
+            "costPerHour": 125,
+            "productivity": 0.91
+        },
+        {
+            "id": "A199",
+            "name": "Máy là hơi công nghiệp Macpi 500/16",
+            "machineType": "Máy là hơi công nghiệp",
+            "costPerHour": 110,
+            "productivity": 0.9
+        },
+        {
+            "id": "A200",
+            "name": "Thiết bị kiểm tra mẫu Q-Lab QUV",
+            "machineType": "Thiết bị kiểm tra mẫu",
+            "costPerHour": 160,
+            "productivity": 0.85
+        },
+        {
+            "id": "A201",
+            "name": "Thiết bị kiểm tra mẫu Atlas Xenotest Beta LM",
+            "machineType": "Thiết bị kiểm tra mẫu",
+            "costPerHour": 170,
+            "productivity": 0.87
+        },
+        {
+            "id": "A202",
+            "name": "Thiết bị kiểm tra mẫu SGS SART",
+            "machineType": "Thiết bị kiểm tra mẫu",
+            "costPerHour": 150,
+            "productivity": 0.88
+        },
+        {
+            "id": "A203",
+            "name": "Thiết bị kiểm tra mẫu Q-Lab QUV 2.0",
+            "machineType": "Thiết bị kiểm tra mẫu",
+            "costPerHour": 160,
+            "productivity": 0.86
+        },
+        {
+            "id": "A204",
+            "name": "Thiết bị kiểm tra mẫu Atlas Xenotest Gamma",
+            "machineType": "Thiết bị kiểm tra mẫu",
+            "costPerHour": 170,
+            "productivity": 0.85
+        },
+        {
+            "id": "A205",
+            "name": "Thiết bị kiểm tra mẫu SGS TEST-4500",
+            "machineType": "Thiết bị kiểm tra mẫu",
+            "costPerHour": 160,
+            "productivity": 0.87
+        },
+        {
+            "id": "A206",
+            "name": "Thiết bị kiểm tra mẫu Q-Lab UV-500",
+            "machineType": "Thiết bị kiểm tra mẫu",
+            "costPerHour": 155,
+            "productivity": 0.86
+        },
+        {
+            "id": "A207",
+            "name": "Thiết bị kiểm tra mẫu Atlas Xenotest Plus",
+            "machineType": "Thiết bị kiểm tra mẫu",
+            "costPerHour": 170,
+            "productivity": 0.88
+        },
+        {
+            "id": "A208",
+            "name": "Thiết bị kiểm tra mẫu SGS UV-800",
+            "machineType": "Thiết bị kiểm tra mẫu",
+            "costPerHour": 150,
+            "productivity": 0.85
+        },
+        {
+            "id": "A209",
+            "name": "Thiết bị kiểm tra mẫu Q-Lab 3000X",
+            "machineType": "Thiết bị kiểm tra mẫu",
+            "costPerHour": 160,
+            "productivity": 0.87
+        },
+        {
+            "id": "A210",
+            "name": "Máy in nhãn Epson ColorWorks C8500",
+            "machineType": "Máy in nhãn",
+            "costPerHour": 80,
+            "productivity": 0.92
+        },
+        {
+            "id": "A211",
+            "name": "Máy in nhãn Zebra ZT420",
+            "machineType": "Máy in nhãn",
+            "costPerHour": 85,
+            "productivity": 0.9
+        },
+        {
+            "id": "A212",
+            "name": "Máy in nhãn Brady M215",
+            "machineType": "Máy in nhãn",
+            "costPerHour": 75,
+            "productivity": 0.89
+        },
+        {
+            "id": "A213",
+            "name": "Máy in nhãn Primera LX920",
+            "machineType": "Máy in nhãn",
+            "costPerHour": 90,
+            "productivity": 0.91
+        },
+        {
+            "id": "A214",
+            "name": "Máy in nhãn Epson ColorWorks C8600",
+            "machineType": "Máy in nhãn",
+            "costPerHour": 80,
+            "productivity": 0.93
+        },
+        {
+            "id": "A215",
+            "name": "Máy in nhãn Zebra ZT450",
+            "machineType": "Máy in nhãn",
+            "costPerHour": 85,
+            "productivity": 0.9
+        },
+        {
+            "id": "A216",
+            "name": "Máy in nhãn Brady M220",
+            "machineType": "Máy in nhãn",
+            "costPerHour": 70,
+            "productivity": 0.91
+        },
+        {
+            "id": "A217",
+            "name": "Máy in nhãn Primera LX980",
+            "machineType": "Máy in nhãn",
+            "costPerHour": 90,
+            "productivity": 0.92
+        },
+        {
+            "id": "A218",
+            "name": "Máy in nhãn Epson ColorWorks C8700",
+            "machineType": "Máy in nhãn",
+            "costPerHour": 75,
+            "productivity": 0.89
+        },
+        {
+            "id": "A219",
+            "name": "Máy in nhãn Zebra ZT430",
+            "machineType": "Máy in nhãn",
+            "costPerHour": 80,
+            "productivity": 0.91
+        },
+        {
+            "id": "A220",
+            "name": "Máy sanforizing Monforts Sanfor 2.0",
+            "machineType": "Máy sanforizing",
+            "costPerHour": 410,
+            "productivity": 0.82
+        },
+        {
+            "id": "A221",
+            "name": "Máy sanforizing Bruckner Sanforizer 2.0",
+            "machineType": "Máy sanforizing",
+            "costPerHour": 420,
+            "productivity": 0.8
+        },
+        {
+            "id": "A222",
+            "name": "Máy sanforizing Sperotto Rimar Sanfor 2.0",
+            "machineType": "Máy sanforizing",
+            "costPerHour": 415,
+            "productivity": 0.81
+        },
+        {
+            "id": "A223",
+            "name": "Máy sanforizing Monforts Sanfor 3.0",
+            "machineType": "Máy sanforizing",
+            "costPerHour": 400,
+            "productivity": 0.82
+        },
+        {
+            "id": "A224",
+            "name": "Máy sanforizing Bruckner Sanforizer 3.0",
+            "machineType": "Máy sanforizing",
+            "costPerHour": 410,
+            "productivity": 0.81
+        },
+        {
+            "id": "A225",
+            "name": "Máy sanforizing Sperotto Rimar Sanfor 3.0",
+            "machineType": "Máy sanforizing",
+            "costPerHour": 405,
+            "productivity": 0.8
+        },
+        {
+            "id": "A226",
+            "name": "Máy sanforizing Monforts Sanfor 4.0",
+            "machineType": "Máy sanforizing",
+            "costPerHour": 420,
+            "productivity": 0.8
+        },
+        {
+            "id": "A227",
+            "name": "Máy sanforizing Bruckner Sanforizer 4.0",
+            "machineType": "Máy sanforizing",
+            "costPerHour": 415,
+            "productivity": 0.81
+        },
+        {
+            "id": "A228",
+            "name": "Máy sanforizing Sperotto Rimar Sanfor 4.0",
+            "machineType": "Máy sanforizing",
+            "costPerHour": 400,
+            "productivity": 0.82
+        },
+        {
+            "id": "A229",
+            "name": "Máy sanforizing Monforts Sanfor 5.0",
+            "machineType": "Máy sanforizing",
+            "costPerHour": 410,
+            "productivity": 0.8
+        },
+        {
+            "id": "A230",
+            "name": "Máy phủ PU tự động Nordson EFD Precision Coating 2.0",
+            "machineType": "Máy phủ PU tự động",
+            "costPerHour": 350,
+            "productivity": 0.84
+        },
+        {
+            "id": "A231",
+            "name": "Máy phủ PU tự động Graco Ultramax II 2.0",
+            "machineType": "Máy phủ PU tự động",
+            "costPerHour": 340,
+            "productivity": 0.83
+        },
+        {
+            "id": "A232",
+            "name": "Máy phủ PU tự động Sames Kremlin Airmix 2.0",
+            "machineType": "Máy phủ PU tự động",
+            "costPerHour": 360,
+            "productivity": 0.85
+        },
+        {
+            "id": "A233",
+            "name": "Máy phủ PU tự động Nordson EFD Precision Coating 3.0",
+            "machineType": "Máy phủ PU tự động",
+            "costPerHour": 345,
+            "productivity": 0.83
+        },
+        {
+            "id": "A234",
+            "name": "Máy phủ PU tự động Graco Ultramax II 3.0",
+            "machineType": "Máy phủ PU tự động",
+            "costPerHour": 355,
+            "productivity": 0.84
+        },
+        {
+            "id": "A235",
+            "name": "Máy phủ PU tự động Sames Kremlin Airmix 3.0",
+            "machineType": "Máy phủ PU tự động",
+            "costPerHour": 340,
+            "productivity": 0.85
+        },
+        {
+            "id": "A236",
+            "name": "Máy phủ PU tự động Nordson EFD Precision Coating 4.0",
+            "machineType": "Máy phủ PU tự động",
+            "costPerHour": 355,
+            "productivity": 0.84
+        },
+        {
+            "id": "A237",
+            "name": "Máy phủ PU tự động Graco Ultramax II 4.0",
+            "machineType": "Máy phủ PU tự động",
+            "costPerHour": 350,
+            "productivity": 0.83
+        },
+        {
+            "id": "A238",
+            "name": "Máy phủ PU tự động Sames Kremlin Airmix 4.0",
+            "machineType": "Máy phủ PU tự động",
+            "costPerHour": 360,
+            "productivity": 0.85
+        },
+        {
+            "id": "A239",
+            "name": "Máy phủ PU tự động Nordson EFD Precision Coating 5.0",
+            "machineType": "Máy phủ PU tự động",
+            "costPerHour": 340,
+            "productivity": 0.83
+        },
+        {
+            "id": "A240",
+            "name": "Máy thổi khí áp suất Festo Air Blower 2.0",
+            "machineType": "Máy thổi khí áp suất",
+            "costPerHour": 180,
+            "productivity": 0.86
+        },
+        {
+            "id": "A241",
+            "name": "Máy thổi khí áp suất Kaeser SK Series 2.0",
+            "machineType": "Máy thổi khí áp suất",
+            "costPerHour": 190,
+            "productivity": 0.88
+        },
+        {
+            "id": "A242",
+            "name": "Máy thổi khí áp suất Atlas Copco GA 37 2.0",
+            "machineType": "Máy thổi khí áp suất",
+            "costPerHour": 200,
+            "productivity": 0.85
+        },
+        {
+            "id": "A243",
+            "name": "Máy thổi khí áp suất Festo Air Blower 3.0",
+            "machineType": "Máy thổi khí áp suất",
+            "costPerHour": 185,
+            "productivity": 0.87
+        },
+        {
+            "id": "A244",
+            "name": "Máy thổi khí áp suất Kaeser SK Series 3.0",
+            "machineType": "Máy thổi khí áp suất",
+            "costPerHour": 195,
+            "productivity": 0.88
+        },
+        {
+            "id": "A245",
+            "name": "Máy thổi khí áp suất Atlas Copco GA 37 3.0",
+            "machineType": "Máy thổi khí áp suất",
+            "costPerHour": 195,
+            "productivity": 0.85
+        },
+        {
+            "id": "A246",
+            "name": "Máy thổi khí áp suất Festo Air Blower 4.0",
+            "machineType": "Máy thổi khí áp suất",
+            "costPerHour": 190,
+            "productivity": 0.86
+        },
+        {
+            "id": "A247",
+            "name": "Máy thổi khí áp suất Kaeser SK Series 4.0",
+            "machineType": "Máy thổi khí áp suất",
+            "costPerHour": 200,
+            "productivity": 0.88
+        },
+        {
+            "id": "A248",
+            "name": "Máy thổi khí áp suất Atlas Copco GA 37 4.0",
+            "machineType": "Máy thổi khí áp suất",
+            "costPerHour": 185,
+            "productivity": 0.85
+        },
+        {
+            "id": "A249",
+            "name": "Máy thổi khí áp suất Festo Air Blower 5.0",
+            "machineType": "Máy thổi khí áp suất",
+            "costPerHour": 180,
+            "productivity": 0.86
+        },
+        {
+            "id": "A250",
+            "name": "Máy in công nghiệp Kornit Avalanche HD6 2.0",
+            "machineType": "Máy in công nghiệp",
+            "costPerHour": 280,
+            "productivity": 0.86
+        },
+        {
+            "id": "A251",
+            "name": "Máy in công nghiệp Mimaki TS55-1800 2.0",
+            "machineType": "Máy in công nghiệp",
+            "costPerHour": 270,
+            "productivity": 0.85
+        },
+        {
+            "id": "A252",
+            "name": "Máy in công nghiệp Roland DG Texart XT-640 2.0",
+            "machineType": "Máy in công nghiệp",
+            "costPerHour": 290,
+            "productivity": 0.87
+        },
+        {
+            "id": "A253",
+            "name": "Máy in công nghiệp Kornit Avalanche HD6 3.0",
+            "machineType": "Máy in công nghiệp",
+            "costPerHour": 285,
+            "productivity": 0.86
+        },
+        {
+            "id": "A254",
+            "name": "Máy in công nghiệp Mimaki TS55-1800 3.0",
+            "machineType": "Máy in công nghiệp",
+            "costPerHour": 275,
+            "productivity": 0.85
+        },
+        {
+            "id": "A255",
+            "name": "Máy in công nghiệp Roland DG Texart XT-640 3.0",
+            "machineType": "Máy in công nghiệp",
+            "costPerHour": 295,
+            "productivity": 0.87
+        },
+        {
+            "id": "A256",
+            "name": "Máy in công nghiệp Kornit Avalanche HD6 4.0",
+            "machineType": "Máy in công nghiệp",
+            "costPerHour": 290,
+            "productivity": 0.86
+        },
+        {
+            "id": "A257",
+            "name": "Máy in công nghiệp Mimaki TS55-1800 4.0",
+            "machineType": "Máy in công nghiệp",
+            "costPerHour": 280,
+            "productivity": 0.85
+        },
+        {
+            "id": "A258",
+            "name": "Máy in công nghiệp Roland DG Texart XT-640 4.0",
+            "machineType": "Máy in công nghiệp",
+            "costPerHour": 300,
+            "productivity": 0.87
+        },
+        {
+            "id": "A259",
+            "name": "Máy in công nghiệp Kornit Avalanche HD6 5.0",
+            "machineType": "Máy in công nghiệp",
+            "costPerHour": 295,
+            "productivity": 0.86
+        },
+        {
+            "id": "A260",
+            "name": "Máy đóng nút tự động Juki AMS-210EN 2.0",
+            "machineType": "Máy đóng nút tự động",
+            "costPerHour": 95,
+            "productivity": 0.91
+        },
+        {
+            "id": "A261",
+            "name": "Máy đóng nút tự động Yamato AD-1250 2.0",
+            "machineType": "Máy đóng nút tự động",
+            "costPerHour": 100,
+            "productivity": 0.89
+        },
+        {
+            "id": "A262",
+            "name": "Máy đóng nút tự động Kansai Special MB-3720 2.0",
+            "machineType": "Máy đóng nút tự động",
+            "costPerHour": 105,
+            "productivity": 0.9
+        },
+        {
+            "id": "A263",
+            "name": "Máy đóng nút tự động Juki AMS-210EN 3.0",
+            "machineType": "Máy đóng nút tự động",
+            "costPerHour": 97,
+            "productivity": 0.91
+        },
+        {
+            "id": "A264",
+            "name": "Máy đóng nút tự động Yamato AD-1250 3.0",
+            "machineType": "Máy đóng nút tự động",
+            "costPerHour": 102,
+            "productivity": 0.89
+        },
+        {
+            "id": "A265",
+            "name": "Máy đóng nút tự động Kansai Special MB-3720 3.0",
+            "machineType": "Máy đóng nút tự động",
+            "costPerHour": 107,
+            "productivity": 0.9
+        },
+        {
+            "id": "A266",
+            "name": "Máy đóng nút tự động Juki AMS-210EN 4.0",
+            "machineType": "Máy đóng nút tự động",
+            "costPerHour": 99,
+            "productivity": 0.91
+        },
+        {
+            "id": "A267",
+            "name": "Máy đóng nút tự động Yamato AD-1250 4.0",
+            "machineType": "Máy đóng nút tự động",
+            "costPerHour": 104,
+            "productivity": 0.89
+        },
+        {
+            "id": "A268",
+            "name": "Máy đóng nút tự động Kansai Special MB-3720 4.0",
+            "machineType": "Máy đóng nút tự động",
+            "costPerHour": 109,
+            "productivity": 0.9
+        },
+        {
+            "id": "A269",
+            "name": "Máy đóng nút tự động Juki AMS-210EN 5.0",
+            "machineType": "Máy đóng nút tự động",
+            "costPerHour": 101,
+            "productivity": 0.91
+        },
+        {
+            "id": "A270",
+            "name": "Máy đo form 3D Vitus 3D Body Scanner 2.0",
+            "machineType": "Máy đo form 3D",
+            "costPerHour": 220,
+            "productivity": 0.88
+        },
+        {
+            "id": "A271",
+            "name": "Máy đo form 3D TechMed 3D Measure 2.0",
+            "machineType": "Máy đo form 3D",
+            "costPerHour": 240,
+            "productivity": 0.86
+        },
+        {
+            "id": "A272",
+            "name": "Máy đo form 3D Artec Eva 2.0",
+            "machineType": "Máy đo form 3D",
+            "costPerHour": 260,
+            "productivity": 0.9
+        },
+        {
+            "id": "A273",
+            "name": "Máy đo form 3D Vitus 3D Body Scanner 3.0",
+            "machineType": "Máy đo form 3D",
+            "costPerHour": 225,
+            "productivity": 0.88
+        },
+        {
+            "id": "A274",
+            "name": "Máy đo form 3D TechMed 3D Measure 3.0",
+            "machineType": "Máy đo form 3D",
+            "costPerHour": 245,
+            "productivity": 0.86
+        },
+        {
+            "id": "A275",
+            "name": "Máy đo form 3D Artec Eva 3.0",
+            "machineType": "Máy đo form 3D",
+            "costPerHour": 265,
+            "productivity": 0.9
+        },
+        {
+            "id": "A276",
+            "name": "Máy đo form 3D Vitus 3D Body Scanner 4.0",
+            "machineType": "Máy đo form 3D",
+            "costPerHour": 230,
+            "productivity": 0.88
+        },
+        {
+            "id": "A277",
+            "name": "Máy đo form 3D TechMed 3D Measure 4.0",
+            "machineType": "Máy đo form 3D",
+            "costPerHour": 250,
+            "productivity": 0.86
+        },
+        {
+            "id": "A278",
+            "name": "Máy đo form 3D Artec Eva 4.0",
+            "machineType": "Máy đo form 3D",
+            "costPerHour": 270,
+            "productivity": 0.9
+        },
+        {
+            "id": "A279",
+            "name": "Máy đo form 3D Vitus 3D Body Scanner 5.0",
+            "machineType": "Máy đo form 3D",
+            "costPerHour": 235,
+            "productivity": 0.88
+        },
+        {
+            "id": "A280",
+            "name": "Máy đóng hộp tự động Bosch CP6 2.0",
+            "machineType": "Máy đóng hộp tự động",
+            "costPerHour": 180,
+            "productivity": 0.89
+        },
+        {
+            "id": "A281",
+            "name": "Máy đóng hộp tự động IMA Ilapak Delta 420 2.0",
+            "machineType": "Máy đóng hộp tự động",
+            "costPerHour": 200,
+            "productivity": 0.91
+        },
+        {
+            "id": "A282",
+            "name": "Máy đóng hộp tự động Omori Carton Sealer 2.0",
+            "machineType": "Máy đóng hộp tự động",
+            "costPerHour": 190,
+            "productivity": 0.87
+        },
+        {
+            "id": "A283",
+            "name": "Máy đóng hộp tự động Bosch CP6 3.0",
+            "machineType": "Máy đóng hộp tự động",
+            "costPerHour": 185,
+            "productivity": 0.89
+        },
+        {
+            "id": "A284",
+            "name": "Máy đóng hộp tự động IMA Ilapak Delta 420 3.0",
+            "machineType": "Máy đóng hộp tự động",
+            "costPerHour": 205,
+            "productivity": 0.91
+        },
+        {
+            "id": "A285",
+            "name": "Máy đóng hộp tự động Omori Carton Sealer 3.0",
+            "machineType": "Máy đóng hộp tự động",
+            "costPerHour": 195,
+            "productivity": 0.87
+        },
+        {
+            "id": "A286",
+            "name": "Máy đóng hộp tự động Bosch CP6 4.0",
+            "machineType": "Máy đóng hộp tự động",
+            "costPerHour": 190,
+            "productivity": 0.89
+        },
+        {
+            "id": "A287",
+            "name": "Máy đóng hộp tự động IMA Ilapak Delta 420 4.0",
+            "machineType": "Máy đóng hộp tự động",
+            "costPerHour": 210,
+            "productivity": 0.91
+        },
+        {
+            "id": "A288",
+            "name": "Máy đóng hộp tự động Omori Carton Sealer 4.0",
+            "machineType": "Máy đóng hộp tự động",
+            "costPerHour": 200,
+            "productivity": 0.87
+        },
+        {
+            "id": "A289",
+            "name": "Máy đóng hộp tự động Bosch CP6 5.0",
+            "machineType": "Máy đóng hộp tự động",
+            "costPerHour": 195,
+            "productivity": 0.89
+        },
+        {
+            "id": "A290",
+            "name": "Máy cắt rập CNC Lectra Versalis 2.0",
+            "machineType": "Máy cắt rập CNC",
+            "costPerHour": 320,
+            "productivity": 0.9
+        },
+        {
+            "id": "A291",
+            "name": "Máy cắt rập CNC Gerber Paragon 2.0",
+            "machineType": "Máy cắt rập CNC",
+            "costPerHour": 330,
+            "productivity": 0.92
+        },
+        {
+            "id": "A292",
+            "name": "Máy cắt rập CNC Tukatech TUKAcut 2.0",
+            "machineType": "Máy cắt rập CNC",
+            "costPerHour": 310,
+            "productivity": 0.88
+        },
+        {
+            "id": "A293",
+            "name": "Máy cắt rập CNC Lectra Versalis 3.0",
+            "machineType": "Máy cắt rập CNC",
+            "costPerHour": 325,
+            "productivity": 0.9
+        },
+        {
+            "id": "A294",
+            "name": "Máy cắt rập CNC Gerber Paragon 3.0",
+            "machineType": "Máy cắt rập CNC",
+            "costPerHour": 335,
+            "productivity": 0.92
+        },
+        {
+            "id": "A295",
+            "name": "Máy cắt rập CNC Tukatech TUKAcut 3.0",
+            "machineType": "Máy cắt rập CNC",
+            "costPerHour": 315,
+            "productivity": 0.88
+        },
+        {
+            "id": "A296",
+            "name": "Máy cắt rập CNC Lectra Versalis 4.0",
+            "machineType": "Máy cắt rập CNC",
+            "costPerHour": 330,
+            "productivity": 0.9
+        },
+        {
+            "id": "A297",
+            "name": "Máy cắt rập CNC Gerber Paragon 4.0",
+            "machineType": "Máy cắt rập CNC",
+            "costPerHour": 340,
+            "productivity": 0.92
+        },
+        {
+            "id": "A298",
+            "name": "Máy cắt rập CNC Tukatech TUKAcut 4.0",
+            "machineType": "Máy cắt rập CNC",
+            "costPerHour": 320,
+            "productivity": 0.88
+        },
+        {
+            "id": "A299",
+            "name": "Máy cắt rập CNC Lectra Versalis 5.0",
+            "machineType": "Máy cắt rập CNC",
+            "costPerHour": 335,
+            "productivity": 0.9
+        },
+        {
+            "id": "A300",
+            "name": "Máy đo 3D Faro Arm ScanArm 2.0",
+            "machineType": "Máy đo 3D",
+            "costPerHour": 350,
+            "productivity": 0.85
+        },
+        {
+            "id": "A301",
+            "name": "Máy đo 3D Creaform HandySCAN 3D 2.0",
+            "machineType": "Máy đo 3D",
+            "costPerHour": 370,
+            "productivity": 0.87
+        },
+        {
+            "id": "A302",
+            "name": "Máy đo 3D Hexagon Absolute Arm 2.0",
+            "machineType": "Máy đo 3D",
+            "costPerHour": 380,
+            "productivity": 0.89
+        },
+        {
+            "id": "A303",
+            "name": "Máy đo 3D Faro Arm ScanArm 3.0",
+            "machineType": "Máy đo 3D",
+            "costPerHour": 360,
+            "productivity": 0.85
+        },
+        {
+            "id": "A304",
+            "name": "Máy đo 3D Creaform HandySCAN 3D 3.0",
+            "machineType": "Máy đo 3D",
+            "costPerHour": 380,
+            "productivity": 0.87
+        },
+        {
+            "id": "A305",
+            "name": "Máy đo 3D Hexagon Absolute Arm 3.0",
+            "machineType": "Máy đo 3D",
+            "costPerHour": 390,
+            "productivity": 0.89
+        },
+        {
+            "id": "A306",
+            "name": "Máy đo 3D Faro Arm ScanArm 4.0",
+            "machineType": "Máy đo 3D",
+            "costPerHour": 370,
+            "productivity": 0.85
+        },
+        {
+            "id": "A307",
+            "name": "Máy đo 3D Creaform HandySCAN 3D 4.0",
+            "machineType": "Máy đo 3D",
+            "costPerHour": 390,
+            "productivity": 0.87
+        },
+        {
+            "id": "A308",
+            "name": "Máy đo 3D Hexagon Absolute Arm 4.0",
+            "machineType": "Máy đo 3D",
+            "costPerHour": 400,
+            "productivity": 0.89
+        },
+        {
+            "id": "A309",
+            "name": "Máy đo 3D Faro Arm ScanArm 5.0",
+            "machineType": "Máy đo 3D",
+            "costPerHour": 380,
+            "productivity": 0.85
+        },
+        {
+            "id": "A310",
+            "name": "Máy in nhãn tự động SATO CL4NX 2.0",
+            "machineType": "Máy in nhãn tự động",
+            "costPerHour": 95,
+            "productivity": 0.93
+        },
+        {
+            "id": "A311",
+            "name": "Máy in nhãn tự động Honeywell PM45 2.0",
+            "machineType": "Máy in nhãn tự động",
+            "costPerHour": 100,
+            "productivity": 0.91
+        },
+        {
+            "id": "A312",
+            "name": "Máy in nhãn tự động Toshiba B-SX4T 2.0",
+            "machineType": "Máy in nhãn tự động",
+            "costPerHour": 90,
+            "productivity": 0.94
+        },
+        {
+            "id": "A313",
+            "name": "Máy in nhãn tự động SATO CL4NX 3.0",
+            "machineType": "Máy in nhãn tự động",
+            "costPerHour": 97,
+            "productivity": 0.93
+        },
+        {
+            "id": "A314",
+            "name": "Máy in nhãn tự động Honeywell PM45 3.0",
+            "machineType": "Máy in nhãn tự động",
+            "costPerHour": 102,
+            "productivity": 0.91
+        },
+        {
+            "id": "A315",
+            "name": "Máy in nhãn tự động Toshiba B-SX4T 3.0",
+            "machineType": "Máy in nhãn tự động",
+            "costPerHour": 92,
+            "productivity": 0.94
+        },
+        {
+            "id": "A316",
+            "name": "Máy in nhãn tự động SATO CL4NX 4.0",
+            "machineType": "Máy in nhãn tự động",
+            "costPerHour": 100,
+            "productivity": 0.93
+        },
+        {
+            "id": "A317",
+            "name": "Máy in nhãn tự động Honeywell PM45 4.0",
+            "machineType": "Máy in nhãn tự động",
+            "costPerHour": 105,
+            "productivity": 0.91
+        },
+        {
+            "id": "A318",
+            "name": "Máy in nhãn tự động Toshiba B-SX4T 4.0",
+            "machineType": "Máy in nhãn tự động",
+            "costPerHour": 95,
+            "productivity": 0.94
+        },
+        {
+            "id": "A319",
+            "name": "Máy in nhãn tự động SATO CL4NX 5.0",
+            "machineType": "Máy in nhãn tự động",
+            "costPerHour": 102,
+            "productivity": 0.93
+        },
+        {
+            "id": "A320",
+            "name": "Máy đóng gói chân không Henkelman Boxer 53",
+            "machineType": "Máy đóng gói chân không",
+            "costPerHour": 285,
+            "productivity": 0.86
+        },
+        {
+            "id": "A321",
+            "name": "Máy đóng gói chân không Multivac C510",
+            "machineType": "Máy đóng gói chân không",
+            "costPerHour": 310,
+            "productivity": 0.88
+        },
+        {
+            "id": "A322",
+            "name": "Máy đóng gói chân không Ulma Packaging HFFS 2.0",
+            "machineType": "Máy đóng gói chân không",
+            "costPerHour": 295,
+            "productivity": 0.85
+        },
+        {
+            "id": "A323",
+            "name": "Máy đóng gói chân không Henkelman Boxer 54",
+            "machineType": "Máy đóng gói chân không",
+            "costPerHour": 290,
+            "productivity": 0.87
+        },
+        {
+            "id": "A324",
+            "name": "Máy đóng gói chân không Multivac C520",
+            "machineType": "Máy đóng gói chân không",
+            "costPerHour": 315,
+            "productivity": 0.89
+        },
+        {
+            "id": "A325",
+            "name": "Máy đóng gói chân không Ulma Packaging HFFS 2.1",
+            "machineType": "Máy đóng gói chân không",
+            "costPerHour": 300,
+            "productivity": 0.86
+        },
+        {
+            "id": "A326",
+            "name": "Máy đóng gói chân không Henkelman Boxer 55",
+            "machineType": "Máy đóng gói chân không",
+            "costPerHour": 295,
+            "productivity": 0.87
+        },
+        {
+            "id": "A327",
+            "name": "Máy đóng gói chân không Multivac C530",
+            "machineType": "Máy đóng gói chân không",
+            "costPerHour": 320,
+            "productivity": 0.88
+        },
+        {
+            "id": "A328",
+            "name": "Máy đóng gói chân không Ulma Packaging HFFS 2.2",
+            "machineType": "Máy đóng gói chân không",
+            "costPerHour": 305,
+            "productivity": 0.85
+        },
+        {
+            "id": "A329",
+            "name": "Máy đóng gói chân không Henkelman Boxer 56",
+            "machineType": "Máy đóng gói chân không",
+            "costPerHour": 300,
+            "productivity": 0.86
+        },
+        {
+            "id": "A330",
+            "name": "Máy đo độ mỏng vải Mitutoyo Thickness Gauge 2",
+            "machineType": "Máy đo độ mỏng vải",
+            "costPerHour": 120,
+            "productivity": 0.9
+        },
+        {
+            "id": "A331",
+            "name": "Máy đo độ mỏng vải Mitutoyo Thickness Gauge 3",
+            "machineType": "Máy đo độ mỏng vải",
+            "costPerHour": 125,
+            "productivity": 0.91
+        },
+        {
+            "id": "A332",
+            "name": "Máy đo độ mỏng vải Mitutoyo Thickness Gauge 4",
+            "machineType": "Máy đo độ mỏng vải",
+            "costPerHour": 130,
+            "productivity": 0.89
+        },
+        {
+            "id": "A333",
+            "name": "Máy đo độ mỏng vải Mitutoyo Thickness Gauge 5",
+            "machineType": "Máy đo độ mỏng vải",
+            "costPerHour": 135,
+            "productivity": 0.88
+        },
+        {
+            "id": "A334",
+            "name": "Máy đo độ mỏng vải Mitutoyo Thickness Gauge 6",
+            "machineType": "Máy đo độ mỏng vải",
+            "costPerHour": 140,
+            "productivity": 0.87
+        },
+        {
+            "id": "A335",
+            "name": "Máy đo độ mỏng vải Mitutoyo Thickness Gauge 7",
+            "machineType": "Máy đo độ mỏng vải",
+            "costPerHour": 145,
+            "productivity": 0.86
+        },
+        {
+            "id": "A336",
+            "name": "Máy đo độ mỏng vải Mitutoyo Thickness Gauge 8",
+            "machineType": "Máy đo độ mỏng vải",
+            "costPerHour": 150,
+            "productivity": 0.85
+        },
+        {
+            "id": "A337",
+            "name": "Máy đo độ mỏng vải Mitutoyo Thickness Gauge 9",
+            "machineType": "Máy đo độ mỏng vải",
+            "costPerHour": 155,
+            "productivity": 0.84
+        },
+        {
+            "id": "A338",
+            "name": "Máy đo độ mỏng vải Mitutoyo Thickness Gauge 10",
+            "machineType": "Máy đo độ mỏng vải",
+            "costPerHour": 160,
+            "productivity": 0.83
+        },
+        {
+            "id": "A339",
+            "name": "Máy đo độ mỏng vải Mitutoyo Thickness Gauge 11",
+            "machineType": "Máy đo độ mỏng vải",
+            "costPerHour": 165,
+            "productivity": 0.82
+        },
+        {
+            "id": "A340",
+            "name": "Máy cắt dao tròn Eastman Rotary Cutter 2",
+            "machineType": "Máy cắt dao tròn",
+            "costPerHour": 155,
+            "productivity": 0.88
+        },
+        {
+            "id": "A341",
+            "name": "Máy cắt dao tròn Olfa RTY-3DX 2",
+            "machineType": "Máy cắt dao tròn",
+            "costPerHour": 145,
+            "productivity": 0.9
+        },
+        {
+            "id": "A342",
+            "name": "Máy cắt dao tròn Martelli Rotary Cutter 2",
+            "machineType": "Máy cắt dao tròn",
+            "costPerHour": 165,
+            "productivity": 0.87
+        },
+        {
+            "id": "A343",
+            "name": "Máy cắt dao tròn Eastman Rotary Cutter 3",
+            "machineType": "Máy cắt dao tròn",
+            "costPerHour": 150,
+            "productivity": 0.88
+        },
+        {
+            "id": "A344",
+            "name": "Máy cắt dao tròn Olfa RTY-3DX 3",
+            "machineType": "Máy cắt dao tròn",
+            "costPerHour": 140,
+            "productivity": 0.9
+        },
+        {
+            "id": "A345",
+            "name": "Máy cắt dao tròn Martelli Rotary Cutter 3",
+            "machineType": "Máy cắt dao tròn",
+            "costPerHour": 160,
+            "productivity": 0.87
+        },
+        {
+            "id": "A346",
+            "name": "Máy cắt dao tròn Eastman Rotary Cutter 4",
+            "machineType": "Máy cắt dao tròn",
+            "costPerHour": 155,
+            "productivity": 0.88
+        },
+        {
+            "id": "A347",
+            "name": "Máy cắt dao tròn Olfa RTY-3DX 4",
+            "machineType": "Máy cắt dao tròn",
+            "costPerHour": 145,
+            "productivity": 0.9
+        },
+        {
+            "id": "A348",
+            "name": "Máy cắt dao tròn Martelli Rotary Cutter 4",
+            "machineType": "Máy cắt dao tròn",
+            "costPerHour": 165,
+            "productivity": 0.87
+        },
+        {
+            "id": "A349",
+            "name": "Máy cắt dao tròn Eastman Rotary Cutter 5",
+            "machineType": "Máy cắt dao tròn",
+            "costPerHour": 150,
+            "productivity": 0.88
+        },
+        {
+            "id": "A350",
+            "name": "Máy soi đường may Veit Vision Sewing Analyzer 2",
+            "machineType": "Máy soi đường may",
+            "costPerHour": 185,
+            "productivity": 0.84
+        },
+        {
+            "id": "A351",
+            "name": "Máy soi đường may QIMA Inspection Camera 2",
+            "machineType": "Máy soi đường may",
+            "costPerHour": 195,
+            "productivity": 0.83
+        },
+        {
+            "id": "A352",
+            "name": "Máy soi đường may Testex Seam Inspection System 2",
+            "machineType": "Máy soi đường may",
+            "costPerHour": 180,
+            "productivity": 0.85
+        },
+        {
+            "id": "A353",
+            "name": "Máy soi đường may Veit Vision Sewing Analyzer 3",
+            "machineType": "Máy soi đường may",
+            "costPerHour": 190,
+            "productivity": 0.84
+        },
+        {
+            "id": "A354",
+            "name": "Máy soi đường may QIMA Inspection Camera 3",
+            "machineType": "Máy soi đường may",
+            "costPerHour": 200,
+            "productivity": 0.82
+        },
+        {
+            "id": "A355",
+            "name": "Máy soi đường may Testex Seam Inspection System 3",
+            "machineType": "Máy soi đường may",
+            "costPerHour": 185,
+            "productivity": 0.84
+        },
+        {
+            "id": "A356",
+            "name": "Máy soi đường may Veit Vision Sewing Analyzer 4",
+            "machineType": "Máy soi đường may",
+            "costPerHour": 195,
+            "productivity": 0.83
+        },
+        {
+            "id": "A357",
+            "name": "Máy soi đường may QIMA Inspection Camera 4",
+            "machineType": "Máy soi đường may",
+            "costPerHour": 200,
+            "productivity": 0.82
+        },
+        {
+            "id": "A358",
+            "name": "Máy soi đường may Testex Seam Inspection System 4",
+            "machineType": "Máy soi đường may",
+            "costPerHour": 180,
+            "productivity": 0.85
+        },
+        {
+            "id": "A359",
+            "name": "Máy soi đường may Veit Vision Sewing Analyzer 5",
+            "machineType": "Máy soi đường may",
+            "costPerHour": 190,
+            "productivity": 0.84
+        },
+        {
+            "id": "A360",
+            "name": "Máy may co giãn Juki MO-6700S 2",
+            "machineType": "Máy may co giãn",
+            "costPerHour": 110,
+            "productivity": 0.92
+        },
+        {
+            "id": "A361",
+            "name": "Máy may co giãn Brother BAS-325G 2",
+            "machineType": "Máy may co giãn",
+            "costPerHour": 105,
+            "productivity": 0.91
+        },
+        {
+            "id": "A362",
+            "name": "Máy may co giãn Pegasus W500 2",
+            "machineType": "Máy may co giãn",
+            "costPerHour": 115,
+            "productivity": 0.89
+        },
+        {
+            "id": "A363",
+            "name": "Máy may co giãn Juki MO-6700S 3",
+            "machineType": "Máy may co giãn",
+            "costPerHour": 110,
+            "productivity": 0.92
+        },
+        {
+            "id": "A364",
+            "name": "Máy may co giãn Brother BAS-325G 3",
+            "machineType": "Máy may co giãn",
+            "costPerHour": 105,
+            "productivity": 0.91
+        },
+        {
+            "id": "A365",
+            "name": "Máy may co giãn Pegasus W500 3",
+            "machineType": "Máy may co giãn",
+            "costPerHour": 115,
+            "productivity": 0.89
+        },
+        {
+            "id": "A366",
+            "name": "Máy may co giãn Juki MO-6700S 4",
+            "machineType": "Máy may co giãn",
+            "costPerHour": 110,
+            "productivity": 0.92
+        },
+        {
+            "id": "A367",
+            "name": "Máy may co giãn Brother BAS-325G 4",
+            "machineType": "Máy may co giãn",
+            "costPerHour": 105,
+            "productivity": 0.91
+        },
+        {
+            "id": "A368",
+            "name": "Máy may co giãn Pegasus W500 4",
+            "machineType": "Máy may co giãn",
+            "costPerHour": 115,
+            "productivity": 0.89
+        },
+        {
+            "id": "A369",
+            "name": "Máy may co giãn Juki MO-6700S 5",
+            "machineType": "Máy may co giãn",
+            "costPerHour": 110,
+            "productivity": 0.92
+        },
+        {
+            "id": "A370",
+            "name": "Máy đo ma sát Labthink FPT-F1 2",
+            "machineType": "Máy đo ma sát",
+            "costPerHour": 130,
+            "productivity": 0.86
+        },
+        {
+            "id": "A371",
+            "name": "Máy đo ma sát Trinity ISR-2000 2",
+            "machineType": "Máy đo ma sát",
+            "costPerHour": 140,
+            "productivity": 0.84
+        },
+        {
+            "id": "A372",
+            "name": "Máy đo ma sát Taber 5700 2",
+            "machineType": "Máy đo ma sát",
+            "costPerHour": 135,
+            "productivity": 0.88
+        },
+        {
+            "id": "A373",
+            "name": "Máy đo ma sát Labthink FPT-F1 3",
+            "machineType": "Máy đo ma sát",
+            "costPerHour": 130,
+            "productivity": 0.86
+        },
+        {
+            "id": "A374",
+            "name": "Máy đo ma sát Trinity ISR-2000 3",
+            "machineType": "Máy đo ma sát",
+            "costPerHour": 140,
+            "productivity": 0.84
+        },
+        {
+            "id": "A375",
+            "name": "Máy đo ma sát Taber 5700 3",
+            "machineType": "Máy đo ma sát",
+            "costPerHour": 135,
+            "productivity": 0.88
+        },
+        {
+            "id": "A376",
+            "name": "Máy đo ma sát Labthink FPT-F1 4",
+            "machineType": "Máy đo ma sát",
+            "costPerHour": 130,
+            "productivity": 0.86
+        },
+        {
+            "id": "A377",
+            "name": "Máy đo ma sát Trinity ISR-2000 4",
+            "machineType": "Máy đo ma sát",
+            "costPerHour": 140,
+            "productivity": 0.84
+        },
+        {
+            "id": "A378",
+            "name": "Máy đo ma sát Taber 5700 4",
+            "machineType": "Máy đo ma sát",
+            "costPerHour": 135,
+            "productivity": 0.88
+        },
+        {
+            "id": "A379",
+            "name": "Máy đo ma sát Labthink FPT-F1 5",
+            "machineType": "Máy đo ma sát",
+            "costPerHour": 130,
+            "productivity": 0.86
+        },
+        {
+            "id": "A380",
+            "name": "Máy dán nhãn tự động Label-Aire 3000 Series 2",
+            "machineType": "Máy dán nhãn tự động",
+            "costPerHour": 95,
+            "productivity": 0.93
+        },
+        {
+            "id": "A381",
+            "name": "Máy dán nhãn tự động HERMA 500 2",
+            "machineType": "Máy dán nhãn tự động",
+            "costPerHour": 90,
+            "productivity": 0.94
+        },
+        {
+            "id": "A382",
+            "name": "Máy dán nhãn tự động Pack Leader L-200 2",
+            "machineType": "Máy dán nhãn tự động",
+            "costPerHour": 100,
+            "productivity": 0.91
+        },
+        {
+            "id": "A383",
+            "name": "Máy dán nhãn tự động Label-Aire 3000 Series 3",
+            "machineType": "Máy dán nhãn tự động",
+            "costPerHour": 95,
+            "productivity": 0.93
+        },
+        {
+            "id": "A384",
+            "name": "Máy dán nhãn tự động HERMA 500 3",
+            "machineType": "Máy dán nhãn tự động",
+            "costPerHour": 90,
+            "productivity": 0.94
+        },
+        {
+            "id": "A385",
+            "name": "Máy dán nhãn tự động Pack Leader L-200 3",
+            "machineType": "Máy dán nhãn tự động",
+            "costPerHour": 100,
+            "productivity": 0.91
+        },
+        {
+            "id": "A386",
+            "name": "Máy dán nhãn tự động Label-Aire 3000 Series 4",
+            "machineType": "Máy dán nhãn tự động",
+            "costPerHour": 95,
+            "productivity": 0.93
+        },
+        {
+            "id": "A387",
+            "name": "Máy dán nhãn tự động HERMA 500 4",
+            "machineType": "Máy dán nhãn tự động",
+            "costPerHour": 90,
+            "productivity": 0.94
+        },
+        {
+            "id": "A388",
+            "name": "Máy dán nhãn tự động Pack Leader L-200 4",
+            "machineType": "Máy dán nhãn tự động",
+            "costPerHour": 100,
+            "productivity": 0.91
+        },
+        {
+            "id": "A389",
+            "name": "Máy dán nhãn tự động Label-Aire 3000 Series 5",
+            "machineType": "Máy dán nhãn tự động",
+            "costPerHour": 95,
+            "productivity": 0.93
+        }
+    ],
+    "workers": [
+        {
+            "id": "W0001",
+            "name": "Đinh Thị Tố Uyên",
+            "position": "Nhân viên AQL",
+            "productivityKPI": 30,
+            "qualityKPI": 0.98,
+            "salaryPerHour": 22
+        },
+        {
+            "id": "W0002",
+            "name": "Tạ Minh Quân",
+            "position": "Nhân viên AQL",
+            "productivityKPI": 35,
+            "qualityKPI": 0.96,
+            "salaryPerHour": 26
+        },
+        {
+            "id": "W0003",
+            "name": "Ngô Văn Lâm",
+            "position": "Nhân viên AQL",
+            "productivityKPI": 40,
+            "qualityKPI": 0.94,
+            "salaryPerHour": 29
+        },
+        {
+            "id": "W0004",
+            "name": "Trần Thị Thuý Diễm",
+            "position": "Nhân viên AQL",
+            "productivityKPI": 45,
+            "qualityKPI": 0.93,
+            "salaryPerHour": 25
+        },
+        {
+            "id": "W0005",
+            "name": "Nguyễn Hoàng Long",
+            "position": "Nhân viên AQL",
+            "productivityKPI": 50,
+            "qualityKPI": 0.92,
+            "salaryPerHour": 30
+        },
+        {
+            "id": "W0006",
+            "name": "Đỗ Thị Lan Hương",
+            "position": "Nhân viên AQL",
+            "productivityKPI": 55,
+            "qualityKPI": 0.91,
+            "salaryPerHour": 24
+        },
+        {
+            "id": "W0007",
+            "name": "Phan Văn Nhân",
+            "position": "Nhân viên AQL",
+            "productivityKPI": 60,
+            "qualityKPI": 0.9,
+            "salaryPerHour": 27
+        },
+        {
+            "id": "W0008",
+            "name": "Dương Thị Thanh",
+            "position": "Nhân viên AQL",
+            "productivityKPI": 65,
+            "qualityKPI": 0.89,
+            "salaryPerHour": 30
+        },
+        {
+            "id": "W0009",
+            "name": "Trịnh Ngọc Hân",
+            "position": "Nhân viên AQL",
+            "productivityKPI": 70,
+            "qualityKPI": 0.88,
+            "salaryPerHour": 25
+        },
+        {
+            "id": "W0010",
+            "name": "Mai Quốc Huy",
+            "position": "Nhân viên AQL",
+            "productivityKPI": 75,
+            "qualityKPI": 0.87,
+            "salaryPerHour": 30
+        },
+        {
+            "id": "W0011",
+            "name": "Nguyễn Thị Hoài Thu",
+            "position": "Nhân viên QA/QC",
+            "productivityKPI": 15,
+            "qualityKPI": 0.98,
+            "salaryPerHour": 21
+        },
+        {
+            "id": "W0012",
+            "name": "Trương Văn Thái",
+            "position": "Nhân viên QA/QC",
+            "productivityKPI": 16,
+            "qualityKPI": 0.97,
+            "salaryPerHour": 23
+        },
+        {
+            "id": "W0013",
+            "name": "Lê Minh Châu",
+            "position": "Nhân viên QA/QC",
+            "productivityKPI": 18,
+            "qualityKPI": 0.96,
+            "salaryPerHour": 23
+        },
+        {
+            "id": "W0014",
+            "name": "Bùi Thị Kiều Oanh",
+            "position": "Nhân viên QA/QC",
+            "productivityKPI": 20,
+            "qualityKPI": 0.95,
+            "salaryPerHour": 24
+        },
+        {
+            "id": "W0015",
+            "name": "Đặng Hoàng Phúc",
+            "position": "Nhân viên QA/QC",
+            "productivityKPI": 22,
+            "qualityKPI": 0.94,
+            "salaryPerHour": 19
+        },
+        {
+            "id": "W0016",
+            "name": "Tô Thị Diệp",
+            "position": "Nhân viên QA/QC",
+            "productivityKPI": 24,
+            "qualityKPI": 0.93,
+            "salaryPerHour": 21
+        },
+        {
+            "id": "W0017",
+            "name": "Nguyễn Minh Quang",
+            "position": "Nhân viên QA/QC",
+            "productivityKPI": 26,
+            "qualityKPI": 0.92,
+            "salaryPerHour": 29
+        },
+        {
+            "id": "W0018",
+            "name": "Đoàn Thị Mộng Như",
+            "position": "Nhân viên QA/QC",
+            "productivityKPI": 28,
+            "qualityKPI": 0.91,
+            "salaryPerHour": 23
+        },
+        {
+            "id": "W0019",
+            "name": "Phạm Trọng Khoa",
+            "position": "Nhân viên QA/QC",
+            "productivityKPI": 30,
+            "qualityKPI": 0.9,
+            "salaryPerHour": 26
+        },
+        {
+            "id": "W0020",
+            "name": "Lý Thị Cẩm Nhung",
+            "position": "Nhân viên QA/QC",
+            "productivityKPI": 32,
+            "qualityKPI": 0.89,
+            "salaryPerHour": 23
+        },
+        {
+            "id": "W0021",
+            "name": "Vũ Minh Nhật",
+            "position": "Nhân viên cắt vải",
+            "productivityKPI": 60,
+            "qualityKPI": 0.98,
+            "salaryPerHour": 29
+        },
+        {
+            "id": "W0022",
+            "name": "Trần Thị Tường Vy",
+            "position": "Nhân viên cắt vải",
+            "productivityKPI": 65,
+            "qualityKPI": 0.97,
+            "salaryPerHour": 26
+        },
+        {
+            "id": "W0023",
+            "name": "Hồ Quang Vinh",
+            "position": "Nhân viên cắt vải",
+            "productivityKPI": 70,
+            "qualityKPI": 0.96,
+            "salaryPerHour": 28
+        },
+        {
+            "id": "W0024",
+            "name": "Nguyễn Ngọc Lệ",
+            "position": "Nhân viên cắt vải",
+            "productivityKPI": 75,
+            "qualityKPI": 0.95,
+            "salaryPerHour": 30
+        },
+        {
+            "id": "W0025",
+            "name": "Võ Đức Thiện",
+            "position": "Nhân viên cắt vải",
+            "productivityKPI": 80,
+            "qualityKPI": 0.94,
+            "salaryPerHour": 30
+        },
+        {
+            "id": "W0026",
+            "name": "Dương Thị Lệ Quyên",
+            "position": "Nhân viên cắt vải",
+            "productivityKPI": 85,
+            "qualityKPI": 0.93,
+            "salaryPerHour": 31
+        },
+        {
+            "id": "W0027",
+            "name": "Đinh Quốc Duy",
+            "position": "Nhân viên cắt vải",
+            "productivityKPI": 90,
+            "qualityKPI": 0.92,
+            "salaryPerHour": 29
+        },
+        {
+            "id": "W0028",
+            "name": "Bùi Văn Được",
+            "position": "Nhân viên cắt vải",
+            "productivityKPI": 95,
+            "qualityKPI": 0.91,
+            "salaryPerHour": 35
+        },
+        {
+            "id": "W0029",
+            "name": "Nguyễn Thanh Ngọc",
+            "position": "Nhân viên cắt vải",
+            "productivityKPI": 100,
+            "qualityKPI": 0.9,
+            "salaryPerHour": 28
+        },
+        {
+            "id": "W0030",
+            "name": "Trần Quốc Cường",
+            "position": "Nhân viên cắt vải",
+            "productivityKPI": 105,
+            "qualityKPI": 0.89,
+            "salaryPerHour": 37
+        },
+        {
+            "id": "W0031",
+            "name": "Mai Thị Thuỷ",
+            "position": "Nhân viên đóng gói",
+            "productivityKPI": 45,
+            "qualityKPI": 0.98,
+            "salaryPerHour": 29
+        },
+        {
+            "id": "W0032",
+            "name": "Đỗ Ngọc Minh",
+            "position": "Nhân viên đóng gói",
+            "productivityKPI": 50,
+            "qualityKPI": 0.97,
+            "salaryPerHour": 25
+        },
+        {
+            "id": "W0033",
+            "name": "Lê Văn Nghĩa",
+            "position": "Nhân viên đóng gói",
+            "productivityKPI": 55,
+            "qualityKPI": 0.96,
+            "salaryPerHour": 24
+        },
+        {
+            "id": "W0034",
+            "name": "Tạ Thị Tuyết Mai",
+            "position": "Nhân viên đóng gói",
+            "productivityKPI": 60,
+            "qualityKPI": 0.95,
+            "salaryPerHour": 29
+        },
+        {
+            "id": "W0035",
+            "name": "Trần Thị Diệu Linh",
+            "position": "Nhân viên đóng gói",
+            "productivityKPI": 65,
+            "qualityKPI": 0.94,
+            "salaryPerHour": 27
+        },
+        {
+            "id": "W0036",
+            "name": "Ngô Văn Phước",
+            "position": "Nhân viên đóng gói",
+            "productivityKPI": 70,
+            "qualityKPI": 0.93,
+            "salaryPerHour": 33
+        },
+        {
+            "id": "W0037",
+            "name": "Vũ Thị Thanh Thảo",
+            "position": "Nhân viên đóng gói",
+            "productivityKPI": 75,
+            "qualityKPI": 0.92,
+            "salaryPerHour": 30
+        },
+        {
+            "id": "W0038",
+            "name": "Phan Thị Thuý Nga",
+            "position": "Nhân viên đóng gói",
+            "productivityKPI": 80,
+            "qualityKPI": 0.91,
+            "salaryPerHour": 35
+        },
+        {
+            "id": "W0039",
+            "name": "Nguyễn Văn Khang",
+            "position": "Nhân viên đóng gói",
+            "productivityKPI": 85,
+            "qualityKPI": 0.9,
+            "salaryPerHour": 27
+        },
+        {
+            "id": "W0040",
+            "name": "Trịnh Văn Đạt",
+            "position": "Nhân viên đóng gói",
+            "productivityKPI": 90,
+            "qualityKPI": 0.89,
+            "salaryPerHour": 30
+        },
+        {
+            "id": "W0041",
+            "name": "Nguyễn Thanh Hoa",
+            "position": "Nhân viên đính khuy",
+            "productivityKPI": 25,
+            "qualityKPI": 0.98,
+            "salaryPerHour": 21
+        },
+        {
+            "id": "W0042",
+            "name": "Trần Quốc Khánh",
+            "position": "Nhân viên đính khuy",
+            "productivityKPI": 30,
+            "qualityKPI": 0.97,
+            "salaryPerHour": 23
+        },
+        {
+            "id": "W0043",
+            "name": "Lê Thị Trinh",
+            "position": "Nhân viên đính khuy",
+            "productivityKPI": 35,
+            "qualityKPI": 0.96,
+            "salaryPerHour": 28
+        },
+        {
+            "id": "W0044",
+            "name": "Phạm Thị Thu",
+            "position": "Nhân viên đính khuy",
+            "productivityKPI": 40,
+            "qualityKPI": 0.95,
+            "salaryPerHour": 23
+        },
+        {
+            "id": "W0045",
+            "name": "Bùi Văn Tâm",
+            "position": "Nhân viên đính khuy",
+            "productivityKPI": 45,
+            "qualityKPI": 0.94,
+            "salaryPerHour": 29
+        },
+        {
+            "id": "W0046",
+            "name": "Đỗ Thị Minh",
+            "position": "Nhân viên đính khuy",
+            "productivityKPI": 50,
+            "qualityKPI": 0.93,
+            "salaryPerHour": 24
+        },
+        {
+            "id": "W0047",
+            "name": "Hồ Văn An",
+            "position": "Nhân viên đính khuy",
+            "productivityKPI": 55,
+            "qualityKPI": 0.92,
+            "salaryPerHour": 30
+        },
+        {
+            "id": "W0048",
+            "name": "Ngô Thị Lan",
+            "position": "Nhân viên đính khuy",
+            "productivityKPI": 60,
+            "qualityKPI": 0.91,
+            "salaryPerHour": 22
+        },
+        {
+            "id": "W0049",
+            "name": "Dương Tuấn Anh",
+            "position": "Nhân viên đính khuy",
+            "productivityKPI": 65,
+            "qualityKPI": 0.9,
+            "salaryPerHour": 28
+        },
+        {
+            "id": "W0050",
+            "name": "Vũ Kim Ngân",
+            "position": "Nhân viên đính khuy",
+            "productivityKPI": 70,
+            "qualityKPI": 0.89,
+            "salaryPerHour": 31
+        },
+        {
+            "id": "W0051",
+            "name": "Vũ Hữu Tú",
+            "position": "Nhân viên đính khuy",
+            "productivityKPI": 25,
+            "qualityKPI": 0.98,
+            "salaryPerHour": 27
+        },
+        {
+            "id": "W0052",
+            "name": "Bùi Văn Ngân",
+            "position": "Nhân viên đính khuy",
+            "productivityKPI": 30,
+            "qualityKPI": 0.97,
+            "salaryPerHour": 26
+        },
+        {
+            "id": "W0053",
+            "name": "Đặng Quốc Trí",
+            "position": "Nhân viên đính khuy",
+            "productivityKPI": 35,
+            "qualityKPI": 0.96,
+            "salaryPerHour": 20
+        },
+        {
+            "id": "W0054",
+            "name": "Bùi Mạnh Vy",
+            "position": "Nhân viên đính khuy",
+            "productivityKPI": 40,
+            "qualityKPI": 0.95,
+            "salaryPerHour": 28
+        },
+        {
+            "id": "W0055",
+            "name": "Lê Gia Vy",
+            "position": "Nhân viên đính khuy",
+            "productivityKPI": 45,
+            "qualityKPI": 0.94,
+            "salaryPerHour": 30
+        },
+        {
+            "id": "W0056",
+            "name": "Bùi Mạnh Quang",
+            "position": "Nhân viên đính khuy",
+            "productivityKPI": 50,
+            "qualityKPI": 0.93,
+            "salaryPerHour": 28
+        },
+        {
+            "id": "W0057",
+            "name": "Dương Gia Nhung",
+            "position": "Nhân viên đính khuy",
+            "productivityKPI": 55,
+            "qualityKPI": 0.92,
+            "salaryPerHour": 27
+        },
+        {
+            "id": "W0058",
+            "name": "Vũ Thuỳ Nam",
+            "position": "Nhân viên đính khuy",
+            "productivityKPI": 60,
+            "qualityKPI": 0.91,
+            "salaryPerHour": 31
+        },
+        {
+            "id": "W0059",
+            "name": "Lê Trọng Tường",
+            "position": "Nhân viên đính khuy",
+            "productivityKPI": 65,
+            "qualityKPI": 0.9,
+            "salaryPerHour": 30
+        },
+        {
+            "id": "W0060",
+            "name": "Vũ Hoàng Lan",
+            "position": "Nhân viên đính khuy",
+            "productivityKPI": 70,
+            "qualityKPI": 0.89,
+            "salaryPerHour": 29
+        },
+        {
+            "id": "W0061",
+            "name": "Vũ Hoàng Thu",
+            "position": "Nhân viên gắn nhãn",
+            "productivityKPI": 30,
+            "qualityKPI": 0.98,
+            "salaryPerHour": 26
+        },
+        {
+            "id": "W0062",
+            "name": "Phạm Tuấn Sơn",
+            "position": "Nhân viên gắn nhãn",
+            "productivityKPI": 35,
+            "qualityKPI": 0.97,
+            "salaryPerHour": 26
+        },
+        {
+            "id": "W0063",
+            "name": "Ngô Thị Thảo",
+            "position": "Nhân viên gắn nhãn",
+            "productivityKPI": 40,
+            "qualityKPI": 0.96,
+            "salaryPerHour": 24
+        },
+        {
+            "id": "W0064",
+            "name": "Hồ Gia Vy",
+            "position": "Nhân viên gắn nhãn",
+            "productivityKPI": 45,
+            "qualityKPI": 0.95,
+            "salaryPerHour": 24
+        },
+        {
+            "id": "W0065",
+            "name": "Dương Thị Quân",
+            "position": "Nhân viên gắn nhãn",
+            "productivityKPI": 50,
+            "qualityKPI": 0.94,
+            "salaryPerHour": 23
+        },
+        {
+            "id": "W0066",
+            "name": "Huỳnh Thanh Thắng",
+            "position": "Nhân viên gắn nhãn",
+            "productivityKPI": 50,
+            "qualityKPI": 0.93,
+            "salaryPerHour": 27
+        },
+        {
+            "id": "W0067",
+            "name": "Lê Quốc Dũng",
+            "position": "Nhân viên gắn nhãn",
+            "productivityKPI": 55,
+            "qualityKPI": 0.92,
+            "salaryPerHour": 23
+        },
+        {
+            "id": "W0068",
+            "name": "Ngô Tuấn Hiếu",
+            "position": "Nhân viên gắn nhãn",
+            "productivityKPI": 60,
+            "qualityKPI": 0.91,
+            "salaryPerHour": 31
+        },
+        {
+            "id": "W0069",
+            "name": "Huỳnh Ngọc Quân",
+            "position": "Nhân viên gắn nhãn",
+            "productivityKPI": 65,
+            "qualityKPI": 0.9,
+            "salaryPerHour": 29
+        },
+        {
+            "id": "W0070",
+            "name": "Phan Minh Lan",
+            "position": "Nhân viên gắn nhãn",
+            "productivityKPI": 70,
+            "qualityKPI": 0.89,
+            "salaryPerHour": 28
+        },
+        {
+            "id": "W0071",
+            "name": "Trần Thị Mai",
+            "position": "Nhân viên in",
+            "productivityKPI": 20,
+            "qualityKPI": 0.98,
+            "salaryPerHour": 21
+        },
+        {
+            "id": "W0072",
+            "name": "Nguyễn Thanh Long",
+            "position": "Nhân viên in",
+            "productivityKPI": 25,
+            "qualityKPI": 0.97,
+            "salaryPerHour": 21
+        },
+        {
+            "id": "W0073",
+            "name": "Phạm Hoàng Dũng",
+            "position": "Nhân viên in",
+            "productivityKPI": 30,
+            "qualityKPI": 0.96,
+            "salaryPerHour": 26
+        },
+        {
+            "id": "W0074",
+            "name": "Đặng Ngọc Lan",
+            "position": "Nhân viên in",
+            "productivityKPI": 35,
+            "qualityKPI": 0.95,
+            "salaryPerHour": 24
+        },
+        {
+            "id": "W0075",
+            "name": "Lê Quang Huy",
+            "position": "Nhân viên in",
+            "productivityKPI": 40,
+            "qualityKPI": 0.94,
+            "salaryPerHour": 29
+        },
+        {
+            "id": "W0076",
+            "name": "Bùi Thị Thuỳ Dương",
+            "position": "Nhân viên in",
+            "productivityKPI": 45,
+            "qualityKPI": 0.93,
+            "salaryPerHour": 21
+        },
+        {
+            "id": "W0077",
+            "name": "Vũ Minh Khôi",
+            "position": "Nhân viên in",
+            "productivityKPI": 50,
+            "qualityKPI": 0.92,
+            "salaryPerHour": 25
+        },
+        {
+            "id": "W0078",
+            "name": "Trần Hoàng Thái",
+            "position": "Nhân viên in",
+            "productivityKPI": 55,
+            "qualityKPI": 0.91,
+            "salaryPerHour": 26
+        },
+        {
+            "id": "W0079",
+            "name": "Ngô Thị Như Quỳnh",
+            "position": "Nhân viên in",
+            "productivityKPI": 60,
+            "qualityKPI": 0.9,
+            "salaryPerHour": 26
+        },
+        {
+            "id": "W0080",
+            "name": "Hồ Văn Tú",
+            "position": "Nhân viên in",
+            "productivityKPI": 65,
+            "qualityKPI": 0.89,
+            "salaryPerHour": 27
+        },
+        {
+            "id": "W0081",
+            "name": "Đinh Hữu Phước",
+            "position": "Nhân viên là ép",
+            "productivityKPI": 10,
+            "qualityKPI": 0.98,
+            "salaryPerHour": 24
+        },
+        {
+            "id": "W0082",
+            "name": "Nguyễn Gia Hân",
+            "position": "Nhân viên là ép",
+            "productivityKPI": 12,
+            "qualityKPI": 0.97,
+            "salaryPerHour": 22
+        },
+        {
+            "id": "W0083",
+            "name": "Phạm Minh Tâm",
+            "position": "Nhân viên là ép",
+            "productivityKPI": 15,
+            "qualityKPI": 0.96,
+            "salaryPerHour": 26
+        },
+        {
+            "id": "W0084",
+            "name": "Lưu Thị Ánh",
+            "position": "Nhân viên là ép",
+            "productivityKPI": 17,
+            "qualityKPI": 0.95,
+            "salaryPerHour": 24
+        },
+        {
+            "id": "W0085",
+            "name": "Dương Trọng Nghĩa",
+            "position": "Nhân viên là ép",
+            "productivityKPI": 20,
+            "qualityKPI": 0.94,
+            "salaryPerHour": 23
+        },
+        {
+            "id": "W0086",
+            "name": "Trịnh Bảo Trâm",
+            "position": "Nhân viên là ép",
+            "productivityKPI": 22,
+            "qualityKPI": 0.93,
+            "salaryPerHour": 24
+        },
+        {
+            "id": "W0087",
+            "name": "Nguyễn Văn Sơn",
+            "position": "Nhân viên là ép",
+            "productivityKPI": 25,
+            "qualityKPI": 0.92,
+            "salaryPerHour": 21
+        },
+        {
+            "id": "W0088",
+            "name": "Tô Quốc Hưng",
+            "position": "Nhân viên là ép",
+            "productivityKPI": 28,
+            "qualityKPI": 0.91,
+            "salaryPerHour": 23
+        },
+        {
+            "id": "W0089",
+            "name": "Lê Minh Đạt",
+            "position": "Nhân viên là ép",
+            "productivityKPI": 30,
+            "qualityKPI": 0.9,
+            "salaryPerHour": 26
+        },
+        {
+            "id": "W0090",
+            "name": "Đỗ Thị Hồng",
+            "position": "Nhân viên là ép",
+            "productivityKPI": 32,
+            "qualityKPI": 0.89,
+            "salaryPerHour": 22
+        },
+        {
+            "id": "W0091",
+            "name": "Phạm Quốc Thiên",
+            "position": "Nhân viên may chi tiết",
+            "productivityKPI": 5,
+            "qualityKPI": 0.98,
+            "salaryPerHour": 24
+        },
+        {
+            "id": "W0092",
+            "name": "Mai Thị Kim Chi",
+            "position": "Nhân viên may chi tiết",
+            "productivityKPI": 6,
+            "qualityKPI": 0.97,
+            "salaryPerHour": 23
+        },
+        {
+            "id": "W0093",
+            "name": "Nguyễn Đăng Khoa",
+            "position": "Nhân viên may chi tiết",
+            "productivityKPI": 7,
+            "qualityKPI": 0.96,
+            "salaryPerHour": 24
+        },
+        {
+            "id": "W0094",
+            "name": "Trần Thanh Vân",
+            "position": "Nhân viên may chi tiết",
+            "productivityKPI": 8,
+            "qualityKPI": 0.95,
+            "salaryPerHour": 22
+        },
+        {
+            "id": "W0095",
+            "name": "Vũ Bảo Châu",
+            "position": "Nhân viên may chi tiết",
+            "productivityKPI": 10,
+            "qualityKPI": 0.94,
+            "salaryPerHour": 22
+        },
+        {
+            "id": "W0096",
+            "name": "Đặng Quang Huy",
+            "position": "Nhân viên may chi tiết",
+            "productivityKPI": 12,
+            "qualityKPI": 0.93,
+            "salaryPerHour": 23
+        },
+        {
+            "id": "W0097",
+            "name": "Phan Nhật Hào",
+            "position": "Nhân viên may chi tiết",
+            "productivityKPI": 14,
+            "qualityKPI": 0.92,
+            "salaryPerHour": 23
+        },
+        {
+            "id": "W0098",
+            "name": "Lý Thị Thu Hà",
+            "position": "Nhân viên may chi tiết",
+            "productivityKPI": 15,
+            "qualityKPI": 0.91,
+            "salaryPerHour": 24
+        },
+        {
+            "id": "W0099",
+            "name": "Trương Minh Trí",
+            "position": "Nhân viên may chi tiết",
+            "productivityKPI": 17,
+            "qualityKPI": 0.9,
+            "salaryPerHour": 23
+        },
+        {
+            "id": "W0100",
+            "name": "Võ Thanh Tùng",
+            "position": "Nhân viên may chi tiết",
+            "productivityKPI": 18,
+            "qualityKPI": 0.89,
+            "salaryPerHour": 25
+        },
+        {
+            "id": "W0101",
+            "name": "Huỳnh Mai Vy",
+            "position": "Nhân viên may chi tiết",
+            "productivityKPI": 5,
+            "qualityKPI": 0.98,
+            "salaryPerHour": 19
+        },
+        {
+            "id": "W0102",
+            "name": "Bùi Đức Toàn",
+            "position": "Nhân viên may chi tiết",
+            "productivityKPI": 6,
+            "qualityKPI": 0.97,
+            "salaryPerHour": 22
+        },
+        {
+            "id": "W0103",
+            "name": "Ngô Thị Bảo Ngọc",
+            "position": "Nhân viên may chi tiết",
+            "productivityKPI": 7,
+            "qualityKPI": 0.96,
+            "salaryPerHour": 21
+        },
+        {
+            "id": "W0104",
+            "name": "Đỗ Gia Khánh",
+            "position": "Nhân viên may chi tiết",
+            "productivityKPI": 8,
+            "qualityKPI": 0.95,
+            "salaryPerHour": 22
+        },
+        {
+            "id": "W0105",
+            "name": "Lê Minh Hương",
+            "position": "Nhân viên may chi tiết",
+            "productivityKPI": 9,
+            "qualityKPI": 0.94,
+            "salaryPerHour": 22
+        },
+        {
+            "id": "W0106",
+            "name": "Tạ Văn Thắng",
+            "position": "Nhân viên may chi tiết",
+            "productivityKPI": 10,
+            "qualityKPI": 0.93,
+            "salaryPerHour": 18
+        },
+        {
+            "id": "W0107",
+            "name": "Dương Thị Quỳnh Anh",
+            "position": "Nhân viên may chi tiết",
+            "productivityKPI": 11,
+            "qualityKPI": 0.92,
+            "salaryPerHour": 20
+        },
+        {
+            "id": "W0108",
+            "name": "Lưu Vũ Khang",
+            "position": "Nhân viên may chi tiết",
+            "productivityKPI": 12,
+            "qualityKPI": 0.91,
+            "salaryPerHour": 25
+        },
+        {
+            "id": "W0109",
+            "name": "Nguyễn Quốc Cường",
+            "position": "Nhân viên may chi tiết",
+            "productivityKPI": 13,
+            "qualityKPI": 0.9,
+            "salaryPerHour": 25
+        },
+        {
+            "id": "W0110",
+            "name": "Hồ Bảo Anh",
+            "position": "Nhân viên may chi tiết",
+            "productivityKPI": 14,
+            "qualityKPI": 0.89,
+            "salaryPerHour": 24
+        },
+        {
+            "id": "W0111",
+            "name": "Trịnh Minh Khang",
+            "position": "Nhân viên may công nghiệp",
+            "productivityKPI": 18,
+            "qualityKPI": 0.95,
+            "salaryPerHour": 23
+        },
+        {
+            "id": "W0112",
+            "name": "Trần Nhật Minh",
+            "position": "Nhân viên may công nghiệp",
+            "productivityKPI": 19,
+            "qualityKPI": 0.96,
+            "salaryPerHour": 22
+        },
+        {
+            "id": "W0113",
+            "name": "Phạm Hoài Nam",
+            "position": "Nhân viên may công nghiệp",
+            "productivityKPI": 20,
+            "qualityKPI": 0.94,
+            "salaryPerHour": 21
+        },
+        {
+            "id": "W0114",
+            "name": "Nguyễn Văn Lộc",
+            "position": "Nhân viên may công nghiệp",
+            "productivityKPI": 22,
+            "qualityKPI": 0.97,
+            "salaryPerHour": 24
+        },
+        {
+            "id": "W0115",
+            "name": "Đoàn Thanh Phong",
+            "position": "Nhân viên may công nghiệp",
+            "productivityKPI": 23,
+            "qualityKPI": 0.96,
+            "salaryPerHour": 26
+        },
+        {
+            "id": "W0116",
+            "name": "Võ Ngọc Hân",
+            "position": "Nhân viên may công nghiệp",
+            "productivityKPI": 25,
+            "qualityKPI": 0.99,
+            "salaryPerHour": 24
+        },
+        {
+            "id": "W0117",
+            "name": "Trần Hoàng Lâm",
+            "position": "Nhân viên may công nghiệp",
+            "productivityKPI": 27,
+            "qualityKPI": 0.97,
+            "salaryPerHour": 27
+        },
+        {
+            "id": "W0118",
+            "name": "Trịnh Hải Yến",
+            "position": "Nhân viên may công nghiệp",
+            "productivityKPI": 28,
+            "qualityKPI": 0.95,
+            "salaryPerHour": 22
+        },
+        {
+            "id": "W0119",
+            "name": "Nguyễn Thị Ngọc Mai",
+            "position": "Nhân viên may công nghiệp",
+            "productivityKPI": 30,
+            "qualityKPI": 0.98,
+            "salaryPerHour": 29
+        },
+        {
+            "id": "W0120",
+            "name": "Đặng Anh Khoa",
+            "position": "Nhân viên may công nghiệp",
+            "productivityKPI": 32,
+            "qualityKPI": 0.98,
+            "salaryPerHour": 28
+        },
+        {
+            "id": "W0121",
+            "name": "Lê Thị Hạnh",
+            "position": "Nhân viên may công nghiệp",
+            "productivityKPI": 34,
+            "qualityKPI": 0.96,
+            "salaryPerHour": 32
+        },
+        {
+            "id": "W0122",
+            "name": "Nguyễn Văn Tài",
+            "position": "Nhân viên may công nghiệp",
+            "productivityKPI": 35,
+            "qualityKPI": 0.94,
+            "salaryPerHour": 22
+        },
+        {
+            "id": "W0123",
+            "name": "Đặng Minh Đức",
+            "position": "Nhân viên may công nghiệp",
+            "productivityKPI": 36,
+            "qualityKPI": 0.96,
+            "salaryPerHour": 31
+        },
+        {
+            "id": "W0124",
+            "name": "Phạm Thị Huyền",
+            "position": "Nhân viên may công nghiệp",
+            "productivityKPI": 38,
+            "qualityKPI": 0.97,
+            "salaryPerHour": 28
+        },
+        {
+            "id": "W0125",
+            "name": "Vũ Văn Quang",
+            "position": "Nhân viên may công nghiệp",
+            "productivityKPI": 40,
+            "qualityKPI": 0.98,
+            "salaryPerHour": 25
+        },
+        {
+            "id": "W0126",
+            "name": "Bùi Hồng Phúc",
+            "position": "Nhân viên may công nghiệp",
+            "productivityKPI": 42,
+            "qualityKPI": 0.99,
+            "salaryPerHour": 26
+        },
+        {
+            "id": "W0127",
+            "name": "Hồ Ngọc Minh",
+            "position": "Nhân viên may công nghiệp",
+            "productivityKPI": 44,
+            "qualityKPI": 0.97,
+            "salaryPerHour": 26
+        },
+        {
+            "id": "W0128",
+            "name": "Trần Thị Bích",
+            "position": "Nhân viên may công nghiệp",
+            "productivityKPI": 46,
+            "qualityKPI": 0.99,
+            "salaryPerHour": 28
+        },
+        {
+            "id": "W0129",
+            "name": "Ngô Văn Khánh",
+            "position": "Nhân viên may công nghiệp",
+            "productivityKPI": 48,
+            "qualityKPI": 0.98,
+            "salaryPerHour": 25
+        },
+        {
+            "id": "W0130",
+            "name": "Đinh Huyền Trang",
+            "position": "Nhân viên may công nghiệp",
+            "productivityKPI": 50,
+            "qualityKPI": 0.95,
+            "salaryPerHour": 22
+        },
+        {
+            "id": "W0201",
+            "name": "Lưu Thanh Nam",
+            "position": "Nhân viên may ráp",
+            "productivityKPI": 18,
+            "qualityKPI": 0.94,
+            "salaryPerHour": 23
+        },
+        {
+            "id": "W0202",
+            "name": "Mai Văn Thái",
+            "position": "Nhân viên may ráp",
+            "productivityKPI": 19,
+            "qualityKPI": 0.95,
+            "salaryPerHour": 25
+        },
+        {
+            "id": "W0203",
+            "name": "Dương Ngọc Bích",
+            "position": "Nhân viên may ráp",
+            "productivityKPI": 20,
+            "qualityKPI": 0.96,
+            "salaryPerHour": 26
+        },
+        {
+            "id": "W0204",
+            "name": "Trịnh Văn Thành",
+            "position": "Nhân viên may ráp",
+            "productivityKPI": 22,
+            "qualityKPI": 0.97,
+            "salaryPerHour": 24
+        },
+        {
+            "id": "W0205",
+            "name": "Võ Thị Cẩm Tú",
+            "position": "Nhân viên may ráp",
+            "productivityKPI": 23,
+            "qualityKPI": 0.95,
+            "salaryPerHour": 22
+        },
+        {
+            "id": "W0206",
+            "name": "Nguyễn Hữu Lộc",
+            "position": "Nhân viên may ráp",
+            "productivityKPI": 25,
+            "qualityKPI": 0.98,
+            "salaryPerHour": 24
+        },
+        {
+            "id": "W0207",
+            "name": "Tô Minh Hằng",
+            "position": "Nhân viên may ráp",
+            "productivityKPI": 27,
+            "qualityKPI": 0.96,
+            "salaryPerHour": 26
+        },
+        {
+            "id": "W0208",
+            "name": "Phan Thị Tuyết",
+            "position": "Nhân viên may ráp",
+            "productivityKPI": 28,
+            "qualityKPI": 0.97,
+            "salaryPerHour": 22
+        },
+        {
+            "id": "W0209",
+            "name": "Lê Đức Hòa",
+            "position": "Nhân viên may ráp",
+            "productivityKPI": 30,
+            "qualityKPI": 0.95,
+            "salaryPerHour": 25
+        },
+        {
+            "id": "W0210",
+            "name": "Đỗ Văn Phúc",
+            "position": "Nhân viên may ráp",
+            "productivityKPI": 32,
+            "qualityKPI": 0.96,
+            "salaryPerHour": 22
+        },
+        {
+            "id": "W0211",
+            "name": "Trần Hữu Thắng",
+            "position": "Nhân viên may ráp",
+            "productivityKPI": 34,
+            "qualityKPI": 0.94,
+            "salaryPerHour": 26
+        },
+        {
+            "id": "W0212",
+            "name": "Phạm Mai Chi",
+            "position": "Nhân viên may ráp",
+            "productivityKPI": 35,
+            "qualityKPI": 0.95,
+            "salaryPerHour": 24
+        },
+        {
+            "id": "W0213",
+            "name": "Nguyễn Thị Nhàn",
+            "position": "Nhân viên may ráp",
+            "productivityKPI": 36,
+            "qualityKPI": 0.96,
+            "salaryPerHour": 25
+        },
+        {
+            "id": "W0214",
+            "name": "Trần Hoài Phong",
+            "position": "Nhân viên may ráp",
+            "productivityKPI": 38,
+            "qualityKPI": 0.97,
+            "salaryPerHour": 22
+        },
+        {
+            "id": "W0215",
+            "name": "Đinh Gia Bảo",
+            "position": "Nhân viên may ráp",
+            "productivityKPI": 40,
+            "qualityKPI": 0.98,
+            "salaryPerHour": 26
+        },
+        {
+            "id": "W0216",
+            "name": "Hồ Văn Duy",
+            "position": "Nhân viên may ráp",
+            "productivityKPI": 42,
+            "qualityKPI": 0.99,
+            "salaryPerHour": 24
+        },
+        {
+            "id": "W0217",
+            "name": "Đặng Thị Kim Ngân",
+            "position": "Nhân viên may ráp",
+            "productivityKPI": 44,
+            "qualityKPI": 0.97,
+            "salaryPerHour": 29
+        },
+        {
+            "id": "W0218",
+            "name": "Vũ Anh Duy",
+            "position": "Nhân viên may ráp",
+            "productivityKPI": 46,
+            "qualityKPI": 0.98,
+            "salaryPerHour": 27
+        },
+        {
+            "id": "W0219",
+            "name": "Phan Thị Thanh",
+            "position": "Nhân viên may ráp",
+            "productivityKPI": 48,
+            "qualityKPI": 0.95,
+            "salaryPerHour": 23
+        },
+        {
+            "id": "W0220",
+            "name": "Bùi Nhật Linh",
+            "position": "Nhân viên may ráp",
+            "productivityKPI": 50,
+            "qualityKPI": 0.99,
+            "salaryPerHour": 26
+        },
+        {
+            "id": "W0301",
+            "name": "Lê Ngọc Dung",
+            "position": "Nhân viên thiết kế thời trang",
+            "productivityKPI": 18,
+            "qualityKPI": 0.85,
+            "salaryPerHour": 26
+        },
+        {
+            "id": "W0302",
+            "name": "Trương Hữu Nghị",
+            "position": "Nhân viên thiết kế thời trang",
+            "productivityKPI": 19,
+            "qualityKPI": 0.86,
+            "salaryPerHour": 23
+        },
+        {
+            "id": "W0303",
+            "name": "Dương Thị Mộng Tuyền",
+            "position": "Nhân viên thiết kế thời trang",
+            "productivityKPI": 20,
+            "qualityKPI": 0.88,
+            "salaryPerHour": 25
+        },
+        {
+            "id": "W0304",
+            "name": "Đoàn Quốc Anh",
+            "position": "Nhân viên thiết kế thời trang",
+            "productivityKPI": 21,
+            "qualityKPI": 0.89,
+            "salaryPerHour": 25
+        },
+        {
+            "id": "W0305",
+            "name": "Tạ Thị Phương",
+            "position": "Nhân viên thiết kế thời trang",
+            "productivityKPI": 22,
+            "qualityKPI": 0.9,
+            "salaryPerHour": 22
+        },
+        {
+            "id": "W0306",
+            "name": "Nguyễn Văn Hòa",
+            "position": "Nhân viên thiết kế thời trang",
+            "productivityKPI": 23,
+            "qualityKPI": 0.92,
+            "salaryPerHour": 25
+        },
+        {
+            "id": "W0307",
+            "name": "Trịnh Thị Lan",
+            "position": "Nhân viên thiết kế thời trang",
+            "productivityKPI": 24,
+            "qualityKPI": 0.93,
+            "salaryPerHour": 20
+        },
+        {
+            "id": "W0308",
+            "name": "Võ Văn Tường",
+            "position": "Nhân viên thiết kế thời trang",
+            "productivityKPI": 25,
+            "qualityKPI": 0.94,
+            "salaryPerHour": 22
+        },
+        {
+            "id": "W0309",
+            "name": "Đỗ Minh Tâm",
+            "position": "Nhân viên thiết kế thời trang",
+            "productivityKPI": 26,
+            "qualityKPI": 0.95,
+            "salaryPerHour": 23
+        },
+        {
+            "id": "W0310",
+            "name": "Hồ Thị Thảo",
+            "position": "Nhân viên thiết kế thời trang",
+            "productivityKPI": 28,
+            "qualityKPI": 0.96,
+            "salaryPerHour": 26
+        },
+        {
+            "id": "W0401",
+            "name": "Lưu Thị Bảo Anh",
+            "position": "Nhân viên vận hành máy giặt",
+            "productivityKPI": 40,
+            "qualityKPI": 0.92,
+            "salaryPerHour": 25
+        },
+        {
+            "id": "W0402",
+            "name": "Vũ Thị Xuân",
+            "position": "Nhân viên vận hành máy giặt",
+            "productivityKPI": 42,
+            "qualityKPI": 0.93,
+            "salaryPerHour": 27
+        },
+        {
+            "id": "W0403",
+            "name": "Mai Nhật Minh",
+            "position": "Nhân viên vận hành máy giặt",
+            "productivityKPI": 44,
+            "qualityKPI": 0.94,
+            "salaryPerHour": 29
+        },
+        {
+            "id": "W0404",
+            "name": "Ngô Thị Thanh Loan",
+            "position": "Nhân viên vận hành máy giặt",
+            "productivityKPI": 46,
+            "qualityKPI": 0.95,
+            "salaryPerHour": 29
+        },
+        {
+            "id": "W0405",
+            "name": "Trần Đăng Minh",
+            "position": "Nhân viên vận hành máy giặt",
+            "productivityKPI": 48,
+            "qualityKPI": 0.96,
+            "salaryPerHour": 21
+        },
+        {
+            "id": "W0406",
+            "name": "Phan Quang Vinh",
+            "position": "Nhân viên vận hành máy giặt",
+            "productivityKPI": 50,
+            "qualityKPI": 0.97,
+            "salaryPerHour": 29
+        },
+        {
+            "id": "W0407",
+            "name": "Nguyễn Hoàng An",
+            "position": "Nhân viên vận hành máy giặt",
+            "productivityKPI": 52,
+            "qualityKPI": 0.98,
+            "salaryPerHour": 24
+        },
+        {
+            "id": "W0408",
+            "name": "Bùi Văn Khôi",
+            "position": "Nhân viên vận hành máy giặt",
+            "productivityKPI": 54,
+            "qualityKPI": 0.99,
+            "salaryPerHour": 23
+        },
+        {
+            "id": "W0409",
+            "name": "Dương Văn Tuấn",
+            "position": "Nhân viên vận hành máy giặt",
+            "productivityKPI": 56,
+            "qualityKPI": 0.99,
+            "salaryPerHour": 27
+        },
+        {
+            "id": "W0410",
+            "name": "Trần Đức Huy",
+            "position": "Nhân viên vận hành máy giặt",
+            "productivityKPI": 58,
+            "qualityKPI": 1,
+            "salaryPerHour": 27
+        },
+        {
+            "id": "W0501",
+            "name": "Nguyễn Thị Thuỳ Trang",
+            "position": "Nhân viên xử lý vải",
+            "productivityKPI": 10,
+            "qualityKPI": 0.92,
+            "salaryPerHour": 25
+        },
+        {
+            "id": "W0502",
+            "name": "Lê Văn Hiếu",
+            "position": "Nhân viên xử lý vải",
+            "productivityKPI": 12,
+            "qualityKPI": 0.925,
+            "salaryPerHour": 26
+        },
+        {
+            "id": "W0503",
+            "name": "Trần Ngọc Phương",
+            "position": "Nhân viên xử lý vải",
+            "productivityKPI": 14,
+            "qualityKPI": 0.93,
+            "salaryPerHour": 22
+        },
+        {
+            "id": "W0504",
+            "name": "Phạm Minh Hải",
+            "position": "Nhân viên xử lý vải",
+            "productivityKPI": 16,
+            "qualityKPI": 0.935,
+            "salaryPerHour": 26
+        },
+        {
+            "id": "W0505",
+            "name": "Võ Thị Mỹ Linh",
+            "position": "Nhân viên xử lý vải",
+            "productivityKPI": 18,
+            "qualityKPI": 0.94,
+            "salaryPerHour": 24
+        },
+        {
+            "id": "W0506",
+            "name": "Đặng Đức Trung",
+            "position": "Nhân viên xử lý vải",
+            "productivityKPI": 20,
+            "qualityKPI": 0.945,
+            "salaryPerHour": 24
+        },
+        {
+            "id": "W0507",
+            "name": "Bùi Thị Kim Cúc",
+            "position": "Nhân viên xử lý vải",
+            "productivityKPI": 22,
+            "qualityKPI": 0.95,
+            "salaryPerHour": 20
+        },
+        {
+            "id": "W0508",
+            "name": "Vũ Anh Tuấn",
+            "position": "Nhân viên xử lý vải",
+            "productivityKPI": 24,
+            "qualityKPI": 0.952,
+            "salaryPerHour": 20
+        },
+        {
+            "id": "W0509",
+            "name": "Lưu Gia Linh",
+            "position": "Nhân viên xử lý vải",
+            "productivityKPI": 26,
+            "qualityKPI": 0.955,
+            "salaryPerHour": 21
+        },
+        {
+            "id": "W0510",
+            "name": "Hồ Văn Đạt",
+            "position": "Nhân viên xử lý vải",
+            "productivityKPI": 28,
+            "qualityKPI": 0.957,
+            "salaryPerHour": 25
+        }
+    ]
+}

@@ -1,0 +1,437 @@
+[
+  {
+    "machineTypeName": "Máy là hơi công nghiệp",
+    "total_time_operations": 116,
+    "total_machines": 5,
+    "total_shifts": 103,
+    "max_shift_machine": "A040",
+    "machines": {
+      "A040": 103,
+      "A043": 8,
+      "A197": 1,
+      "A194": 76,
+      "A192": 25
+    },
+    "idleMachines": 0
+  },
+  {
+    "machineTypeName": "Máy may chuyên dụng",
+    "total_time_operations": 98,
+    "total_machines": 5,
+    "total_shifts": 86,
+    "max_shift_machine": "A016",
+    "machines": {
+      "A130": 59,
+      "A133": 29,
+      "A016": 86,
+      "A131": 5,
+      "A017": 0
+    },
+    "idleMachines": 1
+  },
+  {
+    "machineTypeName": "Máy may công nghiệp",
+    "total_time_operations": 97,
+    "total_machines": 5,
+    "total_shifts": 75,
+    "max_shift_machine": "A011",
+    "machines": {
+      "A125": 18,
+      "A014": 12,
+      "A011": 75,
+      "A122": 67,
+      "A120": 2
+    },
+    "idleMachines": 0
+  },
+  {
+    "machineTypeName": "Máy cắt laser",
+    "total_time_operations": 53,
+    "total_machines": 5,
+    "total_shifts": 52,
+    "max_shift_machine": "A033",
+    "machines": {
+      "A174": 6,
+      "A033": 52,
+      "A170": 25,
+      "A172": 3,
+      "A032": 2
+    },
+    "idleMachines": 0
+  },
+  {
+    "machineTypeName": "Máy đo độ co giãn",
+    "total_time_operations": 24,
+    "total_machines": 5,
+    "total_shifts": 24,
+    "max_shift_machine": "A005",
+    "machines": {
+      "A005": 24,
+      "A004": 5,
+      "A001": 0,
+      "A002": 0,
+      "A003": 0
+    },
+    "idleMachines": 3
+  },
+  {
+    "machineTypeName": "Máy đóng gói tự động",
+    "total_time_operations": 27,
+    "total_machines": 5,
+    "total_shifts": 24,
+    "max_shift_machine": "A027",
+    "machines": {
+      "A163": 2,
+      "A030": 2,
+      "A027": 24,
+      "A162": 0,
+      "A168": 0
+    },
+    "idleMachines": 2
+  },
+  {
+    "machineTypeName": "Máy đóng nút tự động",
+    "total_time_operations": 21,
+    "total_machines": 5,
+    "total_shifts": 14,
+    "max_shift_machine": "A260",
+    "machines": {
+      "A260": 14,
+      "A266": 5,
+      "A063": 12,
+      "A269": 6,
+      "A263": 4
+    },
+    "idleMachines": 0
+  },
+  {
+    "machineTypeName": "Máy đo ma sát",
+    "total_time_operations": 18,
+    "total_machines": 5,
+    "total_shifts": 14,
+    "max_shift_machine": "A372",
+    "machines": {
+      "A096": 13,
+      "A372": 14,
+      "A378": 5,
+      "A375": 8,
+      "A094": 0
+    },
+    "idleMachines": 1
+  },
+  {
+    "machineTypeName": "Máy đo form 3D",
+    "total_time_operations": 13,
+    "total_machines": 5,
+    "total_shifts": 11,
+    "max_shift_machine": "A272",
+    "machines": {
+      "A272": 11,
+      "A278": 7,
+      "A068": 6,
+      "A066": 0,
+      "A275": 0
+    },
+    "idleMachines": 2
+  },
+  {
+    "machineTypeName": "Máy may co giãn",
+    "total_time_operations": 16,
+    "total_machines": 5,
+    "total_shifts": 11,
+    "max_shift_machine": "A366",
+    "machines": {
+      "A369": 6,
+      "A360": 4,
+      "A091": 1,
+      "A366": 11,
+      "A363": 1
+    },
+    "idleMachines": 0
+  },
+  {
+    "machineTypeName": "Máy giặt công nghiệp",
+    "total_time_operations": 11,
+    "total_machines": 5,
+    "total_shifts": 9,
+    "max_shift_machine": "A022",
+    "machines": {
+      "A022": 9,
+      "A148": 4,
+      "A143": 3,
+      "A020": 0,
+      "A145": 0
+    },
+    "idleMachines": 2
+  },
+  {
+    "machineTypeName": "Máy đo 3D",
+    "total_time_operations": 9,
+    "total_machines": 5,
+    "total_shifts": 9,
+    "max_shift_machine": "A302",
+    "machines": {
+      "A302": 9,
+      "A077": 3,
+      "A305": 2,
+      "A308": 2,
+      "A076": 0
+    },
+    "idleMachines": 1
+  },
+  {
+    "machineTypeName": "Máy đính khuy tự động",
+    "total_time_operations": 8,
+    "total_machines": 5,
+    "total_shifts": 7,
+    "max_shift_machine": "A183",
+    "machines": {
+      "A183": 7,
+      "A186": 1,
+      "A036": 1,
+      "A039": 3,
+      "A182": 2
+    },
+    "idleMachines": 0
+  },
+  {
+    "machineTypeName": "Thiết bị kiểm tra mẫu",
+    "total_time_operations": 9,
+    "total_machines": 5,
+    "total_shifts": 7,
+    "max_shift_machine": "A046",
+    "machines": {
+      "A202": 5,
+      "A046": 7,
+      "A045": 1,
+      "A207": 1,
+      "A201": 0
+    },
+    "idleMachines": 1
+  },
+  {
+    "machineTypeName": "Máy in nhãn",
+    "total_time_operations": 8,
+    "total_machines": 5,
+    "total_shifts": 7,
+    "max_shift_machine": "A047",
+    "machines": {
+      "A214": 4,
+      "A047": 7,
+      "A210": 1,
+      "A217": 1,
+      "A050": 1
+    },
+    "idleMachines": 0
+  },
+  {
+    "machineTypeName": "Máy in nhãn tự động",
+    "total_time_operations": 7,
+    "total_machines": 5,
+    "total_shifts": 7,
+    "max_shift_machine": "A312",
+    "machines": {
+      "A312": 7,
+      "A080": 1,
+      "A078": 0,
+      "A315": 0,
+      "A318": 0
+    },
+    "idleMachines": 3
+  },
+  {
+    "machineTypeName": "Máy cắt vải tự động",
+    "total_time_operations": 6,
+    "total_machines": 5,
+    "total_shifts": 6,
+    "max_shift_machine": "A008",
+    "machines": {
+      "A008": 6,
+      "A006": 0,
+      "A010": 0,
+      "A110": 0,
+      "A111": 0
+    },
+    "idleMachines": 4
+  },
+  {
+    "machineTypeName": "Máy kiểm tra độ bền",
+    "total_time_operations": 9,
+    "total_machines": 5,
+    "total_shifts": 6,
+    "max_shift_machine": "A024",
+    "machines": {
+      "A024": 6,
+      "A153": 4,
+      "A159": 6,
+      "A152": 2,
+      "A025": 0
+    },
+    "idleMachines": 1
+  },
+  {
+    "machineTypeName": "Máy thổi khí áp suất",
+    "total_time_operations": 8,
+    "total_machines": 5,
+    "total_shifts": 6,
+    "max_shift_machine": "A241",
+    "machines": {
+      "A241": 6,
+      "A244": 2,
+      "A247": 2,
+      "A058": 4,
+      "A243": 0
+    },
+    "idleMachines": 1
+  },
+  {
+    "machineTypeName": "Máy cắt rập CNC",
+    "total_time_operations": 6,
+    "total_machines": 5,
+    "total_shifts": 6,
+    "max_shift_machine": "A073",
+    "machines": {
+      "A073": 6,
+      "A072": 0,
+      "A291": 0,
+      "A294": 0,
+      "A297": 0
+    },
+    "idleMachines": 4
+  },
+  {
+    "machineTypeName": "Máy dán nhãn tự động",
+    "total_time_operations": 8,
+    "total_machines": 5,
+    "total_shifts": 6,
+    "max_shift_machine": "A381",
+    "machines": {
+      "A384": 4,
+      "A381": 6,
+      "A387": 2,
+      "A098": 1,
+      "A097": 0
+    },
+    "idleMachines": 1
+  },
+  {
+    "machineTypeName": "Máy in công nghiệp",
+    "total_time_operations": 7,
+    "total_machines": 5,
+    "total_shifts": 5,
+    "max_shift_machine": "A258",
+    "machines": {
+      "A255": 3,
+      "A258": 5,
+      "A062": 2,
+      "A060": 1,
+      "A252": 1
+    },
+    "idleMachines": 0
+  },
+  {
+    "machineTypeName": "Máy đóng gói chân không",
+    "total_time_operations": 5,
+    "total_machines": 5,
+    "total_shifts": 5,
+    "max_shift_machine": "A324",
+    "machines": {
+      "A324": 5,
+      "A082": 1,
+      "A321": 0,
+      "A323": 0,
+      "A327": 0
+    },
+    "idleMachines": 3
+  },
+  {
+    "machineTypeName": "Máy soi đường may",
+    "total_time_operations": 7,
+    "total_machines": 5,
+    "total_shifts": 5,
+    "max_shift_machine": "A088",
+    "machines": {
+      "A088": 5,
+      "A352": 4,
+      "A358": 1,
+      "A090": 0,
+      "A350": 0
+    },
+    "idleMachines": 2
+  },
+  {
+    "machineTypeName": "Máy phủ PU tự động",
+    "total_time_operations": 5,
+    "total_machines": 5,
+    "total_shifts": 4,
+    "max_shift_machine": "A056",
+    "machines": {
+      "A056": 4,
+      "A235": 2,
+      "A054": 0,
+      "A232": 0,
+      "A238": 0
+    },
+    "idleMachines": 3
+  },
+  {
+    "machineTypeName": "Máy đóng hộp tự động",
+    "total_time_operations": 7,
+    "total_machines": 5,
+    "total_shifts": 4,
+    "max_shift_machine": "A281",
+    "machines": {
+      "A287": 3,
+      "A284": 1,
+      "A070": 1,
+      "A281": 4,
+      "A069": 0
+    },
+    "idleMachines": 1
+  },
+  {
+    "machineTypeName": "Máy đo độ mỏng vải",
+    "total_time_operations": 4,
+    "total_machines": 5,
+    "total_shifts": 4,
+    "max_shift_machine": "A331",
+    "machines": {
+      "A331": 4,
+      "A084": 0,
+      "A330": 0,
+      "A332": 0,
+      "A333": 0
+    },
+    "idleMachines": 4
+  },
+  {
+    "machineTypeName": "Máy sanforizing",
+    "total_time_operations": 3,
+    "total_machines": 5,
+    "total_shifts": 2,
+    "max_shift_machine": "A220",
+    "machines": {
+      "A220": 2,
+      "A051": 2,
+      "A053": 0,
+      "A223": 0,
+      "A228": 0
+    },
+    "idleMachines": 3
+  },
+  {
+    "machineTypeName": "Máy cắt dao tròn",
+    "total_time_operations": 4,
+    "total_machines": 5,
+    "total_shifts": 2,
+    "max_shift_machine": "A341",
+    "machines": {
+      "A341": 2,
+      "A086": 2,
+      "A344": 2,
+      "A085": 0,
+      "A347": 0
+    },
+    "idleMachines": 2
+  }
+]

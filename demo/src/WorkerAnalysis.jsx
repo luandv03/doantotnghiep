@@ -12,7 +12,7 @@ import {
     Pie,
     Cell,
 } from "recharts";
-import nhanvienthongkeData from "../../thuat-toan/out/nhanvienthongke.json";
+import nhanvienthongkeData from "../../thuat-toan/out/out3/input9/nhanvienthongke.json";
 
 const WorkerAnalysis = () => {
     // State để lưu loại nhân viên được chọn

@@ -7,8 +7,8 @@ import App from "./App.jsx";
 import Schedule from "./Schedule.jsx";
 // import Schedule2 from "./Schedule2.jsx";
 import KPI from "./KPI.jsx";
-// import MachineAnalysis from "./MachineAnalysis.jsx";
-// import WorkerAnalysis from "./WorkerAnalysis.jsx";
+import MachineAnalysis from "./MachineAnalysis.jsx";
+import WorkerAnalysis from "./WorkerAnalysis.jsx";
 
 createRoot(document.getElementById("root")).render(
     <StrictMode>
@@ -19,8 +19,8 @@ createRoot(document.getElementById("root")).render(
                 <Route path="/schedule" element={<Schedule />} />
                 {/* <Route path="/schedule_worst" element={<Schedule2 />} /> */}
                 <Route path="/kpi" element={<KPI />} />
-                {/* <Route path="/machine_analysis" element={<MachineAnalysis />} /> */}
-                {/* <Route path="/worker_analysis" element={<WorkerAnalysis />} /> */}
+                <Route path="/machine_analysis" element={<MachineAnalysis />} />
+                <Route path="/worker_analysis" element={<WorkerAnalysis />} />
                 <Route path="*" element={<h1>Page Not Found</h1>} />
             </Routes>
         </BrowserRouter>

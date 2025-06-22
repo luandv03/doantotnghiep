@@ -3,8 +3,8 @@ import Timeline, { TimelineHeaders, DateHeader } from "react-calendar-timeline";
 import "react-calendar-timeline/dist/Timeline.scss";
 import moment from "moment";
 
-import scheduleData from "../../thuat-toan/out/out3/input9/schedule.json";
-import inputData from "../../thuat-toan/data-2/input9.json";
+import scheduleData from "../../thuat-toan/out/out3/input18/schedule.json";
+import inputData from "../../thuat-toan/data-2/input18.json";
 
 // const shiftTimes = {
 //     1: { start: "00:00", end: "05:30" },
@@ -32,6 +32,17 @@ const predefinedColors = [
     "#FF8C00", // Màu cam sáng
     "#DA70D6", // Màu tím nhạt
     "#20B2AA", // Màu xanh lam nhạt
+    "#FF6347", // Màu đỏ cà chua
+    "#4682B4", // Màu xanh thép
+    "#FFD700", // Màu vàng ánh kim
+    "#ADFF2F", // Màu xanh lá chanh
+    "#FF69B4", // Màu hồng nóng
+    "#00CED1", // Màu xanh da trời đậm
+    "#FF4500", // Màu cam đỏ
+    "#7B68EE", // Màu xanh tím than
+    "#32CD32", // Màu xanh lá sáng
+    "#FF1493", // Màu hồng đậm
+    "#00BFFF", // Màu xanh da trời sáng
 ];
 
 const commandIds = [
@@ -44,7 +55,15 @@ const commandIds = [
     "LSX0007",
     "LSX0008",
     "LSX0009",
-    "LSX0010",
+    "LSX1001",
+    "LSX1002",
+    "LSX1003",
+    "LSX1004",
+    "LSX1005",
+    "LSX1006",
+    "LSX1007",
+    "LSX1008",
+    "LSX1009",
 ];
 
 // Gán màu cho từng commandId
