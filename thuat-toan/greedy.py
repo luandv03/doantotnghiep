@@ -13,7 +13,7 @@ def load_data_files():
     """
     Tìm và đọc file input và schedule từ thư mục hiện tại
     """
-    input_file = "./data-2/input9_2.json"  # Đường dẫn mặc định
+    input_file = "./data-2/input3_2.json"  # Đường dẫn mặc định
     schedule_file = "./data-2/monthly_schedule_t45.json"  # Đường dẫn mặc định
     
     if not input_file:
@@ -339,7 +339,7 @@ def save_results():
     final_results = operations_result
     
     
-    output_file = './out/out3/input9_2/schedule.json'
+    output_file = './out/out3/input3_2/schedule.json'
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(final_results, f, ensure_ascii=False, indent=2)
     print(f"\n>> Kết quả đã được lưu vào file: {output_file}")

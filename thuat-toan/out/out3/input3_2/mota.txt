@@ -1,0 +1,5 @@
+>> Tổng số lệnh sản xuất hoàn thành: 3/3
+>> Tổng số công đoạn hoàn thành: 20/20
+>> Tổng số ca sử dụng: 7
+>> Tổng chi phí sản xuất: 36102
+>> Thời gian thực thi thuật toán: 0.0016 giây

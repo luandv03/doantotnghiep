@@ -1,0 +1,40 @@
+Completed Orders On Time: 3, Total Shifts: 8, Total Cost: 38610.0
+Completed Orders On Time: 3, Total Shifts: 8, Total Cost: 38533.0
+Completed Orders On Time: 3, Total Shifts: 8, Total Cost: 37378.0
+Completed Orders On Time: 3, Total Shifts: 8, Total Cost: 38566.0
+Completed Orders On Time: 3, Total Shifts: 8, Total Cost: 38714.5
+Completed Orders On Time: 3, Total Shifts: 8, Total Cost: 38802.5
+Completed Orders On Time: 3, Total Shifts: 8, Total Cost: 38137.0
+Completed Orders On Time: 3, Total Shifts: 8, Total Cost: 39143.5
+Completed Orders On Time: 3, Total Shifts: 8, Total Cost: 38269.0
+Completed Orders On Time: 3, Total Shifts: 8, Total Cost: 38340.5
+Completed Orders On Time: 3, Total Shifts: 8, Total Cost: 37933.5
+Completed Orders On Time: 3, Total Shifts: 7, Total Cost: 40887.0
+Completed Orders On Time: 3, Total Shifts: 8, Total Cost: 38604.5
+Completed Orders On Time: 3, Total Shifts: 8, Total Cost: 39132.5
+Completed Orders On Time: 3, Total Shifts: 8, Total Cost: 37884.0
+Completed Orders On Time: 3, Total Shifts: 7, Total Cost: 40584.5
+Completed Orders On Time: 3, Total Shifts: 8, Total Cost: 39121.5
+Completed Orders On Time: 3, Total Shifts: 8, Total Cost: 39105.0
+Completed Orders On Time: 3, Total Shifts: 8, Total Cost: 37449.5
+Completed Orders On Time: 3, Total Shifts: 8, Total Cost: 38698.0
+Completed Orders On Time: 3, Total Shifts: 8, Total Cost: 38379.0
+Completed Orders On Time: 3, Total Shifts: 8, Total Cost: 36492.5
+Completed Orders On Time: 3, Total Shifts: 8, Total Cost: 38280.0
+Completed Orders On Time: 3, Total Shifts: 8, Total Cost: 38313.0
+Completed Orders On Time: 3, Total Shifts: 8, Total Cost: 36201.0
+Completed Orders On Time: 3, Total Shifts: 8, Total Cost: 38384.5
+Completed Orders On Time: 3, Total Shifts: 8, Total Cost: 38153.5
+Completed Orders On Time: 3, Total Shifts: 8, Total Cost: 37631.0
+Completed Orders On Time: 3, Total Shifts: 8, Total Cost: 38131.5
+Completed Orders On Time: 3, Total Shifts: 7, Total Cost: 38643.0
+
+Tổng quan thuật toán:
+Kích thước dữ liệu: 180 nhân viên, 379 máy móc, 20 công đoạn, 3 lệnh sản xuất
+Tham số: HMS=30, MaxIter=100, HCR=0.70, PAR=0.50
+Kết quả tốt nhất: 3 lệnh hoàn thành đúng hạn, 7 ca làm việc, 38643.0 chi phí
+Thời gian chạy: 46.43 giây
+Thời gian thực thi thuật toán: 46.48 giây
+Dữ liệu đã được ghi vào file ./out/out2/input3_2/best_solution.json
+Tất cả công đoạn đã được ghi vào file ./out/out2/input3_2/schedule.json
+Tối ưu: (3, 7, 38643.0)
